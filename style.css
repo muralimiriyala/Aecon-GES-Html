@@ -8,3 +8,9 @@ Description:
 Version: 2023.06.30
 Text Domain: 
 */
+
+
+
+@media screen and (min-width: 1024px) {
+    .container{max-width: 1280px; width: 100%; margin: 0 auto;}
+}
