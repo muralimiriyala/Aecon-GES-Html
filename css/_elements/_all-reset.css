@@ -70,7 +70,7 @@ table tr:last-child td{border-bottom: none;}
 caption, th, td {text-align: left;}
 del {color: var(--black);}
 hr{margin: 0 0 24px; display: block; border: none; width: 40px; height: 2px; background-color: var(--amar-orange);}
-hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
+hr.small{height: 4px; width: 96px; background: var(--light-green); border-radius: 2px;}
 ::selection {background-color: var(--black); color: var(--white);}
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
@@ -111,8 +111,11 @@ hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 .btn-arrow:hover .btn-label{opacity: 1;}
 .btn-arrow-icon{ right: 0; top: 50%; transform: translateY(-50%); content: ""; display: block; position: absolute; }
 
-.blue-btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px; color: var(--white); background-color: var(--dark-blue);}
-.outline-btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px; color: var(--dark-green); border: 1px solid var(--light-green);}
+.btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px;}
+.blue-btn{color: var(--white); background-color: var(--dark-blue);}
+.green-btn{color: var(--white); background-color: var(--light-green);}
+.gray-btn{color: var(--black-md); background-color: var(--gray-lt);}
+.outline-btn{color: var(--dark-green); border: 1px solid var(--light-green);}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
