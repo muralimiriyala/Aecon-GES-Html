@@ -17,10 +17,11 @@
     .social-media-title ul > li:first-child{margin: 0 12px 0 0;}
     .social-media-title ul > li:last-child{margin: 0 0 0 12px;}
 
-    
-    .social-media{justify-content: space-between; align-items: center; margin-bottom: 50px;}
-    .social-media-list{gap: 8px; margin: 0;}
-    .social-media-list > li{width: 48px; height: 48px; padding: 8px 12px; background-color: var(--white); margin-bottom: 0; border-radius: 12px;}
+
+    ul.social-icons-list{gap: 8px; margin: 0;}
+    ul.social-icons-list > li{margin: 0;}
+    ul.social-icons-list > li::before{display: none;}
+    ul.social-icons-list > li > a{width: 48px; height: 48px; padding: 8px 12px; background-color: var(--white); margin-bottom: 0; border-radius: 12px;}
     .footer-nav{gap: 40px;}
     .footer-list{flex: 0 0 165px;}
     .footer-list span{font-size: 20px; font-weight: 800; line-height: 24px; color: var(--dark-green);}
