@@ -9,7 +9,49 @@ Version: 2023.06.30
 Text Domain: 
 */
 
+@font-face {
+    font-family: Univers;
+    src: url('./fonts/Univers.otf') format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: VisbyCF;
+    src: url('./fonts/VisbyCF-Regular.otf') format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: VisbyCF;
+    src: url('./fonts/VisbyCF-Medium.otf') format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: VisbyCF;
+    src: url('./fonts/VisbyCF-DemiBold.otf') format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: VisbyCF;
+    src: url('./fonts/VisbyCF-Bold.otf') format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: VisbyCF;
+    src: url('./fonts/VisbyCF-ExtraBold.otf') format("opentype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
 
 @media screen and (min-width: 1024px) {
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}

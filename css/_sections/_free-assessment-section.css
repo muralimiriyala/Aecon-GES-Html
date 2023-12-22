@@ -1,17 +1,16 @@
-.free-assessment-section{background-color: var(--dark-blue); color: var(--white);}
+.free-assessment-section{background-color: var(--navy); color: var(--white);}
 
 
 @media screen and (min-width: 1024px) {
     .free-assessment-text{flex: 0 0 50%;}
     .free-assessment-image{flex: 0 0 calc(100% - 50%);}
-    .free-assessment-inner{max-width: 512px;}
+    .free-assessment-desc{max-width: 512px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .free-assessment-inner{max-width: 500px;}
+    .free-assessment-desc{max-width: 500px;}
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .free-assessment-main{flex-direction: column-reverse;}
-    .free-assessment-inner{text-align: center; padding: 30px 20px;}
+    .free-assessment-desc{text-align: center; padding: 30px 20px;}
 }

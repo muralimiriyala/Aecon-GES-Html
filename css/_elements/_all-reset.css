@@ -8,7 +8,7 @@ a{color: var(--amar-orange);text-decoration: none; transition-duration: .75s; tr
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--text-100);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--text-100); font-weight: 700; font-family: 'Instrument Sans', sans-serif; text-transform: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--navy); font-weight: 700; font-family: 'VisbyCF', sans-serif; text-transform: none;}
 .h1, h1{font-size: 4rem; line-height: 4.8rem; margin-bottom: 1.563rem;}
 .h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 1.25rem;}
 .h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
@@ -112,7 +112,7 @@ hr.small{height: 4px; width: 96px; background: var(--light-green); border-radius
 .btn-arrow-icon{ right: 0; top: 50%; transform: translateY(-50%); content: ""; display: block; position: absolute; }
 
 .btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px;}
-.blue-btn{color: var(--white); background-color: var(--dark-blue);}
+.blue-btn{color: var(--white); background-color: var(--navy);}
 .green-btn{color: var(--white); background-color: var(--light-green);}
 .gray-btn{color: var(--black-md); background-color: var(--gray-lt);}
 .outline-btn{color: var(--dark-green); border: 1px solid var(--light-green);}
@@ -147,7 +147,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 300; font-family: 'Instrument Sans', sans-serif; overflow-x: hidden; position: relative; color: var(--text-color); background-color: transparent;}
+body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--text-color); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 1.313rem; padding-left: 56px; font-size: 1rem; font-weight: 700; line-height: 1.25rem; color: var(--amar-light-blue); display: block; text-transform: capitalize; font-family: "Instrument Sans", sans-serif; position: relative;}
 span.optional-text::before{width: 40px; height: 2px; top: calc(50% - 1px); left: 0; background-color: var(--amar-light-blue); content: ""; display: block; position: absolute;}
@@ -164,7 +164,7 @@ body.error404  span.optional-text{letter-spacing: 3px; text-transform: uppercase
 .font-semibold{font-weight: 600;}
 .font-bold{font-weight: 700;}
 .fs-0{font-size: 0; line-height: 0;}
-.fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
+.fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-12{font-size: 12px; line-height: 22px;}
 .fs-14{font-size: 0.875rem; line-height: 1.375rem;}
