@@ -1,0 +1,7 @@
+.free-assessment-section{background-color: var(--dark-blue);}
+
+
+@media screen and (min-width: 1024px) {
+    .free-assessment-text{flex: 0 0 50%;}
+    .free-assessment-image{flex: 0 0 calc(100% - 50%);}
+}
