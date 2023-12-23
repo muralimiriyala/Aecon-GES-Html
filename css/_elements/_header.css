@@ -1,5 +1,5 @@
 
-header.header-main{top: 0; left: 0; right: 0; position: relative; background-color: var(--white);}
+header.header-main{top: 0; left: 0; right: 0; position: relative; z-index: 800; background-color: var(--white);}
 header.fixed-header{position: fixed;}
 .header{gap: 2rem; padding: 16px 0;}
 .logo{flex: 0 0 261px;}
