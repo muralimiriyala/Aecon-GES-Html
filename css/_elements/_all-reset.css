@@ -111,7 +111,7 @@ hr.small{height: 4px; width: 96px; background: var(--light-green); border-radius
 .btn-arrow:hover .btn-label{opacity: 1;}
 .btn-arrow-icon{ right: 0; top: 50%; transform: translateY(-50%); content: ""; display: block; position: absolute; }
 
-.btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px;}
+.btn{font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 16px; border-radius: 12px; font-family: 'VisbyCF', sans-serif;}
 .blue-btn{color: var(--white); background-color: var(--navy);}
 .green-btn{color: var(--white); background-color: var(--light-green);}
 .gray-btn{color: var(--black-md); background-color: var(--gray-lt);}
@@ -278,7 +278,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
     .container.lg{max-width: 1440px;}
     .container{max-width: 1354px;}
 }
-@media only screen and (max-width: 1479px) and (min-width: 1024px){
+@media only screen and (max-width: 1330px) and (min-width: 1024px){
     .container:not(.sm){padding: 0 2rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -291,7 +291,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
     blockquote{padding: 70px 60px 60px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .container{padding: 0 1rem;}
+    .container{padding: 0 20px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;}
     body{font-size: 1rem; line-height: 1.5rem;}
