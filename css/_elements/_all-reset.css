@@ -8,13 +8,13 @@ a{color: var(--amar-orange);text-decoration: none; transition-duration: .75s; tr
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--text-100);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--navy); font-weight: 700; font-family: 'VisbyCF', sans-serif; text-transform: none;}
-.h1, h1{font-size: 4rem; line-height: 4.8rem; margin-bottom: 1.563rem;}
-.h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 1.25rem;}
-.h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
-.h4, h4{font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 0.938rem;}
-.h5, h5{font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.313rem;}
-.h6, h6{font-size: 1.125rem; line-height: 1.625rem; margin-bottom: 1.313rem;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--navy); font-weight: 800; font-family: 'VisbyCF', sans-serif; text-transform: none;}
+.h1, h1{font-size: 48px; line-height: 56px; margin-bottom: 1.563rem;}
+.h2, h2{font-size: 40px; line-height: 48px; margin-bottom: 1.25rem;}
+.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
+.h4, h4{font-size: 24px; line-height: 32px; margin-bottom: 0.938rem;}
+.h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 1.313rem;}
+.h6, h6{font-size: 16px; line-height: 24px; margin-bottom: 1.313rem;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--text-100); font-family: inherit;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
@@ -75,8 +75,9 @@ hr.small{height: 4px; width: 96px; background: var(--accent); border-radius: 2px
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ font-family: 'Instrument Sans', sans-serif; display: inline-block; background-color: transparent; background: var(--accent); color: var(--text-100); border: 0; border-radius: 12px; cursor: pointer; font-weight: 700; padding: 16px 32px 16px; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.45s ease-in-out; z-index: 1;}
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover, .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: none; color: var(--text-100); }
+.button, button, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ font-family: 'Instrument Sans', sans-serif; display: inline-block; background-color: transparent; background: var(--accent); color: var(--text-100); border: 0; border-radius: 12px; cursor: pointer; font-weight: 700; padding: 11px 17px 9px; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.45s ease-in-out; z-index: 1;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover, .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--navy); color: var(--text-100); }
+button span, .button span{margin-left: 10px; top: -1px; position: relative; font-size: 14px; color: var(--navy);} 
 
 .text-link{padding-left: 57px; color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700; position: relative; overflow: hidden; transition: padding-left 0.3s ease;}
 .text-link::before{width: 41px; height: 6px; left: 0; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; content: ""; background-image: url("./images/left-arrow.svg"); background-repeat: no-repeat; background-size: contain; background-position: center left; transition: all 0.45s ease;}
@@ -142,15 +143,7 @@ img.aligncenter{margin: 25px auto;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--text-color); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 1.313rem; padding-left: 56px; font-size: 1rem; font-weight: 700; line-height: 1.25rem; color: var(--amar-light-blue); display: block; text-transform: capitalize; font-family: "Instrument Sans", sans-serif; position: relative;}
-span.optional-text::before{width: 40px; height: 2px; top: calc(50% - 1px); left: 0; background-color: var(--amar-light-blue); content: ""; display: block; position: absolute;}
-span.optional-text.lg{margin-bottom: 1rem; font-size: 1.125rem; line-height: 1.375rem;}
-span.optional-text.muted{color: var(--amar-blue-2); padding-left: 0;}
-span.optional-text.muted::before{display: none;}
-span.optional-text.no-line{padding-left: 0;}
-span.optional-text.no-line::before{display: none;}
-.optional-cta-text span.optional-text{margin-bottom: 25px;}
-body.error404  span.optional-text{letter-spacing: 3px; text-transform: uppercase;}
+span.optional-text{margin-bottom: 1.313rem; font-size: 18px; line-height: 22px; font-weight: 800; color: var(--foreground-light); display: block; text-transform: capitalize; font-family: "VisbyCF", sans-serif;}
 .font-light{font-weight: 300;}
 .font-regular{font-weight: 400;}
 .font-medium{font-weight: 500;}

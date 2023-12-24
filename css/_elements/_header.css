@@ -1,0 +1,30 @@
+
+header.header-main{top: 0; left: 0; right: 0; position: relative; z-index: 800; background-color: var(--white);}
+header.fixed-header{position: fixed;}
+.header{gap: 2rem; padding: 16px 0;}
+.logo{flex: 0 0 261px;}
+ul.nav-menu{margin: 0; gap: 0 2rem; flex: 1;}
+ul.nav-menu > li{margin: 0;}
+ul.nav-menu > li::before{display: none;}
+ul.nav-menu > li > a{color: var(--foreground-light); display: block; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
+
+
+/* media css starts here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

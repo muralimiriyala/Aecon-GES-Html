@@ -4,7 +4,7 @@
 .free-assessment-btn{flex-direction: column; gap: 16px;}
 .free-assessment-btn .btn{width: fit-content;}
 
-
+/* media css starts here */
 @media screen and (min-width: 1024px) {
     .free-assessment-text{flex: 0 0 50%;}
     .free-assessment-image{flex: 0 0 calc(100% - 50%);}
