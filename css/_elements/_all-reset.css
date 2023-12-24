@@ -4,10 +4,10 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--amar-orange);text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+a{color: var(--amar-orange);text-decoration: none; transition: all 1s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover{color: var(--text-100);}
+a:hover{color: var(--accent);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--navy); font-weight: 800; font-family: 'VisbyCF', sans-serif; text-transform: none;}
 .h1, h1{font-size: 48px; line-height: 56px; margin-bottom: 1.563rem;}
 .h2, h2{font-size: 40px; line-height: 48px; margin-bottom: 1.25rem;}
