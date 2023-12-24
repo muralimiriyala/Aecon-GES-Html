@@ -1,0 +1,25 @@
+
+
+.leadership-rows{text-align: center;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .leadership-rows{gap: 48px;}
+    .leaderships-list{flex: 0 0 calc(25% - 48px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
