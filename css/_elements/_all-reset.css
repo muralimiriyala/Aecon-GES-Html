@@ -11,10 +11,10 @@ a:hover{color: var(--text-100);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--navy); font-weight: 800; font-family: 'VisbyCF', sans-serif; text-transform: none;}
 .h1, h1{font-size: 48px; line-height: 56px; margin-bottom: 1.563rem;}
 .h2, h2{font-size: 40px; line-height: 48px; margin-bottom: 1.25rem;}
-.h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
-.h4, h4{font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 0.938rem;}
-.h5, h5{font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.313rem;}
-.h6, h6{font-size: 1.125rem; line-height: 1.625rem; margin-bottom: 1.313rem;}
+.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
+.h4, h4{font-size: 24px; line-height: 32px; margin-bottom: 0.938rem;}
+.h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 1.313rem;}
+.h6, h6{font-size: 16px; line-height: 24px; margin-bottom: 1.313rem;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--text-100); font-family: inherit;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
