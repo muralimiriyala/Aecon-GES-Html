@@ -1,16 +1,25 @@
 .free-assessment-section{background-color: var(--navy); color: var(--white);}
+.free-assessment-desc .h2{font-size: 48px; font-weight: 800; margin-bottom: 35px;}
+
+.free-assessment-btn{flex-direction: column; gap: 16px;}
+.free-assessment-btn .btn{width: fit-content;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     .free-assessment-text{flex: 0 0 50%;}
     .free-assessment-image{flex: 0 0 calc(100% - 50%);}
-    .free-assessment-desc{max-width: 512px;}
+    .free-assessment-desc{max-width: 512px; font-size: 20px; line-height: 28px;}
+    .free-assessment-desc p{margin-bottom: 34px;}
+
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .free-assessment-desc{max-width: 500px;}
 }
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .free-assessment-main{flex-direction: column-reverse;}
-    .free-assessment-desc{text-align: center; padding: 30px 20px;}
+    .free-assessment-desc{text-align: center; padding: 25px 24px 48px;}
+    .free-assessment-desc .h2{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
+    .free-assessment-desc p{font-size: 18px; letter-spacing: -0.36px; line-height: 28px;}
+    .free-assessment-btn .btn{width: 100%;}
 }
