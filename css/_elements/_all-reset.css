@@ -276,6 +276,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
     h1 span{padding: 0 1.75rem;}
     h1 span svg{width: 100%;}
     blockquote{padding: 70px 60px 60px;}
+    hr.small{margin: 0 auto 23px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .container{padding: 0 20px;}
@@ -287,7 +288,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
     .h3, h3{font-size: 1.25rem; line-height: 2rem;}
     .h4, h4{font-size: 1.125rem; line-height: 1.75rem;}
 
-    hr.small{margin: 0 auto 30px;}
+    hr.small{margin: 0 auto 23px;}
 
     .button, button{padding: 10px 27px 10px;}
     .button span, button span, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit span{font-size: 0.875rem;}
