@@ -1,7 +1,7 @@
 
 header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; background-color: var(--white);}
 
-ul.main-menu{margin: 0; gap: 0 2rem; flex: 1;}
+ul.main-menu{margin: 0;}
 ul.main-menu > li{margin: 0;}
 ul.main-menu > li::before{display: none;}
 ul.main-menu > li > a{color: var(--foreground-light); display: block; font-weight: 700; font-family: 'VisbyCF', sans-serif; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
@@ -28,8 +28,11 @@ ul.main-menu > li > a:hover{color: var(--navy);}
     .logo::after{width: 1px; height: 56px; right: 0; top: -12px; opacity: 0.25; position: absolute; background-color: var(--foreground-light); content: ""; display: block;}
     .header-right{flex: 1; max-width: 250px; gap: 12px; align-items: center; justify-content: flex-end;}
     .site-main-cover{padding-top: 88px;}
+    ul.main-menu{gap: 0 2rem; flex: 1;}
 }
-
+@media screen and (max-width: 1023px) and (min-width: 200px){
+    ul.main-menu{display: none;}
+}
 
 
 
