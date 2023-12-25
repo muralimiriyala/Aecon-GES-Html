@@ -4,18 +4,18 @@
 
 
 .our-locations-list{color: var(--foreground-light);}
+.our-locations-icon{margin-bottom: 13px;}
 ul.our-locations-links{margin: 0; flex-direction: column;}
-ul.our-locations-links li{margin: 0;}
+ul.our-locations-links li{margin: 0 0 19px;}
 ul.our-locations-links li::before{display: none;}
-ul.our-locations-links li a{}
-
-
+ul.our-locations-links li a{font-weight: 700;}
 
 
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .our-locations-list{flex: 0 0 25%;}
+    .our-locations-row{padding: 0 0 66px; gap: 0 64px;}
+    .our-locations-list{flex: 0 0 calc(25% - 48px);}
 }
 
 

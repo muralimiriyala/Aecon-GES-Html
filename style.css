@@ -17,6 +17,13 @@ Text Domain:
     font-display: swap;
 }
 @font-face {
+    font-family: Univers;
+    src: url('./fonts/Univers-Bold.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: VisbyCF;
     src: url('./fonts/VisbyCF-Regular.otf') format("opentype");
     font-weight: 400;
