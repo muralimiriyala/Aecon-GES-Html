@@ -18,7 +18,9 @@ ul.footer-links > li > a:hover{color: var(--navy);}
 .copyright-text{font-size: 12px; line-height: 20px; color: rgba(9, 31, 67, 0.5);}
 ul.copyright-links{width: auto; margin: 0; gap: 20px;}
 ul.copyright-links > li{margin: 0; font-size: 12px; line-height: 20px;}
+ul.copyright-links > li::before{display: none;}
 ul.copyright-links > li > a{color: rgba(9, 31, 67, 0.5)}
+ul.copyright-links > li > a:hover{color: var(--navy);}
 
 @media screen and (min-width: 1024px) {
     .footer{gap: 128px; padding: 78px 0;}
@@ -33,12 +35,11 @@ ul.copyright-links > li > a{color: rgba(9, 31, 67, 0.5)}
     ul.footer-address > li > a > span:nth-child(2){color: var(--accent);}
     .footer-btns{gap: 20px;}
 
-    ul.footer-title{margin: 0; width: auto;}
-    ul.footer-title > li{font-size: 20px; font-weight: 800; font-family: 'VisbyCF', sans-serif; line-height: 24px; margin: 0 12px; color: var(--dark-green);}
-    ul.footer-title > li::before{content: "";}
-    ul.footer-title > li{margin: 0 24px;}
-    ul.footer-title > li:first-child{margin-left: 0;}
-    ul.footer-title > li:last-child{margin-right: 0;}
+    ul.footer-title{margin: 0; gap: 0 50px; width: auto;}
+    ul.footer-title > li::before{display: none;}
+    ul.footer-title > li{font-size: 20px; font-weight: 800; font-family: 'VisbyCF', sans-serif; line-height: 24px; color: var(--dark-green);}
+
+
 
     .social-media{justify-content: space-between; align-items: center; margin-bottom: 72px;}
 

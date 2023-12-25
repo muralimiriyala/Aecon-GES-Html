@@ -5,7 +5,7 @@
 .accordion-list.white{background-color: var(--white);}
 .accordion-list{margin-bottom: 10px; border: solid 1px #d6dae5; background-color: rgba(140,203,255,.15);}
 .accordion-list:last-child{margin-bottom: 0;}
-.accordion-header{padding: 31px 66px 31px 22px; color: var(--text-100); font-size: 1.125rem; line-height: 1.22; letter-spacing: normal; cursor: pointer; position: relative; font-weight: bold; font-family: "Instrument Sans", sans-serif;}
+.accordion-header{padding: 31px 66px 31px 22px; color: var(--foreground); font-size: 1.125rem; line-height: 1.22; letter-spacing: normal; cursor: pointer; position: relative; font-weight: bold; font-family: "Instrument Sans", sans-serif;}
 .accordion-header span.fa-circle-plus{right: 25px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.45s ease; font-size: 1.3rem; line-height: 1.3rem; color: var(--amar-light-blue);}
 .accordion-header.open span.fa-circle-plus::before{content: "\f056";}
 .accordion-content{display: none; padding: 2px 25px 30px;}
