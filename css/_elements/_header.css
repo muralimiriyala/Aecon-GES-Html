@@ -1,13 +1,13 @@
 
 header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; background-color: var(--white);}
 header.fixed-header{position: fixed;}
-.header{gap: 2rem; padding: 16px 0;}
-.logo{flex: 0 0 261px;}
+
 ul.main-menu{margin: 0; gap: 0 2rem; flex: 1;}
 ul.main-menu > li{margin: 0;}
 ul.main-menu > li::before{display: none;}
-ul.main-menu > li > a{color: var(--foreground-light); display: block; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
+ul.main-menu > li > a{color: var(--foreground-light); display: block; font-weight: 700; font-family: 'VisbyCF', sans-serif; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
 ul.main-menu > li > a:hover{color: var(--navy);}
+
 
 .humburger-btn{width: 40px; height: 40px; border-radius: 12px; border: solid 1px #6a7682; cursor: pointer; display: block; position: relative;}
 .humburger-btn span { width:100%; height:3px; left:0; right:0; max-width: 18px; margin:0 auto; opacity:1; transition:.45s ease-in-out; background-color:var(--aecon-red); display:block; position:absolute }
@@ -20,8 +20,12 @@ ul.main-menu > li > a:hover{color: var(--navy);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    .site-main-cover{padding-top: 88px;}
+    .header{gap: 2rem; padding: 16px 0; min-height: 88px;}
+    .logo{flex: 0 0 293px; padding-right: 2rem; position: relative;}
+    .logo a img{max-width: 261px;}
+    .logo::after{width: 1px; height: 56px; right: 0; top: -12px; position: absolute; background-color: var(--aecon-red); content: ""; display: block;}
     .header-right{flex: 1; max-width: 250px; gap: 12px; align-items: center; justify-content: flex-end;}
+    .site-main-cover{padding-top: 88px;}
 }
 
 

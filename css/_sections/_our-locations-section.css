@@ -3,8 +3,11 @@
 
 
 
-
-
+.our-locations-list{color: var(--foreground-light);}
+ul.our-locations-links{margin: 0; flex-direction: column;}
+ul.our-locations-links li{margin: 0;}
+ul.our-locations-links li::before{display: none;}
+ul.our-locations-links li a{}
 
 
 
