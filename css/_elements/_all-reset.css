@@ -134,7 +134,7 @@ span.optional-text{margin-bottom: 1.313rem; font-size: 18px; line-height: 22px; 
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-12{font-size: 12px; line-height: 22px;}
 .fs-14{font-size: 14px; line-height: 20px;}
-.fs-16{font-size: 1rem; line-height: 1.5rem;}
+.fs-16{font-size: 16px; line-height: 24px;}
 .fs-18{font-size: 1.125rem; line-height: 1.5rem;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
@@ -206,10 +206,12 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted p a:hover{color: var(--amar-orange);}
 
 .dark-text{color: var(--foreground);}
+.dark-text h3 a{color: var(--navy);}
+.dark-text h3 a:hover{color: var(--accent);}
 .dark-text p a{color: var(--foreground);}
 .dark-text p a:hover{color: var(--blue);}
 
-.line-clamp{  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
+.line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
 button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
 button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
