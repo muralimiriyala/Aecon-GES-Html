@@ -125,6 +125,9 @@ body{font-size: 18px; line-height: 26px; letter-spacing: -0.36px; font-weight: 4
 .d-block{display: block;}
 span.optional-text{margin-bottom: 1.313rem; font-size: 18px; line-height: 22px; font-weight: 800; color: var(--foreground-light); display: block; text-transform: capitalize; font-family: "VisbyCF", sans-serif;}
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
+span.optional-text.green{margin-bottom: 0; color: var(--accent);}
+span.optional-text.dark{color: var(--foreground);}
+span.optional-text.no_margin{margin-bottom: 0;}
 .font-light{font-weight: 300;}
 .font-regular{font-weight: 400;}
 .font-medium{font-weight: 500;}
@@ -134,7 +137,7 @@ span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 .fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-12{font-size: 12px; line-height: 22px;}
-.fs-14{font-size: 14px; line-height: 20px;}
+.fs-14{font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
 .fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
 .fs-18{font-size: 1.125rem; line-height: 1.5rem;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
