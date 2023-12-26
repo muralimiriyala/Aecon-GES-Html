@@ -1,17 +1,19 @@
 
 
 .featured-projects-section{background-color: var(--elevated);}
+.featured-projects-main{padding: 81px 0 80px;}
 .featured-projects-left{background-color: var(--white);}
-
-
+.featured-projects-text{padding: 32px;}
+.featured-post-text{padding: 32px;}
 
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .featured-projects-row{gap: 40px;}
-    .featured-projects-left{flex: 0 0 calc(50% - 20px);}
-    .featured-projects-right{flex: 0 0 calc(50% - 20px);}
-
+    .featured-projects-left{flex: 0 0 calc(50% - 20px); transform: translateY(40px);}
+    .featured-projects-right{flex: 0 0 calc(50% - 20px); gap: 40px;}
+    .featured-projects-post{flex: 1; background-color: var(--white);}
+    .featured-projects-post:last-child{flex: 0 0 100%;}
 }
 
 
