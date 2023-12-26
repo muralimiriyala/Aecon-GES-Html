@@ -12,6 +12,7 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
 .resources-text{padding: 32px; position: relative;}
 .resources-text .h4 a{color: var(--navy);}
 .resources-text .h4 a:hover{color: var(--accent);}
+.load-more-btn{margin-top: 40px;}
 .load-more-btn .button::after{top: calc(50% + 2px); content: "\f107"; font-size: 16px;}
 
 
