@@ -88,6 +88,8 @@ hr.small{height: 4px; width: 96px; background: var(--accent); border-radius: 2px
 .button.btn-outline:hover{background: var(--accent); color: var(--white);}
 .button.btn-gray{background: var(--elevated); color: var(--foreground);}
 .button.btn-gray:hover{background: var(--accent); color: var(--white);}
+.button.btn-white{background: var(--white); color: var(--foreground);}
+.button.btn-white:hover{background: var(--accent); color: var(--white);}
 .button.no-arrow::after, button.no-arrow::after{display: none;}
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
 
