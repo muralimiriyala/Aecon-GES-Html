@@ -7,6 +7,9 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    .contact-main{gap: 128px;}
+    .contact-left{flex: 0 0 852px;}
+    .contact-right{flex: 0 0 calc(100% - 980px);}
     .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
 }
 
