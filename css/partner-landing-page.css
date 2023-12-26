@@ -8,7 +8,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .partner-offer-main{gap: 120px;}
+    .partner-offer-main{gap: 120px; padding: 80px 0 40px;}
     .partner-offer-text{flex: 1;}
     .partner-offer-card{flex: 0 0 600px;}
 }
