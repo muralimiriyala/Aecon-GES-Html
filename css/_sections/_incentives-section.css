@@ -1,0 +1,32 @@
+
+
+.incentives-main{padding: 80px 0 80px;}
+.incentives-head{padding-bottom: 18px;}
+.incentives-bg picture img{opacity: 0.25;}
+.incentives-navy-bg{opacity: 0.85; background-color: var(--navy);}
+.incentives-list{background-color: var(--white); color: var(--foreground-light);}
+.incentives-text{padding: 32px;}
+.incentives-btn{margin-top: 40px;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .incentives-row{gap: 40px;}
+    .incentives-list{flex: 0 0 calc(25% - 30px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
