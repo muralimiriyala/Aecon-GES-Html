@@ -1,12 +1,15 @@
 
 
 
-
+.contact-left::after{top: 0; right: -66px; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
 
 
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    .contact-main{gap: 128px;}
+    .contact-left{flex: 0 0 852px;}
+    .contact-right{flex: 0 0 calc(100% - 980px);}
     .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
 }
 
