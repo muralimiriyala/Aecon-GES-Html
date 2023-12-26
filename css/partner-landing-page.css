@@ -1,0 +1,24 @@
+
+
+.partner-offer-text h2{margin-bottom: 23px;}
+.partner-offer-text hr{margin-bottom: 22px;}
+.partner-offer-card{background-color: var(--elevated); color: var(--foreground-light);}
+.partner-card-text{padding: 32px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .partner-offer-main{gap: 120px;}
+    .partner-offer-text{flex: 1;}
+    .partner-offer-card{flex: 0 0 600px;}
+}
+
+
+
+
+
+
+
+
+
+
