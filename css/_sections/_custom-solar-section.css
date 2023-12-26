@@ -1,0 +1,28 @@
+
+.custom-solar-section{background-color: var(--elevated); color: var(--foreground-light);}
+.custom-solar-btns{flex-direction: column; gap: 16px;}
+
+.sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transform: translateY(-50%); border-radius: 50%; overflow: hidden;}
+.sun{width: 100%; height: 32px; background-color: var(--orange);}
+.sun-1{opacity: 0.2;}
+.sun-2{opacity: 0.4;}
+.sun-3{opacity: 0.6;}
+.sun-4{opacity: 0.8;}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px) {
+    .custom-solar-text{flex: 0 0 50%;}
+    .custom-solar-image{flex: 0 0 calc(100% - 50%);}
+    .custom-solar-desc{max-width: 512px;}
+    .custom-solar-desc h2{margin-bottom: 35px;}
+    .custom-solar-btns .button{width: fit-content;}
+}
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .custom-solar-main{flex-direction: column-reverse;}
+    .custom-solar-desc{text-align: center; padding: 25px 24px 48px;}
+    .custom-solar-desc h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
+    .custom-solar-desc p{font-size: 18px; letter-spacing: -0.36px; line-height: 28px;}
+    .custom-solar-desc hr{margin: 0 auto 30px;}
+}

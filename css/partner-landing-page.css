@@ -1,5 +1,5 @@
 
-
+.partner-offer-wrap{padding: 80px 0;}
 .partner-offer-text h2{margin-bottom: 23px;}
 .partner-offer-text hr{margin-bottom: 22px;}
 .partner-offer-card{background-color: var(--elevated); color: var(--foreground-light);}
@@ -8,7 +8,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .partner-offer-main{gap: 120px; padding: 80px 0 40px;}
+    .partner-offer-main{gap: 120px; padding-bottom: 40px;}
     .partner-offer-text{flex: 1;}
     .partner-offer-card{flex: 0 0 600px;}
 }
