@@ -1,10 +1,18 @@
 
-
+.leaderships-section{color: var(--foreground-light);}
+.leaderships-main{padding: 82px 0 68px;}
 .leadership-rows{text-align: center;}
+.leaderships-mask{top: 0; z-index: 1; mask-image: radial-gradient(circle, #71A341 60%, rgba(113, 163, 65, 0) 50%);}
+.leaderships-thumb::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--accent); content: ""; display: block; position: absolute;}  
+
+.leaderships-text{padding: 18px;}
+.leaderships-text h2{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .leadership-rows{gap: 48px;}
+    .leaderships-title{max-width: 960px; padding-bottom: 51px;}
+    .leaderships-title h2{margin-bottom: 32px;}
+    .leadership-rows{gap: 30px 48px;}
     .leaderships-list{flex: 0 0 calc(25% - 48px);}
 }
 
