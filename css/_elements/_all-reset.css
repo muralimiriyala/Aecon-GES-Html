@@ -91,6 +91,9 @@ hr.small{height: 4px; width: 96px; background: var(--accent); border-radius: 2px
 .button.no-arrow::after, button.no-arrow::after{display: none;}
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
 
+.button.btn-md{padding: 11px 32px 10px 16px; font-size: 16px;}
+.button.btn-md::after{font-size: 13px; top: calc(50% + 0px);}
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
