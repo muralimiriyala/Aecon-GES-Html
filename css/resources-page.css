@@ -10,6 +10,8 @@ ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
 ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
 .resources-text{padding: 32px; position: relative;}
+.resources-text .h4 a{color: var(--navy);}
+.resources-text .h4 a:hover{color: var(--accent);}
 .load-more-btn .button::after{top: calc(50% + 2px); content: "\f107"; font-size: 16px;}
 
 

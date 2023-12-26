@@ -8,7 +8,7 @@
 ul.our-locations-links{margin: 0; flex-direction: column;}
 ul.our-locations-links li{margin: 0 0 19px;}
 ul.our-locations-links li::before{display: none;}
-ul.our-locations-links li a{font-weight: 700;}
+ul.our-locations-links li a{align-items: center; gap: 6px;font-weight: 700;}
 
 
 
