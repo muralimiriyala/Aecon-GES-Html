@@ -161,7 +161,7 @@ span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 
 figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
-.object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
+.object-fit img, .object-fit-img img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden; z-index: 1;}
 .play-btn-main .play-btn{width: 80px; height: 80px; z-index: 1;}
