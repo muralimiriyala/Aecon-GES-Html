@@ -7,8 +7,10 @@
 ul.social-icons{margin: 0;}
 ul.social-icons > li{margin: 0;}
 ul.social-icons > li::before{display: none;}
-ul.social-icons > li > a{width: 48px; height: 48px; padding: 8px 12px; font-size: 20px; color: var(--dark-green); background-color: var(--white); margin-bottom: 0; border-radius: 12px;}
+ul.social-icons > li > a{width: 48px; height: 48px; padding: 8px 12px; font-size: 20px; color: var(--drab); background-color: var(--white); margin-bottom: 0; border-radius: 12px;}
 ul.social-icons > li > a:hover{background-color: var(--accent); color: var(--white);}
+
+ul.footer-address > li::before{display: none;}
 
 .copyrights-main{padding: 40px 0 81px; justify-content: space-between;}
 .copyrights-main::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,var(--aecon-red) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
@@ -30,13 +32,16 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
 
     ul.footer-title{margin: 0; gap: 0 50px; width: auto;}
     ul.footer-title > li::before{display: none;}
-    ul.footer-title > li{font-size: 20px; font-weight: 800; font-family: 'VisbyCF', sans-serif; line-height: 24px; color: var(--dark-green);}
+    ul.footer-title > li::after { top: 0; right: -24px; width: 2px; height: 24px; content: ""; background-image: linear-gradient(to top,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute; }
+    ul.footer-title > li:last-child::after{display: none;}
+    ul.footer-title > li{font-size: 20px; font-weight: 800; font-family: 'VisbyCF', sans-serif; line-height: 24px; color: var(--drab);}
+    ul.footer-title > li > a{color: var(--drab);}
+    ul.footer-title > li > a:hover{color: var(--accent);}
 
     ul.footer-address{margin: 0 0 55px 0;}
-    ul.footer-address > li::before{display: none;}
     ul.footer-address > li{font-size: 20px; font-weight: 800; line-height: 24px; margin-bottom: 16px; font-family: 'VisbyCF', sans-serif;}
     ul.footer-address > li:last-child{margin-bottom: 0;}
-    ul.footer-address > li a{gap: 8px; align-items: center; color: var(--dark-green);}
+    ul.footer-address > li a{gap: 8px; align-items: center; color: var(--drab);}
     ul.footer-address > li > a > span:nth-child(2){color: var(--accent);}
     ul.footer-address > li a:hover{color: var(--accent);}
 
@@ -47,7 +52,7 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
 
     .footer-nav{gap: 40px;}
     .footer-list{flex: 0 0 165px;}
-    .footer-list span{font-size: 20px; font-weight: 800; line-height: 24px; color: var(--dark-green); font-family: 'VisbyCF', sans-serif; margin-bottom: 17px; display: block;}
+    .footer-list span{font-size: 20px; font-weight: 800; line-height: 24px; color: var(--drab); font-family: 'VisbyCF', sans-serif; margin-bottom: 17px; display: block;}
     ul.footer-links{margin: 0;}
     ul.footer-links > li::before{display: none;}
     ul.footer-links > li{font-size: 16px; letter-spacing: -0.32px; line-height: 20px; margin-bottom: 21px;}
@@ -70,15 +75,15 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
     .footer-desc{margin-bottom: 35px;}
 
     .footer-lt{margin-bottom: 36px;}
-    ul.footer-address{display: flex; margin: 0 0 36px 0; gap: 36px;}
-    ul.footer-address > li{font-size: 18px; font-weight: 800; line-height: 18px; font-family: 'VisbyCF', sans-serif; padding: 14px 16px; border-radius: 12px; border: solid 1px var(--foreground-light); margin-bottom: 0; width: 100%;}
-    ul.footer-address > li a{color: var(--dark-green); justify-content: center; gap: 13px; align-items: center;}
-    ul.footer-address > li > a > span.fa-regular{font-size: 14px;}
+    ul.footer-address{margin: 0 0 36px; gap: 36px;}
+    ul.footer-address > li{margin: 0; flex: 1;}
+    ul.footer-address > li > a{color: var(--drab); justify-content: center; gap: 13px; align-items: center; font-size: 18px; font-weight: 800; line-height: 18px; font-family: 'VisbyCF', sans-serif; padding: 14px 16px; border-radius: 12px; border: solid 1px var(--foreground-light); margin-bottom: 0; width: 100%;}
+    ul.footer-address > li > a > span{font-size: 14px;}
     .footer-btns{gap: 36px;}
     .footer-btns .button{width: 100%; text-align: center;}
 
     .footer-rt{width: 100%;}
-    ul.social-icons{gap: 2rem; justify-content: center;}
+    ul.social-icons{gap: 31px; justify-content: center;}
     ul.social-icons > li > a{width: 64px; height: 64px; font-size: 28px;}
 
     .copyrights-main{padding: 40px 0 65px; justify-content: center;}

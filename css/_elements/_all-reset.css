@@ -84,7 +84,7 @@ hr.small{height: 4px; width: 96px; background: var(--accent); border-radius: 2px
 .button.btn-small{font-size: 14px; padding: 9px 26px 6px 10px;}
 .button.btn-small::after{right: 12px;}
 .button.btn-green{color: var(--white); background-color: var(--accent);}
-.button.btn-outline{color: var(--dark-green); border: 1px solid var(--accent); background: transparent;}
+.button.btn-outline{color: var(--drab); border: 1px solid var(--accent); background: transparent;}
 .button.btn-outline:hover{background: var(--accent); color: var(--white);}
 .button.btn-gray{background: var(--elevated); color: var(--foreground);}
 .button.btn-gray:hover{background: var(--accent); color: var(--white);}
