@@ -2,7 +2,9 @@
 
 
 .contact-left::after{top: 0; right: -66px; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
-
+.contact-address{margin-bottom: 40px;}
+.contact-image{margin-bottom: 22px;}
+.contact-address strong{font-size: 16px; font-weight: 800; line-height: 1; font-family: 'VisbyCF', sans-serif; color: var(--foreground);}
 
 
 /* media css starts here */
