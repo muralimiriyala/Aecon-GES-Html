@@ -2,6 +2,7 @@
     --drab: #3B4E31;
     --accent: #71A341;
     --accent-light: #E0F0C6;
+    --accent-dark: #3B4E31;
     --white: #FFFFFF;
     --black: #000;
     --black-md: #343536;
@@ -13,4 +14,5 @@
     --navy: #091F43;
     --elevated: #eef4f9;
     --orange: #F8971D;
+    --green: #71A341;
 }

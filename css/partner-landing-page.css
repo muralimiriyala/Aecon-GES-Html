@@ -4,13 +4,22 @@
 .partner-offer-text hr{margin-bottom: 22px;}
 .partner-offer-card{background-color: var(--elevated); color: var(--foreground-light);}
 .partner-card-text{padding: 32px;}
-
+.partner-aside-list{background-color: var(--elevated); padding: 32px; margin-bottom: 40px;}
+.partner-article > p > span{font-size: 24px; line-height: 32px;}
+.quote-partner{padding: 56px 0 0; margin-top: 45px; border-top: 1px solid #000;}
+.quote-partner svg{margin-bottom: 26px;}
+.quote-partner h3{margin-bottom: 32px;}
+.quote-partner h3::after{content: "”";}
+.quote-partner .avatar-img{flex: 0 0 64px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .partner-offer-main{gap: 120px; padding-bottom: 40px;}
     .partner-offer-text{flex: 1;}
     .partner-offer-card{flex: 0 0 600px;}
+    .partner-content-main{gap: 80px; padding: 81px 0;}
+    .partner-article{flex: 1;}
+    .partner-aside{flex: 0 0 350px;}
 }
 
 

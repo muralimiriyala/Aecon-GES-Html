@@ -1,0 +1,26 @@
+
+
+.become-partner-main{padding: 80px 0 80px;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .become-partner-head{flex: 1; padding: 4px 0 25px;}
+    .become-partner-logos{gap: 24px; order: 3;}
+    .become-partner-logo{flex: 0 0 calc(20% - 20px); padding: 16px;}
+    .become-partner-logo img{max-width: 157px; margin: auto; display: block;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
