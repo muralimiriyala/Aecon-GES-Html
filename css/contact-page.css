@@ -1,15 +1,18 @@
 
 
 
-.contact-left::after{top: 0; right: -66px; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
+.contact-main::after{content: ""; width: 100%; height: 2px; bottom: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+.contact-left::after{top: 0; right: -66px; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
 .contact-address{margin-bottom: 40px;}
-.contact-image{margin-bottom: 22px;}
-.contact-address strong{font-size: 16px; font-weight: 800; line-height: 1; font-family: 'VisbyCF', sans-serif; color: var(--foreground);}
+.contact-image{margin-bottom: 20px;}
+.contact-address p{font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--foreground); margin-bottom: 13px;}
+.contact-address a{font-size: 14px; line-height: 1; font-weight: bold; gap: 8px; align-items: center; padding: 9px 10px; width: fit-content; border-radius: 12px; background-color: var(--gray-lt);}
+.contact-address a span{color: var(--accent);}
 
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .contact-main{gap: 128px;}
+    .contact-main{gap: 128px; padding: 80px 0 83px; margin-bottom: 83px;}
     .contact-left{flex: 0 0 852px;}
     .contact-right{flex: 0 0 calc(100% - 980px);}
     .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
