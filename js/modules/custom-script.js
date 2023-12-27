@@ -1,22 +1,27 @@
 
 jQuery(document).ready(function($){
-    // const header = $(".header-main");
-    // const headerheight = header.clientHeight;
-    // const banner = $(".banner-section");
-    // if(banner){
-    //     const bannerHeight = banner.offsetTop + banner.clientHeight;
-    //     window.onscroll = function(){
-    //         const _scroll = window.scrollY;
-    //         console.log(_scroll, bannerHeight)
-    //         if (_scroll > bannerHeight) {
-    //            header.classList.add("fixed-header");
-    //         }
-    //         else{
-    //            header.classList.remove("fixed-header");
+    const header = document.querySelector(".header-main");
+    const banner = document.querySelector("body.home .banner-section");
+    if(banner){
+        const bannerHeight = banner.offsetTop + banner.clientHeight;
+        window.onscroll = function(){
+            const _scroll = window.scrollY;
+            console.log(_scroll, bannerHeight)
+            if (_scroll > bannerHeight) {
+               header.classList.add("fixed-header");
+            }
+            else{
+               header.classList.remove("fixed-header");
     
-    //         }
-    //     }
-    // }
+            }
+        }
+    }
+    const contact_btn = $(".contact_btn");
+    contact_btn.on("click", function(e){
+        e.preventDefault();
+        $(this).toggleClass("open");
+        $(".contact_btn_menu").fadeToggle(900);
+    });
 
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
