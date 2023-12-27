@@ -228,6 +228,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
 .bg-elevated{background-color: var(--elevated);}
 .bg-dark{background-color: var(--foreground);}
 .bg-white{background-color: var(--white);}
+.bg-navy{background-color: var(--navy); color: var(--white);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
