@@ -12,6 +12,9 @@ ul.about-partners-tabs li a.active::after{width: 100%;}
 ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var(--navy);}
 .about-partner-logo{border: 1px solid var(--gray-md);}
 
+.partners-tab-content{display: none;}
+.partners-tab-content:first-child{display: block;}
+
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .about-partners-head{flex: 1; padding-bottom: 24px;}
@@ -19,7 +22,7 @@ ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var
     .about-partner-logos{gap: 24px; padding-top: 39px;}
     .about-partner-logo{max-width: calc(20% - 20px);}
     .about-partner-thumb{ padding: 16px 40px;}
-    .about-partner-thumb img{max-width: 156px; margin: 0 auto; display: block;}
+    .about-partner-thumb img{max-width: 156px; max-height: 87px; margin: 0 auto; display: block;}
 }
 
 
