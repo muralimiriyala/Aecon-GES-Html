@@ -18,6 +18,13 @@
 .battery-4{opacity: 0.8;}
 
 
+.bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; clip-path: polygon(100% 50%, 0 0, 0 100%); transform: translateY(-50%); overflow: hidden; z-index: 2;}
+.bar{width: 25px; height: 250px; background-color: var(--green);}
+.bar-5{opacity: 0.2;}
+.bar-4{opacity: 0.4;}
+.bar-3{opacity: 0.6;}
+.bar-2{opacity: 0.8;}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
