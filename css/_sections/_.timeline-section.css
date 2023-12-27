@@ -1,0 +1,25 @@
+
+
+.timeline-slider .slick-list{overflow: inherit;}
+.timeline-slider .slick-slide{width: 312px; margin-right: 47px;}
+.timeline-desc{padding: 17px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .timeline-main{padding: 80px 0 80px;}
+    .timeline-slider div.slick-arrow{top: 0; right: 0; position: absolute;}
+    .timeline-slider div.slick-arrow.slick-prev{right: 58px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
