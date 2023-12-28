@@ -18,6 +18,10 @@
     .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
 }
 
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-left{flex: 0 0 600px;}
+    .contact-right{flex: 0 0 calc(100% - 728px);}
+}
 
 
 
