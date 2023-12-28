@@ -32,6 +32,11 @@ jQuery(document).ready(function($){
         e.preventDefault();
         $(".flyout-overlay").removeClass("open");
     });
+    $("body").on("click", function(e){
+        if(!$(e.target).closest(".humburger-btn, .flyout-overlay").length){
+            $(".flyout-overlay").removeClass("open");
+        }
+    });
 
 
     $('.accordion-header').on('click', function(e){
