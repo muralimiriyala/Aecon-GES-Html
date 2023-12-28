@@ -5,7 +5,11 @@
 .featured-projects-left{background-color: var(--white);}
 .featured-projects-text{padding: 32px 32px 34px; color: var(--foreground-light);}
 .featured-projects-text h2{margin-bottom: 18px;}
+.featured-projects-text h2 a{color: var(--navy);}
+.featured-projects-text h2 a:hover{color: var(--accent);}
 .featured-post-text{padding: 32px; color: var(--foreground-light);}
+.featured-post-text h2 a{color: var(--navy);}
+.featured-post-text h2 a:hover{color: var(--accent);}
 
 
 /* media css starts here */
