@@ -1,0 +1,27 @@
+
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .gated-post-main{gap: 0 80px; align-items: flex-start;}
+    .gated-post-article{flex: 1; padding: 80px 0;}
+    .gated-post-aside{flex: 0 0 369px; padding: 32px; transform: translateY(-128px);}
+    .gated-post-article > p > span{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
