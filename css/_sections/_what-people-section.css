@@ -1,10 +1,9 @@
 
 
 
-.what-people-section{background-color: var(--elevated);}
 .what-people-main{padding: 80px 0;}
 .what-people-heading{padding-bottom: 27px;}
-.what-people-grid{padding: 32px; background-color: var(--white);}
+.what-people-grid{padding: 32px;}
 .what-people-grid svg{margin-bottom: 4px;}
 .what-quote-text h2{color: var(--foreground-light);}
 .what-quote-text h2::before{content: "“";}
@@ -22,6 +21,8 @@
     .what-people-quote{gap: 80px; padding-top: 48px; order: 3; flex-direction: row-reverse;}
     .what-quote-image{flex: 0 0 600px;}
     .what-quote-text{flex: 1;}
+    .what-people-grids:not(:first-child):nth-child(odd){padding-top: 47px;}
+    .what-people-quote:not(:nth-child(2)):nth-child(even){flex-direction: row;}
 }
 
 
