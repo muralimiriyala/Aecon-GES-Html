@@ -19,6 +19,8 @@ ul.main-menu > li > a:hover{color: var(--navy);}
 
 li.no-link > a{pointer-events: none;}
 
+ul.flyout-address::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right, rgba(113, 163, 65, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     body.home header.header-main{position: relative;}
@@ -36,7 +38,9 @@ li.no-link > a{pointer-events: none;}
     ul.main-menu{gap: 0 2rem; flex: 1;}
     .contact_btn_menu{display: none; top: 100%; left: 0; padding: 41px 16px 16px; min-width: 296px; background-color: var(--white); border-radius: 0px 0px 24px 24px; }
     .call-us-btns{gap: 16px; margin-bottom: 16px;}
-    .call-us-btns .button{flex: 1;}
+    .call-us-btns .button, .contact_btn_menu .button{font-size: 16px; line-height: 16px; flex: 1; padding: 11px 16px 13px; gap: 8px; justify-content: center;}
+    .call-us-btns .button span, .contact_btn_menu .button span{font-size: 14px; color: var(--accent);}
+    .call-us-btns .button::after, .contact_btn_menu .button::after{display: none;}
     .contact_btn_menu .btn-light-green{width: 100%;}
 
     .flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.5s ease;}
@@ -52,6 +56,12 @@ li.no-link > a{pointer-events: none;}
     ul.flyout-menu > li > ul > li::before{display: none;}
     ul.flyout-menu > li > ul > li > a{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--foreground-light);}
     ul.flyout-menu > li > ul > li > a:hover{color: var(--navy);}
+
+    ul.flyout-address{margin: 0; padding-top: 44px; margin-top: 165px;}
+    ul.flyout-address > li{margin: 0 0 24px;}
+    ul.flyout-address > li::before{display: none;}
+    ul.flyout-address > li > a{font-size: 20px; line-height: 24px; color: var(--navy); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+    ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     ul.main-menu{display: none;}
