@@ -1,6 +1,10 @@
 
 .subscribe-main{padding: 40px 0;}
 .subscribe-text h2{margin-bottom: 0;}
+.subscribe-form{position: relative;}
+.subscribe-field input{padding: 24px 200px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 16px; line-height: 20px; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
+.subscribe_submit{ top: 14px; right: 14px; position: absolute;}
+.subscribe-form p{margin-top: 8px; text-align: center; opacity: 0.75;}
 
 .news-landing-post{background-color:  var(--elevated);}
 .news-landing-text{padding: 20px 32px 32px; color: var(--foreground-light);}
@@ -29,7 +33,7 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
     .subscribe-left{gap: 24px; flex: 0 0 calc(50% - 24px);}
     .subscribe-icon{width: 80px;}
     .subscribe-text{flex: 1;}
-    .subscribe-form{flex: 0 0 calc(50% - 24px);}
+    .subscribe-right{flex: 0 0 calc(50% - 24px);}
     .news-landing-main{gap: 56px; padding: 80px 0;}
     .news-landing-post{flex: 0 0 612px;}
     .news-small-post{flex: 1;}

@@ -6,7 +6,21 @@
 .partner-card-text{padding: 32px;}
 .partner-aside-list{background-color: var(--elevated); padding: 32px; margin-bottom: 40px;}
 .partner-article > p > span{font-size: 24px; line-height: 32px;}
-.quote-partner{padding: 56px 0 0; margin-top: 45px; border-top: 1px solid #000;}
+.quote-partner{padding: 57px 0 0; margin-top: 55px;}
+.quote-partner::before {
+    opacity: 0.5;
+	content: "";
+	width: 100%;
+	height: 2px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: block;
+	background-image: linear-gradient(to right, var(--foreground-light) 25%,rgba(255, 255, 255, 0) 0);
+	background-position: bottom;
+	background-size: 8px 2px;
+	background-repeat: repeat-x;
+}
 .quote-partner svg{margin-bottom: 26px;}
 .quote-partner h3{margin-bottom: 32px;}
 .quote-partner h3::after{content: "”";}

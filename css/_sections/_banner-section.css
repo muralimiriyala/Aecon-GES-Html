@@ -7,6 +7,7 @@
 .banner-text span.optional-text{margin-bottom: 32px;}
 .banner-text h1{margin-bottom: 29px;}
 .banner-text p{margin-bottom: 33px;} 
+.banner-btns{gap: 16px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
