@@ -10,8 +10,11 @@
 @media screen and (min-width: 1024px){
     .partner-grids-main{gap: 80px; padding: 80px 0;}
     .partner-grids-list{flex: 0 0 calc(50% - 40px);}
-    
+
+    .partner-image{margin-bottom: 14px;}
     .partner-image img{border: solid 4px var(--accent); border-radius: 50%; max-width: 72px;}
+    .partner-detail > span.partner-name{display: block; font-size: 20px; font-weight: 800; line-height: 1.2; color: var(--foreground); font-family: 'VisbyCF', sans-serif; letter-spacing: normal; margin-bottom: 2px;}
+    .partner-detail > span{display: block; font-size: 14px; line-height: 1.43; letter-spacing: -0.28px; color: var(--foreground-light);}
 }
 
 
