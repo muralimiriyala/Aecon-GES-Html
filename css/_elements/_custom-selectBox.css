@@ -8,7 +8,7 @@ body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: tran
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
 .page-template-about-testimonials ul.selectBox-dropdown-menu{border-radius: 5px;}
-ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 213px; overflow: auto; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; border: solid 1px var(--white); box-shadow: 0 4px 120px 0 rgba(7,83,244, 0.25);}
+ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 213px; overflow: auto; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; border: solid 1px var(--white); box-shadow: 0 4px 120px 0 rgba(113, 163, 65, 0.25);}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--blue);}
 .page-template-stock-performance ul.selectBox-dropdown-menu li:first-child{display: block;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal;}

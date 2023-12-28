@@ -8,7 +8,7 @@ input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hove
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
 
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px; position: relative; clear: both;}
+body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
 body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_required{display: none;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
@@ -17,7 +17,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, body .frm_forms .selectBox-dropdown{outline: 0; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; background: transparent; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md); background-color: var(--gray-lt); border-radius: 8px; font-family: 'Univers', sans-serif; -webkit-appearance: none;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;}
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus{background-color: transparent; box-shadow: none; border-color: var(--black-50); color: var(--black);}
+body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"],[type="checkbox"]):focus{background-color: var(--gray-lt); box-shadow:  0 0 0 3px rgba(113, 163, 65, 0.25); border-color: var(--accent); color: var(--black-md);}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--black); background-color: transparent; border-color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--black-md); font-family: 'Univers',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--black-md); font-family: 'Univers',sans-serif;}
@@ -104,7 +104,7 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 17px); margin-left: 14px; margin-right: 14px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(33.33333% - 16px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block;}
