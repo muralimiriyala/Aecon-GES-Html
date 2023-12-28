@@ -25,6 +25,8 @@ jQuery(document).ready(function($){
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
+        contact_btn.removeClass("open");
+        $(".contact_btn_menu").fadeOut(900);
         $(".flyout-overlay").addClass("open");
     });
     const flyoutclose = $(".flyout-close");

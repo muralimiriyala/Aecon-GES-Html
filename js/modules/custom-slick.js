@@ -10,6 +10,8 @@ jQuery(document).ready(function($){
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
         dots: false,
         infinite: false,
         speed: 1000,

@@ -33,6 +33,8 @@ ul.flyout-address::before{content: ""; width: 100%; height: 2px; top: 0; left: 0
     .header-right{flex: 1; max-width: 251px; gap: 12px; align-items: center; justify-content: flex-end;}
     .contact_btn::after{content: "\f0d7"; top: calc(50% + 0px);}
     .contact_btn.open::after{ content: "\f0d8"; top: calc(50% + 2px);}
+    .contact_btn.button:hover{background: var(--elevated); color: var(--foreground);}
+    .contact_btn.button:hover::after{color: var(--accent);}
     .site-main-cover{padding-top: 88px;}
     body.home .site-main-cover{padding-top: 0;}
     ul.main-menu{gap: 0 2rem; flex: 1;}
