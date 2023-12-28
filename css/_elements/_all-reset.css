@@ -85,8 +85,9 @@ hr{margin: 0 0 24px; height: 4px; width: 96px; background: var(--accent); border
 .button.btn-small::after{right: 12px;}
 .button.btn-green{color: var(--white); background-color: var(--accent);}
 .button.btn-light-green{color: var(--drab); background-color: var(--accent-light);}
+.button.btn-light-green:hover{color: var(--white); background-color: var(--accent);}
 .button.btn-transparent{color: var(--drab); border: 1px solid var(--foreground-light); background: transparent;}
-.button.btn-transparent:hover{background: var(--accent); color: var(--white);}
+.button.btn-transparent:hover{background: var(--accent); color: var(--white); border-color: var(--accent);}
 .button.btn-outline{color: var(--drab); border: 1px solid var(--accent); background: transparent;}
 .button.btn-outline:hover{background: var(--accent); color: var(--white);}
 .button.btn-gray{background: var(--elevated); color: var(--foreground);}
