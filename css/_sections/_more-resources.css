@@ -1,0 +1,30 @@
+
+
+.more-resources-main{padding: 80px 0 80px; border-top: 1px solid #000;}
+.more-resources-head{padding-bottom: 18px;}
+.more-resources-list{color: var(--foreground-light);}
+.more-resources-text{padding: 32px;}
+.more-resources-btn{margin-top: 40px;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .more-resources-row{gap: 40px;}
+    .more-resources-list{flex: 0 0 calc(25% - 30px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
