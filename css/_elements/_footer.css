@@ -40,7 +40,7 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
     ul.footer-title > li > a:hover{color: var(--accent);}
 
     ul.footer-address{margin: 0 0 55px; gap: 16px; flex-direction: column;}
-    ul.footer-address > li > a{gap: 8px; align-items: center; color: var(--drab); font-size: 20px; font-weight: 800; line-height: 24px; font-family: 'VisbyCF', sans-serif;}
+    ul.footer-address > li > a{gap: 8px; width: auto; display: inline-flex; align-items: center; color: var(--drab); font-size: 20px; font-weight: 800; line-height: 24px; font-family: 'VisbyCF', sans-serif;}
     ul.footer-address > li > a:hover{color: var(--accent);}
     ul.footer-address > li > a > span:nth-child(2){color: var(--accent);}
 

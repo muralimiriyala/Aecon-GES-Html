@@ -2,8 +2,7 @@
 .short-intro-main{padding: 90px 0 80px; color: var(--foreground-light);}
 .short-intro-repeat .short-intro-main{padding-top: 40px;}
 .short-intro-icon{margin-bottom: 14px;}
-.short-intro-list{color: var(--foreground-light);}
-.short-intro-list h2{margin-bottom: 20px;}
+.short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px; background-color: var(--elevated);}
 .counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
 
@@ -12,8 +11,10 @@
     .short-intro-head{gap: 80px; padding-bottom: 66px;} 
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px; border-left: 1px solid #000; border-right: 1px solid #000;}
-    .short-intro-lists{gap: 56px;}
-    .short-intro-list{flex: 0 0 calc(25% - 42px);}
+    .short-intro-of-4{gap: 56px;}
+    .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
+    .short-intro-of-3{gap: 32px;}
+    .short-intro1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
     .subhead-row{gap: 56px;}
     .subhead-list{flex: 0 0 calc(25% - 42px);}
 }
