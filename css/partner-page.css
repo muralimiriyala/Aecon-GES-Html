@@ -10,6 +10,8 @@
 @media screen and (min-width: 1024px){
     .partner-grids-main{gap: 80px; padding: 80px 0;}
     .partner-grids-list{flex: 0 0 calc(50% - 40px);}
+    
+    .partner-image img{border: solid 4px var(--accent); border-radius: 50%; max-width: 72px;}
 }
 
 
