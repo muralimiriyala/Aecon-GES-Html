@@ -22,6 +22,17 @@ jQuery(document).ready(function($){
         $(this).toggleClass("open");
         $(".contact_btn_menu").fadeToggle(900);
     });
+    const humburgerbtn = $(".humburger-btn");
+    humburgerbtn.on("click", (e)=>{
+        e.preventDefault();
+        $(".flyout-overlay").addClass("open");
+    });
+    const flyoutclose = $(".flyout-close");
+    flyoutclose.on("click", (e)=>{
+        e.preventDefault();
+        $(".flyout-overlay").removeClass("open");
+    });
+
 
     $('.accordion-header').on('click', function(e){
         e.preventDefault();

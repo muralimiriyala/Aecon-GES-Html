@@ -17,6 +17,8 @@ ul.main-menu > li > a:hover{color: var(--navy);}
 .humburger-btn.open span:nth-child(2) { transform:rotate(45deg) }
 .humburger-btn.open span:nth-child(3) { transform:rotate(-45deg) }
 
+li.no-link > a{pointer-events: none;}
+
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     body.home header.header-main{position: relative;}
@@ -36,6 +38,20 @@ ul.main-menu > li > a:hover{color: var(--navy);}
     .call-us-btns{gap: 16px; margin-bottom: 16px;}
     .call-us-btns .button{flex: 1;}
     .contact_btn_menu .btn-light-green{width: 100%;}
+
+    .flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.5s ease;}
+    .flyout-overlay.open{transform: translateX(0);}
+    .flyout-close{width: 40px; height: 40px; margin-bottom: 32px; color: var(--navy); cursor: pointer;}
+    ul.flyout-menu{margin: 0;}
+    ul.flyout-menu > li{margin: 0 0 32px;}
+    ul.flyout-menu > li::before{display: none;}
+    ul.flyout-menu > li > a{font-size: 20px; line-height: 24px; color: var(--navy); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+    ul.flyout-menu > li > a:hover{color: var(--accent);}
+    ul.flyout-menu > li > ul{margin: 0; padding: 14px 0 0;}
+    ul.flyout-menu > li > ul > li{margin: 0 0 14px;}
+    ul.flyout-menu > li > ul > li::before{display: none;}
+    ul.flyout-menu > li > ul > li > a{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--foreground-light);}
+    ul.flyout-menu > li > ul > li > a:hover{color: var(--navy);}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     ul.main-menu{display: none;}

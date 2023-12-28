@@ -150,7 +150,7 @@ span.optional-text.accent-dark{color: var(--accent-dark);}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
-.radius-10, .radius-img-10 img{border-radius: 10px;}
+.radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-20, .radius-img-20 img{border-radius: 20px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
 .radius-100{border-radius: 100px;}
