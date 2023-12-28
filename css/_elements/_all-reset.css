@@ -80,7 +80,8 @@ hr{margin: 0 0 24px; height: 4px; width: 96px; background: var(--accent); border
 .button.btn-green::after, button.btn-green::after{color: var(--navy);}
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover::after{right: 13px; color: var(--white);}
 
-.button.btn-small{font-size: 14px; padding: 9px 26px 6px 10px;}
+.button.btn-small{font-size: 14px; line-height: 14px; padding: 10px 26px 8px 10px;}
+.button.btn-small.no-arrow{padding-right: 10px;}
 .button.btn-small::after{right: 12px;}
 .button.btn-green{color: var(--white); background-color: var(--accent);}
 .button.btn-outline{color: var(--drab); border: 1px solid var(--accent); background: transparent;}
@@ -149,7 +150,7 @@ span.optional-text.accent-dark{color: var(--accent-dark);}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
-.radius-10, .radius-img-10 img{border-radius: 10px;}
+.radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-20, .radius-img-20 img{border-radius: 20px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
 .radius-100{border-radius: 100px;}
@@ -229,6 +230,15 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
 .bg-dark{background-color: var(--foreground);}
 .bg-white{background-color: var(--white);}
 .bg-navy{background-color: var(--navy); color: var(--white);}
+
+ul.cat-links{margin: 0; top: -13px; position: absolute;}
+ul.cat-links li{margin: 0;}
+ul.cat-links li::before{display: none;}
+ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; line-height: 20px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent-dark); background-color: var(--accent-light);}
+
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px;}
+div.slick-arrow::after{display: none;}
+div.slick-arrow:hover{background-color: var(--navy);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

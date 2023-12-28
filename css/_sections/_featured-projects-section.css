@@ -3,17 +3,22 @@
 .featured-projects-section{background-color: var(--elevated);}
 .featured-projects-main{padding: 81px 0 80px;}
 .featured-projects-left{background-color: var(--white);}
-.featured-projects-text{padding: 32px;}
-.featured-post-text{padding: 32px;}
+.featured-projects-text{padding: 32px 32px 34px; color: var(--foreground-light);}
+.featured-projects-text h2{margin-bottom: 18px;}
+.featured-post-text{padding: 32px; color: var(--foreground-light);}
 
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .featured-projects-row{gap: 40px;}
+    .featured-projects-row{gap: 40px; align-items: flex-start;}
     .featured-projects-left{flex: 0 0 calc(50% - 20px); transform: translateY(40px);}
     .featured-projects-right{flex: 0 0 calc(50% - 20px); gap: 40px;}
     .featured-projects-post{flex: 1; background-color: var(--white);}
-    .featured-projects-post:last-child{flex: 0 0 100%;}
+    .featured-projects-post:last-child{flex: 0 0 100%; align-items: center; display: flex; flex-wrap: wrap; flex-direction: row-reverse;}
+    .featured-projects-post:last-child .featured-post-image{flex: 0 0 310px;}
+    .featured-projects-post:last-child .featured-post-text{flex: 1;}
+    .featured-projects-post:last-child .featured-post-text ul.cat-links{position: relative;}
+    .featured-post-btn{padding-top: 46px;}
 }
 
 

@@ -9,6 +9,10 @@ ul.our-locations-links{margin: 0; flex-direction: column;}
 ul.our-locations-links li{margin: 0 0 19px;}
 ul.our-locations-links li::before{display: none;}
 ul.our-locations-links li a{align-items: center; gap: 6px;font-weight: 700;}
+.accent-yellow ul.our-locations-links li a:hover, .accent-yellow ul.our-locations-links li a span{color: #FFBF0D;}
+.accent-blue ul.our-locations-links li a:hover, .accent-blue ul.our-locations-links li a span{color: #02B5DC;}
+.accent-orange ul.our-locations-links li a:hover, .accent-orange ul.our-locations-links li a span{color: #F8971D;}
+.accent-green ul.our-locations-links li a:hover, .accent-green ul.our-locations-links li a span{color: #71A341;}
 
 
 
