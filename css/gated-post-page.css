@@ -1,14 +1,22 @@
 
 
 
-.gated-post-form{padding: 32px;}
+.gated-post-bg{padding: 32px;}
+.gated-post-bg h3{color: var(--accent-light);}
+.gated-post-form{padding-top: 14px;}
+.gated-post-field{margin-bottom: 21px;}
+.gated-post-btn{margin-top: 32px;}
+.gated-post-btn .button{width: 100%;}
+.gated-post-desc{color: var(--foreground-light);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .gated-post-main{gap: 0 80px; padding-bottom: 80px;}
     .gated-post-article{flex: 1; padding-top: 80px;}
     .gated-post-aside{flex: 0 0 369px; margin-top: -128px; flex-direction: column;} 
-    .gated-post-article > p > span{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+    .gated-post-article > p:first-child{margin-bottom: 32px;}
+    .gated-post-article > p:first-child > span{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+    .gated-post-desc{padding-top: 38px;}
 }
 
 

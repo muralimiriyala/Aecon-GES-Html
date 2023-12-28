@@ -1,6 +1,7 @@
 
 
 /* Input fields */
+label{padding-bottom: 9px; display: block; font-size: 18px; line-height: 22px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}
 textarea {width: 100%; resize: none; height: 118px;}
 input:focus, textarea:focus{outline: 0;}
 input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue); font-weight: bold; letter-spacing: normal; position: relative; text-transform: uppercase; text-align: center; color: #FFFFFF; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
