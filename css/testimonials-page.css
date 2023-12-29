@@ -1,0 +1,22 @@
+
+
+.blockquote-main{padding: 80px 0; height: 100%; text-align: center;}
+.blockquote-overlay{z-index: 0; opacity: 0.5;}
+.blockquote-text{position: relative;}
+.blockquote-text::before, .blockquote-text::after{width: 24px; height: 24px; transform: translateY(-50%); top: calc(50% - 17px); position: absolute; background-size: contain; background-repeat: no-repeat; background-position: center; content: ""; display: block;}
+.blockquote-text::before{left: 0; background-image: url("../images/quote-icon-left.svg");}
+.blockquote-text::after{right: 0; background-image: url("../images/quote-icon-right.svg");}
+.quote-avatar-main{gap: 13px; padding-top: 30px;}
+.quote-avatar-img{flex: 0 0 64px;}
+.quote-avatar-img img{border: 4px solid rgba(113, 163, 65, 0.50);}
+.quote-avatar-text{text-align: left; color: var(--white-50);}
+.quote-avatar-text span{color: var(--white);}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .blockquote-section{min-height: 600px;}
+    .blockquote-main{min-height: 600px;}
+    .blockquote-text{padding: 0 4rem;}
+}
+
