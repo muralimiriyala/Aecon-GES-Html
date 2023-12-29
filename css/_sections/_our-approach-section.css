@@ -1,4 +1,10 @@
 
+ul.our-approach-links{margin: 0;}
+ul.our-approach-links li{margin: 0 0 20px;}
+ul.our-approach-links li::before{display: none;}
+ul.our-approach-links li a{padding: 13px 20px; background-color: var(--white); display: block;}
+
+
 .our-approach-desc{padding: 64px 86px; color: var(--foreground);}
 
 /*-- media css starts here --*/
