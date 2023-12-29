@@ -10,7 +10,6 @@
 .news-landing-text{padding: 20px 32px 32px; color: var(--foreground-light);}
 
 .resources-wrap{padding: 80px 0;}
-.card-main{background-color: var(--elevated); color: var(--foreground-light);}
 ul.res-categories{margin: 0; top: -13px; z-index: 1;}
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
@@ -24,6 +23,8 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
 .news-post-text h2{margin-bottom: 0;}
 .news-post-text h2 a{color: var(--navy);}
 .news-post-text h2 a:hover{color: var(--accent);}
+
+
 
 
 
