@@ -1,10 +1,22 @@
 
-.short-intro-main{padding: 90px 0 80px; color: var(--foreground-light);}
+.short-intro-section{color: var(--foreground-light);}
+.short-intro-main{padding: 90px 0 80px;}
+.short-intro-flex{padding: 82px 0 40px;}
 .short-intro-repeat .short-intro-main{padding-top: 40px;}
 .short-intro-icon{margin-bottom: 14px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px; background-color: var(--elevated);}
 .counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
+.intro_btn{padding: 12px 12px 12px 16px; border-radius: 16px; border: 1px solid var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif;}
+.intro_btn.open{background-color: var(--navy); color: var(--white);}
+.intro_btn span{flex: 1;}
+.intro_btn_svg{width: 56px; height: 56px; border-radius: 6px; border: 0.75px solid var(--white);}
+.intro_btn.yellow, .intro_btn.yellow .intro_btn_svg{border-color: #FFBF0D; color: #FFBF0D;}
+.intro_btn.blue, .intro_btn.blue .intro_btn_svg{border-color: #02B5DC; color: #02B5DC;}
+.intro_btn.orange, .intro_btn.orange .intro_btn_svg{border-color: #F8971D; color: #F8971D;}
+.intro_btn.green, .intro_btn.green .intro_btn_svg{border-color: #71A341; color: #71A341;}
+
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -17,4 +29,7 @@
     .short-intro1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
     .subhead-row{gap: 56px;}
     .subhead-list{flex: 0 0 calc(25% - 42px);}
+    .short-intro-btns{gap: 16px;}
+    .short-intro-btn{flex: 0 0 calc(20% - 13px);}
+    .intro_btn_svg{width: 48px; height: 48px;}
 }
