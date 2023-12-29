@@ -17,7 +17,7 @@
 .intro_btn.orange, .intro_btn.orange .intro_btn_svg{border-color: #F8971D; color: #F8971D;}
 .intro_btn.green, .intro_btn.green .intro_btn_svg{border-color: #71A341; color: #71A341;}
 
-
+.short-intro-title .button{font-size: 16px; line-height: 1; padding: 11px 34px 13px 16px; margin-top: -6px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
