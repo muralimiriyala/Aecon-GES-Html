@@ -132,7 +132,7 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
 @media only screen and (max-width: 1360px) and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{flex: 0 0 100%;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 740px){
     /* body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;} */
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body.page-template-contact .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
@@ -151,7 +151,7 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(33% - 4px); float: left; clear: none; margin-left: 9px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}
 }
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 739px) and (min-width: 200px){
     .frm_form_field_wrapper{padding-top: 0; float: none; display: block;}
     body .check-coverage .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 6px;}
