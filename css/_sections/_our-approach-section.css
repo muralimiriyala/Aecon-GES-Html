@@ -1,0 +1,28 @@
+
+.our-approach-desc{padding: 64px 86px; color: var(--foreground);}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1300px){
+    .our-approach-main {gap: 0 80px; flex-wrap: nowrap;}
+    .our-approach-text{flex: 0 0 560px;}
+    .our-approach-image{flex: 1; min-width: 720px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
