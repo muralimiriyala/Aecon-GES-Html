@@ -33,4 +33,5 @@
     .short-intro-btns{gap: 16px;}
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
     .intro_btn_svg{width: 48px; height: 48px;}
+    body.page-template-careers .short-intro-title{max-width: 100%;}
 }
