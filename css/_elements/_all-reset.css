@@ -246,6 +246,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
+.w-100{width: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -261,19 +262,15 @@ div.slick-arrow:hover{background-color: var(--navy);}
     .container.lg{max-width: 1360px;}
 }
 @media only screen and (max-width: 1330px) and (min-width: 1024px){
-    .container:not(.sm){padding: 0 2rem;}
+    .container:not(.sm){padding: 0 40px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 740px){
     .ipad-0{padding-left: 0; padding-right: 0;}
     .hide-tablet{display: none;}
-
+    .container{padding: 0 40px;}
 }
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 739px) and (min-width: 200px){
     .container{padding: 0 20px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
-    .hide-mobile{display: none;}
-  
-}
-@media only screen and (max-width: 380px) and (min-width: 200px){
-
+    .hide-mobile{display: none;} 
 }
