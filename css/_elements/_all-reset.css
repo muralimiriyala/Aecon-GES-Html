@@ -96,6 +96,9 @@ hr{margin: 0 0 24px; height: 4px; width: 96px; background: var(--accent); border
 .button.btn-white:hover{background: var(--accent); color: var(--white);}
 .button.no-arrow::after, button.no-arrow::after{display: none;}
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
+.btn-transparent.yellow{border-color: var(--accent-yellow); color: var(--foreground-dark);}
+.btn-transparent.yellow::after{color: var(--accent-yellow);}
+.btn-transparent.yellow:hover{ background: var(--foreground-dark);}
 
 .button.btn-md{padding: 11px 32px 10px 16px; font-size: 16px;}
 .button.btn-md::after{font-size: 13px; top: calc(50% + 0px);}
@@ -141,6 +144,7 @@ span.optional-text.dark{color: var(--foreground);}
 span.optional-text.no_margin{margin-bottom: 0;}
 span.optional-text.sm{font-size: 16px; line-height: 20px;}
 span.optional-text.accent-dark{color: var(--accent-dark);}
+span.optional-text.f-dark{color: var(--foreground-dark);}
 .font-light{font-weight: 300;}
 .font-regular{font-weight: 400;}
 .font-medium{font-weight: 500;}
@@ -251,9 +255,7 @@ div.slick-arrow:hover{background-color: var(--navy);}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
-    .container.x-md{max-width: 1280px;}
-    .container.md{max-width: 1120px;}
-    .container.sm{max-width: 896px;}
+    .container.sm{max-width: 960px;}
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}

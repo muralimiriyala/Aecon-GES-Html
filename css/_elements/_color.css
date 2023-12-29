@@ -12,8 +12,10 @@
     --aecon-red: #da1a32;
     --foreground: #343536;
     --foreground-light: #6A7682;
+    --foreground-dark: #64511C;
     --navy: #091F43;
     --elevated: #eef4f9;
     --orange: #F8971D;
     --green: #71A341;
+    --accent-yellow: #FFBF0D;
 }
