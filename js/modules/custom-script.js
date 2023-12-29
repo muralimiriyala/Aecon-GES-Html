@@ -65,5 +65,15 @@ jQuery(document).ready(function($){
         $(".partners-tab-content[data-tab-value="+ tabAttr +"]").fadeIn();
     });
 
+    if($(window).width() <= 1023){
+        let level1 = $("ul.flyout-menu > li.menu-item-has-children > a");
+        level1.on("click", function(e){
+            e.preventDefault();
+            $(this).parent("li").siblings().children("a").removeClass("active");
+            $(this).toggleClass("active");
+            $(this).parent("li").siblings().children("ul").slideUp(900);
+            $(this).siblings("ul").slideToggle(900);
+        });
+    }
 
 });
