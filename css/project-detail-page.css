@@ -1,6 +1,15 @@
 
+.project-detail-text{color: var(--foreground);}
+
+
+
+.stats-main{padding: 0 0 82px;}
+.stats-image-row{padding-top: 32px;}
+.stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -100%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}
 .project-detail-article{padding: 80px 0 80px;}
+.project-detail-article p span{padding-bottom: 8px; font-size: 24px; line-height: 32px; letter-spacing: -0.48px; display: block;}
 .project-detail-article ul li::before{background-color: var(--accent); top: 9px; left: -20px; width: 8px; height: 8px;}
+.project-detail-article h3{padding: 32px 0 12px;}
 .solar-assessment-wrap{padding-top: 56px; margin-top: 56px;}
 .solar-assessment-wrap::before{
     opacity: 0.5;
@@ -37,7 +46,8 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 740px){
-    .stats-image-row{gap: 32px;}
+
+    .stats-image-row{gap: 32px; margin-bottom: 24px;}
     .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
     .stats-image-right{flex: 1;}
 
@@ -46,7 +56,11 @@
     .solar-assessment-text{flex: 1; padding-left: 32px;}
     .solar-assessment-text::before{ transform: rotate(90deg); left: -50%; } 
 }
-
+@media only screen and (min-width: 1300px){
+    .project-detail-main{gap: 64px; padding-bottom: 80px; flex-wrap: nowrap;} 
+    .project-detail-text{flex: 0 0 648px; padding: 81px 0 0;}
+    .project-detail-image{flex: 1; min-width: 648px;}
+}
 
 
 
