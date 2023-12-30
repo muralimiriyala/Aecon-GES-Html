@@ -21,11 +21,34 @@
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
+
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro-head{gap: 80px; padding-bottom: 66px;} 
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
-    .short-intro-desc{flex: 0 0 600px; padding: 0 56px; border-left: 1px solid #000; border-right: 1px solid #000;}
+    .short-intro-desc{flex: 0 0 600px; padding: 0 56px; overflow: hidden;}
+    .short-intro-desc::before, .short-intro-desc::after{
+        content: "";
+        width: 100%;
+        height: 2px;
+        top: 0;
+        left: -50%;
+        position: absolute;
+        display: block;
+        background-image: linear-gradient(to right,var(--green) 25%,rgba(255,255,255,0) 0);
+        background-position: bottom;
+        background-size: 8px 2px;
+        background-repeat: repeat-x;
+        transform: rotate(90deg);
+        opacity: 0.5;
+    }
+    .short-intro-desc::after{
+        right: -50%;
+        left: auto;
+    }
+    
     .short-intro-of-4{gap: 56px;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
     .short-intro-of-3{gap: 32px;}
