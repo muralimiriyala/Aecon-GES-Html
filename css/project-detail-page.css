@@ -56,12 +56,23 @@
     .solar-assessment-text{flex: 1; padding-left: 32px;}
     .solar-assessment-text::before{ transform: rotate(90deg); left: -50%; } 
 }
+@media only screen and (min-width: 1024px){
+    .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
+    .masonary-list{padding-bottom: 32px; counter-increment: brick-counter; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+    .masonary-list:nth-child(3){padding-top: 32px;}
+}
 @media only screen and (min-width: 1300px){
     .project-detail-main{gap: 64px; padding-bottom: 80px; flex-wrap: nowrap;} 
     .project-detail-text{flex: 0 0 648px; padding: 81px 0 0;}
     .project-detail-image{flex: 1; min-width: 648px;}
 }
-
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
+    .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .masonary-list{margin-bottom: 20px;}
+}
 
 
 
