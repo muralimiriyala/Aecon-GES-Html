@@ -54,7 +54,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .logo{flex: 0 0 293px; padding-right: 2rem; position: relative;}
     .logo a img{max-width: 261px;}
     .logo::after{width: 1px; height: 56px; right: 0; top: -12px; opacity: 0.25; position: absolute; background-color: var(--foreground-light); content: ""; display: block;}
-    .header-right{flex: 1; max-width: 251px; gap: 12px; align-items: center; justify-content: flex-end;}
+    .header-right{flex: 1; max-width: 254px; gap: 12px; align-items: center; justify-content: flex-end;}
     .contact_btn::after{content: "\f0d7"; top: calc(50% + 0px);}
     .contact_btn.open::after{ content: "\f0d8"; top: calc(50% + 2px);}
     .contact_btn.button:hover{background: var(--elevated); color: var(--foreground);}
