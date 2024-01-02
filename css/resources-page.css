@@ -6,6 +6,11 @@
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
 .subscribe-form p{margin-top: 8px; text-align: center; opacity: 0.75;}
 
+.browse-news-title h2{margin-bottom: 0;}
+.browse-search-btn{background: none; color: var(--foreground); font-size: 20px; line-height: 20px; right: 14px; top: 50%; transform: translateY(-50%); padding: 0;}
+.browse-search-btn::after{display: none;}
+.browse-search-btn:hover{background: none; color: var(--accent);}
+
 .browse-news-btn{width: 100%; height: 100%; color: var(--text-100); padding: 18px 20px 18px; display: block; border: 2px solid var(--Stroke, rgba(94, 103, 131, 0.25)); transition: all 0.45s ease;}
 .browse-news-btn.active, .browse-news-btn:hover{border-color: var(--amar-light-blue); background-color: var(--amar-sm-blue);}
 .browse-news-btn.active::before { top: 50%; transform: translateY(-50%); content: "\f14a"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 20px; font-weight: bold; color: var(--amar-light-blue); }
@@ -15,6 +20,8 @@
 .news-landing-post{background-color:  var(--elevated);}
 .news-landing-text{padding: 31px 32px 32px; color: var(--foreground-light);}
 .news-landing-text h1{margin-bottom: 17px;}
+.news-landing-text h1 a{color: var(--navy);}
+.news-landing-text h1 a:hover{color: var(--accent);}
 
 .resources-wrap{padding: 80px 0;}
 ul.res-categories{margin: 0; top: -13px; z-index: 1;}
@@ -28,10 +35,33 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
 .load-more-btn .button::after{top: calc(50% + 2px); content: "\f107"; font-size: 16px;}
 
 .news-post-rows{padding-top: 6px;}
-.news-post-text h2{margin-bottom: 0;}
+.news-post-text h2{margin-bottom: 0; font-weight: 700;}
 .news-post-text h2 a{color: var(--navy);}
 .news-post-text h2 a:hover{color: var(--accent);}
 
+ul.post-cat-btns{margin: 0 0 13px; gap: 8px;}
+ul.post-cat-btns li{margin: 0;}
+ul.post-cat-btns li::before{display: none;}
+ul.post-cat-btns li a{
+	padding: 6px 7px;
+	gap: 6px;
+	align-items: center;
+	background-color: var(--accent-light);
+	color: var(--drab);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 800;
+	font-family: VisbyCF,sans-serif;
+	letter-spacing: 0;
+}
+ul.post-cat-btns li a span{font-size: 12px; line-height: 12px;}
+ul.post-cat-btns li a.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
+ul.post-cat-btns li a.solar span{color: var(--accent-yellow);}
+ul.post-cat-btns li a.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.post-cat-btns li a.ev-charging span{color: #02B5DC;}
+ul.post-cat-btns li a.heating{background-color: #FFD8A6; color: #5E3808;}
+ul.post-cat-btns li a.heating span{color: #F8971D;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
