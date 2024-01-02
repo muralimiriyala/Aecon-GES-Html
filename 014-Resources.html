@@ -113,7 +113,10 @@
                     <img src="images/news-landing-thumb@2x.jpg" alt="news-landing-thumb">
                 </figure>
             </div>
-            <div class="news-landing-text fs-16">
+            <div class="news-landing-text fs-16 relative">
+                <ul class="res-categories absolute">
+                    <li><a href="#" class="">Subcategory Tag</a></li>
+                </ul>
                 <h1 class="h2">Does a Home EV Charger Save Me Money?</h1>
                 <div class="line-clamp clamp-3">
                     <p>This is a concise post excerpt that likely spans up to three lines in length and then truncates. This is a concise post excerpt that likely spans up to three lines in length and then truncates. This is a concise post excerpt that likely spans up to three lines in length and then truncates.</p>
@@ -196,9 +199,40 @@
 <section class="resources-section">
 <div class="container">
 <div class="resources-wrap">
+    <div class="browse-news-head flex">
+        <div class="browse-news-title">
+            <h2 class="h4">Browse News</h2>
+        </div>
+        <div class="browse-news-search">
+            <form action="" class="browse-search-form relative">
+                <input type="text" placeholder="Search">
+                <button class="browse-search-btn absolute"><span class="fa-sharp fa-solid fa-magnifying-glass"></span></button>
+            </form>
+        </div>
+    </div>
+    <form action="" class="browse-news-form flex">
+        <div class="browse-news-field">
+            <span class="browse-news-btn relative">
+                <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="" onclick="this.form.submit()">
+                Browse All
+            </span>
+        </div>
+        <div class="browse-news-field">
+            <span class="browse-news-btn relative">
+                <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="2" onclick="this.form.submit()">
+                News
+            </span>
+        </div>
+        <div class="browse-news-field">
+            <span class="browse-news-btn relative">
+                <input type="radio" class="browse-news-input absolute"  id="press-release" name="browse" value="7" onclick="this.form.submit()">
+                Press Releases
+            </span>
+        </div>
+    </form>
     <div class="card-row-of-4 flex">
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-one@2x.jpg" alt="resource-card-thumb">
@@ -216,7 +250,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-two@2x.jpg" alt="resource-card-thumb">
@@ -234,7 +268,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-three@2x.jpg" alt="resource-card-thumb">
@@ -252,7 +286,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-four@2x.jpg" alt="resource-card-thumb">
@@ -270,7 +304,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-five@2x.jpg" alt="resource-card-thumb">
@@ -288,7 +322,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-six@2x.jpg" alt="resource-card-thumb">
@@ -306,7 +340,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-seven@2x.jpg" alt="resource-card-thumb">
@@ -324,7 +358,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-eight@2x.jpg" alt="resource-card-thumb">
@@ -342,7 +376,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-nine@2x.jpg" alt="resource-card-thumb">
@@ -360,7 +394,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-ten@2x.jpg" alt="resource-card-thumb">
@@ -378,7 +412,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-eleven@2x.jpg" alt="resource-card-thumb">
@@ -396,7 +430,7 @@
             </div>
         </div>
         <div class="card1-of-4 fs-16">
-            <div class="card-main">
+            <div class="card-main bg-elevated">
                 <div class="card-image relative">
                     <figure class="card-thumb object-fit">
                         <img src="images/resource-card-twelve@2x.jpg" alt="resource-card-thumb">
@@ -428,7 +462,7 @@
     <div class="footer flex">
         <div class="footer-lt">
             <figure class="footer-logo">
-                <a href="index.html"><img src="/images/logo.svg" alt="footer-logo"></a>
+                <a href="index.html"><img src="images/logo.svg" alt="footer-logo"></a>
             </figure>
             <div class="footer-desc font-medium">
                 <p>Aecon Green Energy Solutions leverages the expertise, resources, and networks of one of Canada’s largest multi-discipline utility contractors to deliver turnkey green energy solutions.</p>
