@@ -6,6 +6,8 @@
 .incentives-navy-bg{opacity: 0.85; background-color: var(--navy);}
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light);}
 .incentives-text{padding: 32px;}
+.incentives-text h2 a{color: var(--navy);}
+.incentives-text h2 a:hover{color: var(--accent);}
 .incentives-btn{margin-top: 40px;}
 
 
