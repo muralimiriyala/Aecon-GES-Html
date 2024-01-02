@@ -65,6 +65,21 @@ jQuery(document).ready(function($){
         $(".partners-tab-content[data-tab-value="+ tabAttr +"]").fadeIn();
     });
 
+    $("ul.our-approach-links li:first-child a").addClass("active");
+    const approachLinks = $("ul.our-approach-links li a");
+    approachLinks.on("click", function(e){
+        e.preventDefault();
+        const _self = $(this);
+        _self.parent().siblings("li").find("a").removeClass("active");
+        _self.addClass("active");
+        const tabAttr = $(this).attr("data-link");
+        $(".our-approach-image").hide();
+        $(".our-approach-image[data-value="+ tabAttr +"]").fadeIn();
+    });
+
+
+
+
     if($(window).width() <= 1023){
         let level1 = $("ul.flyout-menu > li.menu-item-has-children > a");
         level1.on("click", function(e){
