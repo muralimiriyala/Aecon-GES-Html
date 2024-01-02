@@ -16,9 +16,12 @@ jQuery(document).ready(function($){
         infinite: false,
         speed: 1000,
       });
+
+      $(".partner-logos-slide").removeAttr("style");
+
       const timeline = $(".timeline-slider");
       timeline.slick({
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
@@ -29,4 +32,24 @@ jQuery(document).ready(function($){
         variableWidth: true
       });
       $(".timeline-slide").removeAttr("style");
+
+      const aboutPlogos = $(".about-partner-logos");
+      aboutPlogos.each(function(){
+        const _self = $(this);
+        if(_self.children().length >=6){
+          _self.slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
+            dots: false,
+            infinite: false,
+            speed: 1000,
+            variableWidth: true
+          });
+          $(".about-partner-logo").removeAttr("style");
+        }
+      });
+
 });

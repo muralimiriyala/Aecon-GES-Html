@@ -23,6 +23,11 @@ ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var
     .about-partner-logo{max-width: calc(20% - 20px);}
     .about-partner-thumb{ padding: 16px 40px;}
     .about-partner-thumb img{max-width: 156px; max-height: 87px; margin: 0 auto; display: block;}
+    .about-partner-logos.slick-slider .slick-slide{margin-right: 23px; width: 237px;} 
+    .about-partner-logos.slick-slider .about-partner-logo{max-width: 100%;}
+    .about-partner-logos.slick-slider div.slick-arrow{right: auto; top: -48px;}
+    .about-partner-logos.slick-slider div.slick-arrow.slick-next{left: 1232px;}
+    .about-partner-logos.slick-slider div.slick-arrow.slick-prev{left: 1174px;}
 }
 
 

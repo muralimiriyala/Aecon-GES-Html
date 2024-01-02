@@ -1,9 +1,13 @@
 
 
-
-.partner-logos-section{background-color: var(--elevated);}
-.partner-logo img{max-width: 144px; margin: 0 auto;}
-
+.partner-logos-main{padding: 81px 0 80px;}
+.partner-logos-head{max-width: 544px; padding-bottom: 8px;}
+.partner-logos-slider .slick-list{overflow: inherit;}
+.partner-logos-slide{margin-right: 40px;}
+.partner-logo{padding: 16px 40px; min-height: 113px; display: flex; align-items: center; flex-wrap: wrap; background-color: var(--white);}
+.partner-logo img{max-width: 144px; max-height: 81px; margin: 0 auto;}
+.partner-logo-text{padding-top: 19px; color: var(--foreground-light);}
+.partner-logo-text p{margin-bottom: 18px;}
 
 
 

@@ -27,6 +27,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro-head{gap: 80px; padding-bottom: 66px;} 
+    .partner-logos-main .short-intro-head{padding-bottom: 24px;}
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px; overflow: hidden;}
     .short-intro-desc::before, .short-intro-desc::after{

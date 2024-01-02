@@ -14,7 +14,7 @@ a:hover{color: var(--accent);}
 .h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
 .h4, h4{font-size: 24px; line-height: 32px; margin-bottom: 0.938rem;}
 .h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 1.313rem;}
-.h6, h6{font-size: 16px; line-height: 24px; margin-bottom: 1.313rem;}
+.h6, h6{font-size: 18px; line-height: 22px; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--accent);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
@@ -250,6 +250,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
+div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}
 .w-100{width: 100%;}
 
 /*-- media css starts here --*/
@@ -259,6 +260,9 @@ div.slick-arrow:hover{background-color: var(--navy);}
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}
+    div.slick-arrow{top: -80px; position: absolute;}
+    div.slick-arrow.slick-next{right: 0;}
+    div.slick-arrow.slick-prev{right: 58px;}
 }
 @media only screen and (min-width: 1480px){
     .container.lg{max-width: 1360px;}

@@ -3,6 +3,10 @@
 .subscribe-text h2{margin-bottom: 0;}
 .subscribe-form{position: relative;}
 .subscribe-field input{padding: 24px 200px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 16px; line-height: 20px; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
+.subscribe-field input::-webkit-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
+.subscribe-field input:-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif; }
+.subscribe-field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
+.subscribe-field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
 .subscribe-form p{margin-top: 8px; text-align: center; opacity: 0.75;}
 
