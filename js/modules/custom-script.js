@@ -78,6 +78,18 @@ jQuery(document).ready(function($){
     });
 
 
+    const faqtablink = $("ul.faq-tabs li a");
+    $("ul.faq-tabs li:first-child a").addClass("active");
+    tabValue = $(".partners-tab-content").attr("data-tab-value");
+
+    faqtablink.on("click", function(e){
+        e.preventDefault();
+        $(this).addClass("active");
+        $(this).parent().siblings().find("a").removeClass("active");
+        const faqtabAttr = $(this).attr("data-name");
+        $(".faq-tab-content").hide();
+        $(".faq-tab-content[data-value="+ faqtabAttr +"]").fadeIn();
+    });
 
 
     if($(window).width() <= 1023){
