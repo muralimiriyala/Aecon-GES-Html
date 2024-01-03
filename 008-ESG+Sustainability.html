@@ -111,6 +111,9 @@
             <img src="images/sustainability-banner-mobile@2x.jpg" alt="sustainability-banner-mobile">
         </picture>
     </div>
+    <div class="background-bg video-banner-iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xwazD5SyVg?autoplay=1&mute=1&loop=1&playlist=9xwazD5SyVg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+    </div>
     <div class="banner-main container">
         <div class="banner-text inverted d-fs-16">
             <span class="optional-text muted">Environmental, Social, & Governance</span>
@@ -578,6 +581,40 @@
 <script src="./dist/core.bundle.js"></script>
 <script src="js-wp/jquery.magnific-popup.js"></script>
 <script src="js-wp/magnific-popup.js"></script>
+
+<script>
+jQuery(document).ready(function($){
+    var posterImage = $('.banner-bg').find('img');
+    var iframe = $('.video-banner-iframe iframe');
+    if(posterImage.length > 0){
+        iframe.css('opacity', '0');
+
+        function loadIframe() {            
+            iframe.css('opacity', '1');
+            var iframeSrc = iframe.data('src');
+            iframe.attr('src', iframeSrc);
+        }
+        if (posterImage[0].complete) {
+            loadIframe();
+        } else {
+            posterImage.on('load', function () {
+                loadIframe();
+            });
+        }
+    }
+        function Mobile() {
+            if ($(window).width() <= 739) {
+                $('.video-banner-iframe').remove();
+            }
+        }
+        Mobile();
+        $(window).on('load resize', Mobile);
+        $(document).ready(function () {
+            Mobile();
+        });
+
+});
+</script>
 </body>
 </html>
     

@@ -4,6 +4,22 @@
 .banner-text p{margin-bottom: 33px;} 
 .banner-btns{gap: 16px;}
 picture.banner-thumb img{object-position: top center;}
+.video-banner-iframe {
+	width: 100vw;
+	max-width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.video-banner-iframe iframe {
+	top: 0;
+	height: 100%;
+	width: 100%;
+	min-width: 1800px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
