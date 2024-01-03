@@ -3,12 +3,18 @@
 .partner-logos-main{padding: 81px 0 80px;}
 .partner-logos-head{max-width: 544px; padding-bottom: 8px;}
 .partner-logos-slider .slick-list{overflow: inherit;}
-.partner-logos-slide{margin-right: 40px;}
+.partner-logos-slider .slick-slide{width: 264px;}
+.partner-logos-slide{margin-right: 40px; width: auto !important;}
 .partner-logo{padding: 16px 40px; min-height: 113px; display: flex; align-items: center; flex-wrap: wrap; background-color: var(--white);}
 .partner-logo img{max-width: 144px; max-height: 81px; margin: 0 auto;}
 .partner-logo-text{padding-top: 19px; color: var(--foreground-light);}
 .partner-logo-text p{margin-bottom: 18px;}
 
+@media screen and (max-width: 1023px) and (min-width: 740px){
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .partner-logos-slide{margin-right: 23px;}
+}
 
 
 
