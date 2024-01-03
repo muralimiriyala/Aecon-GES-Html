@@ -1,7 +1,4 @@
 
-.banner-thumb::before{width: 100%; height: 100%; top: 0; left: 0; content: ""; position: absolute; background-image: linear-gradient(59deg, #091f43 0%, rgba(9, 31, 67, 0) 100%); }
-.banner-main{display: flex; flex-wrap: wrap; align-items: center;}
-.banner-text{max-width: 600px;}
 .banner-text span.optional-text{margin-bottom: 32px;}
 .banner-text h1{margin-bottom: 29px;}
 .banner-text p{margin-bottom: 33px;} 
@@ -11,8 +8,23 @@ picture.banner-thumb img{object-position: top center;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .banner-section{min-height: 720px;}
-    .banner-main{min-height: 720px;}
-    .banner-text{padding: 100px 0 67px;}
+    .banner-thumb::before{width: 100%; height: 100%; top: 0; left: 0; content: ""; position: absolute; background-image: linear-gradient(59deg, #091f43 0%, rgba(9, 31, 67, 0) 100%); }
+    .banner-main{min-height: 720px; display: flex; flex-wrap: wrap; align-items: center;}
+    .banner-text{padding: 100px 0 67px; max-width: 600px;}
     .gated-post-banner{min-height: 570px;}
     .gated-post-banner .banner-main{min-height: 570px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .banner-bg{position: relative;}
+    .banner-main{margin-top: -124px; background-image: linear-gradient(to bottom, rgba(9, 31, 67, 0.00) 0%, #091F43 90px);}
+    .banner-text{padding: 32px 0 20px;}
+    .banner-text span.optional-text { margin-bottom: 25px; }
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .banner-bg{position: relative;}
+    .banner-main{margin-top: -88px; background-image: linear-gradient(to bottom, rgba(9, 31, 67, 0.00) 0%, #091F43 90px);}
+    .banner-text{padding: 16px 0 10px;}
+    .banner-text span.optional-text { margin-bottom: 25px; }
+    .banner-text h1 { margin-bottom: 23px; }
+    .banner-text hr{margin-bottom: 24px;}
 }
