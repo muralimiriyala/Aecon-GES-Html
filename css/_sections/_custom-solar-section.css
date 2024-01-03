@@ -17,9 +17,6 @@
 .battery-3{opacity: 0.6;}
 .battery-4{opacity: 0.8;}
 
-
-.bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; clip-path: polygon(100% 50%, 0 0, 0 100%); transform: translateY(-50%); overflow: hidden; z-index: 2;}
-.bar{width: 25px; height: 250px; background-color: var(--green);}
 .bar-5{opacity: 0.2;}
 .bar-4{opacity: 0.4;}
 .bar-3{opacity: 0.6;}
@@ -33,11 +30,19 @@
     .custom-solar-desc{max-width: 512px;}
     .custom-solar-desc h2{margin-bottom: 35px;}
     .custom-solar-btns .button{width: fit-content;}
+    .bar-solar{width: 125px; height: 250px; left: 1px; bottom: -63px; transform: translateY(-50%); clip-path: polygon(100% 50%, 0 0, 0 100%); overflow: hidden; z-index: 2;}
+    .bar{width: 25px; height: 250px; background-color: var(--green);}
 }
+
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .custom-solar-main{flex-direction: column-reverse;}
     .custom-solar-desc{text-align: center; padding: 25px 24px 48px;}
     .custom-solar-desc h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
     .custom-solar-desc p{font-size: 18px; letter-spacing: -0.36px; line-height: 28px;}
     .custom-solar-desc hr{margin: 0 auto 30px;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .common-repeat-image{ padding-bottom: 29px;}
+    .bar-solar{width: 125px; height: 145px; left: 1px; bottom: -63px; transform: translateY(-50%); clip-path: polygon(50% 0%, 0% 100%, 100% 100%); overflow: hidden; z-index: 2; flex-direction: column-reverse;}
+    .bar{width: 145px; height: 15px; background-color: var(--green);}
 }

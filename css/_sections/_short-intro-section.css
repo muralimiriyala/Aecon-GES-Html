@@ -2,7 +2,6 @@
 .short-intro-section{color: var(--foreground-light);}
 .short-intro-flex{padding: 82px 0 40px;}
 .testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
-.short-intro-repeat .short-intro-main{padding-top: 40px;}
 .short-intro-icon{margin-bottom: 14px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
@@ -27,6 +26,7 @@
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px;}
     .short-intro-of-4{gap: 56px;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
+    .short-intro-repeat .short-intro-main{padding-top: 40px;}
 }
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 90px 0 80px;}
@@ -65,6 +65,8 @@
     .short-intro-desc::after{margin-top: 31px;}
     .short-intro-of-4{padding: 56px 0 0; gap: 40px;}
     .short-intro1-of-4{flex: 0 0 calc(50% - 20px);}
+    .short-intro-repeat .short-intro-main{padding-top: 0;}
+
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .short-intro-main{padding: 41px 0 41px;}
@@ -76,4 +78,5 @@
     .short-intro-of-4{padding: 55px 0 0; display: block; }
     .short-intro-of-4 > *{margin-bottom: 41px;}
     .short-intro1-of-4:last-child{margin-bottom: 0;}
+    .short-intro-repeat .short-intro-main{padding-top: 23px;}
 }
