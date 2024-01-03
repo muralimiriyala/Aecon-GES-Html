@@ -1,6 +1,5 @@
 
 .short-intro-section{color: var(--foreground-light);}
-.short-intro-main{padding: 90px 0 80px;}
 .short-intro-flex{padding: 82px 0 40px;}
 .testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
 .short-intro-repeat .short-intro-main{padding-top: 40px;}
@@ -21,37 +20,23 @@
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
-
-
-
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
-    .short-intro-head{gap: 80px; padding-bottom: 66px;} 
-    .partner-logos-main .short-intro-head{padding-bottom: 24px;}
+@media only screen and (min-width: 1300px){
+    .short-intro-head{gap: 80px;}
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
-    .short-intro-desc{flex: 0 0 600px; padding: 0 56px; overflow: hidden;}
-    .short-intro-desc::before, .short-intro-desc::after{
-        content: "";
-        width: 100%;
-        height: 2px;
-        top: 0;
-        left: -50%;
-        position: absolute;
-        display: block;
-        background-image: linear-gradient(to right,var(--green) 25%,rgba(255,255,255,0) 0);
-        background-position: bottom;
-        background-size: 8px 2px;
-        background-repeat: repeat-x;
-        transform: rotate(90deg);
-        opacity: 0.5;
-    }
-    .short-intro-desc::after{
-        right: -50%;
-        left: auto;
-    }
-    
+    .short-intro-desc{flex: 0 0 600px; padding: 0 56px;}
     .short-intro-of-4{gap: 56px;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
+}
+@media only screen and (min-width: 1024px){
+    .short-intro-main{padding: 90px 0 80px;}
+    .short-intro-head{padding-bottom: 66px;} 
+    .partner-logos-main .short-intro-head{padding-bottom: 24px;}
+    .short-intro-desc{overflow: hidden;}
+    .short-intro-desc::before, .short-intro-desc::after{ width: 100%; height: 2px; top: 0; left: -50%; opacity: 0.5; transform: rotate(90deg); content: ""; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--green) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; position: absolute; }
+    .short-intro-desc::after{ right: -50%; left: auto; }
+    
+
     .short-intro-of-3{gap: 32px;}
     .short-intro1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
     .subhead-row{gap: 56px;}
@@ -63,4 +48,32 @@
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
     .intro_btn_svg{width: 48px; height: 48px;}
     body.page-template-careers .short-intro-title{max-width: 100%;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .short-intro-head{gap: 56px;}
+    .short-intro-title{flex: 1;}
+    .short-intro-desc{flex: 0 0 446px; padding: 0 42px;}
+    .short-intro-of-4{gap: 32px;}
+    .short-intro1-of-4{flex: 0 0 calc(25% - 24px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .short-intro-main{padding: 64px 0 65px;}
+    .short-intro-head{display: block;}
+    .short-intro-title{padding-bottom: 17px;}
+    .short-intro-desc::before, .short-intro-desc::after{ content: ""; width: 100%; height: 2px; display: block; background-image: linear-gradient(to right, var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; }
+    .short-intro-desc::before{margin-bottom: 31px;}
+    .short-intro-desc::after{margin-top: 31px;}
+    .short-intro-of-4{padding: 56px 0 0; gap: 40px;}
+    .short-intro1-of-4{flex: 0 0 calc(50% - 20px);}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .short-intro-main{padding: 41px 0 41px;}
+    .short-intro-head{display: block;}
+    .short-intro-title{padding-bottom: 17px;}
+    .short-intro-desc::before, .short-intro-desc::after{ content: ""; width: 100%; height: 2px; display: block; background-image: linear-gradient(to right, var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; }
+    .short-intro-desc::before{margin-bottom: 31px;}
+    .short-intro-desc::after{margin-top: 31px;}
+    .short-intro-of-4{padding: 55px 0 0; display: block; }
+    .short-intro-of-4 > *{margin-bottom: 41px; font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
+    .short-intro1-of-4:last-child{margin-bottom: 0;}
 }

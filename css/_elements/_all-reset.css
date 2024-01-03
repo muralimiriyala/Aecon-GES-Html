@@ -280,4 +280,6 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
     .h1, h1{font-size: 32px; ;line-height: 40px;}
+    .h2, h2{font-size: 32px; line-height: 40px;}
+    .fs-18{line-height: 28px;}
 }

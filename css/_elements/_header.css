@@ -93,9 +93,11 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
-    .logo a img{max-width: 261px;}
+    .header{gap: 8px;}
+    .logo{flex: 1;}
+    .logo a img{max-width: 261px; width: 100%;}
     img.logo-ipad{display: none;}
-    .header-right{flex: 1; max-width: 251px; gap: 12px; align-items: center; justify-content: flex-end;}
+    .header-right{flex: 0 0 40px; justify-content: flex-end;}
 
     ul.main-menu{margin: 0;}
     ul.main-menu > li{margin: 0 0 30px;}
@@ -125,7 +127,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     body.home .banner-section{padding-top: 64px;}
     .header{padding: 16px 0 15px; justify-content: space-between;}
 
-    .logo{flex: 0 0 293px;}
+    .logo a img{max-width: 290px;}
     
 }
 
