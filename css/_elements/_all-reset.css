@@ -279,4 +279,5 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .container{padding: 0 20px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
+    .h1, h1{font-size: 32px; ;line-height: 40px;}
 }

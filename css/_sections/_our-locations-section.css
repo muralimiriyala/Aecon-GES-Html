@@ -18,10 +18,33 @@ ul.our-locations-links li a{align-items: center; gap: 6px;font-weight: 700;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .our-locations-row{padding: 0 0 66px; gap: 0 64px;}
+    .our-locations-row{padding: 0 0 66px;}
+}
+@media screen and (min-width: 1300px){
+    .our-locations-row{gap: 32px 64px;}
     .our-locations-list{flex: 0 0 calc(25% - 48px);}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .our-locations-row{gap: 32px;}
+    .our-locations-list{flex: 0 0 calc(25% - 24px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .our-locations-row{gap: 64px; padding: 79px 0 56px;}
+    .our-locations-list{flex: 0 0 calc(50% - 32px);}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .our-locations-row{padding: 40px 0 32px;}
+    .our-locations-list:not(:last-child){padding-bottom: 40px;}
+    .our-locations-list:not(:last-child)::after{margin-top: 30px; content: ""; width: 100%; height: 2px; display: block; background-image: linear-gradient(to right,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+    ul.our-locations-links li{margin-bottom: 8px;}
+    ul.our-locations-links li a{padding: 13px 16px; border: 1px solid; font-size: 16px; line-height: 16px; border-radius: 12px; color: var(--foreground); display: inline-flex; width: auto;}
+    ul.our-locations-links li a span{font-size: 14px; line-height: 14px; top: 1px; position: relative;}
 
+    .accent-yellow ul.our-locations-links li a{border-color: #FFBF0D;}
+    .accent-blue ul.our-locations-links li a{border-color: #02B5DC;}
+    .accent-orange ul.our-locations-links li a{border-color: #F8971D;}
+    .accent-green ul.our-locations-links li a{border-color: #71A341;}
+}
 
 
 

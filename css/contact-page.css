@@ -2,28 +2,51 @@
 
 
 .contact-main::after{content: ""; width: 100%; height: 2px; bottom: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
-.contact-left::after{top: 0; right: -66px; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
-.contact-address{margin-bottom: 40px;}
 .contact-image{margin-bottom: 20px;}
 .contact-address p{font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--foreground); margin-bottom: 13px;}
 .contact-address a{font-size: 14px; line-height: 1; font-weight: bold; gap: 8px; align-items: center; padding: 9px 10px; width: fit-content; border-radius: 12px; background-color: var(--gray-lt);}
 .contact-address a span{color: var(--accent);}
+.contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.contact-left span.optional-text{margin-bottom: 8px;}
 
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .contact-main{gap: 128px; padding: 80px 0 83px; margin-bottom: 83px;}
-    .contact-left{flex: 0 0 852px;}
-    .contact-right{flex: 0 0 calc(100% - 980px);}
-    .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
+    .contact-main{padding: 80px 0 83px; margin-bottom: 83px;}
+    .contact-form{padding-top: 14px;}
+    .contact-right::after{top: 0; left: 0; width: 2px; height: 100%; content: ""; background-image: linear-gradient(to top,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 2px 7px; background-repeat: repeat-y; position: absolute;}
+    .contact-address{margin-bottom: 40px;}
 }
-
+@media screen and (min-width: 1300px){
+    .contact-main{gap: 64px;}
+    .contact-left{flex: 1;}
+    .contact-right{flex: 0 0 362px; padding-left: 62px;}
+}
 @media screen and (max-width: 1299px) and (min-width: 1024px){
-    .contact-left{flex: 0 0 600px;}
-    .contact-right{flex: 0 0 calc(100% - 728px);}
+    .contact-main{gap: 48px;}
+    .contact-left{flex: 1;}
+    .contact-right{flex: 0 0 348px; padding-left: 48px;}
 }
-
-
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .contact-left h1{font-size: 40px; line-height: 48px;}
+}   
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .contact-main{padding: 64px 0 64px; display: block;}
+    .contact-left h1{font-size: 40px; line-height: 48px;}
+    .contact-form{padding-top: 14px;}
+    .contact-right{gap: 40px; padding-top: 49px; margin-top: 46px; display: flex; flex-wrap: wrap; width: 100%;}
+    .contact-right::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+    .contact-address{flex: 0 0 calc(50% - 20px);}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .contact-main{padding: 40px 0 0; display: block;}
+    .contact-mbl-btn{padding-bottom: 41px;}
+    .contact-mbl-btn .button span{color: var(--accent); margin-left: 9px; top: -1px; position: relative;}
+    .contact-form{padding-top: 14px;}
+    .contact-right{padding-top: 38px; margin-top: 38px; width: 100%;}
+    .contact-right::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,rgba(106, 118, 130, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+    .contact-address{padding-bottom: 40px;}
+}
 
 
 
