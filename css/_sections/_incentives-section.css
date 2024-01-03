@@ -1,6 +1,5 @@
 
 
-.incentives-main{padding: 80px 0 80px;}
 .incentives-head{padding-bottom: 18px;}
 .incentives-bg picture img{opacity: 0.25;}
 .incentives-navy-bg{opacity: 0.85; background-color: var(--navy);}
@@ -12,10 +11,37 @@
 
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1300px){
+    .incentives-main{padding: 80px 0 80px;}
     .incentives-row{gap: 40px;}
     .incentives1-of-4{flex: 0 0 calc(25% - 30px);}
     .incentives1-of-3{flex: 0 0 calc(33.33333% - 27px);}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .incentives-main{padding: 65px 0 64px;}
+    .incentives-row{gap: 24px;}
+    .incentives1-of-4{flex: 0 0 calc(25% - 18px);}
+    .incentives1-of-3{flex: 0 0 calc(33.33333% - 16px);}
+    .incentives-text{padding: 24px;}
+    .incentives-text h2{font-size: 18px; line-height: 22px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .incentives-main{padding: 65px 0 64px;}
+    .incentives-row{gap: 32px;}
+    .incentives1-of-4{flex: 0 0 calc(50% - 16px);}
+    .incentives1-of-3{flex: 0 0 calc(50% - 16px);}
+    .incentives1-of-3:last-child{flex: 0 0 100%; display: flex; flex-wrap: wrap;}
+    .incentives1-of-3:last-child .incentives-image{flex: 0 0 calc(50% - 16px);}
+    .incentives1-of-3:last-child .incentives-text{flex: 1;}
+    .incentives-btn{text-align: right;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .incentives-main{padding: 41px 0 40px;}
+    .incentives-head{padding-bottom: 9px;}
+    .incentives-row{display: block;}
+    .incentives-row > *{margin-bottom: 32px;}
+    .incentives-btn .button{width: 100%;}
+    .incentives-text h2{font-size: 24px; line-height: 32px;}
 }
 
 

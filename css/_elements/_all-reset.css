@@ -284,4 +284,5 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .h2, h2{font-size: 32px; line-height: 40px;}
     .h4, h4{font-size: 20px; line-height: 24px;}
     .fs-18{line-height: 28px;}
+    p{font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
 }

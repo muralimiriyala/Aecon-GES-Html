@@ -58,9 +58,9 @@
     .what-people-heading{padding-bottom: 1px;}
     .what-people-heading h2{padding-right: 40px;}
     .what-people-grids{display: block; padding-bottom: 32px;}
-    .what-people-grid{font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
     .what-people-grid:not(:last-child){margin-bottom: 24px;}
     .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
+    .avatar-text p{font-size: 14px; line-height: 20px; letter-spacing: -.28px;}
     .what-people-quote{ display: block; }
     .what-quote-image{margin-bottom: 25px;}
     .what-quote-desc{padding-top: 1px;}
