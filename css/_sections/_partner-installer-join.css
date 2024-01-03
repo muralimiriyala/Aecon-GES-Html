@@ -8,7 +8,12 @@
     .installer-join-text{flex: 0 0 560px;}
     .installer-join-image{flex: 1; padding-left: 51px;}
 }
-
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .installer-join-main{display: block; padding: 20px 0 0;}
+    .installer-join-image{padding-bottom: 29px;}
+    .installer-join-text{padding: 24px 0 0;}
+    .installer-join-text h1{font-size: 24px; line-height: 32px;}
+}
 
 
 

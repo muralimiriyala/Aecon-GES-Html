@@ -125,7 +125,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 @media screen and (max-width: 739px) and (min-width: 200px){
     .site-main-cover{padding-top: 64px;}
     body.home .banner-section{padding-top: 64px;}
-    .header{padding: 16px 0 15px; justify-content: space-between;}
+    .header{padding: 12px 0 12px; justify-content: space-between;}
     .logo a img{max-width: 290px;}
     .header-right{flex: 0 0 40px; justify-content: flex-end;}   
 }
