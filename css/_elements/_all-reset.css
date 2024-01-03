@@ -13,7 +13,7 @@ a:hover{color: var(--accent);}
 .h2, h2{font-size: 40px; line-height: 48px; margin-bottom: 30px;}
 .h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
 .h4, h4{font-size: 24px; line-height: 32px; margin-bottom: 0.938rem;}
-.h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 1.313rem;}
+.h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 12px;}
 .h6, h6{font-size: 18px; line-height: 22px; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--accent);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
@@ -35,7 +35,7 @@ blockquote::after{content: ""; position: absolute; top: 32px; right: 42px; backg
 blockquote p span{color: var(--amar-blue-2); font-weight: bold;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-small {font-size: 0.875rem; line-height: 1.375rem;}
+small{font-size: 12px; line-height: 20px; letter-spacing: -0.24px; display: block;}
 big {font-size: 125%;}
 sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
@@ -46,12 +46,12 @@ dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: va
 blockquote dl dt::before{background-color: var(--white);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 27px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 8px; color: var(--foreground);}
+ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius: 50%; opacity: 1; background-color: var(--foreground); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
-ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px; font-size: 1rem; line-height: 1.5rem; color: var(--foreground);}
+ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-size: 0.875rem; line-height: 1rem;}
+ol > li:before{color: var(--foreground); counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-size: 0.875rem; line-height: 1rem;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -163,9 +163,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
 .radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-16, .radius-img-16 img{border-radius: 16px;}
-.radius-20, .radius-img-20 img{border-radius: 20px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
-.radius-100{border-radius: 100px;}
 
 .relative{position: relative; z-index: 1;}
 .absolute{position: absolute;}
@@ -258,6 +256,7 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.sm{max-width: 960px;}
+
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}

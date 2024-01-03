@@ -44,6 +44,7 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
 .news-post-text h2 a:hover{color: var(--accent);}
 
 ul.post-cat-btns{margin: 0 0 13px; gap: 8px;}
+.banner-text ul.post-cat-btns{margin-bottom: 33px;}
 .custom-solar-text ul.post-cat-btns{margin-bottom: 30px;}
 ul.post-cat-btns li{margin: 0;}
 ul.post-cat-btns li::before{display: none;}
