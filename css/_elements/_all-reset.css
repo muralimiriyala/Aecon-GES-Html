@@ -151,16 +151,11 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .font-medium{font-weight: 500;}
 .font-semibold{font-weight: 600;}
 .font-bold{font-weight: 700;}
-.fs-0{font-size: 0; line-height: 0;}
-.fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px;}
-.fs-10{font-size: 0.625rem; line-height: 0.875rem;}
-.fs-12{font-size: 12px; line-height: 22px;}
 .fs-14{font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
 .fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
 .fs-18{font-size: 18px; line-height: 32px; letter-spacing: -0.36px;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
-.fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
 .radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-16, .radius-img-16 img{border-radius: 16px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
@@ -270,10 +265,16 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
 @media only screen and (max-width: 1330px) and (min-width: 1024px){
     .container:not(.sm){padding: 0 40px;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .ipad-0{padding-left: 0; padding-right: 0;}
     .hide-tablet{display: none;}
     .container{padding: 0 40px;}
+
+    .h2, h2{font-size: 32px; line-height: 40px;}
+    .h4, h4{font-size: 20px; line-height: 24px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .container{padding: 0 20px;}
@@ -281,5 +282,6 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .hide-mobile{display: none;} 
     .h1, h1{font-size: 32px; ;line-height: 40px;}
     .h2, h2{font-size: 32px; line-height: 40px;}
+    .h4, h4{font-size: 20px; line-height: 24px;}
     .fs-18{line-height: 28px;}
 }

@@ -1,8 +1,6 @@
 
 
 
-.what-people-main{padding: 80px 0;}
-.what-people-heading{padding-bottom: 27px;}
 .what-people-grid{padding: 32px; color: var(--foreground);}
 .what-people-grid svg{margin-bottom: 4px;}
 .what-quote-text h2{color: var(--foreground-light);}
@@ -15,18 +13,61 @@
 .avatar-text{color: var(--foreground-light);}
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){
-    .what-people-heading{flex: 1;}
-    .what-people-grids{gap: 48px; order: 2;}
+@media only screen and (min-width: 1300px){
+    .what-people-grids{gap: 48px;}
     .what-people-grid{flex: 0 0 calc(33.33333% - 32px);}
-    .what-people-quote{gap: 80px; padding-top: 48px; order: 3; flex-direction: row-reverse;}
+    .what-people-quote{gap: 80px;}
     .what-quote-image{flex: 0 0 600px;}
     .what-quote-text{flex: 1;}
+}
+@media only screen and (min-width: 1024px){
+    .what-people-main{padding: 80px 0;}
+    .what-people-heading{flex: 1; padding-bottom: 27px;}
+    .what-people-grids{order: 2;}
+    .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
     .what-people-grids:not(:first-child):nth-child(odd){padding-top: 47px;}
     .what-people-quote:not(:nth-child(2)):nth-child(even){flex-direction: row;}
     .what-people-second .what-people-main{padding-top: 32px;}
     .what-people-second .what-people-quote{padding-bottom: 48px;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .what-people-grids{gap: 24px;}
+    .what-people-grid{flex: 0 0 calc(33.33333% - 16px);}
+    .what-people-quote{gap: 40px;}
+    .what-quote-image{flex: 0 0 452px;}
+    .what-quote-text{flex: 1;}
+    .what-quote-text h2{font-size: 20px; line-height: 24px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .what-people-main{padding: 67px 0 33px;}
+    .what-people-heading{flex: 1; padding-bottom: 45px;}
+    .what-people-heading h2{padding-right: 40px; margin-bottom: 0;}
+    .what-people-grids{gap: 24px; order: 2; padding-bottom: 40px;}
+    .what-people-grid{flex: 0 0 calc(50% - 12px);}
+    .what-people-grid:last-child{flex: 0 0 100%;}
+
+    .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
+    .what-people-quote{ display: block; order: 3;}
+    .what-quote-image{margin-bottom: 25px;}
+    .what-quote-desc{padding-top: 1px;}
+    .what-quote-text{padding-bottom: 32px;}
+
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .what-people-main{padding: 41px 0 40px; display: block;}
+    .what-people-heading{padding-bottom: 1px;}
+    .what-people-heading h2{padding-right: 40px;}
+    .what-people-grids{display: block; padding-bottom: 32px;}
+    .what-people-grid{font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
+    .what-people-grid:not(:last-child){margin-bottom: 24px;}
+    .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
+    .what-people-quote{ display: block; }
+    .what-quote-image{margin-bottom: 25px;}
+    .what-quote-desc{padding-top: 1px;}
+    .what-quote-text{padding-bottom: 32px;}
+    .what-people-btn .button{width: 100%;}
+}
+
 
 
 
