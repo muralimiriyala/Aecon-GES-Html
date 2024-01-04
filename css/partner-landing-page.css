@@ -40,6 +40,7 @@
 @media only screen and (min-width: 1024px){
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
+	.partner-offer-wrap{padding: 64px 0;}
 	.partner-offer-main{gap: 60px; padding-bottom: 40px;}
     .partner-offer-text{flex: 1;}
     .partner-offer-card{flex: 0 0 424px;}

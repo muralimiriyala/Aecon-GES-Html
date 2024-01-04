@@ -28,7 +28,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     .custom-solar-text{flex: 0 0 50%;}
-    .custom-solar-image{flex: 0 0 calc(100% - 50%);}
+    .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-desc{max-width: 512px;}
     .custom-solar-desc h2{margin-bottom: 35px;}
     .bar-solar{width: 125px; height: 250px; left: 1px; bottom: -63px; transform: translateY(-50%); clip-path: polygon(100% 50%, 0 0, 0 100%);}
@@ -40,15 +40,21 @@
     .sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transform: translateY(-50%);}
     .battery-solar{width: 128px; height: 290px; left: -80px; top: 50%; transform: translateY(-50%);}
 }
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .sun-solar{width: 120px; height: 120px; left: -60px;}
+    .custom-solar-text{flex: 0 0 50%; padding: 83px 80px 82px 40px;}
+    .custom-solar-image{flex: 0 0 50%;}
+    .custom-solar-desc h2{margin-bottom: 31px; font-size: 32px; line-height: 40px;}
+}
 @media screen and (max-width: 1023px) and (min-width: 740px){
-    .custom-solar-text{flex: 0 0 50%; padding: 83px 40px 82px;}
+    .custom-solar-text{flex: 0 0 50%; padding: 83px 50px 82px 40px;}
     .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-desc{max-width: 512px; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
     .custom-solar-desc h2{margin-bottom: 31px; font-size: 24px; line-height: 32px;}
-    .sun-solar { width: 90px; height: 90px; left: -42px; }
+    .sun-solar { width: 90px; height: 90px; left: -42px; top: 50%; transform: translateY(-50%);}
     .sun{height: 18px;}
 
-    .battery-solar { width: 90px; height: 90px; left: -42px; }
+    .battery-solar { width: 90px; height: 90px; left: -42px; top: 50%; transform: translateY(-50%);}
     .battery{height: 18px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
