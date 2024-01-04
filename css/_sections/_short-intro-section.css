@@ -1,7 +1,6 @@
 
 .short-intro-section{color: var(--foreground-light);}
 .short-intro-flex{padding: 82px 0 40px;}
-.testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
 .short-intro-icon{margin-bottom: 14px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
@@ -27,6 +26,7 @@
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
     .short-intro-repeat .short-intro-main{padding-top: 40px;}
     .intro_btn_svg{width: 56px; height: 56px; border-radius: 6px; border: 0.75px solid var(--white); display: flex; align-items: center; justify-content: center;}
+    .testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
 }
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 90px 0 80px;}
