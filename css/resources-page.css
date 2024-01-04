@@ -91,8 +91,16 @@ ul.post-cat-btns li a.heating span{color: #F8971D;}
     .browse-news-field{flex: 0 0 calc(33.3333% - 20px);}
     
 
+}
+@media only screen and (min-width: 1280px){
     .card-row-of-3{gap: 40px;}
     .card1-of-3{flex: 0 0 calc(33.33333% - 27px);}
+    .card-row-of-4{gap: 40px;}
+    .card1-of-4{flex: 0 0 calc(25% - 30px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .card-row-of-3{gap: 32px;}
+    .card1-of-3{flex: 0 0 calc(50% - 16px);}
     .card-row-of-4{gap: 40px;}
     .card1-of-4{flex: 0 0 calc(25% - 30px);}
 }
