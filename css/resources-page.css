@@ -1,5 +1,7 @@
 
 .subscribe-main{padding: 40px 0;}
+.subscribe-icon{width: 80px;}
+.subscribe-text{flex: 1;}
 .subscribe-text h2{margin-bottom: 0;}
 .subscribe-form{position: relative;}
 .subscribe-field input{padding: 24px 200px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 16px; line-height: 20px; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
@@ -62,8 +64,6 @@ ul.post-cat-btns li a.battery-storage span{color: var(--green);}
 @media screen and (min-width: 1024px){
     .subscribe-main{gap: 0 48px;}
     .subscribe-left{gap: 24px; flex: 0 0 calc(50% - 24px);}
-    .subscribe-icon{width: 80px;}
-    .subscribe-text{flex: 1;}
     .subscribe-right{flex: 0 0 calc(50% - 24px);}
     .news-landing-main{gap: 56px; padding: 80px 0; align-items: flex-start;}
     .news-landing-post{flex: 0 0 612px;}
@@ -107,6 +107,12 @@ ul.post-cat-btns li a.battery-storage span{color: var(--green);}
     .news-post-text{flex: 1;}
     .news-post-text h2{-webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
     .news-small-post h2.h4{font-size: 24px; line-height: 32px;}
+
+
+    .subscribe-main{padding: 40px 0; display: block;}
+    .subscribe-left{gap: 24px; margin-bottom: 23px;}
+
+
     .card-row-of-3{display: block;}
     .card1-of-3:not(:last-child){margin-bottom: 32px;}
     .card-row-of-3{gap: 32px;}
@@ -127,13 +133,12 @@ ul.post-cat-btns li a.battery-storage span{color: var(--green);}
 
     .subscribe-main{padding: 24px 0; display: block;}
     .subscribe-left{gap: 24px; margin-bottom: 23px;}
-    .subscribe-icon{width: 80px;}
-    .subscribe-text{flex: 1;}
     .subscribe-text h2{font-size: 20px; line-height: 24px;}
-    .subscribe-field input{padding: 24px 100px 24px 19px;}
+    .subscribe-field input{padding: 19px 100px 16px 19px; border-radius: 20px;}
     .subscribe_submit .button{padding: 11px 11px 10px;}
     .subscribe_submit .button::after{display: none;}
-    .subscribe-main p small{font-size: 14px; line-height: 20px;} 
+    .subscribe-main p small{font-size: 14px; line-height: 20px; display: block;} 
+    .subscribe_submit { top: 8px; right: 8px; }
 
     .resources-wrap{padding: 41px 0 0;}
     .browse-news-head{display: block;}
