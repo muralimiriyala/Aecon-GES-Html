@@ -217,33 +217,35 @@
                 <span class="optional-text sm accent-dark">Partner with us</span>
                 <h3>A short intro about the reason for this form appears here.</h3>
                 <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut tortor in vitae libero magnis cursus justo.</p>
-                <div class="partner-detail relative">
+                <div class="partner-detail relative hide-tablet hide-mobile">
                     <h4 class="hide-desktop hide-tablet">Contact Our Team</h4>
-                    <div class="partner-image">
-                        <figure class="object-fit radius-img-50">
-                            <img src="images/lincoln-riggall@2x.png" alt="lincoln-riggall">
-                        </figure>
+                    <div class="partner-ipad-flex flex">  
+                        <div class="partner-image">
+                            <figure class="object-fit radius-img-50">
+                                <img src="images/lincoln-riggall@2x.png" alt="lincoln-riggall">
+                            </figure>
+                        </div>
+                        <div class="partner-info">
+                            <span class="partner-name">Lincoln Riggall</span>
+                            <span class="specialist">Product Specialist</span>
+                            <ul class="partner-contact flex">
+                                <li>
+                                    <a href="tel:1-855-GRN-NRGY" class="call-us flex">
+                                        <span class="hide-tablet hide-desktop">Call Us</span>
+                                        <span class="fa-regular fa-phone"></span>
+                                        <span class="hide-mobile">1-855-GRN-NRGY</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:greenenergysolutions@aecon.com" class="email flex">
+                                        <span class="hide-tablet hide-desktop">Email Us</span>
+                                        <span class="fa-regular fa-at"></span>
+                                        <span class="hide-mobile">greenenergysolutions@aecon.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="partner-info">
-                        <span class="partner-name">Lincoln Riggall</span>
-                        <span>Product Specialist</span>
-                    </div>
-                    <ul class="partner-contact flex">
-                        <li>
-                            <a href="tel:1-855-GRN-NRGY" class="call-us flex">
-                                <span class="hide-tablet hide-desktop">Call Us</span>
-                                <span class="fa-regular fa-phone"></span>
-                                <span class="hide-mobile">1-855-GRN-NRGY</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:greenenergysolutions@aecon.com" class="email flex">
-                                <span class="hide-tablet hide-desktop">Email Us</span>
-                                <span class="fa-regular fa-at"></span>
-                                <span class="hide-mobile">greenenergysolutions@aecon.com</span>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
             <div class="become-partner-form">
@@ -277,21 +279,24 @@
                         <label for="field_ocfup1" id="field_ocfup1_label" class="frm_primary_label">Phone number</label>
                         <input type="tel" id="field_ocfup1" name="item_meta[5]" value=""  data-invmsg="Phone is invalid" aria-invalid="false" pattern="((\+\d{1,3}(-|.| )?\(?\d\)?(-| |.)?\d{1,5})|(\(?\d{2,6}\)?))(-|.| )?(\d{3,4})(-|.| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"  />
                     </div>
-                    <div id="frm_field_15_container" class="frm_form_field form-field  frm_top_container frm_full vertical_radio">
-                        <div  id="field_vndg0_label" class="frm_primary_label">We’re interested in being an installation partner for:
-                            <span class="frm_required" aria-hidden="true">Select all that apply</span>
-                        </div>
-                        <div class="frm_opt_container" aria-labelledby="field_vndg0_label" role="group">		
-                            <div class="frm_checkbox last-checkbox" id="frm_checkbox_15-0"><label for="field_vndg0-0"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-0" value="All Solutions"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/> All Solutions</label></div>
-                            <div class="frm_checkbox last-checkbox" id="frm_checkbox_15-1"><label for="field_vndg0-1"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-1" value="Solar"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/> Solar</label></div>
-                            <div class="frm_checkbox last-checkbox" id="frm_checkbox_15-2"><label for="field_vndg0-2"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-2" value="EV Charging"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/>EV Charging</label></div>
-                            <div class="frm_checkbox last-checkbox" id="frm_checkbox_15-3"><label for="field_vndg0-3"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-3" value="Heating & Cooling"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/>Heating & Cooling</label></div>
-                            <div class="frm_checkbox last-checkbox" id="frm_checkbox_15-4"><label for="field_vndg0-4"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-4" value="Battery Storage"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/>Battery Storage</label></div>
-                        </div>
+                    <div id="frm_field_3_container" class="frm_form_field form-field frm_required_field frm_top_container frm_first frm_half">
+                        <label for="field_sbj8a" id="field_sbj8a_label" class="frm_primary_label">We want to partner as a...
+                            <span class="frm_required" aria-hidden="true"></span>
+                        </label>
+                        <select name="item_meta[45]" id="field_sbj8a"  data-placeholder="- Select -"  placeholder="- Select -" data-invmsg="Province is invalid" aria-invalid="false"  >
+                                <!-- <option value="">- Select -	</option> -->
+                                <option  value="Partner type">Partner type</option>	
+                        </select>
+                    </div>
+                    <div id="frm_field_6_container" class="frm_form_field form-field frm_required_field frm_top_container frm_last frm_half">
+                        <label for="field_fn953" id="field_fn953_label" class="frm_primary_label">City or Postal Code
+                            <span class="frm_required" aria-hidden="true"></span>
+                        </label>
+                        <input type="text" id="field_fn953" name="item_meta[6]" value=""  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />   
                     </div>
                     <div id="frm_field_7_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
                         <label for="field_9jv0r1" id="field_9jv0r1_label" class="frm_primary_label">Any other details?
-                            <span class="frm_required" aria-hidden="true">Help us get to know you</span>
+                            <span class="frm_required" aria-hidden="true">Tell us a little bit about your solar project</span>
                         </label>
                         <textarea name="item_meta[5]" id="field_9jv0r1" rows="5" data-reqmsg="This field is required." aria-required="true" data-invmsg="Job Title is invalid" aria-invalid="false"></textarea>
  
@@ -312,6 +317,36 @@
                     </fieldset>
                     </div>
                     </form>
+                </div>
+            </div>
+            <div class="partner-detail relative hide-desktop">
+                <h4 class="hide-desktop hide-tablet">Contact Our Team</h4>
+                <div class="partner-ipad-flex flex">  
+                    <div class="partner-image">
+                        <figure class="object-fit radius-img-50">
+                            <img src="images/lincoln-riggall@2x.png" alt="lincoln-riggall">
+                        </figure>
+                    </div>
+                    <div class="partner-info">
+                        <span class="partner-name">Lincoln Riggall</span>
+                        <span class="specialist">Product Specialist</span>
+                        <ul class="partner-contact flex">
+                            <li>
+                                <a href="tel:1-855-GRN-NRGY" class="call-us flex">
+                                    <span class="hide-tablet hide-desktop">Call Us</span>
+                                    <span class="fa-regular fa-phone"></span>
+                                    <span class="hide-mobile">1-855-GRN-NRGY</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:greenenergysolutions@aecon.com" class="email flex">
+                                    <span class="hide-tablet hide-desktop">Email Us</span>
+                                    <span class="fa-regular fa-at"></span>
+                                    <span class="hide-mobile">greenenergysolutions@aecon.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
