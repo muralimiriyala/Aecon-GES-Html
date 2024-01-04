@@ -152,10 +152,7 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_right{margin-right: 0;}
 
-
-
-    /* body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;} */
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body.page-template-contact .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
