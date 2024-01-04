@@ -49,9 +49,10 @@
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
 	.partner-offer-wrap{padding: 64px 0;}
-	.partner-content-main{display: block; padding: 0 0 64px;}
+	.partner-content-main{display: block; padding: 64px 0 64px;}
 	.partner-offer-text{padding-bottom: 32px;}
 	.partner-offer-main{display: block; padding: 0 0 64px;}
+	.partner-article{margin-bottom: 32px;}
 	.partner-aside{gap: 32px; display: flex; flex-wrap: wrap;}
 	.partner-aside-list{flex: 0 0 calc(50% - 16px);}
 }
