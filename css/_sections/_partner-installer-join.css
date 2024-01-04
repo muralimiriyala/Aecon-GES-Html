@@ -3,10 +3,28 @@
 .installer-join-text ul li::before{width: 8px; height: 8px; top: 9px; left: -20px; background-color: var(--accent);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1440px){
     .installer-join-main{gap: 80px; padding: 80px 0 40px; flex-direction: row-reverse;}
     .installer-join-text{flex: 0 0 560px;}
     .installer-join-image{flex: 1; padding-left: 51px;}
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px){
+    .installer-join-main{gap: 80px; padding: 80px 0; flex-direction: row-reverse;}
+    .installer-join-text{flex: 1;}
+    .installer-join-text h1{font-size: 32px; line-height: 40px;}
+    .installer-join-image{flex: 0 0 600px; padding-left: 51px;}
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .installer-join-main{gap: 40px; padding: 64px 0; flex-direction: row-reverse;}
+    .installer-join-text{flex: 1;}
+    .installer-join-text h1{font-size: 32px; line-height: 40px;}
+    .installer-join-image{flex: 0 0 472px; padding-left: 51px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .installer-join-main{display: block; padding: 20px 0 0;}
+    .installer-join-image{padding-bottom: 29px;}
+    .installer-join-text{padding: 24px 0 0;}
+    .installer-join-text h1{font-size: 24px; line-height: 32px;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .installer-join-main{display: block; padding: 20px 0 0;}
