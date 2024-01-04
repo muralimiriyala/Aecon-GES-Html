@@ -1,23 +1,30 @@
 
-ul.our-approach-links{margin: 0; padding-top: 13px;}
-ul.our-approach-links li{margin: 0 0 20px;}
-ul.our-approach-links li::before{display: none;}
-ul.our-approach-links li a{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
-ul.our-approach-links li a:hover, ul.our-approach-links li a.active{width: 100%;}
-ul.our-approach-links li a svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
-ul.our-approach-links li a:hover svg, ul.our-approach-links li a.active svg{opacity: 1;}
+
+.our-approach-image{display: none; height: 100%;}
+.our-approach-image:first-child{display: block;}
 
 .our-approach-desc{padding: 64px 86px; color: var(--foreground);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1280px){
     .our-approach-main {gap: 0 80px; flex-wrap: nowrap;}
     .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
-    .our-approach-right{flex: 1; min-width: 720px;}
-    .our-approach-image{display: none; height: 100%;}
-    .our-approach-image:first-child{display: block;}
+    .our-approach-left{flex: 1; min-width: 720px;}
 }
-
+@media only screen and (min-width: 1024px){
+    ul.our-approach-links{margin: 0; padding-top: 13px;}
+    ul.our-approach-links li{margin: 0 0 20px;}
+    ul.our-approach-links li::before{display: none;}
+    ul.our-approach-links li a{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
+    ul.our-approach-links li a:hover, ul.our-approach-links li a.active{width: 100%;}
+    ul.our-approach-links li a svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
+    ul.our-approach-links li a:hover svg, ul.our-approach-links li a.active svg{opacity: 1;}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .our-approach-main {gap: 0 80px; flex-wrap: nowrap;}
+    .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
+    .our-approach-left{flex: 1; min-width: 720px;}
+}
 
 
 
