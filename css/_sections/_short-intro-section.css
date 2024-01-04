@@ -1,7 +1,5 @@
 
 .short-intro-section{color: var(--foreground-light);}
-.short-intro-flex{padding: 82px 0 40px;}
-.testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
 .short-intro-icon{margin-bottom: 14px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
@@ -19,7 +17,7 @@
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1440px){
     .short-intro-head{gap: 80px;}
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px;}
@@ -27,6 +25,8 @@
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
     .short-intro-repeat .short-intro-main{padding-top: 40px;}
     .intro_btn_svg{width: 56px; height: 56px; border-radius: 6px; border: 0.75px solid var(--white); display: flex; align-items: center; justify-content: center;}
+    .short-intro-flex{padding: 82px 0 40px;}
+    .testimonial-intro-section .short-intro-flex{padding-bottom: 0;}
 }
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 90px 0 80px;}
@@ -48,14 +48,19 @@
     .intro_btn_svg{width: 48px; height: 48px;}
     body.page-template-careers .short-intro-title{max-width: 100%;}
 }
-@media screen and (max-width: 1299px) and (min-width: 1024px){
+@media screen and (max-width: 1439px) and (min-width: 1280px){
+    .short-intro-head{gap: 80px;}
+    .short-intro-title{flex: 1;}
+    .short-intro-desc{flex: 0 0 556px; padding: 0 56px;}
+    .short-intro-of-4{gap: 32px;}
+    .short-intro1-of-4{flex: 0 0 calc(25% - 24px);}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
     .short-intro-head{gap: 56px;}
     .short-intro-title{flex: 1;}
     .short-intro-desc{flex: 0 0 446px; padding: 0 42px;}
     .short-intro-of-4{gap: 32px;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 24px);}
-}
-@media screen and (max-width: 1279px) and (min-width: 1024px){
     .intro_btn{padding: 12px 12px 12px; text-align: center;}
     .intro_btn_svg{display: none;}
 }
@@ -84,5 +89,7 @@
     .short-intro1-of-4:last-child{margin-bottom: 0;}
     .short-intro-repeat .short-intro-main{padding-top: 23px;}
     .short-intro-btns{padding: 40px 0 0; gap: 16px; justify-content: center;}
-    .intro_btn{width: 56px; height: 56px;}
+    .intro_btn{width: 56px; height: 56px; padding: 10px; justify-content: center;}
+    .short-intro-flex{padding: 41px 0 0px;}
+    .short-intro-flex .short-intro-title{padding-bottom: 38px;}
 }

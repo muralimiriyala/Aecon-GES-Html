@@ -241,10 +241,18 @@ ul.cat-links li{margin: 0;}
 ul.cat-links li::before{display: none;}
 ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; line-height: 20px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent-dark); background-color: var(--accent-light);}
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
 div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}
+
+ul.slick-dots{margin: 0; gap: 8px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
+ul.slick-dots li{margin: 0; width: 16px; height: 16px; border-radius: 50%; background-color: var(--white); cursor: pointer;}
+ul.slick-dots li::before{opacity: 0; width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--accent); border-radius: 50%;}
+ul.slick-dots li.slick-active::before{opacity: 1;}
+ul.slick-dots li button{display: none;}
+
+
 .w-100{width: 100%;}
 
 /*-- media css starts here --*/
@@ -258,7 +266,7 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}
-    div.slick-arrow{top: -80px; position: absolute;}
+    div.slick-arrow{top: -80px;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
 }
@@ -275,6 +283,10 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
 
     .h2, h2{font-size: 32px; line-height: 40px;}
     .h4, h4{font-size: 20px; line-height: 24px;}
+
+    div.slick-arrow{top: -104px;}
+    div.slick-arrow.slick-next{right: 0;}
+    div.slick-arrow.slick-prev{right: 58px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .container{padding: 0 20px;}
@@ -284,4 +296,8 @@ div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-colo
     .h2, h2{font-size: 32px; line-height: 40px;}
     .h4, h4{font-size: 20px; line-height: 24px;}
     .fs-18{line-height: 28px;}
+
+
+    div.slick-arrow{bottom: -16px; left: 0;}
+    .slick-arrow.slick-next{left: auto; right: 0;}
 }

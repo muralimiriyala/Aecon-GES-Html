@@ -1,7 +1,6 @@
 
 
 
-.featured-projects-main{padding: 81px 0 80px;}
 .featured-projects-left{background-color: var(--white);}
 .featured-projects-text{padding: 32px 32px 34px; color: var(--foreground-light);}
 .featured-projects-text h2{margin-bottom: 18px;}
@@ -13,11 +12,12 @@
 
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1280px){
+    .featured-projects-main{padding: 81px 0 80px;}
     .featured-projects-row{gap: 40px; align-items: flex-start;}
     .featured-projects-left{flex: 0 0 calc(50% - 20px); transform: translateY(40px);}
     .featured-projects-right{flex: 0 0 calc(50% - 20px); gap: 40px;}
-    .featured-projects-post{flex: 0 0 calc(50% - 20px); background-color: var(--white);}
+    .featured-projects-post{flex: 0 0 calc(50% - 20px);}
     .featured-post-btn{padding-top: 46px;}
     .featured-projects-post:nth-child(n+3){flex: 0 0 100%; align-items: center; display: flex; flex-wrap: wrap; flex-direction: row-reverse;}
     .featured-projects-post:nth-child(n+3) .featured-post-image{flex: 0 0 310px;}
@@ -30,10 +30,57 @@
     .featured-full-post .featured-post-text{flex: 1;}
     .featured-full-post .featured-post-text ul.cat-links{position: static; margin-bottom: 23px;}
     .featured-full-post figure{height: 100%;}
-
 }
-
-
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .featured-projects-main{padding: 64px 0 64px;}
+    .featured-projects-row{gap: 32px; align-items: flex-start;}
+    .featured-projects-left{flex: 0 0 calc(50% - 16px); transform: translateY(40px);}
+    .featured-projects-thumb img{max-height: 224px; min-height: 224px; overflow: hidden;} 
+    .featured-projects-text h2{font-size: 32px; line-height: 40px;}
+    .featured-projects-right{flex: 0 0 calc(50% - 16px);}
+    .featured-projects-post{margin-bottom: 2rem; align-items: center;}
+    .featured-projects-post:last-child{display: none;}
+    .featured-projects-post ul.cat-links{position: static; margin-bottom: 1rem;}
+    .featured-post-image{flex: 0 0 50%; height: 100%;}
+    .featured-post-image figure{height: 100%;}
+    .featured-post-text{flex: 1; padding: 24px;}
+    .featured-post-text h2{font-size: 18px; line-height: 22px;}
+    .featured-post-text .clamp-3{-webkit-line-clamp: 2;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .featured-projects-main{padding: 64px 0 64px;}
+    .featured-projects-row{display: block;}
+    .featured-projects-left{margin-bottom: 2rem;}
+    .featured-projects-thumb img{max-height: 420px; min-height: 420px; overflow: hidden;} 
+    .featured-projects-text h2{font-size: 32px; line-height: 40px;}
+    .featured-projects-right{flex: 0 0 calc(50% - 16px);}
+    .featured-projects-post{margin-bottom: 2rem; align-items: center;}
+    .featured-projects-post:last-child{display: none;}
+    .featured-projects-post ul.cat-links{position: static; margin-bottom: 1rem;}
+    .featured-post-image{flex: 0 0 50%; height: 100%;}
+    .featured-post-image figure{height: 100%;}
+    .featured-post-image figure img{min-height: 332px; max-height: 332px; overflow: hidden;}
+    .featured-post-text{flex: 1; padding: 24px;}
+    .featured-post-text .clamp-3{-webkit-line-clamp: 2;}
+    .featured-post-btn{text-align: right;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .featured-projects-main{padding: 40px 0 40px;}
+    .featured-projects-row{display: block;}
+    .featured-projects-left{margin-bottom: 2rem;}
+    .featured-projects-text{font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
+    .featured-projects-text h2{font-size: 24px; line-height: 32px;}
+    .featured-projects-right{flex: 0 0 calc(50% - 16px);}
+    .featured-projects-post{margin-bottom: 2rem; align-items: center; background-color: transparent;}
+    .featured-projects-post:last-child{display: none;}
+    .featured-projects-post ul.cat-links{position: static; margin-bottom: 1rem;}
+    .featured-post-image{flex: 0 0 104px; height: 100%;}
+    .featured-post-image figure{height: 100%;}
+    .featured-post-image figure img{min-height: 104px; max-height: 104px; overflow: hidden;}
+    .featured-post-text{flex: 1; padding: 0 24px;}
+    .featured-post-text .line-clamp{display: none;}
+    .featured-post-btn .button{width: 100%;}
+}
 
 
 

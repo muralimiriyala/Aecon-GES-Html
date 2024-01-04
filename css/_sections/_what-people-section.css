@@ -10,7 +10,7 @@
 .avatar-main{gap: 1rem;}
 .avatar-img{flex: 0 0 64px;}
 .avatar-img img{border: 4px solid var(--accent-light);}
-.avatar-text{color: var(--foreground-light);}
+.avatar-text{flex: 1; color: var(--foreground-light);}
 
 /* media css starts here */
 @media only screen and (min-width: 1300px){
