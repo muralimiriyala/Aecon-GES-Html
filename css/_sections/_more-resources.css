@@ -9,12 +9,31 @@
 
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1280px){
     .more-resources-row{gap: 40px;}
     .more-resources-list{flex: 0 0 calc(25% - 30px);}
 }
-
-
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .more-resources-row{gap: 24px;}
+    .more-resources-list{flex: 0 0 calc(25% - 18px);}
+    .more-resources-text{padding: 32px 24px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .more-resources-main{padding: 46px 0 40px;}
+    .more-resources-head{padding-bottom: 9px;}
+    .more-resources-head h2{font-size: 40px; line-height: 48px;}
+    .more-resources-row{gap: 32px;}
+    .more-resources-list{flex: 0 0 calc(50% - 16px);}
+    .more-resources-btn{text-align: right;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .more-resources-main{padding: 46px 0 40px;}
+    .more-resources-head{padding-bottom: 9px;}
+    .more-resources-head h2{font-size: 40px; line-height: 48px;}
+    .more-resources-row{display: block;}
+    .more-resources-list:not(:last-child){margin-bottom: 32px;}
+    .more-resources-btn .button{width: 100%;}
+}
 
 
 
