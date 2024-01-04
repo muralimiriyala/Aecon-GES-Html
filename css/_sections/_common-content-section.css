@@ -15,6 +15,7 @@
     body.page-template-solution-landing .common-content-text h2{max-width: 400px;}
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .common-content-section .container{padding: 0;}
     .common-content-text{flex: 0 0 50%; padding: 64px 56px 64px 40px;}
@@ -27,3 +28,5 @@
     .common-content-main{flex-direction: column-reverse;}
     .common-content-text{padding: 40px 20px;}
 }
+=======
+>>>>>>> 78defb6013e1fd6556fa405dee191b6e6e8a7730
