@@ -21,7 +21,8 @@ ul.faq-tabs li a.active{color: var(--navy);}
 .accordion-content ul li::before{width: 6px; height: 6px; top: 7px;}
 .accordion-content ol li::before{top: 2px;}
 .accordion-list.active{box-shadow: 0px 8px 20px 0px rgba(106, 118, 130, 0.50);}
-
+.faq-tab-content{display: none;}
+.faq-tab-content:first-child{display: block;}
 .faqs-desc{padding-top: 54px; max-width: 880px;}
 
 
