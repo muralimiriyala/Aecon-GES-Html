@@ -107,6 +107,12 @@
 <section class="project-detail-section relative bg-elevated">
     <div class="container">
         <div class="project-detail-main flex">
+            <div class="project-detail-image relative">
+                <picture class="project-detail-thumb">
+                    <img src="images/project-detail-map.svg" alt="">
+                </picture>
+                <div class="detail-map pin1 absolute"></div>
+            </div>
             <div class="project-detail-text fs-24">
                 <h1>Project Title Appears Here</h1>
                 <ul class="detail-categorys flex">
@@ -116,12 +122,6 @@
                     <li><a href="#" class="flex"><span class="fa-solid fa-location-dot"></span>Toronto, ON</a></li>
                 </ul>
                 <p>Short introduction to this individual project overview metus tempus cras aliquet feugiat gravida porta massa. Feugiat pellentesque nullam purus id sit in scelerisque id. Nulla vitae fermentum ut nam velit. Dui vulputate id auctor pellentesque diam. </p>
-            </div>
-            <div class="project-detail-image relative">
-                <figure class="project-detail-thumb">
-                    <img src="images/project-detail-map.svg" alt="">
-                </figure>
-                <div class="detail-map pin1 absolute"></div>
             </div>
         </div>
     </div>
@@ -161,8 +161,12 @@
                 <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
             </div>
             <div class="subhead-list fs-16 bg-navy inverted">
-              <h2 class="h4">Header targeting free assessment conversions for this category.</h2>
-              <a href="#" class="button btn-green">Free Assessment</a>
+                <div class="subhead-list-head">
+                    <h2 class="h4">Header targeting free assessment conversions for this category.</h2>
+                </div>
+                <div class="subhead-list-btn">
+                    <a href="#" class="button btn-green">Free Assessment</a>
+                </div>
             </div>
         </div>
     </div>
@@ -273,7 +277,7 @@
 <section class="incentives-section relative">
 <div class="incentives-bg background-bg">
     <picture class="object-fit">
-        <source srcset="images/parallax-bg@2x.jpg" media="(min-width: 768px)">
+        <source srcset="images/parallax-bg@2x.jpg" media="(min-width: 740px)">
         <img src="images/parallax-bg@2x.jpg" alt="parallax-bg-mobile">
     </picture>
     <div class="incentives-navy-bg background-bg"></div>
