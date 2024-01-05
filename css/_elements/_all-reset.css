@@ -273,9 +273,9 @@ ul.slick-dots li button{display: none;}
     .container:not(.sm){padding: 0 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .ipad-0{padding-left: 0; padding-right: 0;}
     .hide-tablet{display: none;}
     .container{padding: 0 40px;}
+    .container.ipad-0{padding-left: 0; padding-right: 0;}
 
     .h2, h2{font-size: 32px; line-height: 40px;}
     .h4, h4{font-size: 20px; line-height: 24px;}
