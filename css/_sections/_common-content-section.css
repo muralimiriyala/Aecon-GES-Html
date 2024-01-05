@@ -8,6 +8,7 @@
     .common-content-section:not(.common-content-reverse){margin-right: -70px;}
     .common-content-main{gap: 104px;}
     .common-content-text{flex: 1;}
+    .common-content-btn{gap: 16px;}
     .common-content-image{flex: 0 0 560px;}    
     .common-content-reverse .common-content-main{flex-direction: row-reverse;}
 
