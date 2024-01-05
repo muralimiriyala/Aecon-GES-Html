@@ -12,7 +12,6 @@ jQuery(document).ready(function($){
             }
             else{
                header.classList.remove("fixed-header");
-    
             }
         }
     }
@@ -36,7 +35,6 @@ jQuery(document).ready(function($){
         $(".flyout-form-overlay").removeClass("open");
     });
 
-
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
@@ -50,8 +48,9 @@ jQuery(document).ready(function($){
         $(".flyout-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
-        if(!$(e.target).closest(".humburger-btn, .flyout-overlay").length){
+        if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_btn, .flyout-form-overlay").length){
             $(".flyout-overlay").removeClass("open");
+            $(".flyout-form-overlay").removeClass("open");
         }
     });
 
