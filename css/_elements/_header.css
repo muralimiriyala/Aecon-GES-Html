@@ -1,5 +1,10 @@
 
-header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; background-color: var(--white); border-bottom: 1px solid var(--elevated);}
+header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; background-color: var(--white); border-bottom: 1px solid var(--elevated);
+    transition-delay: 0.25s;
+    transition-duration: .5s;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.075,.82,.165,1);
+}
 
 
 
@@ -55,8 +60,10 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    body.home header.header-main{position: relative;}
-    body.home header.fixed-header{position: fixed;}
+    /* body.home header.header-main{position: fixed;}
+    body.home header.fixed-header{position: fixed;} */
+
+    header.header-main.no_sticky{position: relative;}
     
     .header{gap: 2rem; padding: 16px 0; min-height: 88px;}
     .logo{flex: 0 0 293px; padding-right: 2rem; position: relative;}
