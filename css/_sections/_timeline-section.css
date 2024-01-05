@@ -3,7 +3,7 @@
 .timeline-title{padding-bottom: 37px;}
 .timeline-slider .slick-track::before { width: 100%; height: 2px; top: 0; left: 19px; background-color: var(--green); display: block; position: absolute; z-index: 1; }
 .timeline-slider .slick-list{overflow: inherit;}
-.timeline-slider .slick-slide{width: 332px; margin-right: 47px;}
+
 .timeline-ring{left: 0; top: -19px; width: 40px; height: 40px; z-index: 1;}
 .t-ring-1 { width: 15px; height: 15px; left: 50%; transform: translateX(-50%); background-color: var(--white); border: 2px solid var(--green); z-index: -1; }
 .t-ring-2{opacity: 0.3; width: 24px; height: 24px; left: 50%; transform: translateX(-50%); background-color: var(--green); z-index: -2;}
@@ -17,11 +17,21 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .timeline-main{padding: 80px 0 80px;}
+    .timeline-slider .slick-slide{width: 332px; margin-right: 47px;}
     .timeline-slider div.slick-arrow{top: -115px; right: 0; position: absolute;}
     .timeline-slider div.slick-arrow.slick-prev{right: 58px;}
 }
-
-
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .timeline-main{padding: 62px 0 64px;}
+    .timeline-slider .slick-slide{width: 296px; margin-right: 24px;}
+    .timeline-desc{min-height: 200px;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .timeline-main{padding: 41px 0 56px;}
+    .timeline-slider .slick-slide{width: 296px; margin-right: 24px;}
+    .timeline-desc{min-height: 200px;}
+    .timeline-slider ul.slick-dots{margin-top: 34px;}
+}
 
 
 

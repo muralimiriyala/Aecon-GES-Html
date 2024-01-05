@@ -54,7 +54,24 @@ jQuery(document).ready(function($){
         dots: false,
         infinite: false,
         speed: 1000,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 1023,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                }
+            },
+          {
+          breakpoint: 739,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+              }
+          }
+        ]
       });
       $(".timeline-slide").removeAttr("style");
 

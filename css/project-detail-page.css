@@ -19,7 +19,7 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
 .project-detail-article{padding: 80px 0 80px;}
 .project-detail-article p span{padding-bottom: 8px; font-size: 24px; line-height: 32px; letter-spacing: -0.48px; display: block;}
 .project-detail-article ul li::before{background-color: var(--accent); top: 9px; left: -20px; width: 8px; height: 8px;}
-.project-detail-article h3{padding: 32px 0 12px;}
+.project-detail-article h3:not(.quote-partner h3, .solar-assessment-text h3){padding: 32px 0 12px;}
 .solar-assessment-wrap{padding-top: 56px; margin-top: 56px;}
 .solar-assessment-wrap::before{
     opacity: 0.5;
@@ -83,7 +83,32 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
+    .masonary-main{padding: 0 0 20px;}
     .masonary-list{margin-bottom: 20px;}
+
+    .project-detail-main{display: block; padding: 0 0 40px;}
+    .project-detail-thumb img{min-width: 370px;}
+    .detail-map.pin1 { bottom: 32px; right: 34px; }
+    .project-detail-text{padding: 14px 0 0; font-size: 20px; line-height: 28px;}
+    .project-detail-text h1{margin-bottom: 23px;}
+
+
+    .stats-image-row{gap: 20px;}
+    .stats-main{padding: 8px 0;}
+    .stats-image-left{gap: 20px;}
+    .stats-image-left > *{flex: 0 0 calc(50% - 10px);}
+    .stats-image-left figure img{min-height: 165px;}
+
+    .project-detail-article{padding: 72px 0 0;}
+    .project-detail-article h2{font-size: 40px; line-height: 48px;}
+    .quote-partner { padding: 41px 0 36px; margin-top: 40px; }
+    .quote-partner h3{font-size: 24px; line-height: 32px;}
+
+    .solar-assessment-wrap{padding: 38px 0 40px; margin-top: 39px; }
+    .solar-assessment-main{padding: 24px;}
+    .solar-assessment-icon.object-fit-img{margin-bottom: 12px;}
+    .solar-assessment-text::before{margin-bottom: 24px; position: static;}
+    .solar-assessment-text h3{font-size: 40px; line-height: 48px;}
 }
 
 
