@@ -18,7 +18,8 @@ body.home .site-main-cover{padding-top: 0;}
 
 .flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.5s ease;}
 .flyout-overlay.open{transform: translateX(0);}
-.flyout-close{width: 40px; height: 40px; margin-bottom: 32px; color: var(--navy); cursor: pointer;}
+.flyout-close{width: 40px; height: 40px; margin-bottom: 32px; color: var(--navy); cursor: pointer; transition: all 0.5s ease;}
+.flyout-close:hover{background-color: var(--accent); color: var(--white);}
 ul.flyout-menu{margin: 0;}
 
 ul.flyout-menu > li::before{display: none;}
@@ -70,7 +71,8 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     ul.flyout-menu > li{margin: 0 0 32px;}
     ul.flyout-menu > li > ul{margin: 0; padding: 14px 0 0;}
     
-    .contact_btn_menu{display: none; top: 100%; left: 0; padding: 41px 16px 16px; min-width: 296px; background-color: var(--white); border-radius: 0px 0px 24px 24px; }
+    .contact_btn_menu{display: none; top: 100%; left: 0;min-width: 296px; border-radius: 0px 0px 24px 24px;}
+    .contact_btn_wrap{ padding: 41px 16px 16px;  background-color: var(--white); border-radius: 0px 0px 24px 24px; }
     .contact_btn_menu .btn-light-green{width: 100%;}
     li.no-link > a{pointer-events: none;}
 

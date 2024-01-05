@@ -20,13 +20,13 @@ jQuery(document).ready(function($){
     contact_btn.on("click", function(e){
         e.preventDefault();
         $(this).toggleClass("open");
-        $(".contact_btn_menu").fadeToggle(900);
+        $(".contact_btn_menu").slideToggle(900);
     });
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
         contact_btn.removeClass("open");
-        $(".contact_btn_menu").fadeOut(900);
+        $(".contact_btn_menu").slideUp(900);
         $(".flyout-overlay").addClass("open");
     });
     const flyoutclose = $(".flyout-close");
