@@ -1,19 +1,13 @@
 
 jQuery(document).ready(function($){
-    const header = document.querySelector(".header-main");
-    const banner = document.querySelector("body.home .banner-section");
-    if(banner){
-        const bannerHeight = banner.offsetTop + banner.clientHeight;
+    const header = $(".header-main");
+    const banner = $("body.home .banner-section");
+    if(banner.length){
+        header.addClass("no_sticky");
+        const bannerHeight = banner.offset().top + banner.outerHeight(true);
         window.onscroll = function(){
             const _scroll = window.scrollY;
-            console.log(_scroll, bannerHeight)
-            if (_scroll > bannerHeight) {
-               header.classList.add("fixed-header");
-            }
-            else{
-               header.classList.remove("fixed-header");
-    
-            }
+            _scroll >= bannerHeight ? header.removeClass("no_sticky") : header.addClass("no_sticky");
         }
     }
     const contact_btn = $(".contact_btn");
@@ -36,7 +30,6 @@ jQuery(document).ready(function($){
         $(".flyout-form-overlay").removeClass("open");
     });
 
-
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
@@ -50,8 +43,9 @@ jQuery(document).ready(function($){
         $(".flyout-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
-        if(!$(e.target).closest(".humburger-btn, .flyout-overlay").length){
+        if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_btn, .flyout-form-overlay").length){
             $(".flyout-overlay").removeClass("open");
+            $(".flyout-form-overlay").removeClass("open");
         }
     });
 

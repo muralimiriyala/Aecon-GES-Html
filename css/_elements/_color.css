@@ -1,11 +1,13 @@
 :root {
+    --black: #000;
+    --black-5: rgb(0 0 0 / 5%);
+    --black-10: rgb(0 0 0 / 10%);
     --drab: #3B4E31;
     --accent: #71A341;
     --accent-light: #E0F0C6;
     --accent-dark: #3B4E31;
     --white: #FFFFFF;
     --white-50: rgb(255 255 255 / 50%);
-    --black: #000;
     --black-md: #343536;
     --gray-md: #E4EBEF;
     --gray-lt: #EEF4F9;
