@@ -126,4 +126,8 @@
 
     .subhead-row{padding-top: 56px; display: block;}
     .subhead-list:not(:last-child){margin-bottom: 40px;}
+    .subhead-row.gap-32{padding-top: 24px;}
+    .subhead-row.gap-32 .subhead-list:not(:last-child){margin-bottom: 20px;}
+    .subhead-list.bg-navy{padding: 20px;}
+    .subhead-list.bg-navy h2{font-size: 24px; line-height: 32px;}
 }
