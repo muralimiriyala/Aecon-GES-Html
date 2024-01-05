@@ -1,5 +1,5 @@
 
-.project-detail-text{color: var(--foreground);}
+.project-detail-text{font-size: 20px; line-height: 28px; color: var(--foreground);}
 .project-detail-text h1{margin-bottom: 30px;}
 .detail-map{width: 38px; height: 56px; background-image: url("../images/map-marker.svg"); background-repeat: no-repeat; background-position: center;}
 .detail-map.pin1{bottom: 50px; right: 82px;}
@@ -13,7 +13,7 @@ ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); fon
 ul.detail-categorys li a.solar span{color: var(--accent-yellow); top: 0;}
 ul.detail-categorys li a.residential{background-color: var(--accent-light); font-size: 14px; line-height: 14px;}
 
-.stats-main{padding: 0 0 82px;}
+
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}
 .project-detail-article{padding: 80px 0 80px;}
@@ -21,64 +21,57 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
 .project-detail-article ul li::before{background-color: var(--accent); top: 9px; left: -20px; width: 8px; height: 8px;}
 .project-detail-article h3:not(.quote-partner h3, .solar-assessment-text h3){padding: 32px 0 12px;}
 .solar-assessment-wrap{padding-top: 56px; margin-top: 56px;}
-.solar-assessment-wrap::before{
-    opacity: 0.5;
-    content: "";
-    width: 100%;
-    height: 2px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    display: block;
-    background-image: linear-gradient(to right,var(--foreground-light) 25%,rgba(255,255,255,0) 0);
-    background-position: bottom;
-    background-size: 8px 2px;
-    background-repeat: repeat-x;
-}
+.solar-assessment-wrap::before{ opacity: 0.5; content: ""; width: 100%; height: 2px; top: 0; left: 0; background-size: 8px 2px; position: absolute; display: block; background-image: linear-gradient(to right,var(--foreground-light) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; }
 .solar-assessment-main{padding: 40px; border-radius: 8px; background-color: var(--accent-light-yellow);}
 .solar-assessment-icon svg, .solar-assessment-icon img{max-width: 82px;}
 .solar-assessment-text{overflow: hidden;}
-.solar-assessment-text::before{
-    content: "";
-    width: 100%;
-    height: 2px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    display: block;
-    background-image: linear-gradient(to right,var(--accent-yellow) 25%,rgba(255,255,255,0) 0);
-    background-position: bottom;
-    background-size: 8px 2px;
-    background-repeat: repeat-x;
-}
+.solar-assessment-text::before{ content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent-yellow) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; }
 .solar-assessment-text h3{margin-bottom: 23px;}
 .solar-assessment-btns{gap: 12px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 740px){
-
-    .stats-image-row{gap: 32px; margin-bottom: 24px;}
-    .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
-    .stats-image-right{flex: 1;}
-
+    .project-detail-image{position: absolute;}
     .solar-assessment-main{gap: 32px;}
     .solar-assessment-icon{flex: 0 0 82px;}
     .solar-assessment-text{flex: 1; padding-left: 32px;}
     .solar-assessment-text::before{ transform: rotate(90deg); left: -50%; } 
 }
 @media only screen and (min-width: 1024px){
+    .project-detail-text{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+    
+    .stats-main{padding: 0 0 82px;}
+    .stats-image-row{gap: 32px; margin-bottom: 24px;}
+    .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
+    .stats-image-left figure{height: calc(50% - 16px);}
+    .stats-image-right{flex: 1;}
+    .stats-image-right figure{height: 100%;}
+
     .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
     .masonary-list{padding-bottom: 32px; counter-increment: brick-counter; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
-    .masonary-list:nth-child(1){min-height: 640px;}
-    /* .masonary-list:nth-child(3){padding-top: 32px;} */
-    .masonary-list:nth-child(3) img{max-height: 416px; overflow: hidden;}
+    .masonary-list:nth-child(1){height: 640px;}
+    .masonary-list:nth-child(3) img{max-height: 416px; min-height: 416px; overflow: hidden;}
 }
-@media only screen and (min-width: 1300px){
-    .project-detail-main{gap: 64px; padding-bottom: 80px; flex-wrap: nowrap;} 
-    .project-detail-text{flex: 0 0 648px; padding: 81px 0 0;}
-    .project-detail-image{flex: 1; min-width: 648px;}
+@media only screen and (min-width: 1280px){
+    .project-detail-main{gap: 64px; padding-bottom: 80px; flex-wrap: nowrap; flex-direction: row-reverse;} 
+    .project-detail-text{max-width: 648px; padding: 81px 0 0;}
+    .project-detail-image{top: 0; right: -80px; min-width: 648px;}
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .project-detail-ipad{max-width: 460px; padding: 80px 0 64px;}
+    .project-detail-image{top: 0; right: -40px; max-width: 460px;}
+    .stats-image-left{flex: 0 0 320px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
+    .project-detail-main{padding: 0 0 40px;}
+    .project-detail-ipad{max-width: 332px; padding: 80px 0 40px;}
+    .project-detail-image{top: 0; right: -40px; max-width: 332px;}
+
+    .stats-image-row{gap: 32px;}
+    .stats-image-left{gap: 32px;}
+    .stats-image-left > *{flex: 0 0 calc(50% - 16px);}
+    .stats-image-left figure img{min-height: 165px;}
+
     .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
 }
@@ -87,14 +80,14 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .masonary-list{margin-bottom: 20px;}
 
     .project-detail-main{display: block; padding: 0 0 40px;}
+    .project-detail-image{position: relative;}
     .project-detail-thumb img{min-width: 370px;}
     .detail-map.pin1 { bottom: 32px; right: 34px; }
-    .project-detail-text{padding: 14px 0 0; font-size: 20px; line-height: 28px;}
+    .project-detail-text{padding: 14px 0 0;}
     .project-detail-text h1{margin-bottom: 23px;}
 
 
     .stats-image-row{gap: 20px;}
-    .stats-main{padding: 8px 0;}
     .stats-image-left{gap: 20px;}
     .stats-image-left > *{flex: 0 0 calc(50% - 10px);}
     .stats-image-left figure img{min-height: 165px;}

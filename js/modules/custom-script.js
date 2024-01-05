@@ -20,13 +20,28 @@ jQuery(document).ready(function($){
     contact_btn.on("click", function(e){
         e.preventDefault();
         $(this).toggleClass("open");
-        $(".contact_btn_menu").fadeToggle(900);
+        $(".contact_btn_menu").slideToggle(900);
     });
+    
+    const getQuotebtn = $(".get_quote_btn");
+    getQuotebtn.on("click", (e)=>{
+        e.preventDefault();
+        contact_btn.removeClass("open");
+        $(".contact_btn_menu").slideUp(900);
+        $(".flyout-form-overlay").addClass("open");
+    });
+    const flyoutFormclose = $(".flyout-form-close");
+    flyoutFormclose.on("click", (e)=>{
+        e.preventDefault();
+        $(".flyout-form-overlay").removeClass("open");
+    });
+
+
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
         contact_btn.removeClass("open");
-        $(".contact_btn_menu").fadeOut(900);
+        $(".contact_btn_menu").slideUp(900);
         $(".flyout-overlay").addClass("open");
     });
     const flyoutclose = $(".flyout-close");
