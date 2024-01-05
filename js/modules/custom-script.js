@@ -22,6 +22,21 @@ jQuery(document).ready(function($){
         $(this).toggleClass("open");
         $(".contact_btn_menu").slideToggle(900);
     });
+    
+    const getQuotebtn = $(".get_quote_btn");
+    getQuotebtn.on("click", (e)=>{
+        e.preventDefault();
+        contact_btn.removeClass("open");
+        $(".contact_btn_menu").slideUp(900);
+        $(".flyout-form-overlay").addClass("open");
+    });
+    const flyoutFormclose = $(".flyout-form-close");
+    flyoutFormclose.on("click", (e)=>{
+        e.preventDefault();
+        $(".flyout-form-overlay").removeClass("open");
+    });
+
+
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
