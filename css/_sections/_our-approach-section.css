@@ -3,27 +3,57 @@
 .our-approach-image{display: none; height: 100%;}
 .our-approach-image:first-child{display: block;}
 
-.our-approach-desc{padding: 64px 86px; color: var(--foreground);}
+ul.our-approach-links{margin: 0; padding-top: 13px;}
+ul.our-approach-links li::before{display: none;}
+ul.our-approach-links li{margin: 0 0 20px;}
+ul.our-approach-links li:last-child{margin-bottom: 0;}
+
+.our-approach-desc{color: var(--foreground);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1280px){
-    .our-approach-main {gap: 0 80px; flex-wrap: nowrap;}
+@media only screen and (min-width: 1440px){
+    .our-approach-main {gap: 0 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
     .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
-    .our-approach-left{flex: 1; min-width: 720px;}
+    .our-approach-left{flex: 1; min-width: 720px; margin-right: -80px;}
+    .our-approach-desc{padding: 64px 86px;}
 }
 @media only screen and (min-width: 1024px){
-    ul.our-approach-links{margin: 0; padding-top: 13px;}
-    ul.our-approach-links li{margin: 0 0 20px;}
-    ul.our-approach-links li::before{display: none;}
-    ul.our-approach-links li a{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
-    ul.our-approach-links li a:hover, ul.our-approach-links li a.active{width: 100%;}
-    ul.our-approach-links li a svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
-    ul.our-approach-links li a:hover svg, ul.our-approach-links li a.active svg{opacity: 1;}
+    .our-approach-link{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
+    .our-approach-link:hover, .our-approach-link.active{width: 100%;}
+    .our-approach-link svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
+    .open-approach .our-approach-link svg, .our-approach-link:hover svg, .our-approach-link.active svg{opacity: 1;}
+    .our-approach-mobile{display: none !important;}
+}
+@media screen and (max-width: 1439px) and (min-width: 1280px){
+    .our-approach-section .container{padding: 0;}
+    .our-approach-main {gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
+    .our-approach-text{flex: 1; padding: 63px 0 63px 64px;}
+    .our-approach-left{flex:  0 0 640px;}
+    .our-approach-desc{padding: 64px 64px;}
+    .our-approach-thumb img{min-height: 272px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
-    .our-approach-main {gap: 0 80px; flex-wrap: nowrap;}
-    .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
-    .our-approach-left{flex: 1; min-width: 720px;}
+    .our-approach-section .container{padding: 0;}
+    .our-approach-main {gap: 64px; flex-wrap: nowrap; flex-direction: row-reverse;}
+    .our-approach-text{flex: 1; padding: 63px 0 63px 64px;}
+    .our-approach-left{flex:  0 0 512px;}
+    .our-approach-desc{padding: 64px 64px;}
+    .our-approach-thumb img{min-height: 272px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 200px){
+    .our-approach-main{display: block;}
+    .our-approach-text{padding: 40px;}
+    .our-approach-link{padding: 17px 20px; color: var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
+    .our-approach-link::after{right: 20px; top: 15px; position: absolute; color: var(--accent); font-size: 24px; line-height: 24px; content: "\f078"; font-family: "Font Awesome 6 Pro"; font-weight: 400; display: block;}
+    .open-approach .our-approach-link::after, .our-approach-link.active::after{content: "\f077";}
+    .our-approach-link svg{display: none;}
+    .our-approach-mobile{display: none; padding: 24px 40px 32px; color: var(--foreground);}
+    .open-approach .our-approach-mobile{display: block;}
+    .open-approach{box-shadow: 0px 8px 20px 0px rgba(106, 118, 130, 0.50);}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .our-approach-text{padding: 33px 20px 32px;}
+    .our-approach-mobile{padding: 16px 20px 24px;  font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
 }
 
 
