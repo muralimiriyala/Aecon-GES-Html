@@ -26,10 +26,10 @@
     .partner-grids-main{padding: 40px 0; display: block;}
     .partner-grids-list:not(:last-child){margin-bottom: 40px;}
 
-    .page-template-partners .frm_form_field_wrapper{display: block;}
-    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{font-size: 15px; line-height: 1.47;}
-    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 2px;}
-    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 16px;}
+    body.page-template-partners .frm_form_field_wrapper, body.page-template-partner-installer-join .frm_form_field_wrapper{display: block;}
+    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label, body.page-template-partner-installer-join .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{font-size: 15px; line-height: 1.47;}
+    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input, body.page-template-partner-installer-join .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 2px;}
+    body.page-template-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit, body.page-template-partner-installer-join .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 16px;}
 }
 
 
