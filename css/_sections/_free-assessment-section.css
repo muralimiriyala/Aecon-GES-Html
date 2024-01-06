@@ -1,10 +1,13 @@
 
+.free-assessment-main.no_image{display: block;}
+.free-assessment-main.no_image .free-assessment-desc{max-width: 100%; padding: 64px 0;}
 .free-assessment-desc span.optional-text{margin-bottom: 35px; font-size: 16px; line-height: 20px;}
 .free-assessment-btns{flex-direction: column; gap: 16px;}
 .free-assessment-btns .button{width: fit-content;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px) {
+    .free-assessment-main.no_image{max-width: 1280px; width: 100%; margin: 0 auto; }
     .free-assessment-text{flex: 0 0 50%;}
     .free-assessment-image{flex: 0 0 calc(100% - 50%);}
     .free-assessment-desc{max-width: 512px; font-size: 20px; line-height: 28px;}
@@ -19,6 +22,7 @@
     .free-assessment-desc p{margin-bottom: 34px; }
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
+    .free-assessment-main.no_image{padding: 0 40px;}
     .free-assessment-text{flex: 0 0 50%; padding: 83px 40px 82px;}
     .free-assessment-image{flex: 0 0 50%;}
     .free-assessment-desc{max-width: 512px; font-size: 14px; line-height: 20px;}
@@ -26,6 +30,7 @@
     .free-assessment-desc p{margin-bottom: 34px; }
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
+    .free-assessment-main.no_image{padding: 0 20px;}
     .free-assessment-main{flex-direction: column-reverse;}
     .free-assessment-desc{text-align: center; padding: 25px 24px 48px;}
     .free-assessment-desc h3{margin-bottom: 23px; font-size: 32px; line-height: 40px;} 
