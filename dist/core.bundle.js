@@ -67,7 +67,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
   \**************************************/
 /***/ (() => {
 
-eval("jQuery(document).ready(function ($) {\n  const exploreLink = $(\".explore-icons-list\");\n  exploreLink.on(\"click\", function (e) {\n    e.preventDefault();\n    _self = $(this);\n    _self.addClass(\"active\");\n    _self.siblings().removeClass(\"active\");\n    const exploreName = _self.data(\"name\");\n    $(\".explore-slider-image\").hide();\n    $(\".explore-slider-image[data-value=\" + exploreName + \"]\").fadeIn();\n    $(\".explore-slider-text\").hide();\n    $(\".explore-slider-text[data-text=\" + exploreName + \"]\").fadeIn();\n  });\n});\n\n//# sourceURL=webpack://aecon-ges-html/./js/modules/explore-slider.js?");
+eval("jQuery(document).ready(function ($) {\n  const exploreLink = $(\".explore-icons-list\");\n  $(\".explore-icons-list:first\").addClass(\"active\");\n  exploreLink.on(\"click\", function (e) {\n    e.preventDefault();\n    _self = $(this);\n    _self.addClass(\"active\");\n    _self.siblings().removeClass(\"active\");\n    const exploreName = _self.data(\"name\");\n    $(\".explore-slider-image\").hide();\n    $(\".explore-slider-image[data-value=\" + exploreName + \"]\").fadeIn();\n    $(\".explore-slider-text\").hide();\n    $(\".explore-slider-text[data-text=\" + exploreName + \"]\").fadeIn();\n  });\n});\n\n//# sourceURL=webpack://aecon-ges-html/./js/modules/explore-slider.js?");
 
 /***/ }),
 
