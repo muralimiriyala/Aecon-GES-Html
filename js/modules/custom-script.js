@@ -33,22 +33,25 @@ jQuery(document).ready(function($){
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
+        humburgerbtn.toggleClass("open");
         contact_btn.removeClass("open");
+        $("body").toggleClass("nav-overlay-open");
         $(".contact_btn_menu").slideUp(900);
-        $(".flyout-overlay").addClass("open");
+        $(".flyout-overlay").toggleClass("open");
     });
     const flyoutclose = $(".flyout-close");
     flyoutclose.on("click", (e)=>{
         e.preventDefault();
+        humburgerbtn.removeClass("open");
         $(".flyout-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
         if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_btn, .flyout-form-overlay").length){
+            humburgerbtn.removeClass("open");
             $(".flyout-overlay").removeClass("open");
             $(".flyout-form-overlay").removeClass("open");
         }
     });
-
 
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
