@@ -10,6 +10,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
+body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
 body .frm_forms .frm_required{font-size: 16px; line-height: 1; letter-spacing: -0.32px; font-weight: 800; color: var(--black-md); font-family: 'VisbyCF', sans-serif;}
@@ -110,12 +111,19 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
 
 #frm_field_17_container .frm_primary_label span{display: none;}
 
+body .flyout-form-overlay .h3{margin-bottom: 24px;}
+body .flyout-form-overlay .frm_form_field_wrapper{display: block;}
+body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox{padding-bottom: 24px; margin-bottom: 24px;}
+body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox::before{content: ""; width: 100%; height: 2px; bottom: 0; left: 0; position: absolute; display: block; opacity: 0.5; background-image: linear-gradient(to right,var(--green) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 17px); margin-left: 14px; margin-right: 14px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
 
+    body .flyout-form-overlay .with_frm_style form{width: 340px;}
 
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     /* body .frm_forms .frm_form_fields .frm_submit{width: 146px;} */
