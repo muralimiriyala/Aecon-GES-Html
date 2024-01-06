@@ -28,3 +28,16 @@
 
     .general-default-page .general-default-article .accordion-main{margin: 64px 0;}
 }
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .general-default-main{gap: 60px;}
+    .general-default-article{flex: 1;}
+    .general-default-sidebar{flex: 0 0 334px;}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .general-default-main{padding: 40px 0;}
+    .general-default-heading{padding-bottom: 47px; margin-bottom: 47px;}
+
+    .supporting-resource{padding: 24px; margin: 48px 0;}
+}
