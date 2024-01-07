@@ -1,8 +1,8 @@
 
+.process-slider-text{padding: 24px 0 24px;}
 .process-slider-text{font-size: 14px; line-height: 20px; letter-spacing: 0.28px; color: var(--foreground-light);}
-span.process-step{font-size: 16px; line-height: 20px; font-family: "VisbyCF", sans-serif;}
-
-
+span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: block; font-size: 16px; line-height: 20px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
+.process-slider-text h2{margin-bottom: 20px;}
 
 
 
