@@ -111,10 +111,10 @@ jQuery(document).ready(function($){
 // Set initial class for the first dot
 $('.slick-dot[data-slide="0"]').addClass('slick-current');
 
-psliderFor.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+psliderFor.on('setPosition', function (event, slick, currentSlide, nextSlide) {
   // Remove the current class from all dots
   $('.slick-dot').removeClass('slick-current');
-  
+  console.log(nextSlide, currentSlide)
   // Add the current class to the next dot
   $('.slick-dot[data-slick-index="' + nextSlide + '"]').addClass('slick-current');
 });
