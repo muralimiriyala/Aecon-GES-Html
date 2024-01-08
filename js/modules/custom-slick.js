@@ -109,18 +109,23 @@ jQuery(document).ready(function($){
       });
 
       // Set initial class for the first dot
-      $('.slick-dot[data-slide="0"]').addClass('slick-current');
+      $('.p-slick-dot[data-slide="0"]').addClass('slick-current');
       psliderFor.on('afterChange', function (event, slick, currentSlide, nextSlide) {
-        $('.slick-dot').removeClass('slick-current');
-        const number = currentSlide + 1;
-        console.log(number)
-        $('.slick-dot[data-slide="' + number + '"]').addClass('slick-current');
+        $('.p-slick-dot').removeClass('slick-current');
+        $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
       });
 
+      
       $('[data-slide]').click(function(e) {
         e.preventDefault();
         var slideno = $(this).data('slide');
-        psliderFor.slick('slickGoTo', slideno - 1);
+        psliderFor.slick('slickGoTo', slideno);
+      });
+
+      $('.p-slick-arrow').click(function(e) {
+        e.preventDefault();
+        var slideno = $(this).parent().data('slide');
+        psliderFor.slick('slickGoTo', slideno);
       });
 
 });
