@@ -9,9 +9,9 @@ jQuery(document).ready(function($){
         _self.siblings().removeClass("active");
         const exploreName = _self.data("name");
         $(".explore-slider-image").hide();
-        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn();
+        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn(700);
         $(".explore-slider-text").hide();
-        $(".explore-slider-text[data-text="+ exploreName +"]").fadeIn();
+        $(".explore-slider-text[data-text="+ exploreName +"]").fadeIn(700);
     });
 });
 

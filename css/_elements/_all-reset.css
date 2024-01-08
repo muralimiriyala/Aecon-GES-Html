@@ -23,8 +23,8 @@ h1 span svg{left: 0; top: -11px; position: absolute;}
 .h2 span svg, h2 span svg{left: -9px; bottom: -16px; position: absolute;}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--heading-color); cursor: help;}
-b, strong {font-weight: normal;}
-cite, dfn, em, i {font-style: italic;}
+b, strong {font-weight: 700;}
+cite, dfn, em, i {font-style: italic;} 
 p {margin-bottom: 1.625rem;}
 p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}

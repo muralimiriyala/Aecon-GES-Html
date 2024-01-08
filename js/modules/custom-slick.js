@@ -55,6 +55,8 @@ jQuery(document).ready(function($){
         infinite: false,
         speed: 1000,
         variableWidth: true,
+        swipeToSlide: true,
+        touchThreshold: 200,
         responsive: [
           {
             breakpoint: 1023,
@@ -93,5 +95,29 @@ jQuery(document).ready(function($){
           $(".about-partner-logo").removeAttr("style");
         }
       });
+
+      const psliderFor = $(".process-slider-for");
+      const psliderNav = $(".process-slider-nav");
+      psliderFor.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        cssEase: 'ease',
+        arrows: false,
+        dots: false,
+        asNavFor: psliderNav,
+      });
+      psliderNav.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
+        dots: true,
+        asNavFor: psliderFor,
+        swipeToSlide: true,
+        touchThreshold: 200,
+      });
+
 
 });
