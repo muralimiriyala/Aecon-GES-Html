@@ -108,16 +108,14 @@ jQuery(document).ready(function($){
         appendDots: $("<div class='slick-dots-wrap'></div>"),
       });
 
-// Set initial class for the first dot
-$('.slick-dot[data-slide="0"]').addClass('slick-current');
-
-psliderFor.on('setPosition', function (event, slick, currentSlide, nextSlide) {
-  // Remove the current class from all dots
-  $('.slick-dot').removeClass('slick-current');
-  console.log(nextSlide, currentSlide)
-  // Add the current class to the next dot
-  $('.slick-dot[data-slick-index="' + nextSlide + '"]').addClass('slick-current');
-});
+      // Set initial class for the first dot
+      $('.slick-dot[data-slide="0"]').addClass('slick-current');
+      psliderFor.on('afterChange', function (event, slick, currentSlide, nextSlide) {
+        $('.slick-dot').removeClass('slick-current');
+        const number = currentSlide + 1;
+        console.log(number)
+        $('.slick-dot[data-slide="' + number + '"]').addClass('slick-current');
+      });
 
       $('[data-slide]').click(function(e) {
         e.preventDefault();
