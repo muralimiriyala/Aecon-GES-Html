@@ -61,6 +61,8 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .project-detail-ipad{max-width: 460px; padding: 80px 0 64px;}
     .project-detail-image{top: 0; right: -40px; max-width: 460px;}
     .stats-image-left{flex: 0 0 320px;}
+
+    .detail-map.pin1{bottom: 29px; right: 67px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .project-detail-main{padding: 0 0 40px;}
@@ -74,6 +76,8 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
 
     .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
+
+    .detail-map.pin1{bottom: 25px; right: 33px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .masonary-main{padding: 0 0 20px;}
@@ -82,7 +86,7 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .project-detail-main{display: block; padding: 0 0 40px;}
     .project-detail-image{position: relative;}
     .project-detail-thumb img{min-width: 370px;}
-    .detail-map.pin1 { bottom: 32px; right: 34px; }
+    .detail-map.pin1{bottom: 24px; right: 14px;}
     .project-detail-text{padding: 14px 0 0;}
     .project-detail-text h1{margin-bottom: 23px;}
 
