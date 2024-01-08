@@ -96,28 +96,33 @@ jQuery(document).ready(function($){
         }
       });
 
-      const psliderFor = $(".process-slider-for");
       const psliderNav = $(".process-slider-nav");
+      const psliderFor = $(".process-slider-for");
       psliderFor.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
         cssEase: 'ease',
         arrows: false,
-        dots: false,
-        asNavFor: psliderNav,
-      });
-      psliderNav.slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
         dots: true,
-        asNavFor: psliderFor,
-        swipeToSlide: true,
-        touchThreshold: 200,
+        appendDots: $("<div class='slick-dots-wrap'></div>"),
       });
 
+// Set initial class for the first dot
+$('.slick-dot[data-slide="0"]').addClass('slick-current');
+
+psliderFor.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+  // Remove the current class from all dots
+  $('.slick-dot').removeClass('slick-current');
+  
+  // Add the current class to the next dot
+  $('.slick-dot[data-slick-index="' + nextSlide + '"]').addClass('slick-current');
+});
+
+      $('[data-slide]').click(function(e) {
+        e.preventDefault();
+        var slideno = $(this).data('slide');
+        psliderFor.slick('slickGoTo', slideno - 1);
+      });
 
 });

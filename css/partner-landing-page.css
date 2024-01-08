@@ -23,7 +23,7 @@
 }
 .quote-partner svg{margin-bottom: 26px;}
 .quote-partner h3{margin-bottom: 32px;}
-.quote-partner h3::after{content: "”";}
+.quote-partner p::after{content: "”";}
 .quote-partner .avatar-img{flex: 0 0 64px;}
 
 /*-- media css starts here --*/
