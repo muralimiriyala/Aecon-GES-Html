@@ -59,17 +59,17 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 }
 @media screen and (min-width: 1024px) {
     header.header-main.no_sticky{position: relative;}    
-    .header{gap: 2rem; padding: 16px 0; min-height: 88px;}
+    .header{gap: 12px; padding: 16px 0; min-height: 88px;}
     .logo{flex: 0 0 293px; padding-right: 2rem; position: relative;}
     .logo a img{max-width: 261px;}
     .logo::after{width: 1px; height: 56px; right: 0; top: -12px; opacity: 0.25; position: absolute; background-color: var(--foreground-light); content: ""; display: block;}
-    .header-right{flex: 1; max-width: 254px; gap: 12px; align-items: center; justify-content: flex-end;}
+    .header-right{flex: 1; max-width: 214px; gap: 12px; align-items: center; justify-content: flex-end;}
     .contact_btn::after{content: "\f0d7"; top: calc(50% + 0px);}
     .contact_btn.open::after{ content: "\f0d8"; top: calc(50% + 2px);}
     .contact_btn.button:hover{background: var(--elevated); color: var(--foreground);}
     .contact_btn.button:hover::after{color: var(--accent);}
     .site-main-cover{padding-top: 88px;}
-    ul.main-menu{gap: 0 2rem; flex: 1; margin: 0;}
+    ul.main-menu{gap: 0 2rem; flex: 1; margin: 0; padding-left: 20px;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{color: var(--foreground-light); display: block; font-weight: 700; font-family: 'VisbyCF', sans-serif; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
@@ -81,12 +81,13 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .contact_btn_menu .btn-light-green{width: 100%;}
     li.no-link > a{pointer-events: none;}
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1280px){
     img.logo-ipad{display: none;}
 }
-@media screen and (max-width: 1299px) and (min-width: 1024px){
+@media screen and (max-width: 1279px) and (min-width: 1024px){
     img.logo-desktop{display: none;}
     .logo{flex: 0 0 105px;}
+    ul.main-menu{gap: 0 28px;}
     ul.main-menu > li:last-child{display: none;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){

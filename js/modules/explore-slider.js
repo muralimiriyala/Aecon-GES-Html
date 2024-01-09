@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
         const exploreName = _self.data("name");
         $(".explore-slider-text[data-text="+ exploreName +"]").addClass("active");
         $(".explore-slider-image").hide();
-        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn(400);
+        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn(800);
         $(".explore-slider-text").hide();
         $(".explore-slider-text[data-text="+ exploreName +"]").fadeIn(100);
     });
