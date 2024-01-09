@@ -1,6 +1,8 @@
 
 .custom-solar-section{background-color: var(--elevated); color: var(--foreground-light);}
 .custom-solar-section.white{background-color: var(--white);}
+.custom-solar-main.no_image{display: block;}
+.no_image .custom-solar-desc{max-width: 100%; margin: 0; padding: 0;}
 .custom-solar-btns{flex-direction: column; gap: 16px;}
 .custom-solar-btns .button{width: fit-content;} 
 
@@ -26,10 +28,13 @@
 
 
 /* media css starts here */
+@media only screen and (min-width: 1440px){
+    .custom-solar-desc{max-width: 640px; padding-right: 128px; margin-left: auto;}
+}
 @media screen and (min-width: 1024px) {
+    .custom-solar-main.no_image{max-width: 1280px; width: 100%; margin: 0 auto;}
     .custom-solar-text{flex: 0 0 50%;}
     .custom-solar-image{flex: 0 0 50%;}
-    .custom-solar-desc{max-width: 512px;}
     .custom-solar-desc h2{margin-bottom: 35px;}
     .bar-solar{width: 125px; height: 250px; left: 1px; bottom: -63px; transform: translateY(-50%); clip-path: polygon(100% 50%, 0 0, 0 100%);}
     .bar{width: 25px; height: 250px;}
@@ -40,10 +45,13 @@
     .sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transform: translateY(-50%);}
     .battery-solar{width: 128px; height: 290px; left: -80px; top: 50%; transform: translateY(-50%);}
 }
+@media screen and (max-width: 1439px) and (min-width: 1280px){
+    .custom-solar-text{padding: 83px 80px 82px 40px;}
+    .custom-solar-desc{max-width: 512px;}
+}
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .sun-solar{width: 120px; height: 120px; left: -60px;}
-    .custom-solar-text{flex: 0 0 50%; padding: 83px 80px 82px 40px;}
-    .custom-solar-image{flex: 0 0 50%;}
+    .custom-solar-text{padding: 83px 80px 82px 40px;}
     .custom-solar-desc h2{margin-bottom: 31px; font-size: 32px; line-height: 40px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
