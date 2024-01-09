@@ -25,6 +25,18 @@ ul.faq-tabs li a.active{color: var(--navy);}
 .faq-tab-content:first-child{display: block;}
 .faqs-desc{padding-top: 54px; max-width: 880px;}
 
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .faqs-main{padding: 64px 0;}
+    .faqs-desc{padding-top: 16px;}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .faqs-main{padding: 40px 0;}
+    .faqs-title h2{font-size: 24px; line-height: 32px; margin-bottom: 0;}
+    .faqs-desc{padding-top: 0;}
+    .faqs-desc small{font-size: 18px; line-height: 28px; letter-spacing: -.36px;}
+}
+
 
 
 
