@@ -69,14 +69,13 @@ jQuery(document).ready(function($){
     });
 
     const tablink = $("ul.about-partners-tabs li a");
+    $("ul.about-partners-tabs li:first-child").addClass("mobile-active");
     const tablinkFirst = $("ul.about-partners-tabs li:first-child a");
     tablinkFirst.addClass("active");
     tabValue = $(".partners-tab-content").attr("data-tab-value");
 
     tablink.on("click", function(e){
         e.preventDefault();
-        $(this).parent().removeClass("mobile-active");
-        $(this).parent().siblings().addClass("mobile-active");
         $(this).addClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
         const tabAttr = $(this).attr("data-tab-name");
