@@ -4,6 +4,8 @@
 .partner-offer-text hr{margin-bottom: 22px;}
 .partner-offer-card{background-color: var(--elevated); color: var(--foreground-light);}
 .partner-card-text{padding: 32px;}
+.partner-card-text h2 a{color: var(--navy);}
+.partner-card-text h2 a:hover{color: var(--accent);}
 .partner-aside-list{background-color: var(--elevated); padding: 32px;}
 .partner-article > p > span{font-size: 24px; line-height: 32px;}
 .quote-partner{padding: 57px 0 0; margin-top: 55px;}
