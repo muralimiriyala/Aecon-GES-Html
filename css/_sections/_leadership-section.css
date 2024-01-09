@@ -1,22 +1,47 @@
 
 .leaderships-section{color: var(--foreground-light);}
-.leaderships-main{padding: 82px 0 68px;}
 .leadership-rows{text-align: center;}
 .leaderships-mask{top: 0; z-index: 1; mask-image: radial-gradient(circle, #71A341 60%, rgba(113, 163, 65, 0) 50%);}
 .leaderships-thumb::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--accent); content: ""; display: block; position: absolute;}  
-
-.leaderships-text{padding: 18px;}
 .leaderships-text h2{margin-bottom: 0;}
 
+
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
-    .leaderships-title{max-width: 960px; padding-bottom: 51px;}
-    .leaderships-title h2{margin-bottom: 32px;}
+@media only screen and (min-width: 1440px){
     .leadership-rows{gap: 30px 48px;}
     .leaderships-list{flex: 0 0 calc(25% - 48px);}
 }
-
-
+@media only screen and (min-width: 1024px){
+    .leaderships-main{padding: 82px 0 68px;}
+    .leaderships-title{max-width: 960px; padding-bottom: 51px;}
+    .leaderships-title h2{margin-bottom: 32px;}
+    .leaderships-text{padding: 18px;}
+}
+@media only screen and (min-width: 740px){
+    .leaderships-title h2{margin-bottom: 32px; font-size: 40px; line-height: 48px;}
+}
+@media screen and (max-width: 1439px) and (min-width: 1280px){
+    .leadership-rows{gap: 21px;}
+    .leaderships-list{flex: 0 0 calc(25% - 16px);}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .leadership-rows{gap: 46px;}
+    .leaderships-list{flex: 0 0 calc(33.33333% - 31px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .leaderships-main{padding: 64px 0 44px;}
+    .leaderships-title{margin-bottom: 40px;}
+    .leadership-rows{gap: 28px 48px;}
+    .leaderships-list{flex: 0 0 calc(50% - 24px);}
+    .leaderships-text{padding: 20px;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .leaderships-main { padding: 41px 0 41px; }
+    .leaderships-title { margin-bottom: 41px; }
+    .leadership-rows { text-align: center; display: block; max-width: 284px; margin: 0 auto; } 
+    .leaderships-list:not(:last-child) { margin-bottom: 33px; } 
+    .leaderships-text { padding: 19px 0 0; }
+}
 
 
 
