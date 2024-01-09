@@ -7,11 +7,13 @@ jQuery(document).ready(function($){
         _self = $(this);
         _self.addClass("active");
         _self.siblings().removeClass("active");
+
         const exploreName = _self.data("name");
+        $(".explore-slider-text[data-text="+ exploreName +"]").addClass("active");
         $(".explore-slider-image").hide();
-        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn(700);
+        $(".explore-slider-image[data-value="+ exploreName +"]").fadeIn(400);
         $(".explore-slider-text").hide();
-        $(".explore-slider-text[data-text="+ exploreName +"]").fadeIn(700);
+        $(".explore-slider-text[data-text="+ exploreName +"]").fadeIn(100);
     });
 });
 
