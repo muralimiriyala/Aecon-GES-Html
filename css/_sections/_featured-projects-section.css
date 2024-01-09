@@ -71,6 +71,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
     .featured-post-text .clamp-3{-webkit-line-clamp: 2;}
     .featured-post-btn{text-align: right;}
     .featured-full-post{margin-bottom: 2rem; align-items: center;}
+    ul.cat-links{top: -13px; position: absolute;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .featured-projects-main{padding: 40px 0 40px;}
@@ -90,6 +91,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
     .featured-post-text .line-clamp{display: none;}
     .featured-post-btn .button{width: 100%;}
     .featured-full-post{margin-bottom: 2rem; align-items: center; background-color: transparent;}
+    ul.cat-links{top: -13px; position: absolute;}
     
 }
 
