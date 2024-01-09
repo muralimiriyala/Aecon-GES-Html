@@ -75,6 +75,8 @@ jQuery(document).ready(function($){
 
     tablink.on("click", function(e){
         e.preventDefault();
+        $(this).parent().removeClass("mobile-active");
+        $(this).parent().siblings().addClass("mobile-active");
         $(this).addClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
         const tabAttr = $(this).attr("data-tab-name");

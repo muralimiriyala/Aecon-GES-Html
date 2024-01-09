@@ -103,8 +103,8 @@ hr{margin: 0 0 24px; height: 4px; width: 96px; background: var(--accent); border
 
 .button.btn-md{padding: 11px 32px 10px 16px; font-size: 16px;}
 .button.btn-md::after{font-size: 13px; top: calc(50% + 0px);}
-
 .button.text-white{color: var(--white);}
+.button.down-arrow::after{content: "\f078";}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}

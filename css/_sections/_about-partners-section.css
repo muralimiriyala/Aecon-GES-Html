@@ -3,25 +3,26 @@
 
 
 .about-partners-wrap{padding: 79px 0 80px;}
-ul.about-partners-tabs{margin: 0; border-bottom: 1px solid #000; display: inline-flex; width: auto;}
+ul.about-partners-tabs{margin: 0;}
 ul.about-partners-tabs li{margin: 0;}
 ul.about-partners-tabs li::before{display: none;}
-ul.about-partners-tabs li a{padding: 0 16px 5px; color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
-ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.5s ease;} 
-ul.about-partners-tabs li a.active::after{width: 100%;}
-ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var(--navy);}
+
 .about-partner-logo{border: 1px solid var(--gray-md);}
+.about-partner-logo:nth-child(n+16){display: none;}
+.partner-show-btn{padding-top: 40px;}
 
 .partners-tab-content{display: none;}
 .partners-tab-content:first-child{display: block;}
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){
-    .about-partners-head{flex: 1; padding-bottom: 24px;}
-    .about-partners-main{order: 3; flex: 0 0 100%;}
+@media only screen and (min-width: 1280px){
     .about-partner-logos{gap: 24px; padding-top: 39px;}
     .about-partner-logo{max-width: calc(20% - 20px);}
     .about-partner-thumb{ padding: 16px 40px;}
+}
+@media only screen and (min-width: 1024px){
+    .about-partners-head{flex: 1; padding-bottom: 24px;}
+    .about-partners-main{order: 3; flex: 0 0 100%;}
     .about-partner-thumb img{max-width: 156px; max-height: 87px; margin: 0 auto; display: block;}
     .about-partner-logos.slick-slider .slick-slide{margin-right: 23px; width: 237px;} 
     .about-partner-logos.slick-slider .about-partner-logo{max-width: 100%;}
@@ -29,9 +30,44 @@ ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var
     .about-partner-logos.slick-slider div.slick-arrow.slick-next{left: 1232px;}
     .about-partner-logos.slick-slider div.slick-arrow.slick-prev{left: 1174px;}
 }
+@media only screen and (min-width: 740px){
+    ul.about-partners-tabs{ border-bottom: 1px solid #000; display: inline-flex; width: auto;}
+    ul.about-partners-tabs li a{padding: 0 16px 5px; color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
+    ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.5s ease;} 
+    ul.about-partners-tabs li a.active::after{width: 100%;}
+    ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var(--navy);}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .partners-tabs-row{padding-top: 30px;}
+    .about-partner-logos{gap: 24px;}
+    .about-partner-logo{flex: 0 0 calc(25% - 18px); padding: 16px 24px;}  
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .about-partners-head{flex: 1;}
+    .about-partners-btn{padding-top: 20px;}
+    .about-partners-main{order: 3; flex: 0 0 100%; padding-top: 30px;}
+    .partners-tabs-row{padding-top: 30px;}
+    .about-partner-logos{gap: 24px; justify-content: center;}
+    .about-partner-logo{flex: 0 0 calc(33.33333333% - 16px); padding: 16px 24px;}  
 
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .about-partners-wrap{padding: 40px 0; display: block;}
+    .about-partners-head{text-align: center;}
+    ul.about-partners-tabs{display: block;}
+    ul.about-partners-tabs li{z-index: 1;}
+    ul.about-partners-tabs li:not(:first-child){margin-top: -44px; z-index: 0;}
+    ul.about-partners-tabs li.mobile-active{margin-top: 16px;}
+    ul.about-partners-tabs li a{padding: 18px 16px 16px; border: 1px solid var(--gray-md); border-radius: 16px; color: var(--foreground); display: block; font-size: 16px; line-height: 20px; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
+    ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.5s ease;} 
+    ul.about-partners-tabs li a.active{background-color: var(--navy); color: var(--white); }
+    .about-partner-logos{gap: 8px; justify-content: center;}
+    .about-partner-logo{flex: 0 0 calc(50% - 4px); padding: 16px 24px;}
+    .about-partners-btn{padding-top: 31px;}
+    .about-partners-btn .button{width: 100%;}
+    .partners-tabs-row{padding-top: 32px;}
 
-
+}
 
 
 
