@@ -22,13 +22,17 @@ ul.faq-tabs li::before{display: none;}
 
 /* media css starts here */
 @media only screen and (min-width: 740px){
-    ul.faq-tabs{margin: 0 0 39px;}
+    .faqs-mobile-btn{display: none;}
+    .faq-tabs-icon{display: none;}
+    ul.faq-tabs{margin: 0 0 39px; flex-wrap: nowrap;}
     ul.faq-tabs li{margin: 0;}
-
-    ul.faq-tabs li a{padding: 0 17px 10px; border-bottom: 1px solid var(--foreground-light); color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
+    ul.faq-tabs li a{padding: 0 17px 10px; white-space: nowrap; border-bottom: 1px solid var(--foreground-light); color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
     ul.faq-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--accent); content: ''; display: block; position: absolute; transition: all 0.4s ease;}
     ul.faq-tabs li a.active::after{width: 100%;}
     ul.faq-tabs li a.active{color: var(--navy);}
+}
+@media only screen and (min-width: 1024px){
+    ul.faq-tabs{justify-content: center;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .faqs-main{padding: 64px 0;}
@@ -56,8 +60,6 @@ ul.faq-tabs li::before{display: none;}
 
     .faq-tabs-icon{width: 30px;flex: 0 0 30px; margin-left: auto; opacity: 0; transition: opacity 0.4s ease;}
     ul.faq-tabs.open .faq-tabs-icon{opacity: 1;}
-
-
     .faq-tabs-row{padding: 39px 0 38px;}
 }
 
