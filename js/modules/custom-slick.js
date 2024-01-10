@@ -77,8 +77,7 @@ jQuery(document).ready(function($){
       });
       $(".timeline-slide").removeAttr("style");
 
-      const psliderNav = $(".process-slider-nav");
-      const psliderFor = $(".process-slider-for");
+      const psliderFor = $(".process-slider");
       psliderFor.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -90,23 +89,37 @@ jQuery(document).ready(function($){
       });
 
       // Set initial class for the first dot
-      $('.p-slick-dot[data-slide="0"]').addClass('slick-current');
+      $('.p-slick-dot[data-slide="0"]').addClass('slick-current slick-first-slide');
       psliderFor.on('afterChange', function (event, slick, currentSlide, nextSlide) {
         $('.p-slick-dot').removeClass('slick-current');
         $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
       });
-
-      
-      $('[data-slide]').click(function(e) {
+      $('[data-slide]').on("click", function(e){
         e.preventDefault();
         var slideno = $(this).data('slide');
         psliderFor.slick('slickGoTo', slideno);
       });
 
-      $('.p-slick-arrow').click(function(e) {
+      $('.p-slick-arrow').on("click", function(e){
         e.preventDefault();
-        var slideno = $(this).parent().data('slide');
-        psliderFor.slick('slickGoTo', slideno);
+        const currentSlide = psliderFor.slick('slickCurrentSlide');
+        const totalSlides = psliderFor.slick('getSlick').slideCount - 1;
+        if ($(this).hasClass('p-slick-next')) {
+          const nextSlide = currentSlide + 1;
+          if (nextSlide <= totalSlides) {
+            psliderFor.slick('slickGoTo', nextSlide);
+            if (nextSlide === totalSlides) {
+              $(this).closest('.p-slick-dot').next(".p-slick-dot").addClass('slick-last-slide');
+            }
+          }
+        } else if ($(this).hasClass('p-slick-prev')) {
+          const prevSlide = currentSlide - 1;
+          if (prevSlide >= 0) {
+            psliderFor.slick('slickGoTo', prevSlide);
+            if (prevSlide === 0) {
+              $(this).closest('.p-slick-dot').prev(".p-slick-dot").addClass('slick-first-slide');
+            }
+          }
+        }
       });
-
 });
