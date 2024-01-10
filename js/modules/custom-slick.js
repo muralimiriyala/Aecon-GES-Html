@@ -77,25 +77,6 @@ jQuery(document).ready(function($){
       });
       $(".timeline-slide").removeAttr("style");
 
-      const aboutPlogos = $(".about-partner-logos");
-      aboutPlogos.each(function(){
-        const _self = $(this);
-        if(_self.children().length >=6){
-          _self.slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: true,
-            prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
-            nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
-            dots: false,
-            infinite: false,
-            speed: 1000,
-            variableWidth: true
-          });
-          $(".about-partner-logo").removeAttr("style");
-        }
-      });
-
       const psliderNav = $(".process-slider-nav");
       const psliderFor = $(".process-slider-for");
       psliderFor.slick({
