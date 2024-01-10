@@ -55,15 +55,19 @@ ul.about-partners-tabs li::before{display: none;}
     .about-partners-wrap{padding: 40px 0; display: block;}
     .about-partners-head{text-align: center;}
     .partners-mobile-btn{padding: 18px 16px 16px; background-color: var(--navy); color: var(--white); border-radius: 16px; display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; cursor: pointer;}
-    .all-partners-icon{width: 30px; height: 30px; right: 12px; top: 50%; transform: translate(0, -50%); display: block; background: url("./images/all-partners-icon.svg") no-repeat center;}
+    .all-partners-icon{width: 30px; height: 30px; right: 12px; top: 50%; transform: translate(0, -50%); display: block;}
+    .all-partners-icon img{width: 100%; object-fit: cover;}
     ul.about-partners-tabs{margin-top: -50px; display: block; position: relative; z-index: 0; transition: margin-top 0.4s ease;}
     ul.about-partners-tabs li{margin: 0; transition: margin-bottom 0.4s ease;}
     ul.about-partners-tabs li:not(:last-child){margin-bottom: -50px;}
-    ul.about-partners-tabs li a{padding: 18px 16px 16px; color: transparent; display: block; border-radius: 16px; border: 1px solid var(--gray-md); font-weight: 800; font-family: "VisbyCF", sans-serif;}
+    ul.about-partners-tabs li a{padding: 18px 16px 16px; pointer-events: none; color: transparent; align-items: center; display: flex; flex-wrap: wrap; border-radius: 16px; border: 1px solid var(--gray-md); font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
     ul.about-partners-tabs.open{margin-top: 16px;}
     ul.about-partners-tabs.open li{margin-bottom: 16px;}
-    ul.about-partners-tabs.open li a{color: var(--foreground-light);}
+    ul.about-partners-tabs.open li a{color: var(--foreground-light); pointer-events: inherit;}
     ul.about-partners-tabs.open li a:hover{background-color: var(--navy); color: var(--white);}
+    .partners-tab-icon{width: 30px;flex: 0 0 30px; margin-left: auto; opacity: 0; transition: opacity 0.4s ease;}
+    ul.about-partners-tabs.open .partners-tab-icon{opacity: 1;}
+
     .about-partner-logos{gap: 8px; justify-content: center;}
     .about-partner-logo{flex: 0 0 calc(50% - 4px); padding: 16px 24px;}
     .about-partners-btn{padding-top: 31px;}

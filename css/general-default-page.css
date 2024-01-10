@@ -63,8 +63,5 @@
     .supporting-resource-text{padding-top: 28px;}
     .supporting-resource-text::before{left: 0; transform: none;}
     .general-default-article .accordion-main{margin: 40px 0;}
-
-    .general-default-page .faqs-section .accordion-main{margin: 48px 0 38px;}
-
     .general-default-page .common-content-btn{gap: 15px;}
 }

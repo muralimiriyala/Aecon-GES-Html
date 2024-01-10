@@ -82,7 +82,9 @@ jQuery(document).ready(function($){
         $(".partners-tab-content[data-tab-value="+ tabAttr +"]").fadeIn();
 
         let text = $(this).text();
-        $(".partners-mobile-span").html(text);
+        $(".partners-mobile-span").text(text);
+        let html = $(this).find(".partners-tab-icon").html();
+        $(".all-partners-icon").html(html);
         $("ul.about-partners-tabs").removeClass("open");
     });
 
@@ -118,8 +120,18 @@ jQuery(document).ready(function($){
         const faqtabAttr = $(this).attr("data-name");
         $(".faq-tab-content").hide();
         $(".faq-tab-content[data-value="+ faqtabAttr +"]").fadeIn();
+        let text = $(this).text();
+        $(".faqs-mobile-span").text(text);
+        let html = $(this).find(".faq-tabs-icon").html();
+        $(".faqs-mobile-icon").html(html);
+        $("ul.faq-tabs").removeClass("open");
     });
 
+    
+    $(".faqs-mobile-btn").on("click", function(e){
+        e.preventDefault();
+        $("ul.faq-tabs").toggleClass("open");
+    });
 
     if($(window).width() <= 1023){
         let level1 = $("ul.flyout-menu > li.menu-item-has-children > a");
