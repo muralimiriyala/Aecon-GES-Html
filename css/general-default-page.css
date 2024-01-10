@@ -26,7 +26,7 @@
     .supporting-resource-icon > figure{display: flex; align-items: center;}
     .supporting-resource-text{flex: 0 0 calc(100% - 114px); padding-left: 32px;}
 
-    .general-default-page .general-default-article .accordion-main{margin: 64px 0;}
+    .general-default-article .accordion-main{margin: 64px 0;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {

@@ -1,6 +1,6 @@
 
 
-
+.bg-white .what-people-grid{background-color: var(--elevated);}
 .what-people-grid{padding: 32px; color: var(--foreground);}
 .what-people-grid svg{margin-bottom: 4px;}
 .what-quote-text h2{color: var(--foreground-light);}
