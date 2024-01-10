@@ -22,6 +22,12 @@
     .best-partners-list:hover::before{height: 100%; background-color: var(--accent);}
 }
 
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .best-partners-main{padding: 64px 0;}
+    .best-partners-image{flex: 0 0 332px;}
+    .best-partners-text{flex: 0 0 calc(100% - 332px); padding: 24px;}
+}
+
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .best-partners-main{padding: 40px 0;}
     .best-partners-heading span.optional-text{font-size: 16px; line-height: 20px; margin-bottom: 17px;}
