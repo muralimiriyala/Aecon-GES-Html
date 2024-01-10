@@ -31,9 +31,10 @@ ul.about-partners-tabs li::before{display: none;}
     .about-partner-logos.slick-slider div.slick-arrow.slick-prev{left: 1174px;}
 }
 @media only screen and (min-width: 740px){
+    .partners-mobile-btn{display: none;}
     ul.about-partners-tabs{ border-bottom: 1px solid #000; display: inline-flex; width: auto;}
     ul.about-partners-tabs li a{padding: 0 16px 5px; color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
-    ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.5s ease;} 
+    ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.4s ease;} 
     ul.about-partners-tabs li a.active::after{width: 100%;}
     ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var(--navy);}
 }
@@ -49,19 +50,20 @@ ul.about-partners-tabs li::before{display: none;}
     .partners-tabs-row{padding-top: 30px;}
     .about-partner-logos{gap: 24px; justify-content: center;}
     .about-partner-logo{flex: 0 0 calc(33.33333333% - 16px); padding: 16px 24px;}  
-
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .about-partners-wrap{padding: 40px 0; display: block;}
     .about-partners-head{text-align: center;}
-    ul.about-partners-tabs{display: block;}
-    ul.about-partners-tabs li{z-index: 1;}
-    ul.about-partners-tabs li.mobile-active{margin-top: 0; z-index: 1;}
-    ul.about-partners-tabs li.mobile-open{margin-top: 16px;}
-    ul.about-partners-tabs li{margin-top: -44px; z-index: 0;}
-    ul.about-partners-tabs li a{padding: 18px 16px 16px; border: 1px solid var(--gray-md); border-radius: 16px; color: transparent; display: block; font-size: 16px; line-height: 20px; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
-    ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--green); content: ""; display: block; position: absolute; transition: width 0.5s ease;} 
-    ul.about-partners-tabs li a.active{background-color: var(--navy); color: var(--white); }
+    .partners-mobile-btn{padding: 18px 16px 16px; background-color: var(--navy); color: var(--white); border-radius: 16px; display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; cursor: pointer;}
+    .all-partners-icon{width: 30px; height: 30px; right: 12px; top: 50%; transform: translate(0, -50%); display: block; background: url("./images/all-partners-icon.svg") no-repeat center;}
+    ul.about-partners-tabs{margin-top: -50px; display: block; position: relative; z-index: 0; transition: margin-top 0.4s ease;}
+    ul.about-partners-tabs li{margin: 0; transition: margin-bottom 0.4s ease;}
+    ul.about-partners-tabs li:not(:last-child){margin-bottom: -50px;}
+    ul.about-partners-tabs li a{padding: 18px 16px 16px; color: transparent; display: block; border-radius: 16px; border: 1px solid var(--gray-md); font-weight: 800; font-family: "VisbyCF", sans-serif;}
+    ul.about-partners-tabs.open{margin-top: 16px;}
+    ul.about-partners-tabs.open li{margin-bottom: 16px;}
+    ul.about-partners-tabs.open li a{color: var(--foreground-light);}
+    ul.about-partners-tabs.open li a:hover{background-color: var(--navy); color: var(--white);}
     .about-partner-logos{gap: 8px; justify-content: center;}
     .about-partner-logo{flex: 0 0 calc(50% - 4px); padding: 16px 24px;}
     .about-partners-btn{padding-top: 31px;}

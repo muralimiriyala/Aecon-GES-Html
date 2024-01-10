@@ -14,13 +14,13 @@
 @media screen and (min-width: 740px){
     .explore-slider-desc{color: var(--white);}
     .explore-slider-desc h2{color: var(--white); font-size: 48px; line-height: 56px; margin-bottom: 21px;}
-    .explore-icons-list h2{ transition: all 0.5s ease;}
+    .explore-icons-list h2{ transition: all 0.4s ease;}
     .explore-icons-list.solar.active h2, .explore-icons-list.solar:hover h2{color: var(--foreground-dark);}
     .explore-icons-list.ev-charging.active h2, .explore-icons-list.ev-charging:hover h2{color: #02b5dc;}
     .explore-icons-list.ev-heating.active h2, .explore-icons-list.ev-heating:hover h2{color: #f8971d;}
     .explore-icons-list.battery-storage.active h2, .explore-icons-list.battery-storage:hover h2{color: #71a341;}
     
-    .explore-slider-btn { max-width: 166px; overflow: hidden; transition-property: all; transition-timing-function: ease; transition-duration: 0.5s; display: inline-block; }
+    .explore-slider-btn { max-width: 166px; overflow: hidden; transition-property: all; transition-timing-function: ease; transition-duration: 0.4s; display: inline-block; }
     .active .explore-slider-btn{ animation-name: expandWidth; animation-delay: 0s; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
     @keyframes expandWidth { to { max-width: 100%; } }
     .explore-slider-btn .button{white-space: nowrap;}
@@ -46,7 +46,7 @@
     .explore-slider-image img{min-height: 760px; overflow: hidden;}
     
     .explore-icons-lists{top: 50%; transform: translateY(-50%); right: 0; max-width: 300px; }
-    .explore-icons-list{margin: 0.5rem 0; width: calc(100% + 32px); gap: 20px; padding: 12px; transition: all 0.5s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 0px 0px 16px; }
+    .explore-icons-list{margin: 0.5rem 0; width: calc(100% + 32px); gap: 20px; padding: 12px; transition: all 0.4s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 0px 0px 16px; }
     .explore-icons-list:hover, .explore-icons-list.active{transform: translateX(-32px); background-color: var(--white);}
     .explore-icons-list h2{color: var(--white); flex: 1; margin: 0;}
     
@@ -61,7 +61,7 @@
     .explore-slider-image img{min-height: 800px; overflow: hidden;}
     
     .explore-icons-lists{top: 32px; right: 0; max-width: 280px;}
-    .explore-icons-list{margin: 0.5rem 0 0.5rem auto; gap: 20px; padding: 12px; max-width: 88px; transition: all 0.5s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 0px 0px 16px; flex-wrap: nowrap;}
+    .explore-icons-list{margin: 0.5rem 0 0.5rem auto; gap: 20px; padding: 12px; max-width: 88px; transition: all 0.4s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 0px 0px 16px; flex-wrap: nowrap;}
     .explore-icons-list:hover, .explore-icons-list.active{max-width: 100%; background-color: var(--white);}
     .explore-icons-list:hover h2, .explore-icons-list.active h2{color: var(--foreground-dark);}
     .explore-icons-list h2{color: var(--white); flex: 1; margin: 0; white-space: nowrap;}
@@ -76,7 +76,7 @@
     .explore-slider-image:first-child{display: block;}
     .explore-slider-thumb img{min-height: 390px;}
     .explore-icons-lists{left: 0; bottom: 0; gap: 10px; justify-content: center; display: flex; flex-wrap: wrap;}
-    .explore-icons-list{flex: 0 0 calc(25% - 8px); padding: 8px; max-width: 80px; transition: all 0.5s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 16px 0px 0px; }
+    .explore-icons-list{flex: 0 0 calc(25% - 8px); padding: 8px; max-width: 80px; transition: all 0.4s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 16px 0px 0px; }
     .explore-icons-list h2{display: none;}
     .explore-icons-list.active{background-color: var(--white); margin-top: -8px;}
     .explore-slider-desc{padding: 20px 0 40px; font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
@@ -93,11 +93,11 @@
     .ev-charging .button:hover{background-color: var(--navy);}
     .ev-charging .button:hover::after{color: var(--white);}
 
-    .heating-cooling .explore-slider-desc h2{color: var(--accent-yellow);}
-    .heating-cooling .button{background-color: var(--accent-yellow);}
-    .heating-cooling .button::after{color: var(--orange);}
-    .heating-cooling .button:hover{background-color: var(--navy);}
-    .heating-cooling .button:hover::after{color: var(--white);}
+    .ev-heating .explore-slider-desc h2{color: var(--accent-yellow);}
+    .ev-heating .button{background-color: var(--accent-yellow);}
+    .ev-heating .button::after{color: var(--orange);}
+    .ev-heating .button:hover{background-color: var(--navy);}
+    .ev-heating .button:hover::after{color: var(--white);}
 
     .battery-storage .explore-slider-desc h2{color: var(--accent);}
     .battery-storage .button{background-color: var(--accent-light);}

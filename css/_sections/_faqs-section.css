@@ -7,7 +7,7 @@ ul.faq-tabs{margin: 0 0 39px;}
 ul.faq-tabs li{margin: 0;}
 ul.faq-tabs li::before{display: none;}
 ul.faq-tabs li a{padding: 0 17px 10px; border-bottom: 1px solid var(--foreground-light); color: var(--foreground-light); display: block; font-size: 20px; line-height: 24px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
-ul.faq-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--accent); content: ''; display: block; position: absolute; transition: all 0.5s ease;}
+ul.faq-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--accent); content: ''; display: block; position: absolute; transition: all 0.4s ease;}
 ul.faq-tabs li a.active::after{width: 100%;}
 ul.faq-tabs li a.active{color: var(--navy);}
 

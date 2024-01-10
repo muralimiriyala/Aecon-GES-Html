@@ -69,7 +69,6 @@ jQuery(document).ready(function($){
     });
 
     const tablink = $("ul.about-partners-tabs li a");
-    $("ul.about-partners-tabs li:first-child").addClass("mobile-active");
     const tablinkFirst = $("ul.about-partners-tabs li:first-child a");
     tablinkFirst.addClass("active");
     tabValue = $(".partners-tab-content").attr("data-tab-value");
@@ -81,8 +80,17 @@ jQuery(document).ready(function($){
         const tabAttr = $(this).attr("data-tab-name");
         $(".partners-tab-content").hide();
         $(".partners-tab-content[data-tab-value="+ tabAttr +"]").fadeIn();
+
+        let text = $(this).text();
+        $(".partners-mobile-span").html(text);
+        $("ul.about-partners-tabs").removeClass("open");
     });
 
+    $(".partners-mobile-btn").on("click", function(e){
+        e.preventDefault();
+        $("ul.about-partners-tabs").toggleClass("open");
+    });
+    
     $("ul.our-approach-links li:first-child").addClass("open-approach");
     const approachLinks = $(".our-approach-link");
     approachLinks.on("click", function(e){
@@ -97,6 +105,7 @@ jQuery(document).ready(function($){
         _self.parent().siblings().find(".our-approach-mobile").slideUp(900);
         _self.siblings(".our-approach-mobile").slideToggle(900);
     });
+
 
     const faqtablink = $("ul.faq-tabs li a");
     $("ul.faq-tabs li:first-child a").addClass("active");
