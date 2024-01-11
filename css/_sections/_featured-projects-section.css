@@ -14,6 +14,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
 .featured-post-text h2 a{color: var(--navy);}
 .featured-post-text h2 a:hover{color: var(--accent);}
 
+.featured-projects-post ul.post-cat-btns{top: -13px; position: absolute;}
 
 /* media css starts here */
 @media only screen and (min-width: 1280px){
@@ -30,6 +31,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
     .featured-projects-post:nth-child(n+3) .featured-post-text{flex: 1;}
     .featured-projects-post:nth-child(n+3) .featured-post-text ul.cat-links{margin-bottom: 23px;}
 
+    div.featured-full-post.right-image{flex-direction: row-reverse;}
     .featured-full-post{flex: 0 0 calc(100% - 10px); margin-bottom: 15px; margin-left: auto; align-items: center; display: flex; flex-wrap: wrap; flex-direction: row-reverse;}
     .featured-full-post:nth-child(odd){flex-direction: row;}
     .featured-full-post .featured-post-image{flex: 0 0 310px; height: 100%;}
