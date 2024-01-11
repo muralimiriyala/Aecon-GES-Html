@@ -16,6 +16,8 @@
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
+body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
     .short-intro-head{gap: 80px;}
@@ -44,8 +46,6 @@
 
     .short-intro-of-3{gap: 32px;}
     .short-intro1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
-
-    body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
 
     .short-intro-btns{gap: 16px;}
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
