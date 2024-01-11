@@ -35,6 +35,7 @@
 }
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 90px 0 80px;}
+    body.page-template-careers .short-intro-main{padding: 80px 0;}
     .short-intro-head{padding-bottom: 66px;} 
     .partner-logos-main .short-intro-head{padding-bottom: 24px;}
     .short-intro-desc{overflow: hidden;}
@@ -48,7 +49,7 @@
     .short-intro-btns{gap: 16px;}
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
     .intro_btn_svg{width: 48px; height: 48px;}
-    body.page-template-careers .short-intro-title{max-width: 100%;}
+    body.page-template-careers .short-intro-title{max-width: 100%; padding-top: 27px;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .short-intro-head{gap: 80px;}
@@ -63,6 +64,7 @@
     .subhead-row.gap-32 .subhead-list{flex: 0 0 calc(25% - 24px);}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
+    body.page-template-esg-sustainability .short-intro-main{padding: 50px 0 80px;}
     .short-intro-head{gap: 56px;}
     .short-intro-title{flex: 1;}
     .short-intro-desc{flex: 0 0 446px; padding: 0 42px;}
