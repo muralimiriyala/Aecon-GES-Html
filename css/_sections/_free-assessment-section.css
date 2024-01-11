@@ -10,8 +10,9 @@
     .free-assessment-main.no_image{max-width: 1280px; width: 100%; margin: 0 auto; }
     .free-assessment-text{flex: 0 0 50%;}
     .free-assessment-image{flex: 0 0 calc(100% - 50%);}
-    .free-assessment-desc{max-width: 512px; font-size: 20px; line-height: 28px;}
+    .free-assessment-desc{max-width: 513px; font-size: 20px; line-height: 28px;}
     .free-assessment-desc h3{margin-bottom: 35px;}
+    body.page-template-esg-sustainability .free-assessment-desc h3{font-size: 32px; line-height: 40px;}
     .free-assessment-desc p{margin-bottom: 34px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
@@ -34,6 +35,7 @@
     .free-assessment-main{flex-direction: column-reverse;}
     .free-assessment-desc{text-align: center; padding: 25px 24px 48px;}
     .free-assessment-desc h3{margin-bottom: 23px; font-size: 32px; line-height: 40px;} 
+    body.page-template-esg-sustainability .free-assessment-desc h3{font-size: 24px; line-height: 32px;}
     .free-assessment-desc hr{margin: 0 auto 30px;}
     .free-assessment-btns .button{width: 100%;}
 }

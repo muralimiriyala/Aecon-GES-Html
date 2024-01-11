@@ -27,6 +27,8 @@
     .common-repeat-main{padding: 64px 0 0; display: block;}
     .common-repeat-image{ padding-bottom: 38px;}
     .common-repeat-text{padding-top: 40px;}
+    body.page-template-esg-sustainability .common-repeat-text{padding-top: 30px;}
+    body.page-template-esg-sustainability .common-repeat-text h2{margin-bottom: 20px;}
     .common-repeat-bg{top: -64px; right: -64px;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
