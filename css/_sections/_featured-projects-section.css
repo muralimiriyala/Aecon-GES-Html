@@ -20,7 +20,7 @@ ul.cat-links li a{padding: 7px 8px 5px;  border-radius: 4px; font-size: 14px; li
 @media only screen and (min-width: 1280px){
     ul.cat-links{top: -13px; position: absolute;}
 
-    .featured-projects-main{padding: 81px 0 80px;}
+    .featured-projects-main{padding: 81px 0 120px;}
     .featured-projects-row{gap: 40px; align-items: flex-start;}
     .featured-projects-left{flex: 0 0 calc(50% - 20px); transform: translateY(40px);}
     .featured-projects-right{flex: 0 0 calc(50% - 20px); gap: 40px;}

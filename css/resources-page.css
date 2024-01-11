@@ -37,6 +37,7 @@ ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px
 .card-text{padding: 32px; position: relative;}
 .card-text .h4 a{color: var(--navy);}
 .card-text .h4 a:hover{color: var(--accent);}
+.card-text ul.post-cat-btns{top: -14px; position: absolute; z-index: 1;}
 .load-more-btn{margin-top: 40px;}
 .load-more-btn .button::after{top: calc(50% + 2px); content: "\f107"; font-size: 16px;}
 
