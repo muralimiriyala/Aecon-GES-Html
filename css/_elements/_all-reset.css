@@ -106,6 +106,9 @@ hr{margin: 0 0 24px; height: 4px; width: 96px; background: var(--accent); border
 .button.text-white{color: var(--white);}
 .button.down-arrow::after{content: "\f078";}
 
+.button.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
+.button.btn-hover-white:hover::after{color: var(--accent);}
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}

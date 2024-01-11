@@ -89,7 +89,7 @@ jQuery(function($){
             cssEase: 'ease',
             arrows: false,
             dots: true,
-            appendDots: $("<div class='slick-dots-wrap'></div>"),
+            appendDots: $("<div class='process-slider-nav'></div>"),
           });
           // Set initial class for the first dot
           $('.p-slick-dot[data-slide="0"]').addClass('slick-current slick-first-slide');
@@ -111,6 +111,7 @@ jQuery(function($){
               const nextSlide = currentSlide + 1;
               if (nextSlide <= totalSlides) {
                 psliderFor.slick('slickGoTo', nextSlide);
+                $(this).closest('.p-slick-dot').next(".p-slick-dot").find(".process-slider-content").addClass("moveRightSlide").removeClass("moveLeftSlide");
                 if (nextSlide === totalSlides) {
                   $(this).closest('.p-slick-dot').next(".p-slick-dot").addClass('slick-last-slide');
                 }
@@ -119,6 +120,8 @@ jQuery(function($){
               const prevSlide = currentSlide - 1;
               if (prevSlide >= 0) {
                 psliderFor.slick('slickGoTo', prevSlide);
+                $(this).closest('.p-slick-dot').prev(".p-slick-dot").find(".process-slider-content").addClass("moveLeftSlide").removeClass("moveRightSlide");
+
                 if (prevSlide === 0) {
                   $(this).closest('.p-slick-dot').prev(".p-slick-dot").addClass('slick-first-slide');
                 }
@@ -127,37 +130,39 @@ jQuery(function($){
           });
       }
       else{
-        psliderFor.slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          fade: true,
-          cssEase: 'ease',
-          arrows: false,
-          dots: false,
-          swipeToSlide: true,
-          focusOnSelect: true,
-          asNavFor: psliderNav
-        });
-        psliderNav.slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          speed: 1500,
-          swipeToSlide: true,
-          focusOnSelect: true,
-          dots: false,
-          arrows: true,
-          prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
-          nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
-          asNavFor: psliderFor,
-          responsive: [
-            {
-            breakpoint: 739,
-                settings: {
-                  dots: true,
-                }
-            }
-          ]
-        });  
+          psliderFor.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            cssEase: 'ease',
+            arrows: false,
+            dots: false,
+            swipeToSlide: true,
+            focusOnSelect: true,
+            asNavFor: psliderNav
+          });
+          psliderNav.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 1500,
+            swipeToSlide: true,
+            focusOnSelect: true,
+            dots: false,
+            arrows: true,
+            prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
+            asNavFor: psliderFor,
+            responsive: [
+              {
+              breakpoint: 739,
+                  settings: {
+                    dots: true,
+                  }
+              }
+            ]
+          });  
       }
       
 });
+
+
