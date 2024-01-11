@@ -21,7 +21,7 @@
     .short-intro-head{gap: 80px;}
     .short-intro-title{flex: 1; max-width: 500px; margin-right: auto;}
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px;}
-    .short-intro-of-4{gap: 56px;}
+    .short-intro-of-4{gap: 56px; justify-content: center;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
     .short-intro-repeat .short-intro-main{padding-top: 40px;}
     .intro_btn_svg{width: 56px; height: 56px; border-radius: 6px; border: 0.75px solid var(--white); display: flex; align-items: center; justify-content: center;}
