@@ -7,7 +7,7 @@
 .custom-solar-btns .button{width: fit-content;} 
 
 .bar-solar{ overflow: hidden; z-index: 2; }
-.bar{background-color: var(--green);}
+.bar{background-color: var(--accent);}
 
 
 .sun-solar{ border-radius: 50%; overflow: hidden;}
@@ -18,7 +18,7 @@
 .sun-4{opacity: 0.8;}
 
 .battery-solar{overflow: hidden;}
-.battery{width: 100%; height: 58px; background-color: var(--green);}
+.battery{width: 100%; height: 58px; background-color: var(--accent);}
 .battery-1{opacity: 0.2; border-radius: 6px 6px 0 0;}
 .battery-2{opacity: 0.4;}
 .battery-3{opacity: 0.6;}

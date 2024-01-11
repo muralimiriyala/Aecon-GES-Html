@@ -1,0 +1,35 @@
+
+
+.assessment-header{padding: 16px 0;}
+.free-steps-text{color: var(--foreground-light);}
+.free-steps-text span.optional-text{margin-bottom: 4px;} 
+.free-steps-text h1{margin-bottom: 10px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .assessment-logo{flex: 0 0 261px;}
+    .assessment-h-right{flex: 1; justify-content: flex-end;}
+
+    .free-steps-main{gap: 80px; padding: 40px 0;}
+    .free-steps-text{flex: 0 0 480px;}
+    .free-steps-image{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
