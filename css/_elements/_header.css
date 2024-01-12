@@ -146,4 +146,5 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     
     .contact_btn_mobile{padding: 20px; gap: 20px; border-top: 2px solid var(--gray-md); flex-direction: column; display: flex;}
     .call-us-btns{margin-bottom: 0;}
+    .flyout-blue-overlay{display: none;}
 }
