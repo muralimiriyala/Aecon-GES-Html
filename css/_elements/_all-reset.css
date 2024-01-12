@@ -80,6 +80,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-green::after, button.btn-green::after{color: var(--navy);}
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::after{right: 13px; color: var(--white);}
 
+.button.btn-md{padding: 11px 32px 10px 16px; font-size: 16px;}
+.button.btn-md.btn-transparent{padding: 10px 32px 9px 16px;}
+.button.btn-md::after{font-size: 13px; top: calc(50% + 0px);}
+
 .button.btn-sm{font-size: 14px; line-height: 14px; padding: 10px 26px 8px 10px;}
 .button.btn-sm::after{right: 12px;}
 .button.btn-green{color: var(--white); background-color: var(--accent);}
@@ -98,8 +102,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-transparent.yellow::after{color: var(--accent-yellow);}
 .btn-transparent.yellow:hover{ background: var(--foreground-dark);}
 
-.button.btn-md{padding: 11px 32px 10px 16px; font-size: 16px;}
-.button.btn-md::after{font-size: 13px; top: calc(50% + 0px);}
+
 .button.text-white{color: var(--white);}
 .button.down-arrow::after{content: "\f078";}
 
