@@ -245,21 +245,39 @@
     </div>
     <form action="" class="browse-news-form flex">
         <div class="browse-news-field">
+            <span class="browse-news-btn active relative radius-12">
+                <input type="radio"  class="browse-news-input absolute" id="news" name="all" value="all" onclick="this.form.submit()">
+                All
+            </span>
+        </div>
+        <div class="browse-news-field">
             <span class="browse-news-btn relative radius-12">
-                <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="" onclick="this.form.submit()">
-                Browse All
+                <input type="radio"  class="browse-news-input absolute" id="news" name="articles" value="articles" onclick="this.form.submit()">
+                Articles
             </span>
         </div>
         <div class="browse-news-field">
-            <span class="browse-news-btn relative">
-                <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="2" onclick="this.form.submit()">
-                News
+            <span class="browse-news-btn relative radius-12">
+                <input type="radio" class="browse-news-input absolute"  id="press-release" name="grants" value="7" onclick="this.form.submit()">
+                Grants
             </span>
         </div>
         <div class="browse-news-field">
-            <span class="browse-news-btn relative">
-                <input type="radio" class="browse-news-input absolute"  id="press-release" name="browse" value="7" onclick="this.form.submit()">
-                Press Releases
+            <span class="browse-news-btn relative radius-12">
+                <input type="radio" class="browse-news-input absolute"  id="press-release" name="benefits" value="7" onclick="this.form.submit()">
+                Benefits
+            </span>
+        </div>
+        <div class="browse-news-field">
+            <span class="browse-news-btn relative radius-12">
+                <input type="radio" class="browse-news-input absolute"  id="press-release" name="tax-credits" value="7" onclick="this.form.submit()">
+                Tax Credits
+            </span>
+        </div>
+        <div class="browse-news-field">
+            <span class="browse-news-btn relative radius-12">
+                <input type="radio" class="browse-news-input absolute"  id="press-release" name="partner-offers" value="7" onclick="this.form.submit()">
+                Partner Offers
             </span>
         </div>
     </form>
