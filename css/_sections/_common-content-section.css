@@ -27,4 +27,5 @@
     .common-content-section .container{padding: 0;}
     .common-content-main{flex-direction: column-reverse;}
     .common-content-text{padding: 40px 20px;}
+    body.page-template-careers .common-content-text h2{margin-bottom: 23px;}
 }

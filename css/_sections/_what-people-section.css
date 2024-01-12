@@ -59,6 +59,7 @@
     .what-people-heading{padding-bottom: 1px;}
     .what-people-heading h2{padding-right: 40px;}
     .what-people-grids{display: block; padding-bottom: 32px;}
+    body.page-template-careers .what-people-grid{padding: 24px 32px 20px;}
     .what-people-grid:not(:last-child){margin-bottom: 24px;}
     .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
     .avatar-text p{font-size: 14px; line-height: 20px; letter-spacing: -.28px;}
