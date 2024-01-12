@@ -1,9 +1,12 @@
 
 
 .assessment-header{padding: 16px 0;}
+.assessment-h-right{gap: 12px;}
+span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-serif;}
 .free-steps-text{color: var(--foreground-light);}
 .free-steps-text span.optional-text{margin-bottom: 4px;} 
 .free-steps-text h1{margin-bottom: 10px;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -82,7 +82,6 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::after{right: 13px; color: var(--white);}
 
 .button.btn-sm{font-size: 14px; line-height: 14px; padding: 10px 26px 8px 10px;}
-.button.btn-sm.no-arrow{padding-right: 10px;}
 .button.btn-sm::after{right: 12px;}
 .button.btn-green{color: var(--white); background-color: var(--accent);}
 .button.btn-green:hover{background-color: var(--navy);}
@@ -96,8 +95,6 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-gray:hover{background: var(--accent); color: var(--white);}
 .button.btn-white{background: var(--white); color: var(--foreground);}
 .button.btn-white:hover{background: var(--accent); color: var(--white);}
-.button.no-arrow::after, button.no-arrow::after{display: none;}
-.button.no-arrow, button.no-arrow{padding-right: 16px;}
 .btn-transparent.yellow{border-color: var(--accent-yellow); color: var(--foreground-dark);}
 .btn-transparent.yellow::after{color: var(--accent-yellow);}
 .btn-transparent.yellow:hover{ background: var(--foreground-dark);}
@@ -109,6 +106,17 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 
 .button.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
 .button.btn-hover-white:hover::after{color: var(--accent);}
+
+.button.no-arrow::after, button.no-arrow::after{display: none;}
+.button.no-arrow, button.no-arrow{padding-right: 16px;}
+.button.btn-sm.no-arrow{padding-right: 10px;}
+
+.btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
+.btn-tel span{color: var(--accent);}
+
+.btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
+.btn-email span{color: var(--accent);}
+
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -156,6 +164,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .font-medium{font-weight: 500;}
 .font-semibold{font-weight: 600;}
 .font-bold{font-weight: 700;}
+.f-800{font-weight: 800;}
 .fs-14{font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
 .fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
 .fs-18{font-size: 18px; line-height: 32px; letter-spacing: -0.36px;}
