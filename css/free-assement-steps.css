@@ -8,7 +8,7 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-text h1{margin-bottom: 10px;}
 
 .steps-slider-bg{padding: 18px 0; margin-bottom: 20px;}
-.free-steps-slider .step-slick-arrow{width: 42px; height: 44px; top: 50%; transform: translate(0, -50%); background: none; color: var(--navy);}
+.free-steps-slider .step-slick-arrow{width: 42px; height: 44px; top: 50%; transform: translate(0, -50%); background: var(--elevated); color: var(--navy); border-radius: 0;}
 .free-steps-slider .step-slick-arrow::before{width: 1px; height: 100%; left: 0; top: 0; opacity: 0.25; background-color: var(--foreground-light); content: ""; display: block; position: absolute;}
 .free-steps-slider .step-slick-arrow.slick-next{right: 0;}
 .free-steps-slider .step-slick-arrow.slick-prev{left: 0; right: auto;}
@@ -21,6 +21,8 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .step-slide-heading h2 a{color: var(--navy);}
 .step-slide-heading h2 a:hover{color: var(--accent);}
 
+.tooltip-main{top: 47px; left: 124px; width: 100%; height: auto; padding: 16px; max-width: 214px; z-index: 8; box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.25);}
+.tooltip-text{color: var(--foreground); opacity: 0.75; letter-spacing: 0; font-family: "VisbyCF", sans-serif;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
