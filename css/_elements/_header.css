@@ -127,7 +127,8 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     ul.flyout-menu > li{margin: 0; padding-bottom: 32px;}
     ul.flyout-menu > li:last-child{padding-bottom: 0;}
     ul.flyout-menu > li > a{color: var(--accent-dark); position: relative;}
-    ul.flyout-menu > li.menu-item-has-children > a::after{ right: 0; top: calc(50% + 1px); transform: translateY(-50%); content: "\f078"; font-size: 20px; line-height: 20px; font-weight: 400; font-family: "Font Awesome 6 Pro"; transition: all .5s ease; color: var(--accent); position: absolute; }
+    ul.flyout-menu > li.menu-item-has-children > a::after{right: 0; top: calc(50% + 1px); transform: translateY(-50%); content: "\f078"; font-size: 20px; line-height: 20px; font-weight: 400; font-family: "Font Awesome 6 Pro"; transition: all .5s ease; color: var(--accent); position: absolute; }
+    ul.flyout-menu > li.menu-item-has-children > a.active::after{content: "\f077";}
     ul.flyout-menu > li > ul{display: none; margin: 0;}
     ul.flyout-menu > li > ul > li:first-child{padding-top: 14px;}
 
