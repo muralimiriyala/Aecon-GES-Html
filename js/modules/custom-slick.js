@@ -10,8 +10,8 @@ jQuery(function($){
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
-      prevArrow: '<div class="slick-arrow slick-prev step-slick-arrow flex flex-center"><i class="fa-solid fa-arrow-left"></i></div>',
-      nextArrow: '<div class="slick-arrow slick-next step-slick-arrow flex flex-center"><i class="fa-solid fa-arrow-right"></i></div>',
+      prevArrow: '<div class="slick-arrow slick-prev step-slick-arrow flex flex-center"><span class="fa-solid fa-arrow-left"></span></div>',
+      nextArrow: '<div class="slick-arrow slick-next step-slick-arrow flex flex-center"><span class="fa-solid fa-arrow-right"></span></div>',
       dots: false,
     });
     const partnerLogoSlider = $(".partner-logos-slider");
