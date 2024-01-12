@@ -17,6 +17,7 @@
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
 body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
+body.page-template-about .short-intro-desc p{margin: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
