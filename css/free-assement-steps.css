@@ -7,6 +7,11 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-text span.optional-text{margin-bottom: 4px;} 
 .free-steps-text h1{margin-bottom: 10px;}
 
+.free-steps-slide{padding: 12px;}
+.stel-slide-main{padding: 18px 32px; gap: 16px;}
+.step-slide-heading{flex: 1;}
+.step-slide-heading h2{margin: 0;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

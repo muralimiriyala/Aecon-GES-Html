@@ -5,6 +5,15 @@ import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 
 jQuery(function($){
+  const freeStepSlider = $("free-steps-slider");
+  freeStepSlider.slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
+    nextArrow: '<div class="slick-arrow slick-next button btn-green flex flex-center"><span class="fa-regular fa-arrow-right"></span></div>',
+    dots: false,
+  });
     const partnerLogoSlider = $(".partner-logos-slider");
     partnerLogoSlider.slick({
         slidesToShow: 5,
