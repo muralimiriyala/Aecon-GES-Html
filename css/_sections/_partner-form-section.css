@@ -2,6 +2,7 @@
 
 
 .bg-elevated .partner-form-text{color: var(--foreground);}
+.partner-ipad-flex{flex-direction: column;}
 
 /* media css starts here */
 @media only screen and (min-width: 1280px){
@@ -18,7 +19,7 @@
     .partner-info{margin-bottom: 16px;}
     .partner-info span.partner-name{display: block; font-size: 20px; font-weight: 800; line-height: 1.2; color: var(--foreground); font-family: 'VisbyCF', sans-serif; letter-spacing: normal; margin-bottom: 2px;}
     .partner-info span.specialist{font-size: 14px; line-height: 1.43; letter-spacing: -0.28px; color: var(--foreground-light);}
-    ul.partner-contact{margin: 0; padding-top: 14px;}
+    ul.partner-contact{margin: 0; padding-top: 14px; flex-direction: column;}
     ul.partner-contact > li{margin: 0 0 4px;}
     ul.partner-contact > li::before{display: none;}
     ul.partner-contact > li > a{gap: 8px; width: auto; display: inline-flex; align-items: center; color: var(--drab); font-size: 16px; font-weight: 800; line-height: 20px; font-family: 'VisbyCF', sans-serif;}

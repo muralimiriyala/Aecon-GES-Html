@@ -6,6 +6,8 @@
 .leaderships-text h2{margin-bottom: 0;}
 
 body.page-template-about .leaderships-title p{margin-bottom: 0;}
+.leaderships-text a{color: var(--foreground-light); opacity: 0.75;}
+.leaderships-text a:hover{color: var(--accent); opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
