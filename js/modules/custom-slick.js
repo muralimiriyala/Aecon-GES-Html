@@ -9,6 +9,9 @@ jQuery(function($){
     freeStepSlider.slick({
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 2000,
       arrows: true,
       prevArrow: '<div class="slick-arrow slick-prev step-slick-arrow flex flex-center"><span class="fa-solid fa-arrow-left"></span></div>',
       nextArrow: '<div class="slick-arrow slick-next step-slick-arrow flex flex-center"><span class="fa-solid fa-arrow-right"></span></div>',
