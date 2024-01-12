@@ -30,7 +30,7 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .timeline-main{padding: 41px 0 56px;}
     .timeline-slider .slick-slide{width: 296px; margin-right: 24px;}
-    .timeline-desc{min-height: 200px;}
+    .timeline-desc{min-height: 200px; padding: 45px 23px 17px;}
     .timeline-slider ul.slick-dots{margin-top: 34px;}
 }
 

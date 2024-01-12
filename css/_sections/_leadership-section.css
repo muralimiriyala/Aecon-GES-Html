@@ -5,11 +5,14 @@
 .leaderships-thumb::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--accent); content: ""; display: block; position: absolute;}  
 .leaderships-text h2{margin-bottom: 0;}
 
+body.page-template-about .leaderships-title p{margin-bottom: 0;}
+.leaderships-text a{color: var(--foreground-light); opacity: 0.75;}
+.leaderships-text a:hover{color: var(--accent); opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
     .leadership-rows{gap: 30px 48px;}
-    .leaderships-list{flex: 0 0 calc(25% - 48px);}
+    .leaderships-list{flex: 0 0 calc(25% - 36px);}
 }
 @media only screen and (min-width: 1024px){
     .leaderships-main{padding: 82px 0 68px;}
