@@ -8,6 +8,11 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-text h1{margin-bottom: 10px;}
 
 .free-steps-slide{padding: 12px;}
+.free-steps-slider .step-slick-arrow{width: auto; height: auto; top: 50%; transform: translate(0, -50%); background: none;}
+.free-steps-slider .step-slick-arrow.slick-next{right: 12px;}
+.free-steps-slider .step-slick-arrow.slick-prev{left: 12px; right: auto;}
+.free-steps-slider .step-slick-arrow:hover{color: var(--accent); background: none;}
+
 .stel-slide-main{padding: 18px 32px; gap: 16px;}
 .step-slide-heading{flex: 1;}
 .step-slide-heading h2{margin: 0;}
@@ -19,8 +24,8 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
     .assessment-h-right{flex: 1; justify-content: flex-end;}
 
     .free-steps-main{gap: 80px; padding: 40px 0;}
-    .free-steps-text{flex: 0 0 480px;}
-    .free-steps-image{flex: 1;}
+    .free-steps-text{width: 480px;}
+    .free-steps-image{width: calc(100% - 560px);}
 }
 
 

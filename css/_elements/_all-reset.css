@@ -252,7 +252,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
 .bg-navy{background-color: var(--navy); color: var(--white);}
 
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
 div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}
