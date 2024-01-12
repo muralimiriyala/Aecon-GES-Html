@@ -12,6 +12,7 @@
     .common-content-section:not(.common-content-reverse) .common-content-image{margin-right: -70px;}
     .common-content-reverse .common-content-main{flex-direction: row-reverse;}
 
+    body.page-template-about .common-content-text{line-height: 28px;}
     body.page-template-solution-landing .common-content-text{color: var(--foreground);}
     body.page-template-solution-landing .common-content-text h2{max-width: 400px;}
 }

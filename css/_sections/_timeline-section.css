@@ -13,6 +13,7 @@
 .timeline-desc{padding: 41px 23px 17px; margin-left: 19px; color: var(--foreground); position: relative;}
 .timeline-desc::before{width: 2px; height: calc(100% + 30px); top: 0; left: 0; background-color: var(--accent); content: ""; display: block; position: absolute;}
 .timeline-desc::after{width: 10px; height: 10px; bottom: -30px; left: -4px; position: absolute; background-color: var(--accent); border-radius: 50%; content: ""; display: block;}
+.timeline-desc p{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
