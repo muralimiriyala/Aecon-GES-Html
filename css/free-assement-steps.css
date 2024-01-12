@@ -6,6 +6,10 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-text{color: var(--foreground-light);}
 .free-steps-text span.optional-text{margin-bottom: 4px;} 
 .free-steps-text h1{margin-bottom: 10px;}
+.free-steps-btns{gap: 1rem;}
+.free-steps-btns span{flex: 1;}
+span.free-steps-next{margin-left: auto; text-align: right;}
+.free-steps-dots{gap: 8px; flex: 1;}
 
 .steps-slider-bg{padding: 18px 0; margin-bottom: 20px;}
 .free-steps-slider .step-slick-arrow{width: 42px; height: 44px; top: 50%; transform: translate(0, -50%); background: var(--elevated); color: var(--navy); border-radius: 0;}
