@@ -114,10 +114,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-sm.no-arrow{padding-right: 10px;}
 
 .btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
-.btn-tel span{color: var(--accent);}
+.btn-tel span:not(.hide-mobile){color: var(--accent);}
 .btn-tel:hover{border-color: var(--foreground-light); background-color: transparent; color: var(--drab);}
 .btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
-.btn-email span{color: var(--accent);}
+.btn-email span:not(.hide-mobile){color: var(--accent);}
 .btn-email:hover{background-color: var(--accent-light); border-color: var(--accent-light); color: var(--accent-dark);}
 
 .button.btn-md.btn-transparent.back{padding: 10px 16px 9px 32px;}
@@ -313,6 +313,8 @@ ul.slick-dots li button{display: none;}
     .h2, h2{font-size: 32px; line-height: 40px;}
     .h4, h4{font-size: 20px; line-height: 24px;}
     .fs-18{line-height: 28px;}
+
+    .btn-tel, .btn-email{width: 40px; height: 40px;}
 
 
     div.slick-arrow{bottom: -16px; left: 0;}
