@@ -4,7 +4,7 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--amar-orange);text-decoration: none; transition: all 0.4s ease;}
+a{color: var(--accent);text-decoration: none; transition: all 0.4s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--accent);}
@@ -16,7 +16,7 @@ a:hover{color: var(--accent);}
 .h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 12px;}
 .h6, h6{font-size: 18px; line-height: 22px; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--accent);}
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--navy);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
 .h2 span, h2 span{position: relative; z-index: 0;}
 h1 span svg{left: 0; top: -11px; position: absolute;}
@@ -32,7 +32,6 @@ pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
 blockquote{padding: 32px; margin: 3rem 0 2.9rem; font-size: 1.5rem; line-height: 1.42; font-weight: 200; font-style: normal; position: relative; letter-spacing: normal; background-color: var(--foreground); color: var(--white);}
 blockquote::after{content: ""; position: absolute; top: 32px; right: 42px; background-image: url("./images/quote-icon.svg"); width: 69px; height: 56px;}
-blockquote p span{color: var(--amar-blue-2); font-weight: bold;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 small{font-size: 12px; line-height: 20px; letter-spacing: -0.24px; display: block;}
@@ -113,9 +112,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 
 .btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
 .btn-tel span{color: var(--accent);}
-
+.btn-tel:hover{border-color: var(--foreground-light); background-color: transparent; color: var(--drab);}
 .btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
 .btn-email span{color: var(--accent);}
+.btn-email:hover{background-color: var(--accent-light); border-color: var(--accent-light); color: var(--accent-dark);}
 
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
@@ -230,10 +230,10 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted{color: var(--white);}
 .inverted h1, .inverted h2, .inverted h3, .inverted h4{color: var(--white);}
 .inverted h1 a, .inverted h2 a, .inverted h3 a, .inverted h4 a{color: var(--white);}
-.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--amar-orange);}
+.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--accent);}
 .inverted dl dt::before{background-color: var(--white);}
 .inverted p a{color: var(--white);}
-.inverted p a:hover{color: var(--amar-orange);}
+.inverted p a:hover{color: var(--accent);}
 
 .dark-text{color: var(--foreground);}
 .dark-text h3 a{color: var(--navy);}
@@ -243,7 +243,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
-button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
+button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--accent); display: flex; align-items: center; justify-content: center;}
 button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
 
 .bg-elevated{background-color: var(--elevated); color: var(--foreground-light);}
@@ -252,7 +252,7 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
 .bg-navy{background-color: var(--navy); color: var(--white);}
 
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.4s ease;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
 div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}

@@ -7,10 +7,19 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-text span.optional-text{margin-bottom: 4px;} 
 .free-steps-text h1{margin-bottom: 10px;}
 
-.free-steps-slide{padding: 12px;}
-.stel-slide-main{padding: 18px 32px; gap: 16px;}
+.steps-slider-bg{padding: 18px 0; margin-bottom: 20px;}
+.free-steps-slider .step-slick-arrow{width: 42px; height: 44px; top: 50%; transform: translate(0, -50%); background: none; color: var(--navy);}
+.free-steps-slider .step-slick-arrow::before{width: 1px; height: 100%; left: 0; top: 0; opacity: 0.25; background-color: var(--foreground-light); content: ""; display: block; position: absolute;}
+.free-steps-slider .step-slick-arrow.slick-next{right: 0;}
+.free-steps-slider .step-slick-arrow.slick-prev{left: 0; right: auto;}
+.free-steps-slider .step-slick-arrow.slick-prev::before{left: auto; right: 0;}
+.free-steps-slider .step-slick-arrow:hover{color: var(--accent); background: none;}
+
+.stel-slide-main{padding: 0 74px; gap: 16px;}
 .step-slide-heading{flex: 1;}
 .step-slide-heading h2{margin: 0;}
+.step-slide-heading h2 a{color: var(--navy);}
+.step-slide-heading h2 a:hover{color: var(--accent);}
 
 
 /*-- media css starts here --*/
@@ -18,9 +27,9 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
     .assessment-logo{flex: 0 0 261px;}
     .assessment-h-right{flex: 1; justify-content: flex-end;}
 
-    .free-steps-main{gap: 80px; padding: 40px 0;}
-    .free-steps-text{flex: 0 0 480px;}
-    .free-steps-image{flex: 1;}
+    .free-steps-main{gap: 80px; padding: 40px 0; align-items: flex-start;}
+    .free-steps-text{width: 480px;}
+    .free-steps-image{width: calc(100% - 560px);}
 }
 
 
