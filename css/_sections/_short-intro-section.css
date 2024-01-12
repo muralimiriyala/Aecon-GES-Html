@@ -52,6 +52,9 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
     .intro_btn_svg{width: 48px; height: 48px;}
     body.page-template-careers .short-intro-title{max-width: 100%; padding-top: 27px;}
+    body.page-template-about .short-intro-head{padding-bottom: 82px;}
+    body.page-template-about .short-intro-title{padding-top: 11px;}
+    body.page-template-about .short-intro-main h2{margin-bottom: 0;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .short-intro-head{gap: 80px;}
