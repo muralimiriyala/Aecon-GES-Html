@@ -55,7 +55,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 /* media css starts here */
 @media screen and (min-width: 740px) {
     .contact_btn_menu{display: none; top: 100%; right: 0; min-width: 296px; border-radius: 0px 0px 24px 24px; background-color: var(--white); }
-    .contact_btn_wrap{ padding: 41px 16px 16px; border-radius: 0px 0px 24px 24px; box-shadow: 0px 1px 1px 0px var(--black-10); }
+    .contact_btn_wrap{ padding: 41px 16px 16px; border-radius: 0px 0px 24px 24px; box-shadow: 0px 4px 8px 0px var(--black-10); }
 }
 @media screen and (min-width: 1024px) {
     header.header-main.no_sticky{position: relative;}    
