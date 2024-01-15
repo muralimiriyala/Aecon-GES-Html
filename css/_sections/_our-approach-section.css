@@ -54,6 +54,8 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
 @media screen and (max-width: 739px) and (min-width: 200px){
     .our-approach-text{padding: 33px 20px 32px;}
     .our-approach-mobile{padding: 16px 20px 24px;  font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
+
+    body.page-template-partners .our-approach-mobile p{margin-bottom: 18px;}
 }
 
 

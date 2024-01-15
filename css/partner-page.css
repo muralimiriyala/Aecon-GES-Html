@@ -33,6 +33,8 @@
     body.page-template-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit, body.page-template-partner-installer-join .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 16px;}
 
     body.page-template-partners .banner-text p{margin: 0;}
+    body.page-template-partners .short-intro-title{padding-bottom: 7px;}
+    body.page-template-partners .partner-logos-head h2{margin-bottom: 35px;}
 }
 
 
