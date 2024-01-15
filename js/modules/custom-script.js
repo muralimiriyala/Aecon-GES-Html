@@ -16,6 +16,11 @@ jQuery(function($){
         $(this).toggleClass("open");
         $(".contact_btn_menu").slideToggle(900);
     });
+    $("body").on("click", function(e){
+        if(!$(e.target).closest(".contact_btn, .contact_btn_wrap").length){
+            $(".contact_btn_menu").slideUp();
+        }
+    });
     
     const getQuotebtn = $(".get_quote_btn");
     getQuotebtn.on("click", (e)=>{

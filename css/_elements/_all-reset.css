@@ -249,8 +249,6 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
-button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--accent); display: flex; align-items: center; justify-content: center;}
-button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
 
 .bg-elevated{background-color: var(--elevated); color: var(--foreground-light);}
 .bg-dark{background-color: var(--foreground);}

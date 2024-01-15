@@ -1,9 +1,5 @@
 
 
-import jQuery from 'jquery';
-import 'slick-carousel';
-import 'slick-carousel/slick/slick.css';
-
 jQuery(function($){
     const freeStepSlider = $(".free-steps-slider");
     freeStepSlider.slick({
@@ -54,8 +50,6 @@ jQuery(function($){
         ]
       });
 
-      $(".partner-logos-slide").removeAttr("style");
-
       const timeline = $(".timeline-slider");
       timeline.slick({
         slidesToShow: 3,
@@ -87,8 +81,6 @@ jQuery(function($){
           }
         ]
       });
-      $(".timeline-slide").removeAttr("style");
-
     
       const psliderFor = $(".process-slider-for");
       const psliderNav = $(".process-slider-nav");

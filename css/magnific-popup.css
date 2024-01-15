@@ -147,15 +147,13 @@
   
   .mfp-close-btn-in .mfp-close {
     color: #333; }
-  
-  .mfp-image-holder .mfp-close,
-  .mfp-iframe-holder .mfp-close {
-    color: #FFF;
-    right: -6px;
-    text-align: right;
-    padding-right: 6px;
-    width: 100%; }
-    .mfp-iframe-holder .mfp-close::before, .mfp-iframe-holder .mfp-close::after{display: none;}
+
+  .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close,
+  button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 40px; height: 40px; top: -60px; font-size: 0; line-height: 0;  border-radius: 12px; background: rgba(255, 255, 255, 0.30); padding: 0; opacity: 1; display: flex; align-items: center; justify-content: center;}
+  button.mfp-close:hover, .custom-popup-overlay button.mfp-close, button.mfp-arrow:hover, div.mfp-iframe-holder .mfp-close:hover{background-color: var(--accent); }
+
+  .mfp-iframe-holder .mfp-close::before{display: none;}
+  .mfp-iframe-holder .mfp-close::after{right: auto; top: 50%; content: "\f00d"; color: var(--white); font-size: 20px; line-height: 20px;}
   
   .mfp-counter {
     position: absolute;
@@ -226,15 +224,7 @@
       line-height: 0;
       width: 100%;
       max-width: 900px; }
-    .mfp-iframe-holder .mfp-close {top: -60px;
-      width: 30px;
-      min-width: 30px;
-      font-size: 4rem;
-      line-height: 4rem;
-      opacity: 1;
-      font-family: Lora,sans-serif;
-      font-weight: normal;}
-      .mfp-iframe-holder .mfp-close:hover{color: var(--blue-color);}
+
   
   .mfp-iframe-scaler {
     width: 100%;
