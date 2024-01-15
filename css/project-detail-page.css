@@ -44,7 +44,7 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .stats-image-row{gap: 32px; margin-bottom: 24px;}
     .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
     .stats-image-left figure{height: calc(50% - 16px);}
-    .stats-image-right{flex: 1;}
+    .stats-image-right{flex: 0 0 calc(100% - 480px);}
     .stats-image-right figure{height: 100%;}
 
     .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
