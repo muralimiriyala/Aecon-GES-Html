@@ -42,7 +42,7 @@ jQuery(function($){
         e.preventDefault();
         humburgerbtn.toggleClass("open");
         contact_btn.removeClass("open");
-        $(".flyout-blue-overlay").addClass("open");
+        $(".flyout-blue-overlay").toggleClass("open");
         $("body").toggleClass("nav-overlay-open");
         $(".contact_btn_menu").slideUp(900);
         $(".flyout-overlay").toggleClass("open");

@@ -70,6 +70,13 @@ ul.post-cat-btns li a.heating{background-color: #FFD8A6; color: #5E3808;}
 ul.post-cat-btns li a.heating span{color: #F8971D;}
 ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
 
+
+.card-main{transition: all 0.4s ease;}
+.card-main:hover{background-color: transparent; box-shadow: 0 4px 4px var(--gray-md);}
+.card-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
+.card-thumb{transition: all 0.4s ease;}
+.card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
+
 /* media css starts here */
 @media screen and (min-width: 740px){
     .browse-mobile-btn{display: none;}
@@ -94,7 +101,7 @@ ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
     .browse-news-form{margin-bottom: 60px; gap: 16px;}
     .browse-news-field{width: calc(16.666666% - 14px);}
     .card-main{height: 100%;}
-    .card-thumb img{min-height: 194px; max-height: 104px;}
+    .card-thumb img{min-height: 194px; max-height: 194px;}
 }
 @media only screen and (min-width: 1280px){
     .card-row-of-3{gap: 40px;}
