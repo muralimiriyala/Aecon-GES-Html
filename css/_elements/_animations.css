@@ -52,7 +52,11 @@
 @keyframes top-0-to-100{ 0%{height: 0;} 50%{height: 50%;} 100%{height: 100%;} }
 
 .fade-circle{animation-name: fade-circle;}
-@keyframes fade-circle{ 0% { opacity: 0; border-radius: 50%; } 50% { opacity: 0.5; border-radius: 50%;} 100% { opacity: 1; border-radius: 0;} }
+@keyframes fade-circle{ 
+    0% { opacity: 0; border-radius: 0; } 
+    50% { opacity: 0.5; border-radius: 25%;} 
+    100% { opacity: 1; border-radius: 50%;} 
+}
 
 
 
