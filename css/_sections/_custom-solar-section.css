@@ -34,7 +34,8 @@
     .custom-solar-text{flex: 0 0 50%;}
     .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-desc h2{margin-bottom: 35px;}
-    .bar-solar{width: 125px; height: 250px; left: 1px; bottom: -63px; transform: translateY(-50%); clip-path: polygon(100% 50%, 0 0, 0 100%);}
+    .bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; transform: translate(-50%, -50%); transition: all 4s ease; clip-path: polygon(100% 50%, 0 0, 0 100%);}
+    [data-animation].bar-solar-anim{transform: translate(0%, -50%);}
     .bar{width: 25px; height: 250px;}
     .bar-5{opacity: 0.2;}
     .bar-4{opacity: 0.4;}
@@ -43,7 +44,8 @@
     .sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transition: all 4s ease; transform: translateY(100%); animation-delay: 2s;}
     [data-animation].solar-up{transform: translateY(-50%);}
 
-    .battery-solar{width: 128px; height: 290px; left: -80px; top: 50%; transform: translateY(-50%);}
+    .battery-solar{width: 128px; height: 290px; left: -80px; top: 50%; transform: translateY(-100%); transition: all 0.4s ease; animation-delay: 2s;}
+    [data-animation].battery-solar-anim{transform: translateY(-50%);}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .custom-solar-text{padding: 83px 80px 82px 40px;}
