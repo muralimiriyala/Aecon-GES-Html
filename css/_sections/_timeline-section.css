@@ -5,11 +5,15 @@
 .timeline-slider .slick-list{overflow: inherit;}
 
 .timeline-ring{left: 0; top: -19px; width: 40px; height: 40px; z-index: 1;}
-
+.timeline-ring .ring:not(.t-ring-1){animation: 6s tRingZoom infinite linear;}
+@keyframes tRingZoom { 
+    0% { transform: translateX(-50%) scale(1); opacity: 0.2; } 
+    100% { transform: translateX(-50%) scale(2.5); opacity: 0; } 
+}
 .t-ring-1 { width: 15px; height: 15px; left: 50%; transform: translateX(-50%); background-color: var(--white); border: 2px solid var(--accent); z-index: -1; }
-.t-ring-2{opacity: 0.3; width: 24px; height: 24px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -2;}
-.t-ring-3{opacity: 0.2; width: 32px; height: 32px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -3;}
-.t-ring-4{opacity: 0.1; width: 40px; height: 40px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -4;}
+.t-ring-2{opacity: 0.3; animation-delay: 2s; width: 24px; height: 24px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -2;}
+.t-ring-3{opacity: 0.2; animation-delay: 4s; width: 32px; height: 32px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -3;}
+.t-ring-4{opacity: 0.1; animation-delay: 6s; width: 40px; height: 40px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -4;}
 
 .timeline-desc{padding: 41px 23px 17px; margin-left: 19px; color: var(--foreground); position: relative;}
 .timeline-desc::before{width: 2px; height: calc(100% + 30px); top: 0; left: 0; background-color: var(--accent); content: ""; display: block; position: absolute;}

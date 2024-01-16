@@ -5,12 +5,16 @@
 .subhead-list{padding: 34px 32px 32px;}
 .counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
 .intro_btn{padding: 12px 12px 12px 16px; border-radius: 16px; border: 1px solid var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif;}
-.intro_btn.open{background-color: var(--navy); color: var(--white);}
 .intro_btn span{flex: 1;}
+.intro_btn_svg{transition: all 0.4s ease;}
+.intro_btn svg{transition: all 0.4s ease;}
 .intro_btn.yellow, .intro_btn.yellow .intro_btn_svg{border-color: #FFBF0D; color: #FFBF0D;}
 .intro_btn.blue, .intro_btn.blue .intro_btn_svg{border-color: #02B5DC; color: #02B5DC;}
 .intro_btn.orange, .intro_btn.orange .intro_btn_svg{border-color: #F8971D; color: #F8971D;}
 .intro_btn.green, .intro_btn.green .intro_btn_svg{border-color: #71A341; color: #71A341;}
+.intro_btn.open, .intro_btn:hover{background-color: var(--navy); border-color: var(--navy); color: var(--white);}
+.intro_btn:hover .intro_btn_svg{border-color: var(--white);}
+.intro_btn:hover svg path{stroke: var(--white);}
 
 .short-intro-title .button{font-size: 16px; line-height: 1; padding: 11px 34px 13px 16px; margin-top: -6px;}
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
