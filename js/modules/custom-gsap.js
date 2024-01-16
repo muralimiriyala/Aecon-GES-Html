@@ -11,7 +11,6 @@ function getRandomInt(min, max) {
 // Bar Chart 
 // var $drawing = jQuery('.ui-drawing');
 var $drawing = jQuery('[data-animation="ui-drawing"]');
-console.log("drawing", $drawing)
 $drawing.each(function(){
   var $self = jQuery(this);
   var $path = $self.find('path');

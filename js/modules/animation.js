@@ -18,6 +18,7 @@ function check_if_in_view() {
         }
       }, delay);
     } else {
+      // $self.removeClass('visible ' + animation);
       if (timeline && timeline.progress() > 0) {
         timeline.progress(0);
       }
