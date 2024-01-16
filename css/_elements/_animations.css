@@ -22,7 +22,7 @@
 @-webkit-keyframes fadeIn { 0% { opacity: 0; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
 @keyframes fadeIn { 0% { opacity: 0; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
   
-.zoom-out { -webkit-animation-name: zoomOut; animation-name: zoomOut; animation-iteration-count: infinite;}
+.zoom-out { -webkit-animation-name: zoomOut; animation-name: zoomOut;}
 @-webkit-keyframes zoomOut { 0% { transform: scale(1.1); } 100% { transform: scale(1); } }
 @keyframes zoomOut { 0% { transform: scale(1.1); } 100% { transform: scale(1); } }
   
