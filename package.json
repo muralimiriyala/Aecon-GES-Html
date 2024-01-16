@@ -15,10 +15,10 @@
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-w3c-html-validation": "^0.1.9",
     "lerp": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.22.15"
+    "@babel/preset-env": "^7.22.15",
+    "grunt-w3c-html-validation": "^0.1.9"
   }
 }

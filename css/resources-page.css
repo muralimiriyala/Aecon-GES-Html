@@ -40,7 +40,7 @@
 ul.res-categories{margin: 0; top: -13px; z-index: 1;}
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
-ul.res-categories li a{padding: 3px 8px 1px; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); display: inline-block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.res-categories li a{padding: 3px 8px 1px; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
 ul.res-categories li a:hover{background-color: var(--accent); color: var(--white);}
 .card-text{padding: 32px; position: relative;}
 .card-text .h4 a{color: var(--navy);}
@@ -72,7 +72,7 @@ ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
 
 
 .card-main{transition: all 0.4s ease;}
-.card-main:hover{background-color: transparent; box-shadow: 0 4px 4px var(--gray-md);}
+.card-main:hover{box-shadow: 0 4px 4px var(--gray-md);}
 .card-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
 .card-thumb{transition: all 0.4s ease;}
 .card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
