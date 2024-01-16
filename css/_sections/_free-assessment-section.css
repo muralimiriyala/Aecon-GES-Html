@@ -1,9 +1,10 @@
 
 .free-assessment-main.no_image{display: block;}
-.free-assessment-main.no_image .free-assessment-desc{max-width: 100%; padding: 64px 0;}
+.no_image .free-assessment-desc{max-width: 100%; padding: 64px 0;}
 .free-assessment-desc span.optional-text{margin-bottom: 35px; font-size: 16px; line-height: 20px;}
 .free-assessment-btns{flex-direction: column; gap: 16px;}
 .free-assessment-btns .button{width: fit-content;}
+
 
 /* media css starts here */
 @media screen and (min-width: 1300px) {
