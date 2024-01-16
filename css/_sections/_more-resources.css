@@ -9,8 +9,9 @@
 
 
 .more-resources-list{transition: all 0.4s ease;}
-.more-resources-list:hover{background-color: transparent; box-shadow: 0 4px 4px var(--gray-md);}
+.more-resources-list:hover{background-color: var(--whute); box-shadow: 0 4px 4px var(--gray-md);}
 .more-resources-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
+.more-resources-image img{min-height: 194px;}
 .more-resources-thumb{transition: all 0.4s ease;}
 .more-resources-list:hover .more-resources-thumb, .more-resources-thumb:hover{transform: scale(1.25);}
 
