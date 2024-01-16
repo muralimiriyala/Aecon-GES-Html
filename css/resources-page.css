@@ -60,7 +60,7 @@ ul.post-cat-btns{margin: 0 0 13px; gap: 8px;}
 .custom-solar-text ul.post-cat-btns{margin-bottom: 30px;}
 ul.post-cat-btns li{margin: 0;}
 ul.post-cat-btns li::before{display: none;}
-ul.post-cat-btns li a{ padding: 6px 7px; gap: 6px; font-size: 14px; line-height: 14px; border-radius: 4px; letter-spacing: 0; align-items: center; background-color: var(--accent-light); color: var(--drab); font-weight: 800; font-family: VisbyCF,sans-serif; }
+ul.post-cat-btns li a{padding: 6px 7px; gap: 6px; font-size: 14px; line-height: 14px; border-radius: 4px; letter-spacing: 0; align-items: center; background-color: var(--accent-light); color: var(--drab); font-weight: 800; font-family: VisbyCF,sans-serif; }
 ul.post-cat-btns li a span{font-size: 12px; line-height: 12px;}
 ul.post-cat-btns li a.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
 ul.post-cat-btns li a.solar span{color: var(--accent-yellow);}
@@ -69,13 +69,8 @@ ul.post-cat-btns li a.ev-charging span{color: #02B5DC;}
 ul.post-cat-btns li a.heating{background-color: #FFD8A6; color: #5E3808;}
 ul.post-cat-btns li a.heating span{color: #F8971D;}
 ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
+ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
-
-.card-main{transition: all 0.4s ease;}
-.card-main:hover{box-shadow: 0 4px 4px var(--gray-md);}
-.card-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
-.card-thumb{transition: all 0.4s ease;}
-.card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
 
 /* media css starts here */
 @media screen and (min-width: 740px){
@@ -102,6 +97,13 @@ ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
     .browse-news-field{width: calc(16.666666% - 14px);}
     .card-main{height: 100%;}
     .card-thumb img{min-height: 194px; max-height: 194px;}
+
+    .card-main{transition: all 0.4s ease;}
+    .card-main.bg-elevated:hover{background-color: var(--white);}
+    .card-main:hover{box-shadow: 0 4px 4px var(--gray-md);}
+    .card-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
+    .card-thumb{transition: all 0.4s ease;}
+    .card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
 }
 @media only screen and (min-width: 1280px){
     .card-row-of-3{gap: 40px;}

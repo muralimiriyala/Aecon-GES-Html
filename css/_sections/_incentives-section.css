@@ -2,7 +2,7 @@
 
 .incentives-head{padding-bottom: 18px;}
 .incentives-bg picture img{opacity: 0.25;}
-.incentives-navy-bg{opacity: 0.85; background-color: var(--navy);}
+.incentives-navy-bg{opacity: 0.85; background-color: var(--navy); transition: all 0.4s ease;}
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light);}
 .incentives-text{padding: 32px;}
 .incentives-text h2 a{color: var(--navy);}
@@ -16,6 +16,11 @@
     .incentives-row{gap: 40px;}
     .incentives1-of-4{flex: 0 0 calc(25% - 30px);}
     .incentives1-of-3{flex: 0 0 calc(33.33333% - 27px);}
+}
+@media only screen and (min-width: 1024px){
+    .incentives-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
+    .incentives-image figure{transition: all 0.4s ease;}
+    .incentives-row > *:hover .incentives-image figure{transform: scale(1.25);}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .incentives-main{padding: 65px 0 64px;}
