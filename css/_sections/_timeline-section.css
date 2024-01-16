@@ -5,6 +5,7 @@
 .timeline-slider .slick-list{overflow: inherit;}
 
 .timeline-ring{left: 0; top: -19px; width: 40px; height: 40px; z-index: 1;}
+
 .t-ring-1 { width: 15px; height: 15px; left: 50%; transform: translateX(-50%); background-color: var(--white); border: 2px solid var(--accent); z-index: -1; }
 .t-ring-2{opacity: 0.3; width: 24px; height: 24px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -2;}
 .t-ring-3{opacity: 0.2; width: 32px; height: 32px; left: 50%; transform: translateX(-50%); background-color: var(--accent); z-index: -3;}
