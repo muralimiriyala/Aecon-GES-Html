@@ -22,6 +22,7 @@
      <script src="https://kit.fontawesome.com/8918ceb0b7.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="./style.css" media="all">
      <link rel="stylesheet" href="./core.bundle.css" media="all">
+     <link rel='stylesheet' id='formidable-css' href='https://aecon.parachutedevelopment.ca/wp-content/plugins/formidable/css/formidableforms.css?ver=1222430' type='text/css' media='all' />
 </head>
 <body class="page-template-testimonials">
 <header class="header-main">
@@ -126,7 +127,99 @@
             <div class="short-intro-title">
                 <span class="optional-text">Testimonials</span>
                 <h2>We’re proud of how our customers view us.</h2>
-                <a href="" class="button btn-gray">Submit a Review</a>
+                <a href="#testimonials-modal" class="button btn-gray popup-modal">Submit a Review</a>
+                <div id="testimonials-modal" class="mfp-hide white-popup-block bg-white radius-16">
+                    <div class="white-popup-text dark-text">
+                        <h2 class="h3">Testimonial Review Form</h2>
+                        <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_9_container" >
+                        <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_ajax_submit  frm_pro_form  frm-admin-viewing " id="form_testimonial-review"  >
+                            <div class="frm_form_fields ">
+                            <fieldset>
+                            <legend class="frm_screen_reader">Testimonial Review </legend>
+                            
+                            <div class="frm_fields_container">
+                            <input type="hidden" name="frm_action" value="create" />
+                            <input type="hidden" name="form_id" value="9" />
+                            <input type="hidden" name="frm_hide_fields_9" id="frm_hide_fields_9" value="" />
+                            <input type="hidden" name="form_key" value="testimonial-review" />
+                            <input type="hidden" name="item_meta[0]" value="" />
+                            <input type="hidden" id="frm_submit_entry_9" name="frm_submit_entry_9" value="4e80c053ea" /><input type="hidden" name="_wp_http_referer" value="/testimonials/" /><div id="frm_field_76_container" class="frm_form_field frm_half frm_first form-field  frm_required_field frm_top_container">
+                                <label for="field_qh4icy32" id="field_qh4icy32_label" class="frm_primary_label">Name
+                                    <span class="frm_required" aria-hidden="true">*</span>
+                                </label>
+                                <input type="text" id="field_qh4icy32" name="item_meta[76]" value=""  data-reqmsg="Required" aria-required="true" data-invmsg="Name is invalid" aria-invalid="false"  />
+                                
+                                
+                            </div>
+                            <div id="frm_field_78_container" class="frm_form_field  frm_half frm_last form-field  frm_required_field frm_top_container">
+                                <label for="field_29yf4d32" id="field_29yf4d32_label" class="frm_primary_label">Email Address
+                                    <span class="frm_required" aria-hidden="true">*</span>
+                                </label>
+                                <input type="email" id="field_29yf4d32" name="item_meta[78]" value=""  data-reqmsg="Required" aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
+                                
+                                
+                            </div>
+                            <div id="frm_field_80_container" class="frm_form_field form-field  frm_required_field frm_top_container frm12 frm_first">
+                                <label for="field_rfh743" id="field_rfh743_label" class="frm_primary_label">Solution Type
+                                    <span class="frm_required" aria-hidden="true">*</span>
+                                </label>
+                                        <select name="item_meta[80]" id="field_rfh743"  data-frmval="Select Option" data-reqmsg="Required" aria-required="true" data-invmsg="Solution Type is invalid" aria-invalid="false"  >
+                                    <option  value="Please Select">Please Select</option><option  value="Solar">Solar</option><option  value="EV Charging">EV Charging</option><option  value="Heating &amp; Cooling">Heating &amp; Cooling</option><option  value="Battery Storage">Battery Storage</option>	</select>
+                                
+                                
+                                
+                            </div>
+                            <div id="frm_field_83_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+                                <label for="field_5ju73" id="field_5ju73_label" class="frm_primary_label">Review
+                                    <span class="frm_required" aria-hidden="true">*</span>
+                                </label>
+                                <textarea name="item_meta[83]" id="field_5ju73" rows="5"  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Paragraph is invalid" aria-invalid="false"  ></textarea>
+                                
+                                
+                            </div>
+                            <div id="frm_field_84_container" class="frm_form_field form-field  frm_top_container frm12 frm_first">
+                                <label for="field_4nw7h" id="field_4nw7h_label" class="frm_primary_label">Photo
+                                    <span class="frm_required" aria-hidden="true"></span>
+                                </label>
+                                <input type="hidden" name="item_meta[84]"  value="" data-frmfile="84" />
+                            
+                            <div class="frm_dropzone frm_single_upload frm_clearfix" id="file84_dropzone" role="group" >
+                                <div class="fallback">
+                                    <input type="file" name="file84" id="field_4nw7h"
+                                         data-invmsg="File Upload is invalid" aria-invalid="false"  			/>
+                                            <div class="frm_clearfix "></div>
+                                </div>
+                                <div class="dz-message needsclick">
+                                            <svg  viewBox="0 0 18 18" class="frmsvg frm-svg-icon">
+                                <path viewBox="0 0 18 18" fill-rule="evenodd" clip-rule="evenodd" d="M8.2 4v8a.8.8 0 001.5 0V4l2.1 2.2A.7.7 0 1013 5L9.5 1.7a.7.7 0 00-1.1 0L5.1 5.2a.8.8 0 001 1l2.1-2zm7.6 4.3c.4 0 .7.3.7.7v6.8c0 .4-.3.7-.8.7H2.3a.8.8 0 01-.8-.8V9A.8.8 0 013 9v6h12V9c0-.4.3-.8.8-.8z"></path>
+                            </svg>		<span class="frm_upload_text"><button type="button" aria-label="Photo. Drop a file here or click to upload. Maximum file size: 33.55MB">Drop a file here or click to upload</button></span>
+                                    <span class="frm_compact_text"><button type="button" aria-label="Photo. Choose File. Maximum file size: 33.55MB">Choose File</button></span>
+                                    <div class="frm_small_text">
+                                        <p>Maximum file size: 33.55MB</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                
+                                
+                            </div>
+                                <input type="hidden" name="item_key" value="" />
+                                            <div class="frm__65842a5788498">
+                                            <label for="frm_email_9" >
+                                                If you are human, leave this field blank.				</label>
+                                            <input  id="frm_email_9" type="text" class="frm_verify" name="frm__65842a5788498" value="" autocomplete="false"  />
+                                        </div>
+                                    <input name="frm_state" type="hidden" value="9DeyC91DOgB+KrgN0FztQqXyJUJ2IMjZNbFjPw7F78U=" /><div class="frm_submit frm_flex">
+                            <button class="frm_button_submit frm_final_submit" type="submit"   formnovalidate="formnovalidate">Submit</button>
+                            
+                            
+                            
+                            </div></div></div>
+                            </fieldset>
+                            </div>
+                            </form>
+                            </div>
+                </div>
             </div>
             <div class="short-intro-desc fs-18 relative">
                 <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat veli.</p>
@@ -221,7 +314,7 @@
     <div class="what-people-main">
         <div class="what-people-grids flex">
             <div class="what-people-grid bg-elevated fs-16">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                     <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -238,7 +331,7 @@
                 </div>
             </div>
             <div class="what-people-grid bg-elevated fs-16">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                     <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -255,7 +348,7 @@
                 </div>
             </div>  
             <div class="what-people-grid bg-elevated fs-16">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                     <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -299,7 +392,7 @@
         </div>
         <div class="what-people-grids flex">
             <div class="what-people-grid bg-elevated fs-16">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                     <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -333,7 +426,7 @@
                 </div>
             </div>  
             <div class="what-people-grid bg-elevated fs-16">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                     <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                     <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -379,17 +472,14 @@
 </div>
 </section>
 <section class="blockquote-section relative">
-<div class="background-bg blockquote-bg">
-    <picture class="brand-messaging-thumb object-fit">
-        <source srcset="images/parallax-bg@2x.jpg" media="(min-width: 740px)">
-        <img src="images/parallax-bg@2x.jpg" alt="brand-messaging">
-    </picture>
-    <div class="blockquote-overlay background-bg bg-navy"></div>
-</div>
+<div class="background-bg blockquote-bg parallax-bg"></div>
+<div class="blockquote-overlay background-bg bg-navy"></div>
 <div class="container">
     <div class="blockquote-main flex flex-center">
-        <div class="blockquote-text inverted">
-            <h2>Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis lorem viverra condimentum.</h2>
+        <div class="blockquote-text inverted relative">
+            <div class="blockquote-text-icon relative">
+                <h2>Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis lorem viverra condimentum.</h2>
+            </div>
             <div class="quote-avatar-main flex flex-center">
                 <figure class="quote-avatar-img object-fit-img radius-img-50">
                     <img src="images/customer-thumb@2x.jpg" alt="customer-thumb" data-animation="fade-circle">
@@ -433,7 +523,7 @@
     </div>
     <div class="what-people-grids flex">
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -450,7 +540,7 @@
             </div>
         </div>
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -467,7 +557,7 @@
             </div>
         </div>  
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -511,7 +601,7 @@
     </div>
     <div class="what-people-grids flex">
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -528,7 +618,7 @@
             </div>
         </div>
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
@@ -545,7 +635,7 @@
             </div>
         </div>  
         <div class="what-people-grid bg-elevated fs-16">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" data-animation="ui-svg-dot">
                 <path d="M2 17.5C2 18.5609 2.42143 19.5783 3.17157 20.3284C3.92172 21.0786 4.93913 21.5 6 21.5C7.06087 21.5 8.07828 21.0786 8.82843 20.3284C9.57857 19.5783 10 18.5609 10 17.5C10 16.4391 9.57857 15.4217 8.82843 14.6716C8.07828 13.9214 7.06087 13.5 6 13.5C4.93913 13.5 3.92172 13.9214 3.17157 14.6716C2.42143 15.4217 2 16.4391 2 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M14 17.5C14 18.5609 14.4214 19.5783 15.1716 20.3284C15.9217 21.0786 16.9391 21.5 18 21.5C19.0609 21.5 20.0783 21.0786 20.8284 20.3284C21.5786 19.5783 22 18.5609 22 17.5C22 16.4391 21.5786 15.4217 20.8284 14.6716C20.0783 13.9214 19.0609 13.5 18 13.5C16.9391 13.5 15.9217 13.9214 15.1716 14.6716C14.4214 15.4217 14 16.4391 14 17.5Z" fill="#71A341" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>
                 <path d="M2 17.5V8.5C2 6.9087 2.63214 5.38258 3.75736 4.25736C4.88258 3.13214 6.4087 2.5 8 2.5M14 17.5V8.5C14 6.9087 14.6321 5.38258 15.7574 4.25736C16.8826 3.13214 18.4087 2.5 20 2.5" stroke="#71A341" stroke-width="2.5" stroke-linejoin="round"/>

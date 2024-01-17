@@ -1,9 +1,8 @@
 
 .incentives-head{padding-bottom: 18px;}
-.incentives-bg picture img{opacity: 0.25;}
-.incentives-navy-bg{opacity: 0.85; background-color: var(--navy); transition: all 0.4s ease;}
+.incentives-navy-bg{opacity: 0.8; background-color: var(--navy); transition: all 0.4s ease;}
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light); transition: all 0.4s ease;}
-.incentives-row > *:hover{transform: scale(1.075);}
+.incentives-row > *:hover{transform: scale(1.05);}
 .incentives-text{padding: 32px;}
 .incentives-text h2 a{color: var(--navy);}
 .incentives-text h2 a:hover{color: var(--accent);}
@@ -20,7 +19,10 @@
 @media only screen and (min-width: 1024px){
     .incentives-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
     .incentives-image figure{transition: all 0.4s ease;}
-    .incentives-row > *:hover .incentives-image figure{transform: scale(1.075);}
+    .incentives-row > *:hover .incentives-image figure{transform: scale(1.05);}
+}
+@media only screen and (min-width: 740px){
+    .incentives-bg{background-image: url('images/parallax-bg@2x.jpg');}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .incentives-main{padding: 65px 0 64px;}

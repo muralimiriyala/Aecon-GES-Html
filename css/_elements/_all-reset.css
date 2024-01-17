@@ -75,7 +75,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 15px 38px 12px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.4s ease; z-index: 1;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 15px 38px 12px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.4s ease; z-index: 1; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--accent); color: var(--white); }
 .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.4s ease;}
 .button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
@@ -186,6 +186,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .absolute{position: absolute;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
+.parallax-bg{background-repeat: no-repeat; background-position: center center; background-size: cover;}
 
 .o-hidden{overflow: hidden;}
 .z-0{z-index: 0;}
@@ -285,6 +286,7 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow{top: -80px;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
+    .parallax-bg{background-attachment: fixed;}
 }
 @media only screen and (min-width: 1480px){
     .container.lg{max-width: 1360px;}
