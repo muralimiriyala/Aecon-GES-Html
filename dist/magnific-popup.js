@@ -20,6 +20,6 @@ jQuery(document).ready(function($){
 		fixedBgPos: true,
 		preloader: false,
 		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
+		mainClass: 'my-mfp-slide-top'
   });
 });
