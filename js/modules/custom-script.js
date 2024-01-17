@@ -149,4 +149,13 @@ jQuery(function($){
         });
     }
 
+    $(".leaderships-mask").hover(
+        function () {
+            $(this).removeClass('out').addClass('over');
+        },
+        function () {
+            $(this).removeClass('over').addClass('out');
+        }
+    );
+
 });

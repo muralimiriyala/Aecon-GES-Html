@@ -126,7 +126,16 @@
             <div class="short-intro-title">
                 <span class="optional-text">Testimonials</span>
                 <h2>We’re proud of how our customers view us.</h2>
-                <a href="" class="button btn-gray">Submit a Review</a>
+                <a href="#testimonials-modal" class="button btn-gray popup-modal">Submit a Review</a>
+                <div id="testimonials-modal" class="mfp-hide white-popup-block bg-white">
+                    <div class="white-popup-text dark-text">
+                        <h1>Modal dialog</h1>
+                        <p>You won't be able to dismiss this by usual means (escape or
+                          click button), but you can close it programatically based on
+                          user choices or actions.</p>
+                        <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+                    </div>
+                </div>
             </div>
             <div class="short-intro-desc fs-18 relative">
                 <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat veli.</p>
@@ -379,17 +388,14 @@
 </div>
 </section>
 <section class="blockquote-section relative">
-<div class="background-bg blockquote-bg">
-    <picture class="brand-messaging-thumb object-fit">
-        <source srcset="images/parallax-bg@2x.jpg" media="(min-width: 740px)">
-        <img src="images/parallax-bg@2x.jpg" alt="brand-messaging">
-    </picture>
-    <div class="blockquote-overlay background-bg bg-navy"></div>
-</div>
+<div class="background-bg blockquote-bg parallax-bg"></div>
+<div class="blockquote-overlay background-bg bg-navy"></div>
 <div class="container">
     <div class="blockquote-main flex flex-center">
-        <div class="blockquote-text inverted">
-            <h2>Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis lorem viverra condimentum.</h2>
+        <div class="blockquote-text inverted relative">
+            <div class="blockquote-text-icon relative">
+                <h2>Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis lorem viverra condimentum.</h2>
+            </div>
             <div class="quote-avatar-main flex flex-center">
                 <figure class="quote-avatar-img object-fit-img radius-img-50">
                     <img src="images/customer-thumb@2x.jpg" alt="customer-thumb" data-animation="fade-circle">

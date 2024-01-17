@@ -14,4 +14,12 @@ jQuery(document).ready(function($){
     preloader: false,
     fixedContentPos: false
   });
+  $('.popup-modal').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		preloader: false,
+		removalDelay: 300,
+		mainClass: 'my-mfp-slide-bottom'
+  });
 });

@@ -41,7 +41,7 @@
     .bar-4{opacity: 0.4;}
     .bar-3{opacity: 0.6;}
     .bar-2{opacity: 0.8;}
-    .sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transition: all 4s ease; transform: translateY(100%); animation-delay: 2s;}
+    .sun-solar{width: 160px; height: 160px; left: -80px; top: 50%; transition: all 4s ease; transform: translateY(50%); animation-delay: 2s;}
     [data-animation].solar-up{transform: translateY(-50%);}
 
     .battery-solar{width: 128px; height: 290px; left: -80px; top: 50%; transform: translateY(-100%); transition: all 4s ease; animation-delay: 2s;}

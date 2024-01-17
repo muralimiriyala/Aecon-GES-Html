@@ -186,7 +186,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .absolute{position: absolute;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
-.parallax-bg{background-repeat: no-repeat; background-position: center center; background-attachment: fixed; background-size: cover;}
+.parallax-bg{background-repeat: no-repeat; background-position: center center; background-size: cover;}
 
 .o-hidden{overflow: hidden;}
 .z-0{z-index: 0;}
@@ -286,6 +286,7 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow{top: -80px;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
+    .parallax-bg{background-attachment: fixed;}
 }
 @media only screen and (min-width: 1480px){
     .container.lg{max-width: 1360px;}
