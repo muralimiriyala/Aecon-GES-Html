@@ -82,6 +82,7 @@ body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; lin
 body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--white-20);}
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 legend.frm_screen_reader{display: none;}
+body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 input::-webkit-input-placeholder {color: var(--black-md); font-family: 'Univers',sans-serif;}
