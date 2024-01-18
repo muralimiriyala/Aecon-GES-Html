@@ -22,7 +22,7 @@ jQuery(function($){
         }
     });
     
-    const getQuotebtn = $(".get_quote_btn");
+    const getQuotebtn = $(".get_quote_btn > a");
     getQuotebtn.on("click", (e)=>{
         e.preventDefault();
         contact_btn.removeClass("open");
