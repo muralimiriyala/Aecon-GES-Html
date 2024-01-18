@@ -38,6 +38,11 @@ span.free-steps-next{margin-left: auto; text-align: right;}
 .free-steps-desc hr{margin-bottom: 25px;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label p{margin-bottom: 5px; font-size: 14px; line-height: 16px; letter-spacing: -0.28px; font-weight: 400; font-family: "Univers", sans-serif; color: var(--foreground-light);}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.frm_half{vertical-align: bottom;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit{justify-content: space-between;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"]{font-size: 16px; padding: 11px 32px 11px 15px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page{font-size: 16px; padding: 10px 16px 10px 32px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page::after{left: 16px; right: auto; content: "\f053";}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
