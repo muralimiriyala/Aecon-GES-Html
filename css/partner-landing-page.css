@@ -28,6 +28,8 @@
 .quote-partner p::after{content: "”";}
 .quote-partner .avatar-img{flex: 0 0 64px;}
 
+.partner-content-section{border-bottom: solid 2px var(--gray-lt);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1280px){
 	.partner-offer-wrap{padding: 80px 0;}
@@ -40,6 +42,9 @@
 	.partner-aside-list{ margin-bottom: 40px;}
 }
 @media only screen and (min-width: 1024px){
+	.single-partners .partner-article > p:first-child{margin-bottom: 32px;}
+	.single-partners .partner-aside-list p{margin-bottom: 17px;}
+	.single-partners .custom-solar-desc h2{font-size: 40px; line-height: 48px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
 	.partner-offer-wrap{padding: 64px 0;}
