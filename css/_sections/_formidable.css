@@ -40,21 +40,19 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: #5e6783; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label {position: relative; padding: 0 0 0 26px; margin: 0; text-indent: 0; font-size: 1rem; line-height: 1; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
-body .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding-left: 30px; line-height: 1.5; font-weight: 500; color: #25282a;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 9px 13px 12px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--accent); content: ""; display: block; position: absolute; transition: all .45s ease-in-out;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a:hover::after{background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{width: 20px; height: 20px; margin: 0; top: 7px; left: 7px; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{border: solid 1px var(--foreground-light);
-    background-color: var(--white); background-image: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 8px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--white); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: solid 1px rgba(94, 103, 131, 0.25); border-radius: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--accent);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--accent); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--accent);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--white);}
@@ -66,15 +64,13 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--aecon-red); position: absolute;}
-body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--black); border: none; background: none; text-align: center; } 
-body .with_frm_style .frm_message p{color: var(--black);}
-body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0 4px 8px 0; position: relative; display: inline-block; padding: 8px 12px 11px 8px; background: var(--gray-lt); border-radius: 8px; border: solid 1px var(--gray-md);}
-body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox:nth-child(3){margin: 0 4px 0 0;}
-body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox:last-child{margin: 0 4px 0 0;}
+body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; } 
+body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: 0;}
+body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
+body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding-left: 32px; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: -3px; left: 0;}
 body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--text-100) !important;}
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
@@ -83,6 +79,7 @@ body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; lin
 body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--white-20);}
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 legend.frm_screen_reader{display: none;}
+body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 input::-webkit-input-placeholder {color: var(--black-md); font-family: 'Univers',sans-serif;}
@@ -120,8 +117,9 @@ body .selectBox-dropdown span.selectBox-label{font-size: 1rem; font-weight: norm
 body .flyout-form-overlay .h3{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_form_field_wrapper{display: block;}
 body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox{padding-bottom: 24px; margin-bottom: 24px;}
-body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox::before{content: ""; width: 100%; height: 2px; bottom: 0; left: 0; position: absolute; display: block; opacity: 0.5; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
-body .flyout-form-overlay .frm_form_field_wrapper .frm_button_submit{margin: 24px 0 0; width: fit-content !important;}
+body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 24px;}
+body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; opacity: 0.5; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
+body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper button.frm_button_submit{width: fit-content;}
 
 
 body .white-popup-block .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 23px;}

@@ -12,6 +12,8 @@ span.free-steps-next{margin-left: auto; text-align: right;}
 .free-steps-dots{gap: 8px; flex: 1;}
 
 .steps-slider-bg{padding: 18px 0; margin-bottom: 20px;}
+.free-steps-slider{display: none;}
+.free-steps-slider.slick-slider{display: block;}
 .free-steps-slider .step-slick-arrow{width: 42px; height: 100%; top: 50%; transform: translate(0, -50%); background: var(--elevated); color: var(--navy); border-radius: 0;}
 .free-steps-slider .step-slick-arrow::before{width: 1px; height: 100%; left: 0; top: 0; opacity: 0.25; background-color: var(--foreground-light); content: ""; display: block; position: absolute;}
 .free-steps-slider .step-slick-arrow.slick-next{right: 0;}
@@ -25,11 +27,22 @@ span.free-steps-next{margin-left: auto; text-align: right;}
 .step-slide-heading h2 a{color: var(--navy);}
 .step-slide-heading h2 a:hover{color: var(--accent);}
 
+
 .free-steps-repeat{display: none;}
+.free-steps-repeat:first-child{display: block;}
 .free-steps-image{width: 100%; height: 100%; overflow: visible; z-index: 8;}
 .tooltip-main{top: 47px; left: 124px; width: 100%; height: auto; padding: 16px; max-width: 214px; display: none; z-index: 80; box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.25);}
 .tooltip-text{color: var(--foreground); opacity: 0.75; letter-spacing: 0; font-family: "VisbyCF", sans-serif;}
 .tooltip-union{bottom: -22px; left: 0; right: 0; max-width: 38px;}
+
+.free-steps-desc hr{margin-bottom: 25px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label p{margin-bottom: 5px; font-size: 14px; line-height: 16px; letter-spacing: -0.28px; font-weight: 400; font-family: "Univers", sans-serif; color: var(--foreground-light);}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.frm_half{vertical-align: bottom;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit{justify-content: space-between;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"]{font-size: 16px; padding: 11px 32px 11px 15px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page{font-size: 16px; padding: 10px 16px 10px 32px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page::after{left: 16px; right: auto; content: "\f053";}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){

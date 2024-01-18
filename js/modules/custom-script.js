@@ -22,7 +22,7 @@ jQuery(function($){
         }
     });
     
-    const getQuotebtn = $(".get_quote_btn");
+    const getQuotebtn = $(".get_quote_btn > a");
     getQuotebtn.on("click", (e)=>{
         e.preventDefault();
         contact_btn.removeClass("open");
@@ -157,5 +157,10 @@ jQuery(function($){
             $(this).removeClass('over').addClass('out');
         }
     );
+
+    $("body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type='checkbox']").on("click", function(e){
+        const _this = $(this);
+        _this.is(':checked') ? _this.parent().addClass('open') : _this.parent().removeClass('open'); 
+    });
 
 });
