@@ -33,6 +33,10 @@ span.free-steps-next{margin-left: auto; text-align: right;}
 .tooltip-text{color: var(--foreground); opacity: 0.75; letter-spacing: 0; font-family: "VisbyCF", sans-serif;}
 .tooltip-union{bottom: -22px; left: 0; right: 0; max-width: 38px;}
 
+.free-steps-desc hr{margin-bottom: 25px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label p{margin-bottom: 5px; font-size: 14px; line-height: 16px; letter-spacing: -0.28px; font-weight: 400; font-family: "Univers", sans-serif; color: var(--foreground-light);}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.frm_half{vertical-align: bottom;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
     .free-steps-main{gap: 80px;}
