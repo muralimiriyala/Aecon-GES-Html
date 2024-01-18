@@ -34,6 +34,7 @@
     .custom-solar-text{flex: 0 0 50%;}
     .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-desc h2{margin-bottom: 35px;}
+    body.single-partners .custom-solar-desc h2{font-size: 40px; line-height: 48px;}
     .bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; transform: translate(-50%, -50%); transition: all 4s ease; clip-path: polygon(100% 50%, 0 0, 0 100%);}
     [data-animation].bar-solar-anim{transform: translate(0%, -50%);}
     .bar{width: 25px; height: 250px;}
