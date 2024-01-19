@@ -49,6 +49,7 @@
     .incentives-row > *{margin-bottom: 32px;}
     .incentives-btn .button{width: 100%;}
     .incentives-text h2{font-size: 24px; line-height: 32px;}
+    .incentives-bg{background-image: url('images/parallax-bg-mobile@2x.jpg');}
 }
 
 
