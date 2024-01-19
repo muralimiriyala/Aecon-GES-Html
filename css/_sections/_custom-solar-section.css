@@ -1,6 +1,5 @@
 
-.custom-solar-section{background-color: var(--elevated); color: var(--foreground-light);}
-.custom-solar-section.white{background-color: var(--white);}
+
 .custom-solar-main.no_image{display: block;}
 .no_image .custom-solar-desc{max-width: 100%; margin: 0; padding: 0;}
 .custom-solar-btns{flex-direction: column; gap: 16px;}
@@ -8,7 +7,6 @@
 
 .bar-solar{ overflow: hidden; z-index: 2; }
 .bar{background-color: var(--accent);}
-
 
 .sun-solar{ border-radius: 50%; overflow: hidden;}
 .sun{width: 100%; height: 32px; background-color: var(--orange);}

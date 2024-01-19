@@ -5,6 +5,7 @@ jQuery(function($){
     freeStepSlider.slick({
       slidesToShow: 1,
       slidesToScroll: 1,
+      infinite: true,
       autoplay: true,
       autoplaySpeed: 3000,
       speed: 1500,
