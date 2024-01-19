@@ -22,14 +22,15 @@ span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: b
     @keyframes moveRightSlide{from{left: -104px;} to{left: 0;} }
     .moveLeftSlide{ animation-name: moveLeftSlide;}
     @keyframes moveLeftSlide{from{right: -104px;} to{right: 0;} }
+
     .slick-current .process-slider-content{flex: 1; display: flex;}
    
     .process-slider-desc{flex: 1; padding: 32px;}
     .p-slick-arrow{flex: 0 0 35px; height: 104px; font-size: 20px; line-height: 20px; cursor: pointer;}
     .p-slick-next{background-color: var(--accent); color: var(--white);}
-    .slick-last-slide .p-slick-next{display: none;}
     .p-slick-prev{background-color: var(--elevated);}
-    .slick-first-slide .p-slick-prev{display: none;}
+    .p-slick-dot:first-child .p-slick-prev{display: none;}
+    .p-slick-dot:last-child .p-slick-next{display: none;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .slick-current .process-slider-content{max-width: 680px;}

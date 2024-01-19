@@ -97,15 +97,22 @@ jQuery(function($){
             appendDots: $("<div class='process-slider-nav'></div>"),
           });
           // Set initial class for the first dot
-          $('.p-slick-dot[data-slide="0"]').addClass('slick-current slick-first-slide');
-          psliderFor.on('afterChange', function (event, slick, currentSlide, nextSlide) {
-            $('.p-slick-dot').removeClass('slick-current');
-            $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
+          $('.p-slick-dot[data-slide="0"]').addClass('slick-current');
+          psliderFor.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+              var directionClass = (nextSlide > currentSlide) ? 'moveRightSlide' : 'moveLeftSlide';
+              $('.p-slick-dot[data-slide="' + nextSlide + '"]').find(".process-slider-content").removeClass('moveLeftSlide moveRightSlide');
+              $('.p-slick-dot[data-slide="' + nextSlide + '"]').find(".process-slider-content").addClass(directionClass);
           });
+
+          psliderFor.on('afterChange', function (event, slick, currentSlide, slickNext) {
+              $('.p-slick-dot').removeClass('slick-current');
+              $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
+         });
+
           $('[data-slide]').on("click", function(e){
-            e.preventDefault();
-            var slideno = $(this).data('slide');
-            psliderFor.slick('slickGoTo', slideno);
+                e.preventDefault();
+                var slideno = $(this).data('slide');
+                psliderFor.slick('slickGoTo', slideno);
           });
 
           $('.p-slick-arrow').on("click", function(e){
@@ -117,19 +124,12 @@ jQuery(function($){
               if (nextSlide <= totalSlides) {
                 psliderFor.slick('slickGoTo', nextSlide);
                 $(this).closest('.p-slick-dot').next(".p-slick-dot").find(".process-slider-content").addClass("moveRightSlide").removeClass("moveLeftSlide");
-                if (nextSlide === totalSlides) {
-                  $(this).closest('.p-slick-dot').next(".p-slick-dot").addClass('slick-last-slide');
-                }
               }
             } else if ($(this).hasClass('p-slick-prev')) {
               const prevSlide = currentSlide - 1;
               if (prevSlide >= 0) {
                 psliderFor.slick('slickGoTo', prevSlide);
                 $(this).closest('.p-slick-dot').prev(".p-slick-dot").find(".process-slider-content").addClass("moveLeftSlide").removeClass("moveRightSlide");
-
-                if (prevSlide === 0) {
-                  $(this).closest('.p-slick-dot').prev(".p-slick-dot").addClass('slick-first-slide');
-                }
               }
             }
           });
