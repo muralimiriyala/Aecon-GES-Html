@@ -50,7 +50,7 @@ ul.res-categories li a:hover{background-color: var(--accent); color: var(--white
 .load-more-btn .button::after{top: calc(50% + 2px); content: "\f107"; font-size: 16px;}
 
 .news-post-rows{padding-top: 6px;}
-.news-post-thumb img{min-height: 104px; max-height: 104px; overflow: hidden;}
+.news-post-thumb img{min-height: 104px; max-height: 104px; overflow: hidden; object-fit: cover; object-position: center;} 
 .news-post-text h2{margin-bottom: 0; font-weight: 700;}
 .news-post-text h2 a{color: var(--navy);}
 .news-post-text h2 a:hover{color: var(--accent);}
