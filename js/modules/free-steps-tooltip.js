@@ -1,6 +1,6 @@
 
 
-jQuery(function($){
+jQuery(document).ready(function($){
     const freesteps = $(".free-steps-repeat");
     freesteps.each(function(){
         const _this = $(this);

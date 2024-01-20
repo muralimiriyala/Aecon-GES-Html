@@ -1,5 +1,5 @@
 
-jQuery(function($){
+jQuery(document).ready(function($){
     const browseBtn = $(".browse-mobile-btn");
     browseBtn.on("click", function(e){
         e.preventDefault();

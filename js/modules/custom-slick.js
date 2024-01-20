@@ -1,6 +1,6 @@
 
 
-jQuery(function($){
+jQuery(document).ready(function($){
     const freeStepSlider = $(".free-steps-slider");
     freeStepSlider.slick({
       slidesToShow: 1,

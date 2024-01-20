@@ -1,5 +1,5 @@
 
-jQuery(function($){
+jQuery(document).ready(function($){
     const header = $(".header-main");
     const banner = $("body.home .banner-section");
     if(banner.length){
