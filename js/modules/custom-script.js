@@ -158,9 +158,13 @@ jQuery(document).ready(function($){
         }
     );
 
-    $("body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type='checkbox']").on("click", function(e){
+    $("body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]").on("click", function(e){
         const _this = $(this);
-        _this.is(':checked') ? _this.parent().addClass('open') : _this.parent().removeClass('open'); 
-    });
-
+        _this.parent().addClass('open');
+        _this.parent().parent().siblings().find("label").removeClass("open");
+        setTimeout(function(){
+            _this.parents().siblings(".frm_checkbox").find("input").removeAttr("disabled").prop("checked", false);
+        }, 100)
+        _this.removeAttr("disabled").prop("checked", true); 
+    });    
 });
