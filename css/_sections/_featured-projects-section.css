@@ -36,7 +36,7 @@ ul.cat-links li a:hover{background-color: var(--accent); color: var(--white);}
     div.featured-full-post.right-image{flex-direction: row-reverse;}
     .featured-full-post{flex: 0 0 calc(100% - 10px); margin-bottom: 15px; margin-left: auto; align-items: center; display: flex; flex-wrap: wrap; flex-direction: row-reverse;}
     .featured-full-post:nth-child(odd){flex-direction: row;}
-    .featured-full-post .featured-post-image{flex: 0 0 310px; height: 100%;}
+    .featured-full-post .featured-post-image{flex: 0 0 305px; height: 100%;}
     .featured-full-post .featured-post-text{flex: 1;}
     .featured-full-post .featured-post-text ul.cat-links{margin-bottom: 23px;}
     .featured-full-post figure{height: 100%;}

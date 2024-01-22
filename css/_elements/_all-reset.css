@@ -125,6 +125,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.back::after{left: 16px; right: auto; content: "\f053";}
 .button.disabled{pointer-events: none; opacity: 0.5;}
 
+.button.btn-md.yellow::after{color: var(--accent-yellow);}
+.button.btn-md.yellow:hover::after{color: var(--white);}
+
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
@@ -157,7 +161,7 @@ img.aligncenter{margin: 25px auto;}
 /*-- custom css starts here --*/
 body{font-size: 18px; line-height: 26px; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 24px; font-size: 18px; line-height: 22px; letter-spacing: normal; font-weight: 800; color: var(--foreground-light); display: block; text-transform: capitalize; font-family: "VisbyCF", sans-serif;}
+span.optional-text{margin-bottom: 24px; font-size: 18px; line-height: 22px; letter-spacing: normal; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "VisbyCF", sans-serif;}
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{color: var(--foreground);}
@@ -233,7 +237,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .p5{padding: 5.5rem 0;}
 
 .full_width{width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important; margin-left: 0 !important; margin-right: 0 !important; float: none !important; display: block !important; padding-left: 0 !important; padding-right: 0 !important; left: 0 !important;}
-.fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
+
 
 .inverted{color: var(--white);}
 .inverted h1, .inverted h2, .inverted h3, .inverted h4{color: var(--white);}
@@ -279,6 +283,7 @@ ul.slick-dots li button{display: none;}
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.sm{max-width: 960px;}
+    .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}

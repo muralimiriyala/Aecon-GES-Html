@@ -7,7 +7,7 @@
 ul.detail-categorys{margin: 0 0 31px; gap: 8px;}
 ul.detail-categorys li::before{display: none;}
 ul.detail-categorys li{margin: 0; display: block;}
-ul.detail-categorys li a{padding: 6px 7px; gap: 4px; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 12px; line-height: 12px; font-weight: 800; font-family: "VisbyCF", sans-serif; letter-spacing: 0;}
+ul.detail-categorys li a{padding: 6px 7px; gap: 4px; min-height: 28px; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 12px; line-height: 12px; font-weight: 800; font-family: "VisbyCF", sans-serif; letter-spacing: 0;}
 ul.detail-categorys li a span{top: -1px; position: relative; color: var(--foreground-light);}
 ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); font-size: 14px; line-height: 14px;}
 ul.detail-categorys li a.solar span{color: var(--accent-yellow); top: 0;}
@@ -16,13 +16,13 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
 
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}
-.project-detail-article{padding: 80px 0 80px;}
 .project-detail-article p span{padding-bottom: 8px; font-size: 24px; line-height: 32px; letter-spacing: -0.48px; display: block;}
 .project-detail-article ul li::before{background-color: var(--accent); top: 9px; left: -20px; width: 8px; height: 8px;}
 .project-detail-article h3:not(.quote-partner h3, .solar-assessment-text h3){padding: 32px 0 12px;}
 .solar-assessment-wrap{padding-top: 56px; margin-top: 56px;}
 .solar-assessment-wrap::before{ opacity: 0.5; content: ""; width: 100%; height: 2px; top: 0; left: 0; background-size: 8px 2px; position: absolute; display: block; background-image: linear-gradient(to right,var(--foreground-light) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; }
 .solar-assessment-main{padding: 40px; border-radius: 8px; background-color: var(--accent-light-yellow);}
+.solar-assessment-main.no_icon{display: block;}
 .solar-assessment-icon svg, .solar-assessment-icon img{max-width: 82px;}
 .solar-assessment-text{overflow: hidden;}
 .solar-assessment-text::before{ content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent-yellow) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; }
@@ -53,14 +53,18 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .masonary-list:nth-child(3) img{max-height: 416px; min-height: 416px; overflow: hidden;}
 }
 @media only screen and (min-width: 1280px){
-    .project-detail-main{gap: 64px; padding-bottom: 80px; flex-wrap: nowrap; flex-direction: row-reverse;} 
+    .project-detail-main{gap: 64px; padding-bottom: 86px; flex-wrap: nowrap; flex-direction: row-reverse;} 
     .project-detail-text{max-width: 648px; padding: 81px 0 0;}
     .project-detail-image{top: 0; right: -80px; min-width: 648px;}
+    .project-detail-article{padding: 80px 0 80px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .project-detail-main{padding-bottom: 32px;}
     .project-detail-ipad{max-width: 460px; padding: 80px 0 64px;}
     .project-detail-image{top: 0; right: -40px; max-width: 460px;}
+    .project-detail-article{padding: 40px 0 80px;}
     .stats-image-left{flex: 0 0 320px;}
+    .stats-image-right{flex: 0 0 calc(100% - 352px);}
 
     .detail-map.pin1{bottom: 29px; right: 67px;}
 }
@@ -69,12 +73,13 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .project-detail-ipad{max-width: 332px; padding: 80px 0 40px;}
     .project-detail-image{top: 0; right: -40px; max-width: 332px;}
 
+    .project-detail-article{padding: 64px 0;}
     .stats-image-row{gap: 32px;}
     .stats-image-left{gap: 32px;}
     .stats-image-left > *{flex: 0 0 calc(50% - 16px);}
     .stats-image-left figure img{min-height: 165px;}
 
-    .masonary-main{padding: 80px 0; column-gap: 32px; column-count: 2;}
+    .masonary-main{padding: 80px 0 48px; column-gap: 32px; column-count: 2;}
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
 
     .detail-map.pin1{bottom: 25px; right: 33px;}
@@ -84,10 +89,11 @@ ul.detail-categorys li a.residential{background-color: var(--accent-light); font
     .masonary-list{margin-bottom: 20px;}
 
     .project-detail-section .container{padding-right: 0;}
-    .project-detail-main{display: block; padding: 0 0 40px;}
+    .project-detail-section .fluid-container .container{padding-right: 20px; padding-left: 0;}
+    .project-detail-main{display: block; padding: 0 0 50px;}
     .project-detail-image{position: relative; max-width: 370px; min-width: 370px; margin-left: auto;}
     .detail-map.pin1{bottom: 24px; right: 14px;}
-    .project-detail-text{padding: 14px 0 0;}
+    .project-detail-text{padding: 21px 0 0;}
     .project-detail-text h1{margin-bottom: 23px;}
 
 

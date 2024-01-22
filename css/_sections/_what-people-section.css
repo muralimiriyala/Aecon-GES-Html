@@ -1,7 +1,7 @@
 
 
 .bg-white .what-people-grid{background-color: var(--elevated);}
-.what-people-grid{padding: 32px; color: var(--foreground);}
+.what-people-grid{padding: 32px 32px 19px; color: var(--foreground);}
 .what-people-grid svg{margin-bottom: 4px;}
 .what-quote-text h2{color: var(--foreground-light);}
 .what-quote-text h2 p::before{content: "“";}
@@ -24,8 +24,7 @@
 }
 @media only screen and (min-width: 1024px){
     .what-people-main{padding: 80px 0;}
-    .what-people-heading{flex: 1; padding-bottom: 27px;}
-    body.page-template-careers .what-people-heading{padding-bottom: 17px;}
+    .what-people-heading{flex: 1; padding-bottom: 17px;}
     .what-people-grids{order: 2;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
     .what-people-grids:not(:first-child):nth-child(odd){padding-top: 47px;}
@@ -62,6 +61,7 @@
     .what-people-heading h2{padding-right: 40px;}
     .what-people-grids{display: block; padding-bottom: 32px;}
     body.page-template-careers .what-people-grid{padding: 24px 32px 20px;}
+    .what-people-grid{padding: 25px 23px 19px;}
     .what-people-grid:not(:last-child){margin-bottom: 24px;}
     .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
     .avatar-text p{font-size: 14px; line-height: 20px; letter-spacing: -.28px;}

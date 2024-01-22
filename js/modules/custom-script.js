@@ -158,13 +158,4 @@ jQuery(document).ready(function($){
         }
     );
 
-    $("body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]").on("click", function(e){
-        const _this = $(this);
-        _this.parent().addClass('open');
-        _this.parent().parent().siblings().find("label").removeClass("open");
-        setTimeout(function(){
-            _this.parents().siblings(".frm_checkbox").find("input").removeAttr("disabled").prop("checked", false);
-        }, 100)
-        _this.removeAttr("disabled").prop("checked", true); 
-    });    
 });

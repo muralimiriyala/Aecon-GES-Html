@@ -23,6 +23,7 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1rem; line-height: 1.25; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--black-md); text-transform: none; padding: 0 0 6px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md); background-color: var(--gray-lt); border-radius: 8px; color: var(--foreground); font-family: 'Univers', sans-serif; -webkit-appearance: none;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, 
 body .bg-elevated .frm_forms .frm_form_field textarea, 
@@ -70,8 +71,8 @@ body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; di
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding-left: 38px; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 6px;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 32px; position: relative; background-color: transparent;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: -1px; left: 0;}
 body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--text-100) !important;}
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
@@ -121,9 +122,8 @@ body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox{padding-bottom:
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; opacity: 0.5; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper button.frm_button_submit{width: fit-content;}
-
-
 body .white-popup-block .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 23px;}
+.frm_form_field_wrapper{}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

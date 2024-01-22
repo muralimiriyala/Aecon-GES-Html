@@ -49,7 +49,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-partner-installer-join .short-intro-head{padding-bottom: 59px;}
     .short-intro-desc{overflow: hidden;}
     body.page-template-partner-installer-join .short-intro-desc{padding-top: 6px;}
-    .short-intro-desc::before, .short-intro-desc::after{ width: 100%; height: 2px; top: 0; left: -50%; opacity: 0.5; transform: rotate(90deg); content: ""; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; position: absolute; }
+    .short-intro-desc::before, .short-intro-desc::after{ width: 100%; height: 2px; top: 0; left: -50%; opacity: 0.75; transform: rotate(90deg); content: ""; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; position: absolute; }
     .short-intro-desc::after{ right: -50%; left: auto; }
 
     .short-intro-of-3{gap: 32px;}

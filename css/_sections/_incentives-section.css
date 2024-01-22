@@ -1,5 +1,5 @@
 
-.incentives-head{padding-bottom: 18px;}
+.incentives-head{padding-bottom: 9px;}
 .incentives-navy-bg{opacity: 0.8; background-color: var(--navy); transition: all 0.4s ease;}
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light); transition: all 0.4s ease;}
 .incentives-row > *:hover{transform: scale(1.05);}
