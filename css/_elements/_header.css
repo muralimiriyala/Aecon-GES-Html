@@ -117,11 +117,12 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     ul.main-menu > li.ev-nav-item > a{color: #0D445D;}
     ul.main-menu > li.heating-nav-item > a{color: #5E3808;}
     ul.main-menu > li.battery-nav-item > a{color: #3B4E31;}
+    ul.main-menu > li.hide-nav-item > a{display: none;}
     ul.main-menu > li > a::before{width: 30px; height: 30px; left: 0; top: 0; position: absolute; background-size: contain; background-repeat: no-repeat; background-position: center; content: ""; display: block;}
-    ul.main-menu > li.solar-nav-item > a::before{background-image: url("../../images/solar-icon.svg");}
-    ul.main-menu > li.ev-nav-item > a::before{background-image: url("../../images/ev-icon.svg");}
-    ul.main-menu > li.heating-nav-item > a::before{background-image: url("../../images/heating-icon.svg");}
-    ul.main-menu > li.battery-nav-item > a::before{background-image: url("../../images/battery-icon.svg");}
+    ul.main-menu > li.solar-nav-item > a::before{background-image: url("./images/solar-icon.svg");}
+    ul.main-menu > li.ev-nav-item > a::before{background-image: url("./images/ev-icon.svg");}
+    ul.main-menu > li.heating-nav-item > a::before{background-image: url("./images/heating-icon.svg");}
+    ul.main-menu > li.battery-nav-item > a::before{background-image: url("./images/battery-icon.svg");}
 
     ul.flyout-menu{padding: 29px 20px 25px;}
     ul.flyout-menu > li{margin: 0; padding-bottom: 32px;}
@@ -148,4 +149,10 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .contact_btn_mobile{padding: 20px; gap: 20px; border-top: 2px solid var(--gray-md); flex-direction: column; display: flex;}
     .call-us-btns{margin-bottom: 0;}
     .flyout-blue-overlay{display: none;}
+
+    ul.flyout-menu{padding: 13px 20px 25px; border-top: 2px solid var(--gray-md);}
+    ul.flyout-menu > li{padding: 16px 0;}
+    ul.flyout-menu > li > ul{width: calc(100% + 40px); left: -20px; padding: 0 0 0 20px; margin-top: 16px; background-color: var(--elevated); position: relative;}
+    ul.flyout-menu > li > ul > li{padding: 0 0 19px; margin: 0;}
+    ul.flyout-menu > li > ul > li > a{font-size: 18px; line-height: 22px; letter-spacing: -0.36px;}
 }
