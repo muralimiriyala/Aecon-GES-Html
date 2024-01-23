@@ -4,7 +4,7 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--accent);text-decoration: none; transition: all 0.4s ease;}
+a{color: var(--accent);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--accent);}
@@ -75,9 +75,9 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 29px 11px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.4s ease; z-index: 1; margin: 0;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 14px 29px 11px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--accent); color: var(--white); }
-.button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(13px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.4s ease;}
+.button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(13px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
 .button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover::after{transform: translateX(16px); color: var(--white);}
 
@@ -212,9 +212,9 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg:hover img{transform: scale(1.125);}
 .play-btn-bg:hover::before{opacity: 1;}
 .play-btn-bg > span.btn-circle{ background-color: var(--accent); z-index: 1; }
-.play-btn-bg > span.btn-circle::after{ top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 28px; line-height: 28px; color: var(--white); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; display: block; position: absolute; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+.play-btn-bg > span.btn-circle::after{top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 28px; line-height: 28px; color: var(--white); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; display: block; position: absolute;}
 .patients-swipe .play-btn-bg > span.btn-circle::after{font-size: 1.4rem;}
-.play-btn-bg > span.btn-circle:hover{background-color: var(--navy);}
+.play-btn-bg > span.btn-circle:hover{background-color: var(--navy); transform: scale(1.15);}
 .play-btn-bg > span.btn-circle:hover::after{color: var(--white);}
 .play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 24px; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
 .play-btn-bg > span:not(:first-child) { animation: 6s playBtnZooming infinite linear; transform: scale(1); filter: opacity(0.25); -webkit-filter: opacity(0.25); background-color: var(--white); }
@@ -263,7 +263,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .bg-navy{background-color: var(--navy); color: var(--white);}
 
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.4s ease;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
 div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}

@@ -8,7 +8,7 @@
 .contact-address a span{color: var(--accent);}
 .contact-address a:hover{color: var(--accent);}
 .contact-map-icon{top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.contact-map-icon svg{transition: all 0.4s ease; animation: mapIconHover 2s ease infinite;}
+.contact-map-icon svg{transition: all 0.5s ease; animation: mapIconHover 2s ease infinite;}
 @keyframes mapIconHover{ from{transform: scale(1);} to{transform: scale(1.25);} }
 .contact-left span.optional-text{margin-bottom: 8px;}
 

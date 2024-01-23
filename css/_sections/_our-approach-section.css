@@ -20,7 +20,7 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
 @media only screen and (min-width: 1024px){
     .our-approach-link{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
     .open-approach .our-approach-link, .our-approach-link:hover, .our-approach-link.active{width: 100%;}
-    .our-approach-link svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.4s ease;}
+    .our-approach-link svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
     .open-approach .our-approach-link svg, .our-approach-link:hover svg, .our-approach-link.active svg{opacity: 1;}
     .our-approach-mobile{display: none !important;}
 }

@@ -6,8 +6,8 @@
 .counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
 .intro_btn{padding: 12px 12px 12px 16px; border-radius: 16px; border: 1px solid var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif;}
 .intro_btn span{flex: 1;}
-.intro_btn_svg{transition: all 0.4s ease;}
-.intro_btn svg{transition: all 0.4s ease;}
+.intro_btn_svg{transition: all 0.5s ease;}
+.intro_btn svg{transition: all 0.5s ease;}
 .intro_btn.yellow, .intro_btn.yellow .intro_btn_svg{border-color: #FFBF0D; color: #FFBF0D;}
 .intro_btn.blue, .intro_btn.blue .intro_btn_svg{border-color: #02B5DC; color: #02B5DC;}
 .intro_btn.orange, .intro_btn.orange .intro_btn_svg{border-color: #F8971D; color: #F8971D;}
