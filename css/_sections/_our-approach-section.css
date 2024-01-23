@@ -1,7 +1,9 @@
 
 
 .our-approach-image{display: none; height: 100%;}
-.our-approach-image:first-child{display: block;}
+/* .our-approach-image:first-child{display: block;} */
+.our-approach-image.open{display: block;}
+/* .our-approach-thumb{transition: all 0.5s ease;} */
 
 ul.our-approach-links{margin: 0; padding-top: 13px;}
 ul.our-approach-links li::before{display: none;}
