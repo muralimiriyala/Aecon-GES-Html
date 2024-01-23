@@ -2,7 +2,7 @@
 
 .bg-white .what-people-grid{background-color: var(--elevated);}
 .what-people-grid{padding: 32px 32px 19px; color: var(--foreground); transition: all 0.3s ease;}
-.what-people-grid:hover{transform: translateY(-0.25rem); border-radius: 8px;}
+.what-people-grid:hover{transform: translateY(-0.25rem); border-radius: 4px;}
 .what-people-grid.bg-white:hover{box-shadow: rgba(46, 41, 51, 0.05) 0px 2px 4px, rgba(71, 63, 79, 0.10) 0px 5px 10px;}
 .what-people-grid.bg-elevated:hover{box-shadow: rgba(0, 0, 0, 0.01) 0px 2px 4px, rgba(0, 0, 0, 0.15) 0px 2px 5px;}
 
