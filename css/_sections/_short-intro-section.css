@@ -23,6 +23,8 @@
 body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
 body.page-template-about .short-intro-desc p{margin: 0;}
 
+.short-intro-head.no_intro_head{display: block;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
     .short-intro-head{gap: 80px;}

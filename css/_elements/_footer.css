@@ -181,16 +181,18 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
     .footer-lt{margin-bottom: 36px;}
     ul.footer-address{margin: 0 0 36px; gap: 36px;}
     ul.footer-address > li{flex: 1;}
-    ul.footer-address > li > a{color: var(--drab); justify-content: center; gap: 13px; align-items: center; font-size: 18px; font-weight: 800; line-height: 18px; font-family: 'VisbyCF', sans-serif; padding: 14px 16px; border-radius: 12px; border: solid 1px var(--foreground-light); margin-bottom: 0; width: 100%;}
-    ul.footer-address > li > a > span{font-size: 14px;}
-    .footer-btns{gap: 36px;}
+    ul.footer-address > li > a{color: var(--drab); justify-content: center; gap: 13px; align-items: center; font-size: 18px; font-weight: 800; line-height: 18px; font-family: 'VisbyCF', sans-serif; padding: 14px 16px; border-radius: 12px; border: solid 1px var(--foreground-light); margin-bottom: 0; width: 100%; letter-spacing: 0;}
+    ul.footer-address > li > a span:not(:first-child){font-size: 14px; color: var(--accent); font-weight: 900; transition: all 0.5s ease;}
+    ul.footer-address > li > a:hover{background-color: var(--accent); border-color: var(--accent); color: var(--white);}
+    ul.footer-address > li > a:hover span:not(:first-child){color: var(--white);}
+    .footer-btns{gap: 36px; flex-direction: column;}
     .footer-btns .button{width: 100%; text-align: center;}
 
     .footer-rt{width: 100%;}
     ul.social-icons{gap: 31px; justify-content: center;}
     ul.social-icons > li > a{width: 64px; height: 64px; font-size: 28px;}
 
-    .copyrights-main{padding: 40px 0 65px; justify-content: center;}
+    .copyrights-main{padding: 40px 0 65px; display: block;}
     .copyright-text{text-align: center; margin-bottom: 10px; width: 100%;}
     ul.copyright-links{gap: 47px; justify-content: center;}
 }

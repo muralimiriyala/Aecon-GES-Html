@@ -20,6 +20,7 @@
 .timeline-desc::before{width: 2px; height: calc(100% + 30px); top: 0; left: 0; background-color: var(--accent); content: ""; display: block; position: absolute;}
 .timeline-desc::after{width: 10px; height: 10px; bottom: -30px; left: -4px; position: absolute; background-color: var(--accent); border-radius: 50%; content: ""; display: block;}
 .timeline-desc p{margin-bottom: 0;}
+.timeline-image img{max-height: 221px; overflow: hidden;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -36,7 +37,8 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .timeline-main{padding: 41px 0 56px;}
     .timeline-slider .timeline-slide{min-width: 296px; width: 296px; margin-right: 24px;}
-    .timeline-desc{min-height: 200px; padding: 45px 23px 17px;}
+    .timeline-desc{min-height: 200px; padding: 45px 50px 17px 23px;}
+    .timeline-desc h4{font-size: 24px; line-height: 32px;}
     .timeline-slider ul.slick-dots{margin-top: 34px;}
 }
 
