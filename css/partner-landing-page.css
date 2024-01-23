@@ -36,6 +36,10 @@
     .partner-offer-main{gap: 120px; padding-bottom: 40px;}
     .partner-offer-text{flex: 1;}
     .partner-offer-card{flex: 0 0 600px;}
+	.partner-offer-main.no_partner_text{display: block;}
+	.no_partner_text .partner-offer-card{gap: 32px; display: flex; flex: wrap; width: 100%;}
+	.no_partner_text .partner-card-thumb{flex: 0 0 455px;}
+	.no_partner_text .partner-card-text{flex: 1;}
 	.partner-content-main{gap: 80px; padding: 81px 0;}
 	.partner-article{flex: 1;}
 	.partner-aside{flex: 0 0 350px;}

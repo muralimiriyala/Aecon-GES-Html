@@ -17,7 +17,11 @@
     .feature-repeater1-of-3{flex: 0 0 calc(33.3333% - 38px);}
     .feature-repeater1-of-4{flex: 0 0 calc(25% - 42px);}
     .feature-content-bg{width: 100vw;}
-    .feature-content-bg{top: -80px; left: calc(100% - 470px); z-index: -1;}
+    .feature-content-bg{top: -80px; left: 80px; z-index: -1;}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .feature-content-main{gap: 64px;}
+    .feature-content-image{flex: 0 0 500px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .feature-content-wrap{padding: 64px 0;}

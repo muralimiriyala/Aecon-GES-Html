@@ -66,7 +66,7 @@ jQuery(document).ready(function($){
         touchThreshold: 200,
         responsive: [
           {
-            breakpoint: 1023,
+            breakpoint: 1299,
                 settings: {
                   slidesToShow: 2,
                   slidesToScroll: 1,
