@@ -132,6 +132,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .short-intro-desc::after{margin-top: 31px;}
     .short-intro-of-4{padding: 55px 0 0; display: block; }
     .short-intro-of-4 > *{margin-bottom: 41px; font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
+    body.page-template-default.page-id-237 .short-intro1-of-4 .h4{font-size: 24px; color: var(--foreground);}
     .short-intro1-of-4:last-child{margin-bottom: 0;}
     .short-intro-repeat .short-intro-main{padding-top: 23px;}
     .short-intro-btns{padding: 40px 0 0; gap: 16px; justify-content: center;}

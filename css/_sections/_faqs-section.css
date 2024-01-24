@@ -12,7 +12,7 @@ ul.faq-tabs li::before{display: none;}
 .accordion-header{padding: 19px 66px 17px 22px; color: var(--navy); font-size: 16px; line-height: 20px; letter-spacing: 0; cursor: pointer; position: relative; font-weight: 800; font-family: "VisbyCF", sans-serif;}
 .accordion-header span.fa-plus{right: 25px; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; border-radius: 12px; background-color: var(--accent-light); position: absolute; transition: all 0.45s ease; font-size: 16px; line-height: 20px; color: var(--accent-dark); display: flex; align-items: center; justify-content: center;}
 .accordion-header.open span.fa-plus::before{content: "\f068";}
-.accordion-content{display: none; padding: 2px 25px 30px;}
+.accordion-content{display: none; padding: 2px 22px 25px;}
 .accordion-content ul li::before{width: 6px; height: 6px; top: 7px;}
 .accordion-content ol li::before{top: 2px;}
 .accordion-list.active{box-shadow: 0px 8px 20px 0px rgba(106, 118, 130, 0.50);}
