@@ -1,5 +1,6 @@
 
 .common-content-main.no_image{display: block;}
+.common-content-btn{gap: 16px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -7,7 +8,6 @@
     .common-content-main.no_company_text{padding: 0 80px;}
     .common-content-main{gap: 104px;}
     .common-content-text{flex: 1; padding-left: 40px; max-width: 712px; margin-left: auto;}
-    .common-content-btn{gap: 16px;}
     .common-content-image{flex: 0 0 560px;}    
     .common-content-image img{min-height: 560px;}
     .common-content-reverse .common-content-main{flex-direction: row-reverse;}

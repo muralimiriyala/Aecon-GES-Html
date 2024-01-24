@@ -28,6 +28,7 @@
 }
 @media only screen and (min-width: 1024px){
     .what-people-main{padding: 80px 0;}
+    body.page-template-default.page-id-237 .what-people-main{padding: 40px 0;}
     .what-people-heading{flex: 1; padding-bottom: 17px;}
     .what-people-grids{order: 2;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
