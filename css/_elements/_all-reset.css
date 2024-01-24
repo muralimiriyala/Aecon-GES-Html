@@ -280,7 +280,6 @@ ul.slick-dots li button{display: none;}
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
     .d-fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
-    body{background-image: url('./images/static-bg@2x.jpg'); background-attachment: fixed; background-size: cover; background-position: center top; background-repeat: no-repeat;}
 }
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
