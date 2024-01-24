@@ -293,7 +293,6 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow{top: -80px;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
-    .parallax-bg{background-attachment: fixed;}
 }
 @media only screen and (min-width: 1480px){
     .container.lg{max-width: 1360px;}

@@ -8,10 +8,8 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-.free-assessment-main.no_free_assessment_text {
-	max-width: 1280px;
-	margin: 0 auto;
-}
+    .free-assessment-main.no_free_assessment_text { max-width: 1280px; margin: 0 auto;}
+    .free-assessment-main{min-height: 600px;}
 }
 @media screen and (min-width: 1300px) {
     .free-assessment-main.no_image{max-width: 1280px; width: 100%; margin: 0 auto; }

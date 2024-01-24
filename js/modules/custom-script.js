@@ -3,11 +3,10 @@ jQuery(document).ready(function($){
     const header = $(".header-main");
     const banner = $("body.home .banner-section");
     if(banner.length){
-        header.addClass("no_sticky");
         const bannerHeight = banner.offset().top + banner.outerHeight(true);
         window.onscroll = function(){
             const _scroll = window.scrollY;
-            _scroll >= bannerHeight ? header.removeClass("no_sticky") : header.addClass("no_sticky");
+            _scroll >= bannerHeight ? header.addClass("sticky") : header.removeClass("sticky");
         }
     }
     const contact_btn = $(".contact_btn");
