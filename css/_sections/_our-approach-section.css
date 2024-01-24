@@ -18,6 +18,8 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
     .our-approach-left{flex: 1; min-width: 720px; margin-right: -80px;}
     .our-approach-desc{padding: 64px 86px;}
+
+    .toggle .our-approach-left{margin-left: -80px; margin-right: 0;}
 }
 @media only screen and (min-width: 1024px){
     .our-approach-link{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
@@ -25,10 +27,13 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .our-approach-link svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
     .open-approach .our-approach-link svg, .our-approach-link:hover svg, .our-approach-link.active svg{opacity: 1;}
     .our-approach-mobile{display: none !important;}
+
+    .toggle .our-approach-main{flex-direction: row;}
+    .toggle .our-approach-link{clip-path: polygon(5% 0, 100% 0%, 100% 100%, 5% 98%, 0% 50%);}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .our-approach-section .container{padding: 0;}
-    .our-approach-main {gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
+    .our-approach-main{gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
     .our-approach-text{flex: 1; padding: 63px 0 63px 64px;}
     .our-approach-left{flex:  0 0 640px;}
     .our-approach-desc{padding: 64px;}
