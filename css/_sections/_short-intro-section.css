@@ -1,5 +1,5 @@
 
-.short-intro-section{color: var(--foreground-light);}
+.short-intro-section{background-color: var(--white); color: var(--foreground-light);}
 .short-intro-icon{margin-bottom: 14px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
