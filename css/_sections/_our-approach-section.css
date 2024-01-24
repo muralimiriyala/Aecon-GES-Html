@@ -29,7 +29,8 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .our-approach-mobile{display: none !important;}
 
     .toggle .our-approach-main{flex-direction: row;}
-    .toggle .our-approach-link{clip-path: polygon(5% 0, 100% 0%, 100% 100%, 5% 98%, 0% 50%);}
+    .toggle .our-approach-link{clip-path: polygon(5% 0, 100% 0%, 100% 100%, 5% 98%, 0% 50%); padding-left: 80px; margin-left: auto; text-align: right;}
+    .toggle .our-approach-link svg{left: 23px; right: auto; transform: rotate(180deg);}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .our-approach-section .container{padding: 0;}
