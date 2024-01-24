@@ -1,11 +1,13 @@
 
 document.addEventListener("DOMContentLoaded", function(){
     var parallaxImage = document.querySelectorAll('.parallax-image img');
-    parallaxImage.forEach(function(image){
-        new simpleParallax(image, {
-            scale: 1.2,
-            delay: 1,
-            transition: 'cubic-bezier(0,0,0,1)',
-        });
-    })
+    if(parallaxImage){
+        parallaxImage.forEach(function(image){
+            new simpleParallax(image, {
+                scale: 1.1,
+                delay: 0.4,
+                transition: 'cubic-bezier(0,0,0,1)',
+            });
+        })
+    }
 });
