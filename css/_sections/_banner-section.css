@@ -18,11 +18,11 @@ picture.banner-thumb img{object-position: top center;}
     .banner-main{min-height: 720px; display: flex; flex-wrap: wrap; align-items: center;}
     .banner-text{padding: 100px 0 67px; max-width: 600px;}
     body.page-template-careers .banner-text{padding: 72px 0 67px;}
-    .gated-post-banner{min-height: 570px;}
-    .gated-post-banner .banner-main{min-height: 570px;}
+    body.single-post .banner-section{min-height: 570px;}
+    body.single-post .banner-main{min-height: 570px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .gated-post-banner .banner-text{padding-bottom: 82px;}
+    body.single-post .banner-text{padding-bottom: 82px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .banner-bg{position: relative;}

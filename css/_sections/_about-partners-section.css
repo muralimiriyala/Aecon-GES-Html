@@ -53,7 +53,7 @@ ul.about-partners-tabs li::before{display: none;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .about-partners-wrap{padding: 40px 0; display: block;}
-    .about-partners-head{text-align: center;}
+    .about-partners-head{text-align: center; padding-bottom: 13px;}
     .partners-mobile-btn{padding: 18px 16px 16px; background-color: var(--navy); color: var(--white); border-radius: 16px; display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; cursor: pointer;}
     .all-partners-icon{width: 30px; height: 30px; right: 12px; top: 50%; transform: translate(0, -50%); display: block;}
     .all-partners-icon img{width: 100%; object-fit: cover;}
