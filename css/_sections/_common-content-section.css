@@ -4,6 +4,7 @@
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .common-content-section .container{max-width: 1440px; padding: 0;}
+    .common-content-main.no_company_text{padding: 0 80px;}
     .common-content-main{gap: 104px;}
     .common-content-text{flex: 1; padding-left: 40px; max-width: 712px; margin-left: auto;}
     .common-content-btn{gap: 16px;}

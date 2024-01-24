@@ -37,7 +37,7 @@
 
 
 .no_image ul.res-categories{position: static; margin-bottom: 1rem;}
-ul.res-categories{margin: 0; top: -13px; z-index: 1;}
+ul.res-categories{margin: -46px 0 20px; gap: 5px; z-index: 1; position: relative;}
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
 ul.res-categories li a{padding: 3px 8px 1px; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
