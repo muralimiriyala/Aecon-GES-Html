@@ -1,7 +1,7 @@
 
 .banner-text span.optional-text{margin-bottom: 32px;}
 .banner-text h1{margin-bottom: 29px;}
-.banner-text p{margin-bottom: 33px;} 
+.banner-text p:not(:last-child){margin-bottom: 33px;} 
 .banner-btns{gap: 16px;}
 picture.banner-thumb img{object-position: top center;}
 .video-banner-iframe { width: 100vw; max-width: 100%; height: 100%; overflow: hidden; }
