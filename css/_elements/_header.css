@@ -58,7 +58,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .contact_btn_wrap{ padding: 41px 16px 16px; border-radius: 0px 0px 24px 24px; box-shadow: 0px 4px 8px 0px var(--black-10); }
 }
 @media screen and (min-width: 1024px) {
-    header.header-main.no_sticky{position: static;}    
+    body.home header.header-main{position: static;}    
     .header{gap: 12px; padding: 16px 0; min-height: 88px;}
     .logo{flex: 0 0 293px; padding-right: 2rem; position: relative;}
     .logo a img{max-width: 261px;}
