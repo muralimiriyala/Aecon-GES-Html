@@ -1,5 +1,6 @@
 
 .subscribe-main{padding: 40px 0;}
+body.category-resources .subscribe-main{padding: 40px 0 36px;}
 .subscribe-icon{width: 80px;}
 .subscribe-text{flex: 1;}
 .subscribe-text h2{margin-bottom: 0;}
@@ -10,7 +11,8 @@
 .subscribe-field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
-.subscribe-form p{margin-top: 8px; text-align: center; opacity: 0.75;}
+.subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75;}
+body.category-resources .subscribe-form p{margin-bottom: 0;}
 
 .browse-news-title h2{margin-bottom: 0;}
 .browse-search-btn{background: none; color: var(--foreground); font-size: 20px; line-height: 20px; right: 14px; top: 50%; transform: translateY(-50%); padding: 0;}
@@ -71,7 +73,6 @@ ul.post-cat-btns li a.heating span{color: #F8971D;}
 ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
 ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
-
 /* media css starts here */
 @media screen and (min-width: 740px){
     .browse-mobile-btn{display: none;}
@@ -91,6 +92,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
     .resources-wrap{padding: 80px 0;}
     .browse-news-head{margin-bottom: 1.5rem;}
+    body.category-resources .browse-news-head{margin-bottom: 1.3rem;}
     .browse-news-title{flex: 0 0 50%;}
     .browse-news-search{flex: 0 0 50%;}
     .browse-news-form{margin-bottom: 60px; gap: 16px;}
