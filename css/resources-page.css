@@ -114,7 +114,8 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .card1-of-4{flex: 0 0 calc(25% - 30px);}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
-    .news-landing-main{gap: 40px;}
+    .news-landing-main{gap: 40px; padding: 40px 0;}
+    .browse-news-title{padding-right: 30px;}
     .news-landing-post{flex: 0 0 50%;}
     .card-row-of-3{gap: 32px;}
     .card1-of-3{flex: 0 0 calc(33.33333% - 22px);}
@@ -162,6 +163,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .news-landing-post{margin-bottom: 44px;}
     .news-landing-text { padding: 31px 24px 24px; font-size: 18px; line-height: 28px; letter-spacing: -0.36px; }
     .news-post-list{gap: 20px; margin-bottom: 20px;}
+    body.category-resources .news-post-list:last-child{margin-bottom: 0;}
     .news-post-thumb{flex: 0 0 104px;}
     .news-post-text{flex: 1;}
     .news-post-text h2{-webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
@@ -170,7 +172,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .subscribe-main{padding: 24px 0; display: block;}
     .subscribe-left{gap: 24px; margin-bottom: 23px;}
     .subscribe-text h2{font-size: 20px; line-height: 24px;}
-    .subscribe-field input{padding: 19px 100px 16px 19px; border-radius: 20px;}
+    .subscribe-field input{padding: 19px 100px 16px 14px; border-radius: 20px;}
     .subscribe_submit .button{padding: 11px 11px 10px;}
     .subscribe_submit .button::after{display: none;}
     .subscribe-main p small{font-size: 14px; line-height: 20px; display: block;} 
@@ -191,13 +193,18 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .browse-news-form.open input.browse-news-input{opacity: 1;}
 
 
-    .resources-wrap{padding: 41px 0 0;}
+    .resources-wrap{padding: 41px 0 40px;}
     .browse-news-head{display: block; margin-bottom: 20px;}
     .browse-news-title{margin-bottom: 18px;}
     .browse-news-title h2{font-size: 20px; line-height: 24px;}
     .card-row-of-3{display: block;}
     .card1-of-3:not(:last-child){margin-bottom: 32px;}
     .card1-of-4:not(:last-child){margin-bottom: 32px;}
+
+    body.category-resources .subscribe-right{padding: 0 4px;}
+    body.category-resources .card-text .h4{font-size: 24px; line-height: 32px;}
+    body.category-resources .card-image img{min-height: 233px;} 
+    body.category-resources .load-more-btn .button{width: 100%;}
 }
 
 

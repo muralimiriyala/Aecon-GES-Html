@@ -44,6 +44,7 @@
     .best-partners-text{padding: 22px 0 0; font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
     .best-partners-text .h5{line-height: 24px; margin-bottom: 15px;}
     .line-clamp{margin-bottom: 17px;}
+    body.category-resources .news-landing-text  .line-clamp{margin-bottom: 0;}
     .best-partners-btn .button{width: 100%;}
 }
 
