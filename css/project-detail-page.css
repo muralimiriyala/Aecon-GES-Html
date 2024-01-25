@@ -12,7 +12,7 @@ ul.detail-categorys li a span{top: -1px; position: relative; color: var(--foregr
 ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); font-size: 14px; line-height: 14px;}
 ul.detail-categorys li a.solar span{color: var(--accent-yellow); top: 0;}
 ul.detail-categorys li a.residential{background-color: var(--accent-light); font-size: 14px; line-height: 14px;}
-
+ul.detail-categorys li a:hover{background-color: var(--navy); color: var(--white);}
 
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}

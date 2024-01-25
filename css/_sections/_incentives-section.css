@@ -1,6 +1,6 @@
 
 .incentives-head{padding-bottom: 9px;}
-.incentives-navy-bg{opacity: 0.8; background-color: var(--navy); transition: all 0.5s ease;}
+/* .incentives-navy-bg{opacity: 0.8; background-color: var(--navy); transition: all 0.5s ease;} */
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light); transition: all 0.5s ease;}
 .incentives-row > *:hover{transform: scale(1.05);}
 .incentives-text{padding: 32px;}
@@ -22,7 +22,7 @@
     .incentives-row > *:hover .incentives-image figure{transform: scale(1.05);}
 }
 @media only screen and (min-width: 740px){
-    .incentives-bg{background-image: url('images/parallax-bg@2x.jpg');}
+    .parallax-bg{background-image: url('./images/static-bg@2x.jpg'); background-attachment: fixed;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .incentives-main{padding: 65px 0 64px;}
@@ -49,7 +49,7 @@
     .incentives-row > *{margin-bottom: 32px;}
     .incentives-btn .button{width: 100%;}
     .incentives-text h2{font-size: 24px; line-height: 32px;}
-    .incentives-bg{background-image: url('images/parallax-bg-mobile@2x.jpg');}
+    .parallax-bg{background-image: url('images/parallax-bg-mobile@2x.jpg');}
 }
 
 
