@@ -1,6 +1,10 @@
 
 jQuery(document).ready(function($){
-    $(".home-banner-iframe").youtube_background({
-        lazyloading: true,
+   $(window).on("load", function(){
+        $(".home-banner-iframe").youtube_background({
+            // 'start-at': 2,
+            // 'end-at': 0,
+            // lazyloading: true,
+        });
     });
 });
