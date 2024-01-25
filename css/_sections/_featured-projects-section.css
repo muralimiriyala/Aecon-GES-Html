@@ -15,6 +15,9 @@ ul.cat-links li a:hover{background-color: var(--accent); color: var(--white);}
 .featured-post-text h2 a:hover{color: var(--accent);}
 
 
+.project-repeater-last .load-more-btn{margin-top: 0; padding-bottom: 80px;}
+
+
 /* media css starts here */
 @media only screen and (min-width: 1280px){
     ul.cat-links{top: -13px; position: absolute;}
@@ -40,6 +43,8 @@ ul.cat-links li a:hover{background-color: var(--accent); color: var(--white);}
     .featured-full-post .featured-post-text{flex: 1;}
     .featured-full-post .featured-post-text ul.cat-links{margin-bottom: 23px;}
     .featured-full-post figure{height: 100%;}
+
+    .featured-projects-thumb img{max-height: 420px; overflow: hidden;}
 }
 @media screen and (min-width: 1024px){
     .featured-projects-main h2{margin-bottom: 20px;}

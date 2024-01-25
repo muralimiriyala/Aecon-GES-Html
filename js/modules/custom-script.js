@@ -97,26 +97,8 @@ jQuery(document).ready(function($){
         $("ul.about-partners-tabs").toggleClass("open");
     });
     
-    $("ul.our-approach-links li:first-child").addClass("open-approach");
-    $(".our-approach-image:first-child").addClass("open");
-    const approachLinks = $(".our-approach-link");
-    approachLinks.on("click", function(e){
-        e.preventDefault();
-        const _self = $(this);
-        _self.parent().siblings("li").find("a").removeClass("active");
-        _self.addClass("active");
-        const tabAttr = $(this).attr("data-link");
-        $(".our-approach-image").removeClass("open");
-        $(".our-approach-image[data-value="+ tabAttr +"]").addClass("open");
-
-        // $(".our-approach-thumb").fadeIn().addClass("red");
-
-        _self.parent().siblings().removeClass("open-approach");
-        _self.parent().siblings().find(".our-approach-mobile").slideUp(900);
-        _self.siblings(".our-approach-mobile").slideToggle(900);
-    });
-
-
+    
+      
     const faqtablink = $("ul.faq-tabs li a");
     $("ul.faq-tabs li:first-child a").addClass("active");
     tabValue = $(".partners-tab-content").attr("data-tab-value");
