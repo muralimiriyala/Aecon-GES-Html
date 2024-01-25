@@ -144,6 +144,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-projects .short-intro-btns{padding-bottom: 20px;}
     .intro_btn{width: 56px; height: 56px; padding: 10px; justify-content: center;}
     .short-intro-flex{padding: 41px 0 0px;}
+    body.page-template-testimonials .short-intro-flex{padding: 60px 0 0px;}
     .short-intro-flex .short-intro-title{padding-bottom: 38px;}
     body.page-template-testimonials .short-intro-flex .short-intro-title span.optional-text{margin-bottom: 16px;}
     body.page-template-testimonials .short-intro-flex .short-intro-title h2{margin-bottom: 21px;}
