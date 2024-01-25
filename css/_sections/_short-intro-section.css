@@ -49,9 +49,12 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-careers .short-intro-main{padding: 80px 0;}
     body.page-template-partner-installer-join .short-intro-main{padding: 80px 0;}
     .short-intro-head{padding-bottom: 66px;} 
+    body.page-template-testimonials .short-intro-head{padding-bottom: 80px;} 
     .partner-logos-main .short-intro-head{padding-bottom: 24px;}
     body.page-template-partner-installer-join .short-intro-head{padding-bottom: 59px;}
     .short-intro-desc{overflow: hidden;}
+    body.page-template-testimonials .short-intro-desc {padding: 20px 56px 0;}
+    body.page-template-testimonials .short-intro-flex{padding: 83px 0 40px;}
     body.page-template-partner-installer-join .short-intro-desc{padding-top: 6px;}
     .short-intro-desc::before, .short-intro-desc::after{ width: 100%; height: 2px; top: 0; left: -50%; opacity: 0.75; transform: rotate(90deg); content: ""; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; position: absolute; }
     .short-intro-desc::after{ right: -50%; left: auto; }
@@ -142,6 +145,8 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .intro_btn{width: 56px; height: 56px; padding: 10px; justify-content: center;}
     .short-intro-flex{padding: 41px 0 0px;}
     .short-intro-flex .short-intro-title{padding-bottom: 38px;}
+    body.page-template-testimonials .short-intro-flex .short-intro-title span.optional-text{margin-bottom: 16px;}
+    body.page-template-testimonials .short-intro-flex .short-intro-title h2{margin-bottom: 21px;}
 
     .short-intro-of-3{padding: 54px 0 0; display: block; }
     .short-intro-of-3 > *{margin-bottom: 41px; font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
