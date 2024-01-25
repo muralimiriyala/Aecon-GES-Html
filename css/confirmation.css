@@ -1,0 +1,17 @@
+
+
+.confirmation-main{padding: 80px 0; gap: 64px;}
+.confirmation-icon{width: 120px; height: 120px; border: 2px solid var(--foreground-light); font-size: 40px; line-height: 40px;}
+.confirmation-icon .fa-duotone::after{animation: tick 2s ease infinite;}
+.confirmation-icon .fa-duotone::before{color: var(--accent);}
+@keyframes tick{ 0%{opacity: 0.4; color: var(--accent-light);} 100%{opacity: 1; color: var(--accent);} }
+.confirmation-text{flex: 1;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .confirmation-main{gap: 40px;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .confirmation-main{display: block;}
+    .confirmation-icon{margin-bottom: 2rem;}
+}
