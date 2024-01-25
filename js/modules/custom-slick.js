@@ -107,6 +107,10 @@ jQuery(document).ready(function($){
           psliderFor.on('afterChange', function (event, slick, currentSlide, slickNext) {
               $('.p-slick-dot').removeClass('slick-current');
               $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
+
+              // $('.p-slick-dot:not(.slick-current) .process-num').removeClass("murali").show();
+              // $('.p-slick-dot[data-slide="' + currentSlide + '"]').find('.process-slider-text').children('.process-num').addClass("murali").fadeOut(1800);
+
          });
 
           $('[data-slide]').on("click", function(e){
@@ -114,7 +118,6 @@ jQuery(document).ready(function($){
                 var slideno = $(this).data('slide');
                 psliderFor.slick('slickGoTo', slideno);
           });
-
           $('.p-slick-arrow').on("click", function(e){
             e.preventDefault();
             const currentSlide = psliderFor.slick('slickCurrentSlide');
@@ -124,6 +127,9 @@ jQuery(document).ready(function($){
               if (nextSlide <= totalSlides) {
                 psliderFor.slick('slickGoTo', nextSlide);
                 $(this).closest('.p-slick-dot').next(".p-slick-dot").find(".process-slider-content").addClass("moveRightSlide").removeClass("moveLeftSlide");
+
+
+
               }
             } else if ($(this).hasClass('p-slick-prev')) {
               const prevSlide = currentSlide - 1;
