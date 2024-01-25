@@ -13,6 +13,8 @@ ul.about-partners-tabs li::before{display: none;}
 
 .partners-tab-content{display: none;}
 .partners-tab-content:first-child{display: block;}
+.no_head .about-partners-btn { text-align: right; order: 1; flex: 100%; margin-bottom: 1rem; }
+
 
 /* media css starts here */
 @media only screen and (min-width: 1280px){
