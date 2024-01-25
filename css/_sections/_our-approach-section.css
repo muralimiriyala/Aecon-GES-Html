@@ -2,7 +2,7 @@
 
 .our-approach-image{height: 100%; position: relative;}
 .our-approach-thumb{display: none;}
-.our-approach-thumb.open{display: block;}
+.our-approach-thumb[data-value="approach-1"]{display: block;}
 .our-approach-desc{display: none;}
 .our-approach-desc[data-value="approach-1"]{display: block;}
 
@@ -22,7 +22,8 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .our-approach-desc{padding: 64px 86px;}
 
     .toggle .our-approach-left{margin-left: -80px; margin-right: 0;}
-    .our-approach-image{min-height: 650px;}
+    .our-approach-image{min-height: 640px;}
+    .our-approach-thumb picture img{max-height: 400px; overflow: hidden;}
 }
 @media only screen and (min-width: 1024px){
     .our-approach-link{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
