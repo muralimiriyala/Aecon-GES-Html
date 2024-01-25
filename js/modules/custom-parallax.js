@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
             new simpleParallax(image, {
                 scale: 1.1,
                 delay: 0.4,
-                transition: 'cubic-bezier(0,0,0,1)',
+                transition: 'cubic-bezier(0, 0, 0, 0.5)',
             });
         })
     }
