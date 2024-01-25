@@ -77,7 +77,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 15px 29px 13px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--accent); color: var(--white); }
-.button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(13px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
+.button.back::before, .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(13px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
 .button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover::after{transform: translateX(16px); color: var(--white);}
 
@@ -104,7 +104,6 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-transparent.yellow::after{color: var(--accent-yellow);}
 .btn-transparent.yellow:hover{ background: var(--foreground-dark);}
 
-
 .button.text-white{color: var(--white);}
 .button.down-arrow::after{content: "\f078";}
 
@@ -122,8 +121,11 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-email span:not(.hide-mobile){color: var(--accent);}
 .btn-email:hover{background-color: var(--accent-light); border-color: var(--accent-light); color: var(--accent-dark);}
 
-.button.btn-md.btn-transparent.back{padding: 10px 16px 10px 32px;}
-.button.back::after{left: 16px; right: auto; content: "\f053";}
+.button.back{padding: 15px 16px 13px 29px;}
+.button.md.back{padding: 10px 16px 10px 32px;}
+.button.back::after{display: none;}
+.button.back::before{content: "\f053"; transform: translateX(-13px);}
+.button.back:hover::before{transform: translateX(-16px); color: var(--white);}
 .button.disabled{pointer-events: none; opacity: 0.5;}
 
 .button.btn-md.yellow::after{color: var(--accent-yellow);}

@@ -24,6 +24,8 @@ body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
 body.page-template-about .short-intro-desc p{margin: 0;}
 
 .short-intro-head.no_intro_head{display: block;}
+.short-intro-head.no_desc{display: block;}
+.short-intro-head.no_desc .short-intro-title{max-width: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
