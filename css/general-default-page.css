@@ -74,4 +74,7 @@ body.page-template-default.page-id-237 .general-default-heading span.optional-te
     .supporting-resource-text::before{left: 0; transform: none;}
     .general-default-article .accordion-main{margin: 40px 0;}
     .general-default-page .common-content-btn{gap: 15px;}
+
+    body.page-template-default.page-id-237 .featured-projects-thumb img{min-height: 233px;}
+    body.page-template-default.page-id-237 .featured-projects-text{padding: 32px 32px 17px;}
 }
