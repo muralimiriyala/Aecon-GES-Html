@@ -98,7 +98,8 @@ jQuery(document).ready(function($){
     });
     
     $("ul.our-approach-links li:first-child").addClass("open-approach");
-    $(".our-approach-image:first-child").addClass("open");
+    $(".our-approach-thumb:first-child").addClass("open");
+
     const approachLinks = $(".our-approach-link");
     approachLinks.on("click", function(e){
         e.preventDefault();
@@ -106,11 +107,12 @@ jQuery(document).ready(function($){
         _self.parent().siblings("li").find("a").removeClass("active");
         _self.addClass("active");
         const tabAttr = $(this).attr("data-link");
-        $(".our-approach-image").removeClass("open");
-        $(".our-approach-image[data-value="+ tabAttr +"]").addClass("open");
-
-        // $(".our-approach-thumb").fadeIn().addClass("red");
-
+        
+        $(".our-approach-thumb").hide();
+        $(".our-approach-thumb[data-value="+ tabAttr +"]").fadeIn(500);       
+        $(".our-approach-desc").hide();
+        $(".our-approach-desc[data-value="+ tabAttr +"]").fadeIn(500);       
+    
         _self.parent().siblings().removeClass("open-approach");
         _self.parent().siblings().find(".our-approach-mobile").slideUp(900);
         _self.siblings(".our-approach-mobile").slideToggle(900);
