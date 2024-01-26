@@ -1,5 +1,4 @@
 jQuery(document).ready(function ($) {
-  var _windowWidth = $(window).width();
   $('ul.our-approach-links li:first-child').addClass('open-approach');
   const approachLinks = $('.our-approach-link');
 
@@ -26,20 +25,12 @@ jQuery(document).ready(function ($) {
     asNavFor: '.approach-slider-nav',
   });
 
-  function approachNacSlider() {
-    if (_windowWidth >= 1024) {
-      $('.approach-slider-nav').slick({
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        fade: true,
-        arrows: false,
-        asNavFor: '.approach-slider-for',
-      });
-    } else {
-      if ($('.approach-slider-nav').hasClass('slick-initialized')) {
-        $('.approach-slider-nav').slick('unslick');
-      }
-    }
-  }
-  approachNacSlider();
+  $('.approach-slider-nav').slick({
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    fade: true,
+    arrows: false,
+    asNavFor: '.approach-slider-for',
+  });
+
 });

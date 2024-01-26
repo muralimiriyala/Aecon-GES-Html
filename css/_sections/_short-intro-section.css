@@ -114,6 +114,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .short-intro-of-4{padding: 56px 0 0; gap: 40px;}
     .short-intro1-of-4{flex: 0 0 calc(50% - 20px);}
 
+    body.page-template-solution-landing .short-intro-of-3{padding-top: 40px;}
     .short-intro-of-3{gap: 40px;}
     .short-intro1-of-3{flex: 0 0 calc(50% - 20px);}
 

@@ -17,8 +17,8 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
     .our-approach-main {gap: 0 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{flex: 0 0 560px; padding: 84px 0;}
-    .our-approach-left{flex: 1; min-width: 720px; margin-right: -80px;}
+    .our-approach-text{width: 560px; padding: 84px 0;}
+    .our-approach-left{width: calc(100% - 640px); min-width: 720px; margin-right: -80px;}
     .our-approach-desc{padding: 64px 86px;}
 
     .toggle .our-approach-left{margin-left: -80px; margin-right: 0;}
@@ -39,16 +39,17 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .our-approach-section .container{padding: 0;}
     .our-approach-main{gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{flex: 1; padding: 63px 0 63px 64px;}
-    .our-approach-left{flex:  0 0 640px;}
+    .our-approach-text{width: calc(100% - 820px); padding: 63px 0 63px 64px;}
+    .our-approach-left{width: 640px;}
     .our-approach-desc{padding: 64px;}
     .our-approach-thumb img{min-height: 272px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .our-approach-section .container{padding: 0;}
-    .our-approach-main {gap: 64px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{flex: 1; padding: 63px 0 63px 40px;}
-    .our-approach-left{flex:  0 0 512px;}
+    .our-approach-main {gap: 40px; flex-wrap: nowrap; flex-direction: row-reverse;}
+    .our-approach-text{flex: calc(100% - 552px); padding: 63px 0 63px 40px;}
+    .toggle .our-approach-text{padding-left: 0; padding-right: 40px;}
+    .our-approach-left{width: 512px;}
     .our-approach-desc{padding: 40px 50px;}
     .our-approach-thumb img{min-height: 272px;}
 }
