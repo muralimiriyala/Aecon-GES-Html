@@ -32,7 +32,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-main{padding: 80px 0;}
     body.page-template-default.page-id-237 .what-people-main{padding: 40px 0;}
     .what-people-heading{flex: 1; padding-bottom: 17px;}
-    .what-people-grids{order: 2;}
+    .what-people-grids{order: 2; justify-content: center;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
     .what-people-grids:not(:first-child):nth-child(odd){padding-top: 47px;}
     .what-people-quote:not(:nth-child(2)):nth-child(even){flex-direction: row;}

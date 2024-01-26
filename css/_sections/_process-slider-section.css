@@ -11,7 +11,6 @@ span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: b
 }
 @media screen and (min-width: 1024px){
     .slick-current .process-num{opacity: 0; width: 0;}
-    /* .p-slick-dot[data-slide="0"] .process-num{display: none;} */
     .process-num{width: 104px; height: 104px; margin: 0; color: var(--white); background: rgba(9, 31, 67, 0.75); backdrop-filter: blur(4px); cursor: pointer;}
 
     .process-slider-nav{bottom: 64px; left: 0; right: 0; position: absolute;}
