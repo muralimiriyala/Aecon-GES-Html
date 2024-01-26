@@ -51,6 +51,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-main{padding: 67px 0 33px;}
     .what-people-heading{flex: 1; padding-bottom: 45px;}
     .what-people-heading h2{padding-right: 40px; margin-bottom: 0;}
+    body.page-template-testimonials .what-people-grids{padding-bottom: 0;}  
     .what-people-grids{gap: 24px; order: 2; padding-bottom: 40px;}
     .what-people-grid{flex: 0 0 calc(50% - 12px);}
     .what-people-grid:last-child{flex: 0 0 100%;}
@@ -68,6 +69,8 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-heading h2{padding-right: 40px;}
     .what-people-grids{display: block; padding-bottom: 32px;}
     body.page-template-careers .what-people-grid{padding: 24px 32px 20px;}
+    body.page-template-testimonials .what-people-grids{padding-bottom: 0;}
+    body.page-template-testimonials .what-people-grid{padding: 32px 32px 19px;}
     .what-people-grid{padding: 25px 23px 19px;}
     .what-people-grid:not(:last-child){margin-bottom: 24px;}
     .avatar-text span.optional-text{font-size: 16px; line-height: 20px;}
