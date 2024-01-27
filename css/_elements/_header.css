@@ -148,7 +148,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .flyout-close{display: none;}
     .flyout-overlay{padding: 64px 0 40px; max-width: 100%;}
     
-    .contact_btn_mobile{padding: 20px; gap: 20px; border-top: 2px solid var(--gray-md); flex-direction: column; display: flex;}
+    .contact_btn_mobile{padding: 20px; gap: 20px; border-top: 2px solid var(--gray-md); flex-direction: column; display: flex; text-align: center;}
     .call-us-btns{margin-bottom: 0;}
     .flyout-blue-overlay{display: none;}
 

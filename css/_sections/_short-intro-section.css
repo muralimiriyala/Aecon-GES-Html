@@ -1,6 +1,8 @@
 
 .short-intro-section{color: var(--foreground-light);}
-.short-intro-icon{margin-bottom: 14px;}
+.short-intro-icon{margin-bottom: 14px; min-height: 82px;}
+.short-intro-icon img{min-height: 82px;}
+.short-intro-icon svg{min-height: 82px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
 .counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}

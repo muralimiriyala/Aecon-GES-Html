@@ -26,13 +26,19 @@ picture.banner-thumb img{object-position: top center;}
     body.single-post .banner-text{padding-bottom: 82px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
+    .poster-bg{position: relative;}
     .banner-bg{position: relative;}
+    .home-banner-iframe{display: none;}
     .banner-main{margin-top: -124px; background-image: linear-gradient(to bottom, rgba(9, 31, 67, 0.00) 0%, #091F43 90px);}
     .banner-text{padding: 32px 0 40px;}
     .banner-text span.optional-text { margin-bottom: 25px; }
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
-    .banner-bg{position: relative;}
+    .poster-bg{position: relative; min-height: 260px;}
+    .poster-bg img{min-height: 260px;}
+    .home-banner-iframe{display: none;}
+    .banner-bg{position: relative; min-height: 260px;}
+    .banner-bg img{min-height: 260px;}
     .banner-main{margin-top: -88px; background-image: linear-gradient(to bottom, rgba(9, 31, 67, 0.00) 0%, #091F43 90px);}
     body.home .banner-text{padding-top: 10px;}
     body.page-template-why-aecon .banner-text{padding-bottom: 9px;}

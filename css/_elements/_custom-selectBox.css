@@ -22,5 +22,6 @@ ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 
 /* media css starts here */
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    body .free-assessment-text .selectBox-dropdown{width: 100%;}
     .page-template-about-testimonials ul.selectBox-dropdown-menu{min-width: 136px; max-width: 136px;}
 }

@@ -14,7 +14,6 @@ function check_if_in_view() {
     let element_bottom_position = element_top_position + element_height;
     let threshold = element_height * viewport_threshold;
 
-
     const animation = $self.data('animation');
     const animateType = $self.data('animate');
     const delay = Number($self.data('animation-delay') || 0);
@@ -40,5 +39,5 @@ function check_if_in_view() {
   });
 }
 $window.on("scroll load", check_if_in_view);
-$window.trigger("scroll load");
+$window.trigger("scroll");
 jQuery(function(){ check_if_in_view(); setTimeout(check_if_in_view, 100); });

@@ -11,9 +11,11 @@ function getRandomInt(min, max) {
 var $drawing = jQuery('[data-animation="ui-drawing"]');
 $drawing.each(function(){
   var $self = jQuery(this);
-  var $path = $self.find('path');
-  var tl = gsap.timeline({ paused: true })
-  tl.fromTo($path, { drawSVG: '0%' }, { drawSVG: '100%', duration: 1.5, ease: 'power1.out'})
+  var $paths = $self.find('path');
+  var tl = gsap.timeline({ paused: true, delay: 0.5,});
+  $paths.each(function(i){
+    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
+  })
   $self[0].tl = tl
 });
 
@@ -26,3 +28,4 @@ $uidot.each(function(){
   tl.fromTo($path[1], { drawSVG: '0%', opacity: '0', }, { drawSVG: '100%', opacity: '1', duration: 0.5, ease: 'power1.out'})
   $self[0].tl = tl
 })
+
