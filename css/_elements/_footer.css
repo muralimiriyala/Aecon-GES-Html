@@ -60,7 +60,7 @@ ul.copyright-links > li > a:hover{color: var(--navy);}
     ul.footer-links > li::before{display: none;}
     ul.footer-links > li{font-size: 16px; letter-spacing: -0.32px; line-height: 20px; margin-bottom: 21px;}
     ul.footer-links > li > a{color: var(--foreground-light);}
-    ul.footer-links > li > a:hover{color: var(--navy);}
+    ul.footer-links > li.current_page_item > a, ul.footer-links > li > a:hover{color: var(--navy);}
     ul.copyright-links{width: auto; gap: 20px;}
 }
 @media screen and (min-width: 1024px) {

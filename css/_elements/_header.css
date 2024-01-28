@@ -30,12 +30,12 @@ ul.flyout-menu{margin: 0;}
 
 ul.flyout-menu > li::before{display: none;}
 ul.flyout-menu > li > a{font-size: 20px; line-height: 24px; color: var(--navy); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
-ul.flyout-menu > li > a:hover{color: var(--accent);}
+ul.flyout-menu > li.current_page_item > a, ul.flyout-menu > li > a:hover{color: var(--accent);}
 
 ul.flyout-menu > li > ul > li{margin: 0 0 14px;}
 ul.flyout-menu > li > ul > li::before{display: none;}
 ul.flyout-menu > li > ul > li > a{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--foreground-light);}
-ul.flyout-menu > li > ul > li > a:hover{color: var(--navy);}
+ul.flyout-menu > li > ul > li.current_page_item > a, ul.flyout-menu > li > ul > li > a:hover{color: var(--navy);}
 
 ul.flyout-address{margin: 0; padding-top: 44px; margin-top: 165px;}
 ul.flyout-address::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right, rgba(113, 163, 65, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
@@ -74,7 +74,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{color: var(--foreground-light); display: block; font-weight: 700; font-family: 'VisbyCF', sans-serif; font-size: 15px; line-height: 20px; letter-spacing: 0.3px;}
-    ul.main-menu > li > a:hover{color: var(--navy);}
+    ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--navy);}
 
     ul.flyout-menu > li{margin: 0 0 32px;}
     ul.flyout-menu > li > ul{margin: 0; padding: 14px 0 0;}

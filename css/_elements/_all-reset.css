@@ -107,8 +107,8 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.text-white{color: var(--white);}
 .button.down-arrow::after{content: "\f078";}
 
-.button.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
-.button.btn-hover-white:hover::after{color: var(--accent);}
+.button.btn-hover-white:hover, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
+.button.btn-hover-white:hover::after,  body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white::after{color: var(--accent);}
 
 .button.no-arrow::after, button.no-arrow::after{display: none;}
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
