@@ -18,8 +18,9 @@
 }
 @media only screen and (min-width: 1024px){
     .incentives-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
-    .incentives-image figure{transition: all 0.5s ease;}
-    .incentives-row > *:hover .incentives-image figure{transform: scale(1.05);}
+    .incentives-thumb{transition: all 0.5s ease;}
+    .incentives-thumb img{min-height: 194px;}
+    .incentives-row > *:hover .incentives-thumb{transform: scale(1.05);}
 }
 @media only screen and (min-width: 740px){
     .parallax-bg{background-image: url('./images/static-bg@2x.jpg'); background-attachment: fixed;}
