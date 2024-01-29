@@ -17,7 +17,7 @@ span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: b
     .process-slider-for{z-index: -1;}
     .process-slider-thumb img{min-height: 760px; max-height: 760px;}
     div.process-slider-pos{bottom: 0; left: 0; position: absolute; z-index: 2;}
-    .process-slider-content{display: none; background-color: var(--white); animation-delay: 1s; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease; animation-timing-function: ease; position: relative; transition: all 0.5s ease;}
+    .process-slider-content{display: none; background-color: var(--white); animation-delay: 0s; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease; animation-timing-function: ease; position: relative; transition: all 0.5s ease;}
     .moveRightSlide{ animation-name: moveRightSlide; }
     @keyframes moveRightSlide{from{left: -104px;} to{left: 0;} }
     .moveLeftSlide{ animation-name: moveLeftSlide;}

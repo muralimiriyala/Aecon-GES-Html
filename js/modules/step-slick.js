@@ -39,6 +39,7 @@ jQuery(document).ready(function($){
           const nextSlide = currentSlide + 1;
           if (nextSlide <= totalSlides) {
             psliderFor.slick('slickGoTo', nextSlide);
+            $(this).closest('.p-slick-dot').next(".p-slick-dot").find('.process-num').fadeOut();
             $(this).closest('.p-slick-dot').next(".p-slick-dot").find(".process-slider-content").addClass("moveRightSlide").removeClass("moveLeftSlide");
           }
         } else if ($(this).hasClass('p-slick-prev')) {
