@@ -10,6 +10,7 @@ span.ass-o-text{color: var(--navy); margin: 0; font-family: "VisbyCF", sans-seri
 .free-steps-btns span{flex: 1;}
 span.free-steps-next{margin-left: auto; text-align: right;}
 .free-steps-dots{gap: 8px; flex: 1;}
+.assessment-h-right .assessment-h-btn .btn-tel{padding: 9px 9px 9px 8px;}
 
 .steps-slider-bg{padding: 18px 0; margin-bottom: 20px;}
 .free-steps-slider{display: none;}
