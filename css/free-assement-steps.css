@@ -47,7 +47,24 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_submit{justify-content: s
 body .free-steps-text .frm_forms .frm_form_fields .frm_submit::before{opacity: 0.5; content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; }
 body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"]{margin-left: auto; font-size: 16px; padding: 11px 32px 11px 15px; text-transform: capitalize;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page{margin-right: auto; margin-left: 0; font-size: 16px; padding: 10px 16px 10px 32px; text-transform: capitalize;}
-body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page::after{left: 16px; right: auto; content: "\f053";}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page::after{display: none;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page::before{
+    
+    content: "\f053";
+    transform: translateX(-13px);
+    top: 0;
+    position: relative;
+    color: var(--accent);
+    font-size: 14px;
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    transition: all .5s ease;
+    display: inline-block;
+
+}
+body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page:hover::before{
+    color: var(--white);
+}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
