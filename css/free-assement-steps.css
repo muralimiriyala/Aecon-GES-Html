@@ -92,7 +92,7 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
     .assessment-logo{flex: 0 0 227px;}
     .assessment-h-right{gap: 8px; flex: 1; justify-content: flex-end;}
     .assessment-h-btn span{font-size: 18px;}
-    .assessment-h-right .assessment-h-btn .btn-tel{justify-content: center; }
+    .assessment-h-right .assessment-h-btn a{justify-content: center;}
     .free-steps-main{display: block; padding: 20px 0 40px;}
     .free-steps-left{margin-bottom: 41px;}
     .free-steps-text{margin-bottom: 40px;}
