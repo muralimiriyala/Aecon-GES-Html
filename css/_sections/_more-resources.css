@@ -25,7 +25,7 @@
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .more-resources-row{gap: 24px;}
-    .more-resources-list{flex: 0 0 calc(25% - 18px);}
+    .more-resources-list{flex: 0 0 calc(25% - 20px);}
     .more-resources-text{padding: 32px 24px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){

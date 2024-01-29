@@ -206,7 +206,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
     body.category-resources .subscribe-right{padding: 0 4px;}
     body.category-resources .card-text .h4{font-size: 24px; line-height: 32px;}
-    body.category-resources .card-image img{min-height: 233px;} 
+    body.category-resources .card-image img{min-height: 233px; max-height: 233px; overflow: hidden;} 
     body.category-resources .load-more-btn .button{width: 100%;}
     body.category-resources .card-text .line-clamp{margin-bottom: 2px;}
 }
