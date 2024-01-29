@@ -73,7 +73,8 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_ch
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 32px; position: relative; background-color: transparent;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: -2px; left: 0;}
-body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--text-100) !important;}
+body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
+body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
 .frm-g-recaptcha{height: 78px; overflow: hidden;}
