@@ -92,13 +92,13 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
     .assessment-logo{flex: 0 0 227px;}
     .assessment-h-right{gap: 8px; flex: 1; justify-content: flex-end;}
     .assessment-h-btn span{font-size: 18px;}
-    .assessment-h-right .assessment-h-btn .btn-tel{justify-content: center; }
+    .assessment-h-right .assessment-h-btn a{justify-content: center;}
     .free-steps-main{display: block; padding: 20px 0 40px;}
     .free-steps-left{margin-bottom: 41px;}
     .free-steps-text{margin-bottom: 40px;}
     .stel-slide-main{padding: 0 62px; display: block;}
     .step-slide-heading{margin-bottom: 7px;}
-    .tooltip-main{display: block !important; top: 100px !important; left: 100px !important; opacity: 1 !important;}
+    .tooltip-main{display: block !important; top: 100px !important; left: 100px !important; opacity: 1 !important; max-width: 233px !important;}
     
 }
 
