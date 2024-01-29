@@ -25,13 +25,15 @@ jQuery(document).ready(function($){
       psliderFor.on('afterChange', function (event, slick, currentSlide, slickNext) {
           $('.p-slick-dot').removeClass('slick-current');
           $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
+          $(".process-num").fadeIn(1000);
+          $('.p-slick-dot[data-slide="' + currentSlide + '"]').find(".process-num").fadeOut(1000);
      });
 
       $('[data-slide]').on("click", function(e){
             e.preventDefault();
             var slideno = $(this).data('slide');
             psliderFor.slick('slickGoTo', slideno);
-      });
+     });
 
       $('.p-slick-arrow').on("click", function(e){
         e.preventDefault();
@@ -57,7 +59,6 @@ jQuery(document).ready(function($){
           const prevSlide = currentSlide - 1;
           if (prevSlide >= 0) {
             psliderFor.slick('slickGoTo', prevSlide);
-
 
             $(this).closest('.p-slick-dot').find(".process-num").fadeIn(2000);
             $(this).closest('.p-slick-dot').prev(".p-slick-dot").find(".process-num").fadeOut(1000);
