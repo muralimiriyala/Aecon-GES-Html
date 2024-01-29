@@ -65,10 +65,11 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .logo a img{max-width: 261px;}
     .logo::after{width: 1px; height: 56px; right: 0; top: -12px; opacity: 0.25; position: absolute; background-color: var(--foreground-light); content: ""; display: block;}
     .header-right{flex: 1; max-width: 264px; gap: 12px; align-items: center; justify-content: flex-end;}
-    .contact_btn::after{content: "\f0d7"; top: calc(50% + 0px);}
-    .contact_btn.open::after{ content: "\f0d8"; top: calc(50% + 2px);}
+    .contact_btn.button{padding-right: 25px;}
+    .contact_btn.button::after{content: "\f0d7"; right: 10px; top: calc(50% + 0px); transform: translate(0, -50%); position: absolute;}
+    .contact_btn.button.open::after{ content: "\f0d8"; top: calc(50% + 2px);}
     .contact_btn.button:hover{background: var(--elevated); color: var(--foreground);}
-    .contact_btn.button:hover::after{color: var(--accent);}
+    .contact_btn.button:hover::after{color: var(--accent); transform: translate(0,-50%);}
     .site-main-cover{padding-top: 88px;}
     ul.main-menu{gap: 0 2rem; flex: 1; margin: 0; padding-left: 20px;}
     ul.main-menu > li{margin: 0;}

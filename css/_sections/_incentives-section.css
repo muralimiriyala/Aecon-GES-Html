@@ -23,7 +23,7 @@
     .incentives-row > *:hover .incentives-thumb{transform: scale(1.05);}
 }
 @media only screen and (min-width: 740px){
-    .parallax-bg{background-image: url('./images/static-bg@2x.jpg'); background-attachment: fixed;}
+    .incentives-bg{background-image: url('./images/static-bg@2x.jpg');}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .incentives-main{padding: 65px 0 64px;}
@@ -50,7 +50,7 @@
     .incentives-row > *{margin-bottom: 32px;}
     .incentives-btn .button{width: 100%;}
     .incentives-text h2{font-size: 24px; line-height: 32px;}
-    .parallax-bg{background-image: url('images/parallax-bg-mobile@2x.jpg');}
+    .incentives-bg{background-image: url('images/parallax-bg-mobile@2x.jpg');}
 }
 
 

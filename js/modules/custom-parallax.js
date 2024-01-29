@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
         parallaxImage.forEach(function(image){
             new simpleParallax(image, {
                 scale: 1.1,
-                delay: 0.4,
+                delay: 0.2,
                 transition: 'cubic-bezier(0, 0, 0, 0.5)',
             });
         })

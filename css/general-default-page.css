@@ -22,7 +22,7 @@ body #ez-toc-container ul li a{padding: 8px 12px; display: inline-block; border-
 body #ez-toc-container ul li a:hover{background-color: var(--gray-lt); text-decoration: none;} 
 body #ez-toc-container ul li a.active, body #ez-toc-container ul li a.mPS2id-clicked{background-color: var(--accent-light);}
 body #ez-toc-container ul ul{margin: 0;}
-
+.supporting-resource-main.no_image{display: block;}
 
 @media screen and (min-width: 1024px){
     .general-default-main{gap: 80px; padding: 80px 0;}
