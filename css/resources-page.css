@@ -209,6 +209,8 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     body.category-resources .card-image img{min-height: 233px;} 
     body.category-resources .load-more-btn .button{width: 100%;}
     body.category-resources .card-text .line-clamp{margin-bottom: 2px;}
+
+    body.single-partners .custom-solar-text ul.post-cat-btns{margin-bottom: 18px;}
 }
 
 

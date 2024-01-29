@@ -78,6 +78,10 @@
 	.partner-article{margin-bottom: 32px;}
 	.partner-aside-list{margin-bottom: 39px;}
 	.partner-aside-btn .button{width: 100%;}
+
+	body.single-partners .partner-card-text  h2{font-size: 24px; line-height: 32px; margin-bottom: 18px;}
+	body.single-partners .partner-card-text  .line-clamp{margin-bottom: 0;}
+	body.single-partners .partner-aside-list h2{font-size: 24px; line-height: 32px;}
 }
 
 
