@@ -57,6 +57,11 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submi
 @media only screen and (min-width: 1024px){
     .free-steps-main{padding: 40px 0; align-items: flex-start; flex-direction: row-reverse;}
     .free-steps-left{display: flex; flex-direction: column-reverse;}
+    .free-steps-thum img {
+        min-height: 680px;
+        max-height: 680px;
+        overflow: hidden;
+    }
 }
 @media only screen and (min-width: 740px){
     .assessment-logo{flex: 0 0 261px;}

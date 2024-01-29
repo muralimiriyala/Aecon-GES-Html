@@ -296,7 +296,7 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
 }
-@media only screen and (min-width: 1480px){
+@media only screen and (min-width: 1440px){
     .container.lg{max-width: 1360px;}
 }
 @media only screen and (max-width: 1330px) and (min-width: 1024px){

@@ -16,7 +16,7 @@
     .best-partners-thumb img{filter: grayscale(100%); transition: all 0.5s ease;}
     .best-partners-list:hover .best-partners-thumb img{filter: grayscale(0%);}
     .best-partners-list:hover .best-text-btn{opacity: 1;}
-    .best-partners-text{transform: translateY(48px); transition: transform 0.4s ease;}
+    .best-partners-text{transform: translateY(48px); transition: transform 0.4s ease; min-height: 194px;}
     .best-partners-text p{margin-bottom: 0;}
     .best-partners-list:hover .best-partners-text{transform: translateY(0);}
     .best-partners-image{position: relative; z-index: 1;}
