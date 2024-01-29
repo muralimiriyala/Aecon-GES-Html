@@ -100,6 +100,7 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
     .step-slide-heading{margin-bottom: 7px;}
     .tooltip-main{display: block !important; top: 100px !important; left: 100px !important; opacity: 1 !important; max-width: 233px !important;}
     body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 43px;}
+    body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding: 0 0 5px;}
     
 }
 
