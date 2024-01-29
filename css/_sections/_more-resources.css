@@ -5,6 +5,8 @@
 .more-resources-head{padding-bottom: 9px;}
 .more-resources-list{color: var(--foreground-light);}
 .more-resources-text{padding: 32px;}
+.more-resources-text h2 a{color: var(--navy);}
+.more-resources-text h2 a:hover{color: var(--accent);}
 .more-resources-btn{margin-top: 40px;}
 
 

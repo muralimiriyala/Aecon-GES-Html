@@ -43,7 +43,8 @@ ul.res-categories{margin: -46px 0 20px; gap: 5px; z-index: 1; position: relative
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
 ul.res-categories li a{padding: 3px 8px 1px; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
-ul.res-categories li a:hover{background-color: var(--accent); color: var(--white);}
+/* ul.res-categories li a:hover{background-color: var(--accent); color: var(--white);} */
+
 .card-text{padding: 32px; position: relative;}
 .card-text .h4 a{color: var(--navy);}
 .card-text .h4 a:hover{color: var(--accent);}
