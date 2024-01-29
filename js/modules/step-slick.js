@@ -23,12 +23,12 @@ jQuery(document).ready(function($){
       psliderFor.on('afterChange', function (event, slick, currentSlide, slickNext) {
           $('.p-slick-dot').removeClass('slick-current');
           $('.p-slick-dot[data-slide="' + currentSlide + '"]').addClass('slick-current');
-     });
-
+        });
+        
       $('[data-slide]').on("click", function(e){
-            e.preventDefault();
-            var slideno = $(this).data('slide');
-            psliderFor.slick('slickGoTo', slideno);
+          e.preventDefault();
+          var slideno = $(this).data('slide');
+          psliderFor.slick('slickGoTo', slideno);
       });
 
       $('.p-slick-arrow').on("click", function(e){
@@ -38,8 +38,7 @@ jQuery(document).ready(function($){
         if ($(this).hasClass('p-slick-next')) {
           const nextSlide = currentSlide + 1;
           if (nextSlide <= totalSlides) {
-            psliderFor.slick('slickGoTo', nextSlide);
-            $(this).closest('.p-slick-dot').next(".p-slick-dot").find('.process-num').fadeOut();
+            // $(this).closest('.p-slick-dot').next(".p-slick-dot").find('.process-num').fadeOut();
             $(this).closest('.p-slick-dot').next(".p-slick-dot").find(".process-slider-content").addClass("moveRightSlide").removeClass("moveLeftSlide");
           }
         } else if ($(this).hasClass('p-slick-prev')) {
