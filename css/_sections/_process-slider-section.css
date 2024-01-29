@@ -10,8 +10,10 @@ span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: b
     .process-slider-content{max-width: 792px;}
 }
 @media screen and (min-width: 1024px){
-    .slick-current .process-num{opacity: 0; width: 0;}
-    .process-num{width: 104px; height: 104px; margin: 0; color: var(--white); background: rgba(9, 31, 67, 0.75); backdrop-filter: blur(4px); cursor: pointer;}
+    .slick-current .process-num{width: 0; visibility: hidden;}
+    .process-num{width: 104px; height: 104px; margin: 0; background: rgba(9, 31, 67, 0.75); backdrop-filter: blur(4px); cursor: pointer;}
+    .process-num.murali{background: red;}
+    .process-step-number{height: 100%; width: 100%; margin: 0; color: var(--white);}
 
     .process-slider-nav{bottom: 64px; left: 0; right: 0; position: absolute;}
     .process-slider-for{z-index: -1;}
