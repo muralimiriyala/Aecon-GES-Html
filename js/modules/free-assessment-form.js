@@ -49,4 +49,6 @@ jQuery(document).ready(function($){
         if(isChecked){btnText.text("next")};
     });
 
+    $('body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page').text("Back");
+
 });
