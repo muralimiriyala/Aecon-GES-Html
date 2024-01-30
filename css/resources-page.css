@@ -11,7 +11,12 @@ body.category-resources .subscribe-main{padding: 40px 0 36px;}
 .subscribe-field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
+<<<<<<< HEAD
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
+=======
+body.page-template-projects .subscribe_submit small{font-size: 14px;}
+.subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75;}
+>>>>>>> 8320a4c8b2108105ab1576f111fe0090fd0741dc
 body.category-resources .subscribe-form p{margin-bottom: 0;}
 
 .browse-news-title h2{margin-bottom: 0;}
