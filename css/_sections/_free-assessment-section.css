@@ -47,5 +47,5 @@
     .free-assessment-desc hr{margin: 0 auto 30px;}
     body.page-template-default.page-id-237 .free-assessment-desc hr{margin: 0 auto 23px;}
     body.page-template-testimonials .free-assessment-desc hr{margin: 0 auto 24px;}
-    .free-assessment-btns .button{width: 100%;}
+    .free-assessment-btns .button{width: 100%; padding: 15px 29px 13px 16px; font-size: 18px;}
 }
