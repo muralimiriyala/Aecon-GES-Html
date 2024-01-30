@@ -52,7 +52,6 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-main{padding: 67px 0 33px;}
     .what-people-heading{flex: 1; padding-bottom: 45px;}
     .what-people-heading h2{padding-right: 40px; margin-bottom: 0;}
-    body.page-template-testimonials .what-people-grids{padding-bottom: 0;}  
     .what-people-grids{gap: 24px; order: 2; padding-bottom: 40px;}
     .what-people-grid{flex: 0 0 calc(50% - 12px);}
     .what-people-grid:last-child{flex: 0 0 100%;}
