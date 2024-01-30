@@ -113,11 +113,13 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .browse-news-field{width: calc(16.666666% - 14px);}
     .card-main{height: 100%;}
     .card-thumb img{min-height: 194px; max-height: 194px;}
+    body.page-template-projects .card-thumb img{min-height: 267px; max-height: 267px;}
 
     .card-main{transition: all 0.5s ease;}
     .card-main.bg-elevated:hover{background-color: var(--white);}
     .card-main:hover{box-shadow: 0 4px 4px var(--gray-md);}
     .card-image{min-height: 194px; max-height: 194px; position: relative; overflow: hidden;}
+    body.page-template-projects .card-image{min-height: 267px; max-height: 267px;}
     .card-thumb{transition: all 0.5s ease;}
     .card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
 }
