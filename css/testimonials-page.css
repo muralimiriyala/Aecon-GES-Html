@@ -16,6 +16,7 @@
 @media only screen and (min-width: 1024px){
     .blockquote-section{min-height: 600px;}
     .blockquote-main{min-height: 600px;}
+    body.page-template-testimonials .blockquote-main{padding: 146px 0 140px;}
     .blockquote-text-icon{padding: 0 4rem;}
 }
 @media only screen and (min-width: 740px){
