@@ -19,6 +19,10 @@ ul.faq-tabs li::before{display: none;}
 .faq-tab-content{display: none;}
 .faq-tab-content:first-child{display: block;}
 .faqs-desc{padding-top: 54px; max-width: 880px;}
+.faqs-desc p{font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -.24px;
+    display: block;}
 
 /* media css starts here */
 @media only screen and (min-width: 740px){
@@ -37,14 +41,14 @@ ul.faq-tabs li::before{display: none;}
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .faqs-main{padding: 64px 0;}
     .faqs-desc{padding-top: 16px;}
-    ul.faq-tabs{overflow-x: auto; overflow-y: hidden;}
+    ul.faq-tabs{overflow-x: auto; overflow-y: hidden; width: calc(100% + 40px);}
 }
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .faqs-main{padding: 40px 0;}
     .faqs-title{padding-bottom: 22px;}
     .faqs-title h2{font-size: 24px; line-height: 32px; margin-bottom: 0;}
     .faqs-desc{padding-top: 0;}
-    .faqs-desc small{font-size: 18px; line-height: 28px; letter-spacing: -.36px;}
+    .faqs-desc p{font-size: 18px; line-height: 28px; letter-spacing: -.36px;}
 
     .faqs-mobile-btn{padding: 18px 16px 16px; background-color: var(--navy); color: var(--white); border-radius: 16px; display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; cursor: pointer;}
     .faqs-mobile-icon{width: 30px; height: 30px; right: 12px; top: 50%; transform: translate(0, -50%); display: block;}
