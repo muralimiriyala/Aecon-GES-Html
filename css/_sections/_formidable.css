@@ -24,16 +24,8 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: blo
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span{
-margin-left: auto;
-float: right;
-font-weight: 400;
-font-family: Univers,sans-serif;
-color: var(--foreground-light);
-font-size: 16px;
-line-height: 16px;
-letter-spacing: -0.32px;
-}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.free-steps-text{display: none;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span{ margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground-light); font-size: 16px; line-height: 16px; letter-spacing: -0.32px; }
 input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md); background-color: var(--gray-lt); border-radius: 8px; color: var(--foreground); font-family: 'Univers', sans-serif; -webkit-appearance: none;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, 
 body .bg-elevated .frm_forms .frm_form_field textarea, 
