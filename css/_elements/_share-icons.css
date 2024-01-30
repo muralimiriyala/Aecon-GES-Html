@@ -23,5 +23,5 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .social-share-icons{margin: 24px 0 30px;}
-    .social-share-icons #st-1.st-animated{ gap: 0 44px; display: none;}
+    .social-share-icons #st-1.st-animated{ gap: 12px;}
 }
