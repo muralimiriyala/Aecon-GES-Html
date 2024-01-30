@@ -42,7 +42,18 @@ body.category-resources .subscribe-form p{margin-bottom: 0;}
 ul.res-categories{margin: -46px 0 20px; gap: 5px; z-index: 1; position: relative;}
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
-ul.res-categories li a{padding: 3px 8px 1px; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.res-categories li{padding: 3px 8px 1px; display: inline-flex; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.res-categories li a{color: inherit;}
+ul.res-categories li span{font-size: 12px; line-height: 12px;}
+ul.res-categories li.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
+ul.res-categories li.solar span{color: var(--accent-yellow);}
+ul.res-categories li.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.res-categories li.ev-charging span{color: #02B5DC;}
+ul.res-categories li.heating{background-color: #FFD8A6; color: #5E3808;}
+ul.res-categories li.heating span{color: #F8971D;}
+ul.res-categories li.battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
+ul.res-categories li.battery-storage span{color: var(--accent);}
+
 /* ul.res-categories li a:hover{background-color: var(--accent); color: var(--white);} */
 
 .card-text{padding: 32px; position: relative;}
@@ -63,15 +74,16 @@ ul.post-cat-btns{margin: 0 0 13px; gap: 8px;}
 .custom-solar-text ul.post-cat-btns{margin-bottom: 30px;}
 ul.post-cat-btns li{margin: 0;}
 ul.post-cat-btns li::before{display: none;}
-ul.post-cat-btns li a{padding: 6px 7px; gap: 6px; font-size: 14px; line-height: 14px; border-radius: 4px; letter-spacing: 0; align-items: center; background-color: var(--accent-light); color: var(--drab); font-weight: 800; font-family: VisbyCF,sans-serif; }
-ul.post-cat-btns li a span{font-size: 12px; line-height: 12px;}
-ul.post-cat-btns li a.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
-ul.post-cat-btns li a.solar span{color: var(--accent-yellow);}
-ul.post-cat-btns li a.ev-charging{background-color: #C4F4FF; color: #0D445D;}
-ul.post-cat-btns li a.ev-charging span{color: #02B5DC;}
-ul.post-cat-btns li a.heating{background-color: #FFD8A6; color: #5E3808;}
-ul.post-cat-btns li a.heating span{color: #F8971D;}
-ul.post-cat-btns li a.battery-storage span{color: var(--accent);}
+ul.post-cat-btns li{padding: 6px 7px 5px; display: inline-flex; flex-wrap: wrap; gap: 6px; font-size: 14px; line-height: 14px; border-radius: 4px; letter-spacing: 0; align-items: center; background-color: var(--accent-light); color: var(--drab); font-weight: 800; font-family: VisbyCF,sans-serif; }
+ul.post-cat-btns li a{color: inherit;}
+ul.post-cat-btns li span{font-size: 12px; line-height: 12px;}
+ul.post-cat-btns li.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
+ul.post-cat-btns li.solar span{color: var(--accent-yellow);}
+ul.post-cat-btns li.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.post-cat-btns li.ev-charging span{color: #02B5DC;}
+ul.post-cat-btns li.heating{background-color: #FFD8A6; color: #5E3808;}
+ul.post-cat-btns li.heating span{color: #F8971D;}
+ul.post-cat-btns li.battery-storage span{color: var(--accent);}
 ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
 /* media css starts here */
