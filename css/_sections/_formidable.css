@@ -215,4 +215,11 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.fr
     body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .last-checkbox.vertical_radio .frm_checkbox label{line-height: 26px;}
     body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .last-checkbox.vertical_radio .frm_primary_label{padding: 0;}
     body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 14px;}
+
+
+    body.page-template-solution-landing #frm_field_51_container{padding-bottom: 0;}
+    body.page-template-solution-landing .become-partner-form .frm_form_field_wrapper{padding-top: 0; border-top: none; display: block;}
+    body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: -2px;}
+    body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 28px;}
+    body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{font-size: 15px;}
 }
