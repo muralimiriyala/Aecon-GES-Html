@@ -13,6 +13,12 @@ ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); fon
 ul.detail-categorys li a.solar span{color: var(--accent-yellow); top: 0;}
 ul.detail-categorys li a.residential{background-color: var(--accent-light); font-size: 14px; line-height: 14px;}
 ul.detail-categorys li a:hover{background-color: var(--navy); color: var(--white);}
+ul.detail-categorys li a.battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
+ul.detail-categorys li a.battery-storage span{color: var(--accent);}
+ul.detail-categorys li a.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.detail-categorys li a.ev-charging span{color: #02B5DC;}
+ul.detail-categorys li a.heating{background-color: #FFD8A6; color: #5E3808;}
+ul.detail-categorys li a.heating span{color: #F8971D;}
 
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}
