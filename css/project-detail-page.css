@@ -2,7 +2,7 @@
 .project-detail-text{font-size: 20px; line-height: 28px; color: var(--foreground);}
 .project-detail-text h1{margin-bottom: 30px;}
 .detail-map{width: 38px; height: 56px; background-image: url("./images/map-marker.svg"); background-repeat: no-repeat; background-position: center;}
-.detail-map.pin1{bottom: 50px; right: 82px;}
+
 
 ul.detail-categorys{margin: 0 0 31px; gap: 8px;}
 ul.detail-categorys li::before{display: none;}
@@ -45,7 +45,6 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
 }
 @media only screen and (min-width: 1024px){
     .project-detail-text{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
-    
     .stats-main{padding: 0 0 82px;}
     .stats-image-row{gap: 32px; margin-bottom: 24px;}
     .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
@@ -61,8 +60,18 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
 @media only screen and (min-width: 1280px){
     .project-detail-main{gap: 64px; padding-bottom: 86px; flex-wrap: nowrap; flex-direction: row-reverse;} 
     .project-detail-text{max-width: 648px; padding: 81px 0 0;}
-    .project-detail-image{top: 0; right: -80px; min-width: 648px;}
+    .project-detail-image{top: 0; right: -80px; min-width: 648px; max-width: 648px;}
     .project-detail-article{padding: 80px 0 80px;}
+    .detail-map[data-name="British-Columbia"]{ bottom: 45%; left: 10%; }
+    .detail-map[data-name="Alberta"]{ bottom: 151px; left: 145px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 150px; left: 230px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 180px; left: 300px; }
+    .detail-map[data-name="Ontario"]{ bottom: 115px; left: 395px;}
+    .detail-map[data-name="Quebec"]{ bottom: 140px; left: 400px; }
+    .detail-map[data-name="Newfoundland"]{ bottom: 140px; left: 400px; }
+    .detail-map[data-name="New-Brunswick"]{ bottom: 140px; left: 420px; }
+    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 140px; left: 440px; }
+    .detail-map[data-name="Nova-Scotia"]{ bottom: 140px; left: 450px; }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .project-detail-main{padding-bottom: 32px;}
