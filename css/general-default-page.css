@@ -11,7 +11,7 @@ body.page-template-default.page-id-237 .what-people-grid .avatar-main{gap: .7rem
 body.page-template-default.page-id-237 .faqs-desc {font-size: 12px; line-height: 20px; letter-spacing: -0.24px;}
 body.page-template-default.page-id-237 .general-default-heading span.optional-text{margin-bottom: 32px; font-size: 16px; line-height: 20px;}
 
-body #ez-toc-container{background: none; padding: 0; border: none; width: 100%;} 
+body #ez-toc-container{background: none; padding: 0; border: none; box-shadow: none; width: 100%;} 
 body div#ez-toc-container .ez-toc-title{display: block; font-size: 24px; font-weight: 800; color: var(--navy); line-height: 1.33; font-family: VisbyCF,sans-serif; padding: 0 0 12px; border-bottom: solid 1px var(--accent); margin-bottom: 16px;}
 body #ez-toc-container span.ez-toc-title-toggle{display: none;}
 

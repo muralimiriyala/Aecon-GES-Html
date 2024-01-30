@@ -43,6 +43,7 @@
     .more-resources-row{display: block;}
     .more-resources-list:not(:last-child){margin-bottom: 32px;}
     .more-resources-btn .button{width: 100%;}
+    .more-resources-image{min-height: 232px; max-height: 232px;}
     .more-resources-image img{min-height: 232px;}
     .more-resources-text{padding: 32px 32px 17px;}
     .more-resources-text h2{font-size: 24px; line-height: 32px; margin-bottom: 20px;}

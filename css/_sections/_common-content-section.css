@@ -1,6 +1,7 @@
 
 .common-content-main.no_image{display: block;}
 .common-content-btn{gap: 16px;}
+.common-content-text ul li::before{background-color: var(--accent);}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
