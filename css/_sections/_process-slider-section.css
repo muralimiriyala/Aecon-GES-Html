@@ -16,7 +16,7 @@ span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: b
     .process-step-number{height: 100%; width: 100%; margin: 0; color: var(--white);}
 
     .process-slider-nav{bottom: 64px; left: 0; right: 0; position: absolute;}
-    .process-slider-for{z-index: -1;}
+    .process-slider-for{z-index: -1; max-height: 760px; overflow: hidden;}
     .process-slider-thumb img{min-height: 760px; max-height: 760px;}
     div.process-slider-pos{bottom: 0; left: 0; position: absolute; z-index: 2;}
     .process-slider-content{display: none; background-color: var(--white); animation-delay: 0s; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease; animation-timing-function: ease; position: relative; transition: all 0.5s ease;}
