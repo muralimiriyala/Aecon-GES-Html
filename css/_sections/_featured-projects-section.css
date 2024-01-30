@@ -113,6 +113,7 @@ ul.cat-links li a{color: inherit;}
     .featured-post-btn .button{width: 100%;}
     .featured-full-post{margin-bottom: 2rem; align-items: center; background-color: transparent;}
     ul.cat-links{top: -13px; position: absolute;}
+    .project-repeater-last .load-more-btn{padding-bottom: 40px;}
     
 }
 

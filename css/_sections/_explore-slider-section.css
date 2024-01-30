@@ -30,13 +30,13 @@
     .ev-charging .button{color: #02b5dc;}
     .ev-charging .button::after{color: #02b5dc;}
     .ev-charging .button:hover{background-color: #02b5dc;}
-    .heating-cooling .button{color: #f8971d}
-    .heating-cooling .button::after{color: #ffbf0d;}
     .heating-cooling .button:hover{background-color: var(--foreground-dark);}
     .battery-storage .button{color: #71a341;}
     .battery-storage .button::after{color: #71a341;}
     .battery-storage .button:hover{background-color: #71a341;}
     .battery-storage .button:hover::after{color: var(--white);}
+    .ev-heating .button{color: #f8971d}
+    .ev-heating .button::after{color: #ffbf0d;}
 }
 @media screen and (min-width: 1024px){
     .explore-slider-section{min-height: 760px;}

@@ -24,20 +24,12 @@ body.category-resources .subscribe-form p{margin-bottom: 0;}
 .browse-news-btn span{width: 100%; padding-right: 20px; display: inline-block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
 .browse-news-form input.browse-news-input{width: 100%; height: 100%; padding: 0; margin: 0; top: 0; left: 0; cursor: pointer; color: var(--foreground-light);  border-radius: 12px; border: none; font-size: 1rem; line-height: 20px; font-weight: 500; background-color: transparent; text-align: left; text-transform: capitalize; z-index: 1; background-size: 30px; background-repeat: no-repeat; background-position: calc(100% - 12px) 50%;}
 .browse-news-form input.browse-news-input:hover{color: var(--white);}
-.browse-news-form input#news{background-image: url("./images/all-icon.svg");}
-.browse-news-form input#press-release{background-image: url("./images/articles-icon.svg");}
-.browse-news-form input#grants{background-image: url("./images/grants-icon.svg");}
-.browse-news-form input#benefits{background-image: url("./images/benefits-icon.svg");}
-.browse-news-form input#tax-credits{background-image: url("./images/tax-credits-icon.svg");}
-.browse-news-form input#partner-offers{background-image: url("./images/partner-offers-icon.svg");}
-
 
 .news-landing-post{background-color:  var(--elevated);}
 .news-landing-text{padding: 31px 32px 32px; color: var(--foreground-light);}
 .news-landing-text h1{margin-bottom: 17px;}
 .news-landing-text h1 a{color: var(--navy);}
 .news-landing-text h1 a:hover{color: var(--accent);}
-
 
 .no_image ul.res-categories{position: static; margin-bottom: 1rem;}
 ul.res-categories{margin: -46px 0 20px; gap: 5px; z-index: 1; position: relative;}
