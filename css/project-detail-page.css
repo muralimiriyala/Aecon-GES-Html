@@ -67,11 +67,11 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .detail-map[data-name="Saskatchewan"]{ bottom: 150px; left: 230px; }
     .detail-map[data-name="Manitoba"]{ bottom: 180px; left: 300px; }
     .detail-map[data-name="Ontario"]{ bottom: 115px; left: 395px;}
-    .detail-map[data-name="Quebec"]{ bottom: 140px; left: 400px; }
-    .detail-map[data-name="Newfoundland"]{ bottom: 140px; left: 400px; }
-    .detail-map[data-name="New-Brunswick"]{ bottom: 140px; left: 420px; }
-    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 140px; left: 440px; }
-    .detail-map[data-name="Nova-Scotia"]{ bottom: 140px; left: 450px; }
+    .detail-map[data-name="Quebec"]{ bottom: 154px; left: 540px; }
+    .detail-map[data-name="Newfoundland"]{ bottom: 140px; left: 595px; }
+    .detail-map[data-name="New-Brunswick"]{ bottom: 180px; left: 590px; }
+    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 210px; left: 590px; }
+    .detail-map[data-name="Nova-Scotia"]{ bottom: 180px; left: 550px; }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .project-detail-main{padding-bottom: 32px;}

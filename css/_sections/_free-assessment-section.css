@@ -34,6 +34,7 @@
     .free-assessment-main.no_image{padding: 0 40px;}
     .free-assessment-text{flex: 0 0 50%; padding: 83px 40px 82px;}
     .free-assessment-image{flex: 0 0 50%;}
+    .free-assessment-image > div{height: 100%;}
     .free-assessment-desc{max-width: 512px; font-size: 14px; line-height: 20px;}
     .free-assessment-desc h3{margin-bottom: 31px; font-size: 32px; line-height: 40px;} 
     .free-assessment-desc p{margin-bottom: 34px; }

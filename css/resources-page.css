@@ -1,6 +1,5 @@
 
 .subscribe-main{padding: 40px 0;}
-body.category-resources .subscribe-main{padding: 40px 0 36px;}
 .subscribe-icon{width: 80px;}
 .subscribe-text{flex: 1;}
 .subscribe-text h2{margin-bottom: 0;}
@@ -94,6 +93,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     .browse-news-btn.active, .browse-news-btn:hover{border-color: var(--navy); background-color: var(--navy); color: var(--white);}
 }
 @media screen and (min-width: 1024px){
+    body.category-resources .subscribe-main{padding: 40px 0 36px;}
     .subscribe-main{gap: 0 48px;}
     .subscribe-left{gap: 24px; flex: 0 0 calc(50% - 24px);}
     .subscribe-right{flex: 0 0 calc(50% - 24px);}
