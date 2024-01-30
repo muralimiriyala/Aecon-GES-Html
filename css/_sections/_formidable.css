@@ -63,8 +63,6 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radi
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--accent);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--accent);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
@@ -117,7 +115,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_date{position: relative;}
 body.page-template-application-form .frm_forms .frm_form_fields #frm_field_91_container{position: absolute; right: 0; font-size: 14px; line-height: 1.57; text-decoration: underline; color: #5e6783;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio span{display: block; font-size: 12px; line-height: 1.5;}
 
-.become-partner-form .frm_form_field_wrapper{padding-top: 36px; border-top: 1px solid rgba(94, 103, 131, 0.25);}
+/* .become-partner-form .frm_form_field_wrapper{padding-top: 36px; border-top: 1px solid rgba(94, 103, 131, 0.25);} */
 #frm_field_95_container{padding-bottom: 32px; border-bottom: 1px solid rgba(94,103,131,.25); margin: 11px 0 34px;}
 #frm_field_51_container h3, #frm_field_95_container h3{font-size: 20px; margin-bottom: 4px; line-height: 1.2;}
 
