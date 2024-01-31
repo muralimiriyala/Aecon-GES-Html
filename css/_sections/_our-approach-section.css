@@ -6,7 +6,7 @@
 .our-approach-desc{display: none;}
 .our-approach-desc[data-value="approach-1"]{display: block;}
 
-body .our-approach-desc .selectBox-dropdown{width: auto; min-width: 260px; display: inline-block; font-size: 14px; line-height: 14px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
+body .our-approach-desc .selectBox-dropdown{width: auto; min-width: 185px; display: inline-block; font-size: 14px; line-height: 14px; font-weight: 800; font-family: "VisbyCF", sans-serif;}
 body .our-approach-desc .selectBox-dropdown .selectBox-arrow{color: var(--accent);}
 body .our-approach-desc .selectBox-dropdown .selectBox-arrow::after{content: "\f054";}
 body .our-approach-desc .selectBox-menuShowing .selectBox-arrow::after{content: "\f078";}
