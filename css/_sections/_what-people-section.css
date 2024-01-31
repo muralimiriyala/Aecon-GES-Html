@@ -30,6 +30,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
 }
 @media only screen and (min-width: 1024px){
     .what-people-main{padding: 80px 0;}
+    body.page-template-testimonials .what-people-section.what-people-second .what-people-main{padding: 80px 0 40px;}
     .what-people-heading{flex: 1; padding-bottom: 17px;}
     .what-people-grids{order: 2; justify-content: center;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
@@ -61,6 +62,8 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-quote-desc{padding-top: 1px;}
     .what-quote-text{padding-bottom: 32px;}
 
+    .what-people-section.what-people-second .what-people-main .what-people-grids:nth-child(n){padding-bottom: 0;}
+
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .what-people-main{padding: 41px 0 40px; display: block;}
@@ -78,6 +81,8 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-quote-desc{padding-top: 1px;}
     .what-quote-text{padding-bottom: 32px;}
     .what-people-btn .button{width: 100%;}
+
+    .what-people-section.what-people-second .what-people-main .what-people-grids:nth-child(n){padding-bottom: 0;}
 }
 
 

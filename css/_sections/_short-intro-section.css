@@ -18,7 +18,7 @@
 .intro_btn:hover .intro_btn_svg{border-color: var(--white);}
 .intro_btn:hover svg path{stroke: var(--white);}
 
-.short-intro-title .button{font-size: 16px; line-height: 1; padding: 11px 34px 13px 16px; margin-top: -6px;}
+.short-intro-title .button{font-size: 16px; line-height: 1; padding: 11px 25px 13px 16px; margin-top: -6px;}
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
@@ -149,7 +149,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-projects .short-intro-btns{padding-bottom: 20px;}
     .intro_btn{width: 56px; height: 56px; padding: 10px; border-radius: 8px; justify-content: center;}
     .short-intro-flex{padding: 41px 0 0px;}
-    body.page-template-testimonials .short-intro-flex{padding: 60px 0 0px;}
+    body.page-template-testimonials .short-intro-flex{padding: 43px 0 0px;}
     .short-intro-flex .short-intro-title{padding-bottom: 38px;}
     body.page-template-testimonials .short-intro-flex .short-intro-title span.optional-text{margin-bottom: 16px;}
     body.page-template-testimonials .short-intro-flex .short-intro-title h2{margin-bottom: 21px;}

@@ -64,6 +64,9 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
     .free-steps-main{padding: 40px 0 80px; align-items: flex-start; flex-direction: row-reverse;}
     .free-steps-left{display: flex; flex-direction: column-reverse;}
     .free-steps-thum img { min-height: 680px; max-height: 680px; overflow: hidden; }
+    body .free-steps-text .frm_forms .frm_form_fields #frm_field_71_container.frm_form_field,
+    body .free-steps-text .frm_forms .frm_form_fields #frm_field_72_container.frm_form_field,
+    body .free-steps-text .frm_forms .frm_form_fields #frm_field_73_container.frm_form_field{margin-bottom: 33px;}
 }
 @media only screen and (min-width: 740px){
     .assessment-logo{flex: 0 0 261px;}

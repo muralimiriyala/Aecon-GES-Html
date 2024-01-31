@@ -97,11 +97,11 @@ body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.
 
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone{border: none; margin: 0; max-width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message {margin: 0; padding: 12px 16px 12px; display: flex; flex-wrap: wrap; font-size: 16px; line-height: 20px; letter-spacing: -0.32px; border-radius: 8px; border: solid 1px var(--gray-md); background: var(--gray-lt); box-shadow: none; position: relative; }
-body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message::after{content: "\f093"; flex: 0 0 20px; font-weight: 400; font-family: "Font Awesome 6 Pro";}
+body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message::after{content: "\f093"; flex: 0 0 20px; font-weight: 400; font-family: "Font Awesome 6 Pro"; color: #343536; font-size: 20px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frmsvg{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_icon_font, 
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_upload_text{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text {flex: 1; display: block; text-align: left; font-size: 16px; line-height: 20px; }
+body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text {flex: 1; display: block; text-align: left; font-size: 16px; line-height: 20px; color: rgba(52, 53, 54, 0.5);}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text::before{content: "Select an image from your device";}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text p{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_date{position: relative;}
@@ -131,6 +131,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.fr
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 17px); margin-left: 14px; margin-right: 14px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px;}
     body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
