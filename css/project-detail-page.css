@@ -127,6 +127,9 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .solar-assessment-icon.object-fit-img{margin-bottom: 12px;}
     .solar-assessment-text::before{margin-bottom: 24px; position: static;}
     .solar-assessment-text h3{font-size: 40px; line-height: 48px;}
+
+    body.page-template-projects .short-intro-title span.optional-text{margin-bottom: 15px;}
+    body.page-template-projects .short-intro-title .button{margin-top: -20px;}
 }
 
 
