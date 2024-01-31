@@ -21,6 +21,7 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_form_field.frm_blank_fiel
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1rem; line-height: 1.25; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--black-md); text-transform: none; padding: 0 0 6px;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{font-size: 1.125rem; line-height: 1.22;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
