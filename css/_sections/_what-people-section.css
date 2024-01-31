@@ -62,7 +62,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-quote-desc{padding-top: 1px;}
     .what-quote-text{padding-bottom: 32px;}
 
-    .what-people-section.what-people-second .what-people-main .what-people-grids:nth-child(n){padding-bottom: 0;}
+    #testimonials_load_more.load-more-btn{margin-top: 0;}
 
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
@@ -82,7 +82,8 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-quote-text{padding-bottom: 32px;}
     .what-people-btn .button{width: 100%;}
 
-    .what-people-section.what-people-second .what-people-main .what-people-grids:nth-child(n){padding-bottom: 0;}
+    #testimonials_load_more.load-more-btn{margin-top: 0;}
+    #testimonail_loadmore.fluid-container{width: calc(100% + 40px); left: -20px;}
 }
 
 
