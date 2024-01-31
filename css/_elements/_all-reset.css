@@ -132,6 +132,20 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-md.yellow:hover::after{color: var(--white);}
 
 
+.solar-btn .button::after{color: #ffbf0d;}
+.solar-btn .button:hover{background-color: #ffbf0d;}
+.solar-btn .button:hover::after{color: var(--white);}
+.ev-charging-btn .button::after{color: #02b5dc;}
+.ev-charging-btn .button:hover{background-color: #02b5dc;}
+.ev-charging-btn .button:hover::after{color: var(--white);}
+.ev-heating-btn .button::after{color: #F8971D;}
+.ev-heating-btn .button:hover{background-color: #F8971D;}
+.ev-heating-btn .button:hover::after{ color: #fff;}
+.battery-storage-btn .button::after{color: #71A341;}
+.battery-storage-btn .button:hover{background-color: #71A341;}
+.battery-storage-btn .button:hover::after{color: var(--white);}
+
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
