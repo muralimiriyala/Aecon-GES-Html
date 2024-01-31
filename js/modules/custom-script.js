@@ -54,7 +54,7 @@ jQuery(document).ready(function($){
         $(".flyout-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
-        if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_btn, .flyout-form-overlay").length){
+        if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_btn, .flyout-form-overlay, body .selectBox-dropdown, ul.selectBox-dropdown-menu li a").length){
             humburgerbtn.removeClass("open");
             $(".flyout-blue-overlay").removeClass("open");
             $(".flyout-overlay").removeClass("open");
