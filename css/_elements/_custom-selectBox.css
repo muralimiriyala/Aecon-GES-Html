@@ -1,6 +1,6 @@
 
 select.selectBox{display: none;}
-body .free-assessment-text .selectBox-dropdown{width: fit-content; min-width: 260px; font-weight: 700; background-color: var(--accent); color: var(--white); font-family: "VisbyCF", sans-serif; letter-spacing: 0;}
+body .free-assessment-text .selectBox-dropdown{width: fit-content; padding: 15px 34px 13px 16px; min-width: 260px; font-size: 18px; line-height: 18px; font-weight: 800; background-color: var(--accent); color: var(--white); font-family: "VisbyCF", sans-serif; letter-spacing: 0; border-radius: 12px;}
 body .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--gray-lt); border-radius: 8px; color: var(--foreground); font-family: 'Univers', sans-serif; display: block; cursor: pointer; position: relative;}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
