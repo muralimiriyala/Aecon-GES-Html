@@ -23,6 +23,8 @@
 .battery-4{opacity: 0.8;}
 .battery-5{border-radius: 0 0 6px 6px;}
 
+.custom-solar-desc hr{display: none;}
+
 /* media css starts here */
 @media only screen and (min-width: 1440px){
     .custom-solar-desc{max-width: 640px; padding-right: 128px; margin-left: auto;}
