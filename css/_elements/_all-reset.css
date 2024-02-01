@@ -51,7 +51,7 @@ ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius:
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--foreground); counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-size: 0.875rem; line-height: 1rem;}
+ol > li:before{color: var(--foreground); counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-weight: 600; font-size: 0.875rem; line-height: 1rem;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}

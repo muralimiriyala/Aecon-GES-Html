@@ -9,20 +9,7 @@
 .partner-aside-list{background-color: var(--elevated); padding: 32px;}
 .partner-article > p > span{font-size: 24px; line-height: 32px;}
 .quote-partner{padding: 57px 0 0; margin-top: 55px;}
-.quote-partner::before {
-    opacity: 0.5;
-	content: "";
-	width: 100%;
-	height: 2px;
-	top: 0;
-	left: 0;
-	position: absolute;
-	display: block;
-	background-image: linear-gradient(to right, var(--foreground-light) 25%,rgba(255, 255, 255, 0) 0);
-	background-position: bottom;
-	background-size: 8px 2px;
-	background-repeat: repeat-x;
-}
+.quote-partner::before { opacity: 0.5; content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right, var(--foreground-light) 25%,rgba(255, 255, 255, 0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; }
 .quote-partner svg{margin-bottom: 26px;}
 .quote-partner h3{margin-bottom: 32px;}
 .quote-partner p::after{content: "”";}
@@ -43,9 +30,9 @@
 	.partner-content-main{gap: 80px; padding: 81px 0;}
 	.partner-article{flex: 1;}
 	.partner-aside{flex: 0 0 350px;}
-	.partner-aside-list{ margin-bottom: 40px;}
 }
 @media only screen and (min-width: 1024px){
+	.partner-aside-list{ margin-bottom: 40px;}
 	.single-partners .partner-article > p:first-child{margin-bottom: 32px;}
 	.single-partners .partner-aside-list p{margin-bottom: 17px;}
 	.single-partners .custom-solar-desc h2{font-size: 40px; line-height: 48px;}
