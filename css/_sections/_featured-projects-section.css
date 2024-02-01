@@ -114,6 +114,7 @@ ul.cat-links li a{color: inherit;}
     .featured-post-text .line-clamp{display: none;}
     .featured-post-btn .button{width: 100%;}
     .featured-full-post{margin-bottom: 2rem; align-items: center; background-color: transparent;}
+    body.page-template-project .featured-projects-right .featured-full-post:last-child{margin-bottom: 0;}
     ul.cat-links{top: -13px; position: absolute;}
     .project-repeater-last .load-more-btn{padding-bottom: 40px;}
     
