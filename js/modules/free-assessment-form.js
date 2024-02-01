@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
         let closestElement = $(this).closest(".frm_form_field");
         console.log(closestElement)
         if(isChecked){
-            closestElement.removeClass('frm_required_field');
+            closestElement.removeClass('frm_blank_field');
         }
         
     });    
@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
         let isChecked = $(this).prop("checked");
         let closestElement = $(this).closest(".frm_form_field");
         if(isChecked){
-            closestElement.removeClass('frm_required_field');
+            closestElement.removeClass('frm_blank_field');
         }
         
         _this.parent().addClass('open');
