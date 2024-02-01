@@ -51,7 +51,7 @@ ul.cat-links li a{color: inherit;}
     .featured-projects-thumb img{max-height: 420px; min-height: 420px; overflow: hidden;}
 }
 @media screen and (min-width: 1024px){
-    body.page-template-projects .featured-projects-main{padding: 81px 0 96px;}
+    body.page-template-projects .featured-projects-main{padding: 81px 0 104px;}
     .featured-projects-main h2{margin-bottom: 20px;}
     .featured-post-image{width: 100%;}
     .featured-post-image figure img{min-height: 194px; max-height: 194px; overflow: hidden;} 
