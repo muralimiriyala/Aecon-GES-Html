@@ -10,7 +10,6 @@
 .subscribe-field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
-.subscribe_submit .button.btn-md{padding: 11px 26px 11px 16px;}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
 body.page-template-projects .subscribe_submit small{font-size: 14px;}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75;}
@@ -117,6 +116,8 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
     body.page-template-projects .card-image{min-height: 267px; max-height: 267px;}
     .card-thumb{transition: all 0.5s ease;}
     .card-main:hover .card-thumb, .card-thumb:hover{transform: scale(1.25);}
+
+    .subscribe_submit .button.btn-md{padding: 11px 26px 11px 16px;}
 }
 @media only screen and (min-width: 1280px){
     .card-row-of-3{gap: 40px;}
@@ -222,6 +223,7 @@ ul.post-cat-btns li a:hover{background-color: var(--navy); color: var(--white);}
 
     body.single-partners .custom-solar-text ul.post-cat-btns{margin-bottom: 18px;}
     body.page-template-projects .subscribe-right .subscribe-form{padding: 0 4px;}
+    .card-thumb img{max-height: 233px;}
 }
 
 

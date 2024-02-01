@@ -2,5 +2,5 @@
 
 .card-module-main{padding: 64px 0 80px;}
 @media screen and (max-width: 739px) and (min-width: 200px){
-    .card-module-main{padding: 64px 0 40px;}
+    .card-module-main{padding: 40px 0;}
 }
