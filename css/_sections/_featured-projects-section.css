@@ -17,7 +17,7 @@ ul.cat-links li a{color: inherit;}
 
 
 .project-repeater-last .load-more-btn{margin-top: 0; padding-bottom: 80px;}
-#projects_load_more .button::after{content: "\f063"; font-size: 14px; top: 0;}
+body.page-template-projects #projects_load_more .button::after{content: "\f063"; font-size: 14px; top: 0;}
 
 /* media css starts here */
 @media only screen and (min-width: 1280px){
@@ -119,7 +119,7 @@ ul.cat-links li a{color: inherit;}
     ul.cat-links{top: -13px; position: absolute;}
     .project-repeater-last .load-more-btn{padding-bottom: 40px;}
 
-    #projects_load_more .button{width: 100%;}
+    body.page-template-projects #projects_load_more .button{width: 100%;}
     
 }
 
