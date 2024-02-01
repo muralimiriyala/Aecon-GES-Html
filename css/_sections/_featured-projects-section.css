@@ -24,6 +24,7 @@ ul.cat-links li a{color: inherit;}
     ul.cat-links{top: -13px; position: absolute;}
     .featured-projects-text ul.post-cat-btns{top: -13px; position: absolute;}
     .featured-post-text ul.post-cat-btns{top: -13px; position: absolute;}
+    .featured-full-post.right-image .featured-post-text ul.post-cat-btns{position: static;}
     body.home .featured-projects-main{padding-bottom: 80px;}
     body.page-id-237 .featured-projects-main{padding-bottom: 80px;}
     .featured-projects-main{padding: 81px 0 120px;}

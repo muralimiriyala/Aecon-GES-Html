@@ -52,6 +52,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-careers .short-intro-main{padding: 80px 0;}
     body.page-template-partner-installer-join .short-intro-main{padding: 80px 0;}
     .short-intro-head{padding-bottom: 66px;} 
+    body.page-template-projects .short-intro-head{padding-bottom: 80px;} 
     body.page-template-testimonials .short-intro-head{padding-bottom: 80px;} 
     .partner-logos-main .short-intro-head{padding-bottom: 24px;}
     body.page-template-partner-installer-join .short-intro-head{padding-bottom: 59px;}
