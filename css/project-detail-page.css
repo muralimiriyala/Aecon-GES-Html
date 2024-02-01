@@ -117,7 +117,7 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .stats-image-left > *{flex: 0 0 calc(50% - 10px);}
     .stats-image-left figure img{min-height: 165px;}
 
-    .project-detail-article{padding: 72px 0 0;}
+    .project-detail-article{padding: 82px 0 0;}
     .project-detail-article h2{font-size: 40px; line-height: 48px;}
     .quote-partner { padding: 41px 0 36px; margin-top: 40px; }
     .quote-partner h3{font-size: 24px; line-height: 32px;}
@@ -130,6 +130,9 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
 
     body.page-template-projects .short-intro-title span.optional-text{margin-bottom: 15px;}
     body.page-template-projects .short-intro-title .button{margin-top: -20px;}
+
+    ul.detail-categorys li:nth-child(3){clear: both; flex: 0 0 100%;}
+    ul.detail-categorys li:nth-child(3) a{display: inline-flex; width: auto;}
 }
 
 
