@@ -99,6 +99,7 @@ ul.cat-links li a{color: inherit;}
     .featured-projects-main{padding: 40px 0 40px;}
     .featured-projects-row{display: block;}
     .featured-projects-left{margin-bottom: 2rem;}
+    .featured-projects-thumb img{max-height: 233px;} 
     .featured-projects-text{font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
     .featured-projects-text ul.post-cat-btns{top: -13px; position: absolute;}
     .featured-projects-text h2{font-size: 24px; line-height: 32px;}
