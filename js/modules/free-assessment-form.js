@@ -11,8 +11,10 @@ jQuery(document).ready(function($){
         _this.removeAttr("disabled").prop("checked", true); 
 
         let isChecked = $(this).prop("checked");
+        let closestElement = $(this).closest(".frm_form_field");
+        console.log(closestElement)
         if(isChecked){
-            $('.frm_form_field').removeClass('frm_required_field');
+            closestElement.removeClass('frm_required_field');
         }
         
     });    
@@ -20,8 +22,9 @@ jQuery(document).ready(function($){
     $(".free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]:checked").each(function() {
         const _this = $(this);
         let isChecked = $(this).prop("checked");
+        let closestElement = $(this).closest(".frm_form_field");
         if(isChecked){
-            $('.frm_form_field').removeClass('frm_required_field');
+            closestElement.removeClass('frm_required_field');
         }
         
         _this.parent().addClass('open');

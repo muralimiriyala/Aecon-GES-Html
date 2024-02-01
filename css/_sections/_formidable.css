@@ -139,7 +139,7 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .f
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 8px;}
 
 
-body .free-steps-text .frm_forms .vertical_radio.frm_required_field::before{width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; }
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field::before{width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; transition: all 0.4s ease;}
 body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_primary_label p{color: var(--aecon-red);}
 body .free-steps-text .frm_forms .vertical_radio.frm_required_field div.frm_error{display: none;}
 body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_checkbox label{border-radius: 8px; background: rgba(218, 26, 50, 0.15);}
@@ -173,6 +173,7 @@ body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_checkbo
     body .frm_forms .frm_form_fields .frm_form_field.top_space{width: 100%; clear: both; margin-top: 20px;}
 
     body .contact-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
+    body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0;}
 }
 @media only screen and (min-width: 1300px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(33.33333% - 16px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}
