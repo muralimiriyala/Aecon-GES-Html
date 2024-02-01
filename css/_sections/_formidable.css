@@ -241,7 +241,8 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
 
     body.page-template-solution-landing #frm_field_51_container{padding-bottom: 0;}
     body.page-template-solution-landing .become-partner-form .frm_form_field_wrapper{padding-top: 0; border-top: none; display: block;}
-    body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: -2px;}
     body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 28px;}
     body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{font-size: 15px;}
+
+    body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
 }
