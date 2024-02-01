@@ -9,11 +9,21 @@ jQuery(document).ready(function($){
             // _this.parents().siblings(".frm_checkbox").find("input").removeAttr("disabled").prop("checked", false);
         }, 100)
         _this.removeAttr("disabled").prop("checked", true); 
+
+        let isChecked = $(this).prop("checked");
+        if(isChecked){
+            $('.frm_form_field').removeClass('frm_required_field');
+        }
+        
     });    
 
     $(".free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]:checked").each(function() {
         const _this = $(this);
-    
+        let isChecked = $(this).prop("checked");
+        if(isChecked){
+            $('.frm_form_field').removeClass('frm_required_field');
+        }
+        
         _this.parent().addClass('open');
         _this.parent().parent().siblings().find("label").removeClass("open");
     
