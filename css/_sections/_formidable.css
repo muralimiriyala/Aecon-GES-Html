@@ -137,6 +137,16 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_r
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox label{padding: 9px 0 0 33px;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 8px;}
 
+
+body .frm_forms form .frm_page_num_2 .vertical_radio.frm_required_field::before{
+
+    border-radius: 2px;
+background: var(--aecon-red)
+}
+body .frm_forms form .frm_page_num_2 .vertical_radio.frm_required_field .frm_primary_label p{color: var(--aecon-red);}
+body .frm_forms form .frm_page_num_2 .vertical_radio.frm_required_field div.frm_error{display: none;}
+body .frm_forms form .frm_page_num_2 .vertical_radio.frm_required_field .frm_checkbox label{border-radius: 8px; background: rgba(218, 26, 50, 0.15);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 17px); margin-left: 14px; margin-right: 14px; float: none; clear: none; display: inline-block; vertical-align: top;}
