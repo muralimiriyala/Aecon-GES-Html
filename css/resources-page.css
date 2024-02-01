@@ -10,7 +10,7 @@
 .subscribe-field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe_submit{ top: 14px; right: 14px; position: absolute;}
-body.page-template-projects .subscribe_submit .button.btn-md{padding: 11px 26px 11px 16px;}
+.subscribe_submit .button.btn-md{padding: 11px 26px 11px 16px;}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
 body.page-template-projects .subscribe_submit small{font-size: 14px;}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75;}
