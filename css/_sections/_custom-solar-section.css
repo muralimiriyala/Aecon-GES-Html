@@ -82,7 +82,7 @@
     .custom-solar-text{display: block;}
     .custom-solar-desc{padding: 40px 24px 48px;}
     .custom-solar-desc h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
-    .custom-solar-desc p{font-size: 18px; letter-spacing: -0.36px; line-height: 28px;}
+    .custom-solar-desc p{font-size: 14px; letter-spacing: -0.28px; line-height: 20px; color: var(--foreground-light);}
     .custom-solar-desc hr{margin: 0 0 30px;}
 
     .common-repeat-image{ padding-bottom: 29px;}
