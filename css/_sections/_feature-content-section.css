@@ -41,7 +41,7 @@
 @media screen and (max-width: 739px) and (min-width: 200px){
     .feature-content-wrap{padding: 40px 0 40px;}
     .feature-content-main{display: block; padding: 0 0 80px;}
-    .feature-content-bg{top: -40px; left: 40px;}
+    .feature-content-bg{top: -40px; left: 40px; height: calc(100% - 40px);}
     .feature-content-image{padding-bottom: 29px;}
     .feature-content-thumb img{min-height: 234px; max-height: 234px;}
     .feature-content-text{padding: 24px 0 0;}

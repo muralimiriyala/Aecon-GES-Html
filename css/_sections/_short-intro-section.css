@@ -37,6 +37,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .short-intro-desc{flex: 0 0 600px; padding: 0 56px;}
     .short-intro-of-4{gap: 56px; justify-content: center;}
     .short-intro1-of-4{flex: 0 0 calc(25% - 42px);}
+    body.page-template-about .short-intro-main{padding-top: 80px;}
     .short-intro-repeat .short-intro-main{padding-top: 40px;}
     .intro_btn_svg{width: 56px; height: 56px; border-radius: 6px; border: 0.75px solid var(--white); display: flex; align-items: center; justify-content: center;}
     .short-intro-flex{padding: 82px 0 40px;}
@@ -71,7 +72,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .short-intro-btn{flex: 0 0 calc(20% - 13px);}
     .intro_btn_svg{width: 48px; height: 48px;}
     body.page-template-careers .short-intro-title{max-width: 100%; padding-top: 27px;}
-    body.page-template-about .short-intro-head{padding-bottom: 82px;}
+    body.page-template-about .short-intro-head{padding-bottom: 68px;}
     body.page-template-about .short-intro-title{padding-top: 11px;}
     body.page-template-partner-installer-join .short-intro-title{max-width: 535px;}
     body.page-template-partner-installer-join .short-intro-title h2{margin-bottom: 0;}
