@@ -10,6 +10,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
+body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_21_container{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
