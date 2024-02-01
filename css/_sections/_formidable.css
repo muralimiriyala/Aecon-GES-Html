@@ -12,8 +12,9 @@ body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_21_container{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
-body .frm_forms .frm_error_style{display: none;}
+body .become-partner-form .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
+body .frm_forms .frm_required{display: none;}
 body .frm_forms .frm_required{font-size: 16px; line-height: 1; letter-spacing: -0.32px; font-weight: 800; color: var(--black-md); font-family: 'VisbyCF', sans-serif;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
 body .gated-post-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 21px;}
