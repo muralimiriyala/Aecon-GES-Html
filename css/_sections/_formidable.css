@@ -138,10 +138,11 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .f
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 8px;}
 
 
-body .free-steps-desc .frm_forms .vertical_radio.frm_required_field::before { width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; }
-body .free-steps-desc .frm_forms .vertical_radio.frm_required_field .frm_primary_label p{color: var(--aecon-red);}
-body .free-steps-desc .frm_forms .vertical_radio.frm_required_field div.frm_error{display: none;}
-body .free-steps-desc .frm_forms .vertical_radio.frm_required_field .frm_checkbox label{border-radius: 8px; background: rgba(218, 26, 50, 0.15);}
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field::before{width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; }
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_primary_label p{color: var(--aecon-red);}
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field div.frm_error{display: none;}
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_checkbox label{border-radius: 8px; background: rgba(218, 26, 50, 0.15);}
+body .free-steps-text .frm_forms .vertical_radio.frm_required_field .frm_checkbox input{border-color: var(--aecon-red);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
