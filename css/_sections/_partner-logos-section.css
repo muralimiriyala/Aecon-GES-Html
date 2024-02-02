@@ -27,7 +27,8 @@
     .partner-logos-main{padding: 41px 0 56px;}
     .partner-logos-main span.optional-text{margin-bottom: 16px;}
     .partner-logos-head{padding-top: 39px;}
-    .partner-logos-slider .partner-logos-slide{margin-right: 23px; padding-bottom: 56px;}
+    .partner-logos-slider{padding-left: 20px;}
+    .partner-logos-slider .partner-logos-slide{margin-right: 23px;  min-width: 304px; width: 304px; padding-bottom: 56px;}
 }
 
 

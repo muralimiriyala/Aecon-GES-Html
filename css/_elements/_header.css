@@ -159,3 +159,6 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     ul.flyout-menu > li > ul > li{padding: 0 0 19px; margin: 0;}
     ul.flyout-menu > li > ul > li > a{font-size: 18px; line-height: 22px; letter-spacing: -0.36px;}
 }
+@media screen and (max-width: 374px) and (min-width: 200px){
+    .logo{flex: 0 0 220px;}
+}
