@@ -79,18 +79,18 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .project-detail-article{padding: 40px 0 80px;}
     .stats-image-left{flex: 0 0 320px;}
     .stats-image-right{flex: 0 0 calc(100% - 352px);}
-    .project-detail-image {max-width: 460px; min-width: 460px; margin-left: auto; margin-top: -95px; right: -40px; }
+    .project-detail-image {max-width: 500px; min-width: 500px; margin-left: auto; margin-top: -95px; right: -40px; }
     .detail-map{width: 19px;}
-    .detail-map[data-name="British-Columbia"]{ bottom: 85px; left: 34px; }
-    .detail-map[data-name="Alberta"]{ bottom: 75px; left: 75px; }
-    .detail-map[data-name="Saskatchewan"]{ bottom: 60px; left: 118px; }
-    .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 152px; }
-    .detail-map[data-name="Ontario"]{ bottom: 52px; left: 198px;}
-    .detail-map[data-name="Quebec"]{ bottom: 69px; left: 274px; }
-    .detail-map[data-name="Newfoundland"]{ bottom: 94px; left: 360px; }
-    .detail-map[data-name="New-Brunswick"]{ bottom: 48px; left: 320px; }
-    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 52px; left: 328px; }
-    .detail-map[data-name="Nova-Scotia"]{ bottom: 43px; left: 335px; }
+    .detail-map[data-name="British-Columbia"]{ bottom: 115px; left: 45px; }
+    .detail-map[data-name="Alberta"]{ bottom: 92px; left: 100px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 93px; left: 152px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 197px; }
+    .detail-map[data-name="Ontario"]{ bottom: 65px; left: 260px;}
+    .detail-map[data-name="Quebec"]{ bottom: 82px; left: 352px; }
+    .detail-map[data-name="Newfoundland"]{ bottom: 120px; left: 459px; }
+    .detail-map[data-name="New-Brunswick"]{ bottom: 65px; left: 414px; }
+    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 80px; left: 426px; }
+    .detail-map[data-name="Nova-Scotia"]{ bottom: 56px; left: 430px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .project-detail-main{padding: 0 0 40px;}
