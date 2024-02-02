@@ -67,6 +67,7 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
     body .free-steps-text .frm_forms .frm_form_fields #frm_field_71_container.frm_form_field,
     body .free-steps-text .frm_forms .frm_form_fields #frm_field_72_container.frm_form_field,
     body .free-steps-text .frm_forms .frm_form_fields #frm_field_73_container.frm_form_field{margin-bottom: 33px;}
+    body .free-steps-text .frm_forms .frm_form_fields.frm_page_num_3 .frm_form_field#frm_field_75_container{padding-top: 9px;}
 }
 @media only screen and (min-width: 740px){
     .assessment-logo{flex: 0 0 261px;}
