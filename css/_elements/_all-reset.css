@@ -131,6 +131,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-md.yellow::after{color: var(--accent-yellow);}
 .button.btn-md.yellow:hover::after{color: var(--white);}
 
+.btn-transparent.btn-transparent{border-color: var(--white); color: var(--white);}
 
 .solar-btn .button::after{color: #ffbf0d;}
 .solar-btn .button:hover{background-color: #ffbf0d;}
