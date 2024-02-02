@@ -1,7 +1,7 @@
 
 .process-slider-text{font-size: 14px; line-height: 20px; letter-spacing: -0.28px; color: var(--foreground-light);}
-span.process-step{margin-bottom: 8px; color: var(--foreground-light); display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}
-.process-slider-text h2{margin-bottom: 20px;}
+span.process-step{margin-bottom: 6px; color: var(--foreground-light); display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}
+.process-slider-text h2{margin-bottom: 12px;}
 .process-slider-btn { top: 80px; right: 0; width: 100%; text-align: right; }
 
 /* media css starts here */
