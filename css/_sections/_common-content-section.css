@@ -36,5 +36,6 @@
     .common-content-section .container{padding: 0;}
     .common-content-main{flex-direction: column-reverse;}
     .common-content-text{padding: 40px 20px;}
+    body.page-template-solution-landing .common-content-text{color: var(--foreground); font-size: 18px; line-height: 28px;}
     body.page-template-careers .common-content-text h2{margin-bottom: 23px;}
 }
