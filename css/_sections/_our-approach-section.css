@@ -71,9 +71,6 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .approach-slider-nav{display: none !important;}
 
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
-    body .our-approach-desc .selectBox-dropdown{width: auto; min-width: 185px; display: inline-block; font-size: 14px; line-height: 14px; font-weight: 800; font-family: VisbyCF,sans-serif;}
-}
 @media screen and (max-width: 739px) and (min-width: 200px){
     .our-approach-text{padding: 33px 20px 32px;}
     .our-approach-mobile{padding: 16px 20px 24px;  font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
