@@ -61,7 +61,6 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
     .our-approach-main{display: block;}
     .our-approach-text{padding: 40px;}
     .our-approach-link{padding: 14px 20px; color: var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
-    body.page-template-solution-landing  ul.our-approach-links .our-approach-link{padding: 22px 20px 14px 20px;}
     .our-approach-link::after{right: 20px; top: 15px; position: absolute; color: var(--accent); font-size: 24px; line-height: 24px; content: "\f078"; font-family: "Font Awesome 6 Pro"; font-weight: 400; display: block;}
     .our-approach-link.active::after{content: "\f077";}
     .our-approach-link svg{display: none;}
