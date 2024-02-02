@@ -30,7 +30,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
 }
 @media only screen and (min-width: 1024px){
     .what-people-main{padding: 80px 0;}
-    body.page-template-testimonials .what-people-section.what-people-second .what-people-main{padding: 80px 0 40px;}
+    body.page-template-testimonials .what-people-section.what-people-second .what-people-main{padding: 40px 0 40px;}
     .what-people-heading{flex: 1; padding-bottom: 17px;}
     .what-people-grids{order: 2; justify-content: center;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}
@@ -39,6 +39,9 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-second .what-people-main{padding-top: 32px;}
     .what-people-second .what-people-quote{padding-bottom: 48px;}
     .what-people-second .what-people-quote:nth-child(3n+3){flex-direction: row;}
+
+    .what-people-main #testimonail_loadmore:nth-child(2) .what-people-main{padding-top: 40px !important; padding-bottom: 0 !important;}
+    
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .what-people-grids{gap: 24px;}
