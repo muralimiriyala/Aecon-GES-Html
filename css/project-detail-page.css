@@ -85,8 +85,8 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .detail-map[data-name="Alberta"]{ bottom: 92px; left: 100px; }
     .detail-map[data-name="Saskatchewan"]{ bottom: 93px; left: 152px; }
     .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 197px; }
-    .detail-map[data-name="Ontario"]{ bottom: 65px; left: 246px;}
-    .detail-map[data-name="Quebec"]{ bottom: 69px; left: 274px; }
+    .detail-map[data-name="Ontario"]{ bottom: 65px; left: 260px;}
+    .detail-map[data-name="Quebec"]{ bottom: 82px; left: 352px; }
     .detail-map[data-name="Newfoundland"]{ bottom: 120px; left: 459px; }
     .detail-map[data-name="New-Brunswick"]{ bottom: 65px; left: 414px; }
     .detail-map[data-name="Prince-Edward-Island"]{ bottom: 80px; left: 426px; }
