@@ -19,10 +19,7 @@ ul.faq-tabs li::before{display: none;}
 .faq-tab-content{display: none;}
 .faq-tab-content:first-child{display: block;}
 .faqs-desc{padding-top: 54px; max-width: 880px;}
-.faqs-desc p{font-size: 12px;
-    line-height: 20px;
-    letter-spacing: -.24px;
-    display: block;}
+.faqs-desc p{font-size: 12px; line-height: 20px; letter-spacing: -.24px; display: block;}
 
 /* media css starts here */
 @media only screen and (min-width: 740px){
@@ -41,7 +38,7 @@ ul.faq-tabs li::before{display: none;}
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .faqs-main{padding: 64px 0;}
     .faqs-desc{padding-top: 16px;}
-    ul.faq-tabs{overflow-x: auto; overflow-y: hidden; width: calc(100% + 40px);}
+    ul.faq-tabs{overflow-x: auto; overflow-y: hidden; width: calc(100% + 40px); align-items: flex-start; justify-content: flex-start;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .faqs-main{padding: 40px 0;}
