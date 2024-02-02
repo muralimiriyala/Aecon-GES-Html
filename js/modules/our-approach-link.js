@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
   $('.our-approach-links li:first-child').addClass('open-approach');
+  $('.our-approach-links li:first-child a').addClass('active');
   $('.our-approach-main').each(function () {
     const section = $(this);
     const approachLinks = section.find('.our-approach-link');
@@ -8,7 +9,7 @@ jQuery(document).ready(function ($) {
       e.preventDefault();
       const _self = $(this);
       _self.parent().siblings('li').find('a').removeClass('active');
-      _self.addClass('active');
+      _self.toggleClass('active');
 
       var index = approachLinks.index(this);
       section.find('.approach-slider-for').slick('slickGoTo', index);
