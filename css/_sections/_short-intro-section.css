@@ -176,4 +176,6 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .subhead-row.gap-32 .subhead-list:not(:last-child){margin-bottom: 20px;}
     .subhead-list.bg-navy{padding: 20px;}
     .subhead-list.bg-navy h2{font-size: 24px; line-height: 32px;}
+
+    body.page-template-solution-landing .short-intro-title .button{padding: 15px 29px 13px 16px;}
 }
