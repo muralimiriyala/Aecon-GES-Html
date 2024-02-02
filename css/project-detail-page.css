@@ -114,10 +114,10 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 152px; }
     .detail-map[data-name="Ontario"]{ bottom: 52px; left: 198px;}
     .detail-map[data-name="Quebec"]{ bottom: 69px; left: 274px; }
-    .detail-map[data-name="Newfoundland"]{ bottom: 140px; left: 665px; }
+    .detail-map[data-name="Newfoundland"]{ bottom: 94px; left: 360px; }
     .detail-map[data-name="New-Brunswick"]{ bottom: 60px; left: 588px; }
-    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 100px; left: 620px; }
-    .detail-map[data-name="Nova-Scotia"]{ bottom: 43px; left: 624px; }
+    .detail-map[data-name="Prince-Edward-Island"]{ bottom: 52px; left: 328px; }
+    .detail-map[data-name="Nova-Scotia"]{ bottom: 43px; left: 335px; }
     .detail-map.pin1{bottom: 24px; right: 14px;}
     .project-detail-text{padding: 21px 0 0;}
     .project-detail-text h1{margin-bottom: 23px;}
