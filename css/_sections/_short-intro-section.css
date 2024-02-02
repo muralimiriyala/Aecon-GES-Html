@@ -65,6 +65,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     body.page-template-testimonials .short-intro-desc {padding: 20px 56px 0;}
     body.page-template-testimonials .short-intro-flex{padding: 83px 0 0;}
     body.page-template-partner-installer-join .short-intro-desc{padding-top: 6px;}
+    body.page-template-solution-landing .short-intro-desc{margin-top: 49px;}
     body.page-template-projects .short-intro-desc{margin-top: 20px;}
     .short-intro-desc::before, .short-intro-desc::after{ width: 100%; height: 2px; top: 0; left: -50%; opacity: 0.75; transform: rotate(90deg); content: ""; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; position: absolute; }
     .short-intro-desc::after{ right: -50%; left: auto; }
