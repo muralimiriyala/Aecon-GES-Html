@@ -48,7 +48,7 @@
     .incentives-row{display: block;}
     .incentives-row > *{margin-bottom: 32px;}
     .incentives-btn .button{width: 100%; padding: 15px 25px 13px 16px;}
-    .incentives-btn .button.btn-md.btn-transparent{width: 100%; padding: 15px 16px 13px 25px;}
+    .incentives-btn .button.btn-md.btn-transparent{width: 100%; padding: 15px 14px 13px 25px;}
 
     body.single-project .incentives-btn{gap: 40px; display: flex; flex-wrap: wrap;}
     body.single-project .incentives-btn span{flex: 1;}

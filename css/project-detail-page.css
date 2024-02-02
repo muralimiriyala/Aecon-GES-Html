@@ -76,7 +76,7 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .project-detail-main{padding-bottom: 32px;}
     .project-detail-ipad{max-width: 460px; padding: 80px 0 64px;}
-    .project-detail-article{padding: 40px 0 80px;}
+    .project-detail-article{padding: 20px 0 80px;}
     .stats-image-left{flex: 0 0 320px;}
     .stats-image-right{flex: 0 0 calc(100% - 352px);}
     .project-detail-image {max-width: 500px; min-width: 500px; margin-left: auto; margin-top: -95px; right: -40px; }
