@@ -50,6 +50,7 @@ body.page-template-about .short-intro-desc p{margin: 0;}
 }
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 90px 0 80px;}
+    body.page-template-solution-landing .short-intro-main{padding: 82px 0 80px;}
     body.page-template-careers .short-intro-main{padding: 80px 0;}
     body.page-template-partner-installer-join .short-intro-main{padding: 80px 0;}
     .short-intro-head{padding-bottom: 66px;} 
