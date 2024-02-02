@@ -18,9 +18,8 @@
 .intro_btn:hover .intro_btn_svg{border-color: var(--white);}
 .intro_btn:hover svg path{stroke: var(--white);}
 
-.short-intro-title .button{font-size: 16px; line-height: 1; padding: 11px 25px 13px 16px; margin-top: -6px;}
-body.page-template-solution-landing .short-intro-title .button{font-size: 18px; padding: 14px 29px 16px 16px; margin-top: 0;}
-body.page-template-solution-landing .short-intro-title .button::after{transform: translateX(13px);}
+.short-intro-title .button{margin-top: -6px;}
+body.page-template-solution-landing .short-intro-title .button{margin-top: 0;}
 .subhead-list.bg-navy{padding: 50px 32px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
