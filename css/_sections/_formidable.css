@@ -215,9 +215,9 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
     .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 5px;}
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 108px;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 110px; padding-top: 6px;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.5rem;}
 
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 6px;}
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 34px; margin-top: 0  ; border-top: none;}
     body .frm_forms .frm_form_fields .frm_form_field textarea{height: 140px;}
