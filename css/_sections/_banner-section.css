@@ -19,6 +19,7 @@ picture.banner-thumb img{object-position: top center;}
     body.page-template-why-aecon .banner-thumb::before{opacity: 0.75;}
     .banner-main{min-height: 720px; display: flex; flex-wrap: wrap; align-items: center;}
     .banner-text{padding: 100px 0 67px; max-width: 600px;}
+    body.page-template-solution-landing .banner-text{padding: 75px 0 67px;}
     body.page-template-careers .banner-text{padding: 72px 0 67px;}
     body.single-post .banner-section{min-height: 570px;}
     body.single-post .banner-main{min-height: 570px;}
