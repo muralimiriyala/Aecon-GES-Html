@@ -8,11 +8,13 @@ body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: tran
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
 
-body .free-assessment-text .selectBox-dropdown .selectBox-arrow{top: calc(50% + 0.5px);}
+body .free-assessment-text .selectBox-dropdown{padding: 15px 16px 13px 16px; gap: 10px; display: flex; flex-wrap: wrap; align-items: center;}
+body .free-assessment-text .selectBox-dropdown .selectBox-label{flex: 1;}
+body .free-assessment-text .selectBox-dropdown .selectBox-arrow{position: static; margin-left: auto; transform: none;}
 body .free-assessment-text .selectBox-dropdown .selectBox-arrow::after{ content: "\f054"; font-weight: 900; }
 body .free-assessment-text .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{ content: "\f078"; }
 .page-template-about-testimonials ul.selectBox-dropdown-menu{border-radius: 5px;}
-ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 260px; overflow: auto; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; box-shadow: 0 4px 120px 0 rgba(113, 163, 65, 0.25);}
+ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 274px; overflow: auto; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; box-shadow: 0 4px 120px 0 rgba(113, 163, 65, 0.25);}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--blue);}
 .page-template-stock-performance ul.selectBox-dropdown-menu li:first-child{display: block;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal;}
@@ -25,6 +27,7 @@ ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 
 /* media css starts here */
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    body .free-assessment-text .selectBox-dropdown{width: 100%;}
+    body .free-assessment-text .selectBox-dropdown{width: 100%; display: block;}
     .page-template-about-testimonials ul.selectBox-dropdown-menu{min-width: 136px; max-width: 136px;}
+    body .free-assessment-text .selectBox-dropdown .selectBox-arrow{margin-left: 10px;}
 }

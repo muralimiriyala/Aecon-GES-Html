@@ -39,6 +39,7 @@ ul.about-partners-tabs li::before{display: none;}
     ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--accent); content: ""; display: block; position: absolute; transition: width 0.4s ease;} 
     ul.about-partners-tabs li a.active::after{width: 100%;}
     ul.about-partners-tabs li a.active, ul.about-partners-tabs li a:hover{color: var(--navy);}
+    ul.about-partners-tabs li span.partners-tab-icon{margin-left: 10px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .partners-tabs-row{padding-top: 30px;}

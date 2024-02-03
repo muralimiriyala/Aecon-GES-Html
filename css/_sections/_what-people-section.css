@@ -19,6 +19,11 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
 .avatar-text{flex: 1; color: var(--foreground-light);}
 
 .no_head .what-people-btn{margin-left: auto; margin-bottom: 2rem;}
+#testimonail_loadmore .what-people-grid svg{visibility: visible;}
+#testimonail_loadmore .avatar-img img{visibility: visible;}
+.post_count_testimonials{margin-bottom: 1.625rem;}
+
+
 
 /* media css starts here */
 @media only screen and (min-width: 1300px){
@@ -41,7 +46,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-second .what-people-quote:nth-child(3n+3){flex-direction: row;}
 
     .what-people-main #testimonail_loadmore:nth-child(2) .what-people-main{padding-top: 40px !important; padding-bottom: 0 !important;}
-    
+    .what-quote-text h2{line-height: 28px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .what-people-grids{gap: 24px;}
@@ -49,7 +54,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-quote{gap: 40px;}
     .what-quote-image{flex: 0 0 452px;}
     .what-quote-text{flex: 1;}
-    .what-quote-text h2{font-size: 20px; line-height: 24px;}
+    .what-quote-text h2{font-size: 20px; line-height: 28px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .what-people-main{padding: 67px 0 33px;}
@@ -66,6 +71,11 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-quote-text{padding-bottom: 32px;}
 
     #testimonials_load_more.load-more-btn{margin-top: 0;}
+    #testimonail_loadmore .container{padding: 0;}
+
+    .what-people-main #testimonail_loadmore:nth-child(2) .what-people-main{padding-top: 40px !important; padding-bottom: 0 !important;}
+    #testimonail_loadmore .what-people-section:nth-child(4) .what-people-main{padding-top:  0 !important;}
+
 
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
@@ -81,12 +91,17 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .avatar-text p{font-size: 14px; line-height: 20px; letter-spacing: -.28px;}
     .what-people-quote{ display: block; }
     .what-quote-image{margin-bottom: 25px;}
+    .what-quote-image img{max-height: 198px; overflow: hidden;}
     .what-quote-desc{padding-top: 1px;}
     .what-quote-text{padding-bottom: 32px;}
     .what-people-btn .button{width: 100%;}
 
     #testimonials_load_more.load-more-btn{margin-top: 0;}
     #testimonail_loadmore.fluid-container{width: calc(100% + 40px); left: -20px;}
+
+
+    .what-people-main #testimonail_loadmore:nth-child(2) .what-people-main{padding-top: 20px !important; padding-bottom: 0 !important;}
+    #testimonail_loadmore .what-people-section:nth-child(4) .what-people-main{padding-top:  0 !important;}
 }
 
 

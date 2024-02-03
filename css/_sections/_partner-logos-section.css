@@ -29,6 +29,8 @@
     .partner-logos-head{padding-top: 39px;}
     .partner-logos-slider{padding-left: 20px;}
     .partner-logos-slider .partner-logos-slide{margin-right: 23px;  min-width: 304px; width: 304px; padding-bottom: 56px;}
+    .partner-logo{min-height: 160px;}
+    .partner-logos-slider.slick-slider ul.slick-dots{left: -10px; position: relative;}
 }
 
 

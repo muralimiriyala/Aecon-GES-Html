@@ -112,12 +112,12 @@ body.page-template-projects #projects_load_more .button{padding: 11px 24px 11px 
     .featured-post-image figure{height: 100%;}
     .featured-post-image figure img{min-height: 104px; max-height: 104px; overflow: hidden;}
     .featured-post-text{flex: 1; padding: 0 24px;}  
+    .featured-projects-right .featured-post-text{padding-right: 0;}
     .featured-post-text ul.cat-links{margin-bottom: 1rem;}
     .featured-post-text h2{ -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
     .featured-post-text .line-clamp{display: none;}
     .featured-post-btn .button{width: 100%;}
     .featured-full-post{margin-bottom: 2rem; align-items: center; background-color: transparent;}
-    .featured-full-post:last-of-type{margin-bottom: 0;}
     ul.cat-links{top: -13px; position: absolute;}
     .project-repeater-last .load-more-btn{padding-bottom: 40px;}
 
