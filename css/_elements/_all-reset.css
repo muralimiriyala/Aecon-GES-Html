@@ -179,7 +179,7 @@ img.aligncenter{margin: 25px auto;}
 /*-- custom css starts here --*/
 body{font-size: 18px; line-height: 26px; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 24px; font-size: 18px; line-height: 22px; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: capitalize; font-family: "VisbyCF", sans-serif;}
+span.optional-text{margin-bottom: 24px; font-size: 18px; line-height: 22px; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "VisbyCF", sans-serif;}
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{color: var(--foreground);}
@@ -292,6 +292,7 @@ ul.slick-dots li.slick-active::before{opacity: 1;}
 ul.slick-dots li button{display: none;}
 
 
+.fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 .w-100{width: 100%;}
 
 /*-- media css starts here --*/
@@ -302,7 +303,6 @@ ul.slick-dots li button{display: none;}
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.sm{max-width: 960px;}
-    .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 
     .hide-desktop{display: none;}
     .text-md-right{text-align: right;}

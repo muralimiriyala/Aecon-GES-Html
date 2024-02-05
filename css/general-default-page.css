@@ -20,7 +20,7 @@ body #ez-toc-container ul li{margin: 0 0 8px;}
 body #ez-toc-container ul li::before{display: none;}
 body #ez-toc-container ul li a{padding: 8px 12px; display: inline-block; border-radius: 12px; font-size: 16px; font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--navy); background-color: transparent; text-decoration: none; border: none;}
 body #ez-toc-container ul li a:hover{background-color: var(--gray-lt); text-decoration: none;} 
-body #ez-toc-container ul li a.active, body #ez-toc-container ul li a.mPS2id-clicked{background-color: var(--accent-light);}
+body #ez-toc-container ul li a.active, body #ez-toc-container ul li a.mPS2id-clicked, body #ez-toc-container ul li a:visited{background-color: var(--accent-light); color: var(--navy);}
 body #ez-toc-container ul ul{margin: 0;}
 .supporting-resource-main.no_image{display: block;}
 
