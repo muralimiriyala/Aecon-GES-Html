@@ -1,6 +1,6 @@
 
 .brand-messaging-section{background-color: var(--navy);}
-.brand-messaging-bg{background-image: url('./images/people-communities-bg@2x.jpg');}
+.brand-messaging-bg{background-image: url('./images/people-communities-bg@2x.jpg'); background-attachment: inherit;}
 .brand-messaging-main{padding: 80px 0; height: 100%; text-align: center;}
 .brand-messaging-overlay{z-index: 0; opacity: 0.5;}
 .brand-messaging-text{font-size: 18px; line-height: 22px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}

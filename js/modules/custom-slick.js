@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
     });
     const partnerLogoSlider = $(".partner-logos-slider");
     partnerLogoSlider.slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev button btn-green flex flex-center"><span class="fa-regular fa-arrow-left"></span></div>',
@@ -63,6 +63,7 @@ jQuery(document).ready(function($){
         variableWidth: true,
         swipeToSlide: true,
         touchThreshold: 200,
+        rtl: false,
         responsive: [
           {
             breakpoint: 1299,

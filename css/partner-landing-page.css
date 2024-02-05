@@ -54,6 +54,7 @@
 	.partner-article{margin-bottom: 32px;}
 	.partner-aside{gap: 32px; display: flex; flex-wrap: wrap;}
 	.partner-aside-list{flex: 0 0 calc(50% - 16px);}
+	.partner-aside-btn{flex: 0 0 100%;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
 	.partner-offer-wrap{padding: 40px 0;}
