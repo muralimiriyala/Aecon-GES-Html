@@ -25,3 +25,10 @@
     .social-share-icons{margin: 24px 0 30px;}
     .social-share-icons #st-1.st-animated{ gap: 12px;}
 }
+@media only screen and (max-width: 389px) and (min-width: 200px){
+    .social-share-icons #st-1.st-animated .st-btn{width: 42px; height: 42px; max-width: 42px;}
+}
+@media only screen and (max-width: 374px) and (min-width: 200px){
+    .social-share-icons{display: block;}
+    .share-text{display: block; margin-bottom: 15px;}
+}

@@ -1,6 +1,27 @@
 
 
 .card-module-main{padding: 64px 0 80px;}
+.project-repeater-last .project-repeater-one .card-module-main{padding-top: 0;}
+.project-repeater-last .battery-solar{visibility: visible; animation-name: LoadBattery; animation-delay: 1s; animation-iteration-count: 1;}
+@keyframes LoadBattery{
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(-50%);}
+}
+.project-repeater-last .sun-solar{visibility: visible; animation-name: LoadSolar; animation-delay: 1s; animation-iteration-count: 1;}
+@keyframes LoadSolar{
+    0%{transform: translateY(50%);}
+    100%{transform: translateY(-50%);}
+}
+
+/*-- media css starts here --*/
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .project-repeater-one:nth-child(12) .card-module-main{padding-top: 0;}
+    .project-repeater-one:nth-child(13) .card-module-main{padding-top: 0;}
+    .project-repeater-last .container .container{padding: 0;}
+}
 @media screen and (max-width: 739px) and (min-width: 200px){
     .card-module-main{padding: 40px 0;}
+    .project-repeater-one:nth-child(12) .card-module-main{padding-top: 0;}
+    .project-repeater-one:nth-child(13) .card-module-main{padding-top: 0;}
+    .project-repeater-last .container .container{padding: 0;}
 }

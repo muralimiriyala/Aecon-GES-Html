@@ -29,7 +29,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.free-steps-text{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){ margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground-light); font-size: 16px; line-height: 16px; letter-spacing: -0.32px; }
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground-light); font-size: 16px; letter-spacing: -0.32px; }
 input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md); background-color: var(--gray-lt); border-radius: 8px; color: var(--foreground); font-family: 'Univers', sans-serif; -webkit-appearance: none;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, 
 body .bg-elevated .frm_forms .frm_form_field textarea, 
@@ -63,6 +63,8 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="chec
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--white);}
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 0;}
@@ -140,12 +142,16 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_r
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox label{padding: 9px 0 0 33px;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 8px;}
 
-
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field::before{width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; transition: all 0.4s ease;}
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_primary_label p{color: var(--aecon-red);}
 body .free-steps-text .frm_forms .vertical_radio  div.frm_error{display: none;}
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox label{border-radius: 8px; background: rgba(218, 26, 50, 0.15);}
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox input{border-color: var(--aecon-red);}
+
+.show-phone input{border-color: var(--aecon-red) !important; background-color: rgba(218,26,50,.1) !important;}
+.show-phone .frm_error{opacity: 1; transition: opacity 0.5s ease;}
+.hide-phone .frm_error{opacity: 0;}
+.hide-phone input{ border: solid 1px var(--gray-md) !important; background-color: var(--gray-lt) !important; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -246,4 +252,6 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
     body.page-template-solution-landing .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{font-size: 15px;}
 
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
+    body.single-partners .frm_form_field_wrapper{display: block;}
+    body.single-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 10px;}
 }

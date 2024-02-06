@@ -1,5 +1,4 @@
 
-
 .custom-solar-main.no_image{display: block;}
 .no_image .custom-solar-desc{max-width: 100%; margin: 0; padding: 0;}
 .custom-solar-btns{flex-direction: column; gap: 16px;}
@@ -82,7 +81,7 @@
     .custom-solar-text{display: block;}
     .custom-solar-desc{padding: 40px 24px 48px;}
     .custom-solar-desc h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
-    .custom-solar-desc p{font-size: 14px; letter-spacing: -0.28px; line-height: 20px; color: var(--foreground-light); margin-bottom: 17px;}
+    .custom-solar-desc p{color: var(--foreground-light); margin-bottom: 17px;}
     .custom-solar-desc hr{margin: 0 0 30px;}
 
     .common-repeat-image{ padding-bottom: 29px;}

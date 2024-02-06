@@ -33,6 +33,9 @@ blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyph
 blockquote{padding: 0; margin: 3rem 0 2.9rem; color: var(--foreground-light); font-size: 1.5rem; line-height: 1.42; font-weight: 800; font-family: "VisbyCF", sans-serif; font-style: normal; position: relative; letter-spacing: normal;}
 blockquote::before{content: "“";}
 blockquote::after{content: "”";}
+.general-default-article blockquote::before, .general-default-article blockquote::after{display: none;}
+.general-default-article blockquote p::before{content: "“";}
+.general-default-article blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 small{font-size: 12px; line-height: 20px; letter-spacing: -0.24px; display: block;}
@@ -61,7 +64,7 @@ legend {white-space: normal;}
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
 table tr td:first-child {text-align: left;}
-th {font-family: "Instrument Sans", sans-serif; font-weight: 500; border-width: 0; padding: 14px 15px 13px; background-color: var(--black); color: var(--white); border-radius: 0;}
+th {font-family: "VisbyCF", sans-serif; font-weight: 800; border-width: 0; padding: 14px 15px 13px; background-color: var(--accent); color: var(--white); border-radius: 0;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem;}
 table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
@@ -108,7 +111,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.down-arrow::after{content: "\f078";}
 
 .button.btn-hover-white:hover, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
-.button.btn-hover-white:hover::after,  body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white::after{color: var(--accent);}
+.button.btn-hover-white:hover::after{color: var(--accent);}
+body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white::after{color: var(--white);}
+body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white:hover::after{color: var(--navy);}
+
 
 .button.no-arrow::after, button.no-arrow::after{display: none;}
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
@@ -130,8 +136,6 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 
 .button.btn-md.yellow::after{color: var(--accent-yellow);}
 .button.btn-md.yellow:hover::after{color: var(--white);}
-
-.btn-transparent.btn-transparent{border-color: var(--white); color: var(--white);}
 
 .solar-btn .button::after{color: #ffbf0d;}
 .solar-btn .button:hover{background-color: #ffbf0d;}
