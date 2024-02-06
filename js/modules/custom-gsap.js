@@ -12,9 +12,9 @@ var $drawing = jQuery('[data-animation="ui-drawing"]');
 $drawing.each(function(){
   var $self = jQuery(this);
   var $paths = $self.find('path');
-  var tl = gsap.timeline({ paused: true, delay: 0.2,});
+  var tl = gsap.timeline({ paused: true, delay: 0.05,});
   $paths.each(function(i){
-    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 0.5, ease: 'power1.out'})
+    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 0.4, ease: 'power1.out'})
   })
   $self[0].tl = tl
 });
