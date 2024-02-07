@@ -39,6 +39,7 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
 .solar-assessment-text::before{ content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-size: 8px 2px; background-image: linear-gradient(to right,var(--accent-yellow) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-repeat: repeat-x; }
 .solar-assessment-text h3{margin-bottom: 23px;}
 .solar-assessment-btns{gap: 12px;}
+.project-detail-article h2::after{margin: 31px 0 0; height: 4px; width: 96px; background-color: var(--accent); border-radius: 2px; display: block; border: none; content: "";}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 740px){

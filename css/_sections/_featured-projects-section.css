@@ -50,7 +50,7 @@ body.page-template-projects #projects_load_more .button{padding: 11px 24px 11px 
     .featured-full-post .featured-post-text ul.cat-links{margin-bottom: 23px;}
     .featured-full-post figure{height: 100%;}
 
-    .featured-projects-thumb img{max-height: 420px; min-height: 420px; overflow: hidden;}
+    .featured-projects-thumb img{max-height: 420px; min-height: 420px; overflow: hidden; object-position: center top;}
 }
 @media screen and (min-width: 1024px){
     body.page-template-projects .featured-projects-main{padding: 81px 0 104px;}

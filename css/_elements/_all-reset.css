@@ -150,6 +150,8 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_
 .battery-storage-btn .button:hover{background-color: #71A341;}
 .battery-storage-btn .button:hover::after{color: var(--white);}
 
+.button.btn-transparent.white-border{border-color: var(--accent-light); color: var(--white);}
+
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
