@@ -22,18 +22,37 @@ jQuery(document).ready(function($){
     });
     
     const getQuotebtn = $(".get_quote_flyout");
-    getQuotebtn.on("click", (e)=>{
-        e.preventDefault();
-        contact_btn.removeClass("open");
-        $(".flyout-blue-overlay").addClass("open");
-        $(".contact_btn_menu").slideUp(900);
-        $(".flyout-form-overlay").addClass("open");
-    });
+    getQuotebtn.each(function(){
+        const _self = $(this);
+        _self.on("click", function(e){
+            e.preventDefault();
+            contact_btn.removeClass("open");
+            $("body").addClass("open-flyout-bg")
+            $(this).siblings(".flyout-blue-overlay").addClass("open");
+            $(this).siblings(".flyout-form-overlay").addClass("open");
+            $(".contact_btn_menu").slideUp(900);
+        });
+    })
     const flyoutFormclose = $(".flyout-form-close");
-    flyoutFormclose.on("click", (e)=>{
+    flyoutFormclose.each(function(){
+        const _selfClose = $(this);
+        _selfClose.on("click", function(e){
+            e.preventDefault();
+            $("body").removeClass("open-flyout-bg");
+            $(".flyout-blue-overlay").removeClass("open");
+            $(".flyout-form-overlay").removeClass("open");
+        });
+    });
+    $(".contact_btn_mobile .get_quote_flyout").on("click", function(e){
         e.preventDefault();
-        $(".flyout-blue-overlay").removeClass("open");
-        $(".flyout-form-overlay").removeClass("open");
+        $("body").removeClass("open-flyout-bg");
+    });
+
+
+    const getQuotebtnMobile = $(".get_mobile_flyout");
+    getQuotebtnMobile.on("click", function(e){
+        e.preventDefault();
+        $(".flyout-mobile-overlay").addClass("open");
     });
 
     const humburgerbtn = $(".humburger-btn");
@@ -52,6 +71,7 @@ jQuery(document).ready(function($){
         humburgerbtn.removeClass("open");
         $(".flyout-blue-overlay").removeClass("open");
         $(".flyout-overlay").removeClass("open");
+        $(".flyout-mobile-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
         if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_flyout, .flyout-form-overlay, body .selectBox-dropdown, ul.selectBox-dropdown-menu li a").length){
