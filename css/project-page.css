@@ -3,16 +3,8 @@
 .card-module-main{padding: 64px 0 80px;}
 .project-repeater-last .project-repeater-one .card-module-main{padding-top: 0;}
 .project-repeater-last .project-repeater-one:nth-last-child(2) .card-module-main{padding-bottom: 40px;}
-.project-repeater-last .battery-solar{visibility: visible; animation-name: LoadBattery; animation-delay: 1s; animation-iteration-count: 1;}
-@keyframes LoadBattery{
-    0%{transform: translateY(-100%);}
-    100%{transform: translateY(-50%);}
-}
-.project-repeater-last .sun-solar{visibility: visible; animation-name: LoadSolar; animation-delay: 1s; animation-iteration-count: 1;}
-@keyframes LoadSolar{
-    0%{transform: translateY(50%);}
-    100%{transform: translateY(-50%);}
-}
+.project-repeater-last .battery-solar{visibility: visible;}
+.project-repeater-last .sun-solar{visibility: visible;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
