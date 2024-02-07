@@ -1,5 +1,5 @@
 
-header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; background-color: var(--white); border-bottom: 1px solid var(--elevated); transition-delay: 0.25s; transition-duration: .5s; transition-property: transform; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
+header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 700; background-color: var(--white); border-bottom: 1px solid var(--elevated); transition-delay: 0.25s; transition-duration: .5s; transition-property: transform; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 
 .humburger-btn{width: 40px; height: 40px; border-radius: 12px; border: solid 1px #6a7682; cursor: pointer; display: block; position: relative; order: 4;}
 .humburger-btn span { width:100%; height: 2.5px; left: 0; right:0; max-width: 18px; margin:0 auto; opacity:1; transition:.45s ease-in-out; background-color:var(--aecon-red); display:block; position:absolute }
@@ -9,8 +9,6 @@ header.header-main{top: 0; left: 0; right: 0; position: fixed; z-index: 800; bac
 .humburger-btn.open span:first-child {top: 17px; transform:rotate(45deg) }
 .humburger-btn.open span:nth-child(2) { transform: scale(0); }
 .humburger-btn.open span:nth-child(3) {top: 17px; transform:rotate(-45deg) }
-
-
 
 body.home .site-main-cover{padding-top: 0;}
 
@@ -51,6 +49,7 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 .call-us-btns .button span, .contact_btn_menu .button span{font-size: 14px; color: var(--accent);}
 .call-us-btns .button.btn-transparent:hover span, .contact_btn_menu .button.btn-light-green:hover span{color: var(--white);}
 .call-us-btns .button::after, .contact_btn_menu .button::after{display: none;}
+body.home.open-flyout-bg .banner-section{z-index: 800;}
 
 /* media css starts here */
 @media screen and (min-width: 740px) {
@@ -103,7 +102,8 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .header{gap: 8px;}
-    .logo{flex: 0 0 260px; position: relative; z-index: 1800;}
+    .logo{flex: 0 0 260px; position: relative;}
+    .nav-overlay-open .logo{ z-index: 1800;}
     .logo a img{max-width: 261px; width: 100%;}
     img.logo-ipad{display: none;}
 
@@ -155,9 +155,6 @@ ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
     .flyout-form-overlay{max-width: 100%;}
     body.open-flyout-bg header.header-main{opacity: 0; visibility: hidden;}
     .contact_btn_mobile .flyout-form-overlay{margin-top: 64px;}
-
-    .flyout-mobile-overlay{padding: 40px; max-width: 100%; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;}
-    .flyout-mobile-overlay.open{transform: translateX(0);}
 
     ul.flyout-menu{padding: 13px 20px 25px; border-top: 2px solid var(--gray-md);}
     ul.flyout-menu > li{padding: 16px 0;}

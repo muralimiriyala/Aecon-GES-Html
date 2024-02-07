@@ -57,6 +57,7 @@ body.page-template-projects #projects_load_more .button{padding: 11px 24px 11px 
     body.page-template-projects [data-row="4"] .featured-projects-main{padding-top: 0;}
     .project-repeater-last .featured-projects-section:nth-child(4) .featured-projects-main{padding-top: 0;}
     .project-repeater-last .featured-projects-section:nth-child(6) .featured-projects-main{padding-bottom: 60px;}
+    body.page-template-projects .featured-projects-section:nth-child(12) .featured-projects-main{padding-top: 0;}
     .featured-projects-main h2{margin-bottom: 20px;}
     .featured-post-image{width: 100%;}
     .featured-post-image figure img{min-height: 194px; max-height: 194px; overflow: hidden;} 
@@ -103,6 +104,7 @@ body.page-template-projects #projects_load_more .button{padding: 11px 24px 11px 
     body.page-template-projects [data-row="4"] .featured-projects-main{padding-top: 0;}
     .project-repeater-last .featured-projects-section:nth-child(4) .featured-projects-main{padding-top: 0;}
     .project-repeater-last .featured-projects-section:nth-child(6) .featured-projects-main{padding-bottom: 60px;}
+    body.page-template-projects .featured-projects-section:nth-child(12) .featured-projects-main{padding-top: 0;}
 
 }
 @media screen and (max-width: 739px) and (min-width: 200px){

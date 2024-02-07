@@ -72,7 +72,7 @@ body.page-template-projects .custom-solar-text ul.post-cat-btns{margin-bottom: 3
 ul.post-cat-btns li{margin: 0;}
 ul.post-cat-btns li::before{display: none;}
 ul.post-cat-btns li{padding: 4px 7px 4px; display: inline-flex; flex-wrap: wrap; gap: 6px; font-size: 14px; line-height: 16px; border-radius: 4px; letter-spacing: 0; align-items: center; background-color: var(--accent-light); color: var(--drab); font-weight: 800; font-family: VisbyCF,sans-serif; }
-ul.post-cat-btns li a{color: inherit;}
+ul.post-cat-btns li a{color: inherit; display: flex; align-items: center; gap: 6px;}
 ul.post-cat-btns li span{font-size: 12px; line-height: 12px;}
 ul.post-cat-btns li.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
 ul.post-cat-btns li.solar span{color: var(--accent-yellow);}

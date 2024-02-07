@@ -43,27 +43,21 @@ jQuery(document).ready(function($){
             $(".flyout-form-overlay").removeClass("open");
         });
     });
-    $(".contact_btn_mobile .get_quote_flyout").on("click", function(e){
+    $(".header-right .get_quote_flyout").on("click", function(e){
         e.preventDefault();
         $("body").removeClass("open-flyout-bg");
     });
 
-
-    const getQuotebtnMobile = $(".get_mobile_flyout");
-    getQuotebtnMobile.on("click", function(e){
-        e.preventDefault();
-        $(".flyout-mobile-overlay").addClass("open");
-    });
 
     const humburgerbtn = $(".humburger-btn");
     humburgerbtn.on("click", (e)=>{
         e.preventDefault();
         humburgerbtn.toggleClass("open");
         contact_btn.removeClass("open");
-        $(".flyout-blue-overlay").toggleClass("open");
+        $(".header-right .flyout-blue-overlay").toggleClass("open");
         $("body").toggleClass("nav-overlay-open");
         $(".contact_btn_menu").slideUp(900);
-        $(".flyout-overlay").toggleClass("open");
+        $(".header-right .flyout-overlay").toggleClass("open");
     });
     const flyoutclose = $(".flyout-close");
     flyoutclose.on("click", (e)=>{
@@ -71,7 +65,6 @@ jQuery(document).ready(function($){
         humburgerbtn.removeClass("open");
         $(".flyout-blue-overlay").removeClass("open");
         $(".flyout-overlay").removeClass("open");
-        $(".flyout-mobile-overlay").removeClass("open");
     });
     $("body").on("click", function(e){
         if(!$(e.target).closest(".humburger-btn, .flyout-overlay, .get_quote_flyout, .flyout-form-overlay, body .selectBox-dropdown, ul.selectBox-dropdown-menu li a").length){
@@ -79,6 +72,7 @@ jQuery(document).ready(function($){
             $(".flyout-blue-overlay").removeClass("open");
             $(".flyout-overlay").removeClass("open");
             $(".flyout-form-overlay").removeClass("open");
+            $("body").removeClass("open-flyout-bg");
         }
     });
 

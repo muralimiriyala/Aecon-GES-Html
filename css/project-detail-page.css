@@ -127,8 +127,6 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
     .masonary-main{padding: 0 0 20px;}
     .masonary-list{margin-bottom: 20px;}
 
-    .project-detail-section .container{padding-right: 0;}
-    .project-detail-section .fluid-container .container{padding-right: 20px; padding-left: 0;}
     .project-detail-main{display: block; padding: 0 0 50px;}
     .project-detail-image { position: relative; max-width: 390px; min-width: 390px; margin-left: auto; margin-top: -95px; left: -10px; }
     .detail-map{width: 19px;}

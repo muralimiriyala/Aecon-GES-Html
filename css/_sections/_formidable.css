@@ -124,7 +124,7 @@ body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field label small{font-
 body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
 #frm_field_17_container .frm_primary_label span{display: none;}
 
-body .flyout-form-overlay .h3{margin-bottom: 24px;}
+body .flyout-form-overlay .h3{margin-bottom: 24px; text-align: left;}
 body .flyout-form-overlay .frm_form_field_wrapper{display: block;}
 body .flyout-form-overlay .frm_form_field_wrapper .last-checkbox{padding-bottom: 24px; margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{padding-top: 24px;}

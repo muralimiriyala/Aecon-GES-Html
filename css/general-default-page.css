@@ -18,7 +18,7 @@ body #ez-toc-container span.ez-toc-title-toggle{display: none;}
 body #ez-toc-container ul{margin: 0;}
 body #ez-toc-container ul li{margin: 0 0 8px;}
 body #ez-toc-container ul li::before{display: none;}
-body #ez-toc-container ul li a{padding: 8px 12px; display: inline-block; border-radius: 12px; font-size: 16px; font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--navy); background-color: transparent; text-decoration: none; border: none;}
+body #ez-toc-container ul li a{padding: 8px 12px; display: inline-block; border-radius: 12px; font-size: 16px; font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--navy); background-color: transparent; text-decoration: none; border: none; letter-spacing: 0;}
 body #ez-toc-container ul li a:hover{background-color: var(--gray-lt); text-decoration: none;} 
 body #ez-toc-container ul li a.active, body #ez-toc-container ul li a.mPS2id-clicked, body #ez-toc-container ul li a:visited{background-color: var(--accent-light); color: var(--navy);}
 body #ez-toc-container ul ul{margin: 0;}
@@ -56,6 +56,8 @@ body #ez-toc-container ul ul{margin: 0;}
     .general-default-main{padding: 40px 0;}
     .general-default-article{padding-bottom: 51px; margin-bottom: 49px;}
     .general-default-article::before{content: ""; width: 100%; height: 2px; bottom: 0; left: 0; position: absolute; display: block; opacity: 0.5; background-image: linear-gradient(to right,var(--foreground-light) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px;}
+    .no_aside .general-default-article::before{display: none;}
+    .no_aside .general-default-article{margin-bottom: 0;}
     .general-default-heading{padding-bottom: 47px; margin-bottom: 47px;}
 
     .supporting-resource{padding: 24px; margin: 48px 0;}

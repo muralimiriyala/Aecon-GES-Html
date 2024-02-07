@@ -31,6 +31,7 @@
     .common-content-image{flex: 0 0 50%;}
     .common-content-image img {min-height: 540px;}
     .common-content-text p{display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 3; }
+    .common-content-reverse .common-content-main{flex-direction: row-reverse;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .common-content-section .container{padding: 0;}

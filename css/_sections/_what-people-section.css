@@ -97,8 +97,6 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
     .what-people-btn .button{width: 100%;}
 
     #testimonials_load_more.load-more-btn{margin-top: 0;}
-    #testimonail_loadmore.fluid-container{width: calc(100% + 40px); left: -20px;}
-
 
     .what-people-main #testimonail_loadmore:nth-child(2) .what-people-main{padding-top: 20px !important; padding-bottom: 0 !important;}
     #testimonail_loadmore .what-people-section:nth-child(4) .what-people-main{padding-top:  0 !important;}

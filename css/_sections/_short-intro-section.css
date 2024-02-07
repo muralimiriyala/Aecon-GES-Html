@@ -186,4 +186,5 @@ body.page-template-about .short-intro-desc p{margin: 0;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .short-intro-btns{gap: 12px;}
+    .intro_btn{width: 52px; height: 52px;}
 }
