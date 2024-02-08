@@ -86,6 +86,9 @@ body.home.open-flyout-bg .banner-section{z-index: 800;}
 @media screen and (min-width: 1280px){
     img.logo-ipad{display: none;}
 }
+@media screen and (max-width: 1339px) and (min-width: 1280px){
+    ul.main-menu{gap: 0 26px;}
+}
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     img.logo-desktop{display: none;}
     .logo{flex: 0 0 105px;}

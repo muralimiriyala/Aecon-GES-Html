@@ -100,8 +100,8 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
     .detail-map[data-name="Nova Scotia"]{ bottom: 56px; left: 430px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .project-detail-main{padding: 0 0 40px;}
-    .project-detail-ipad{max-width: 332px; padding: 80px 0 40px;}
+    .project-detail-main{padding: 0 0 20px;}
+    .project-detail-ipad{max-width: 332px; padding: 40px 0 40px;}
     .project-detail-image {max-width: 390px; min-width: 390px; margin-left: auto; margin-top: -95px; right: -40px; }
     .detail-map{width: 19px;}
     .detail-map[data-name="British Columbia"]{ bottom: 85px; left: 34px; }
@@ -116,7 +116,7 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
     .detail-map[data-name="Nova Scotia"]{ bottom: 43px; left: 335px; }
     .detail-map.pin1{bottom: 24px; right: 14px;}
     .project-detail-text{padding: 21px 0 0;}
-    .project-detail-text h1{margin-bottom: 23px;}
+    .project-detail-text h1{margin-bottom: 23px; font-size: 40px; line-height: 48px;}
 
     .project-detail-article{padding: 64px 0;}
     .stats-image-row{gap: 32px;}
@@ -128,6 +128,7 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
 
     .detail-map.pin1{bottom: 25px; right: 33px;}
+    ul.detail-categorys{margin: 0;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .masonary-main{padding: 0 0 20px;}

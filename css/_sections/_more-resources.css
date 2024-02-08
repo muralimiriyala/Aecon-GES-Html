@@ -40,7 +40,6 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .more-resources-main{padding: 46px 0 40px;}
     .more-resources-head{padding-bottom: 9px;}
-    .more-resources-head h2{font-size: 40px; line-height: 48px;}
     .more-resources-row{display: block;}
     .more-resources-list:not(:last-child){margin-bottom: 32px;}
     .more-resources-btn .button{width: 100%;}

@@ -4,7 +4,7 @@
 .free-assessment-desc span.optional-text{margin-bottom: 35px; font-size: 16px; line-height: 20px;}
 .free-assessment-btns{flex-direction: column; gap: 16px;}
 .free-assessment-btns .button{width: fit-content;}
-
+.free-assessment-btns .btn-style-select{max-width: 282px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
@@ -55,4 +55,5 @@
     body.page-template-partners .free-assessment-desc{text-align: left;}
     body.page-template-partners .free-assessment-desc hr{margin: 0 0 30px;}
     body.page-template-partners .free-assessment-desc span.optional-text{margin-bottom: 25px;}
+    .free-assessment-btns .btn-style-select{max-width: 100%;}
 }
