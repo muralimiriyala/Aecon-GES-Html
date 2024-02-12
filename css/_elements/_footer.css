@@ -27,7 +27,7 @@ ul.copyright-links{margin: 0;}
 ul.copyright-links > li{margin: 0; font-size: 12px; line-height: 20px; letter-spacing: 0;}
 ul.copyright-links > li::before{display: none;}
 ul.copyright-links > li > a{color: rgba(9, 31, 67, 0.5)}
-ul.copyright-links > li > a:hover{color: var(--navy);}
+ul.copyright-links > li > a:hover, ul.copyright-links > li.current-menu-item > a{color: var(--navy);}
 
 /* media css starts here */
 @media screen and (min-width: 1440px) {

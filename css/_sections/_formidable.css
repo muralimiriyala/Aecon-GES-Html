@@ -136,7 +136,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.fr
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
 
-body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding: 9px 0 0 40px; background-color: transparent;}
+body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding: 10px 0 0 40px; background-color: transparent;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before { box-shadow: inset 8px 8px var(--white); }
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox label{padding: 9px 0 0 33px;}
