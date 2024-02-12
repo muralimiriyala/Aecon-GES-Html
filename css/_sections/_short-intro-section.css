@@ -5,7 +5,7 @@
 .short-intro-icon svg{min-height: 82px;}
 .short-intro-main h2{margin-bottom: 20px;}
 .subhead-list{padding: 34px 32px 32px;}
-.counter{margin-bottom: 14px; font-size: 80px; line-height: 80px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
+.counter{margin-bottom: 14px; font-size: 64px; line-height: 68px; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--accent);}
 .intro_btn{padding: 12px 12px 12px 16px; border-radius: 16px; border: 1px solid var(--navy); color: var(--navy); font-weight: 800; font-size: 18px; line-height: 22px; font-family: "VisbyCF", sans-serif;}
 .intro_btn span{flex: 1;}
 .intro_btn_svg{transition: all 0.5s ease;}
@@ -22,7 +22,7 @@
 
 .short-intro-title .button{margin-top: -6px;}
 body.page-template-solution-landing .short-intro-title .button{margin-top: 0;}
-.subhead-list.bg-navy{padding: 50px 28px 32px 32px;}
+.subhead-list.bg-navy{padding: 50px 30px 32px;}
 .subhead-list.bg-navy h2{margin-bottom: 31px;}
 
 body.page-template-careers .short-intro1-of-4 p{margin-bottom: 0;}
@@ -118,7 +118,6 @@ body.page-template-about .short-intro-desc p{margin: 0;}
     .subhead-row.gap-32 .subhead-list.inverted{flex: 0 0 100%; padding-top: 32px; display: flex; flex-wrap: wrap;}
     .subhead-list-head{flex: 1;}
     .subhead-row.gap-32 .subhead-list-head h2{margin-bottom: 0;}
-    .counter{font-size: 68px; line-height: 68px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .short-intro-main{padding: 64px 0 65px;}

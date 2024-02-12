@@ -7,7 +7,13 @@ body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: tran
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
 
-body .btn-style-select .selectBox-dropdown{padding: 15px 32px 13px 16px; font-size: 18px; line-height: 18px; font-weight: 800; background-color: var(--accent); color: var(--white); font-family: "VisbyCF", sans-serif; letter-spacing: 0; border-radius: 12px;}
+body .btn-style-select.md .selectBox-dropdown{ padding: 11px 38px 11px 16px; font-size: 16px; }
+body .btn-style-select.md.navy .selectBox-dropdown{background-color: var(--navy); color: var(--white); }
+body .btn-style-select.md.navy .selectBox-dropdown .selectBox-arrow{color: var(--accent-yellow);}
+/* body .btn-style-select.md.navy .selectBox-dropdown:hover{background-color: var(--accent); color: var(--white);}
+body .btn-style-select.md.navy .selectBox-dropdown:hover .selectBox-arrow{color: var(--white);} */
+
+body .btn-style-select .selectBox-dropdown{padding: 15px 38px 13px 16px; font-size: 18px; line-height: 18px; font-weight: 800; background-color: var(--accent); color: var(--white); font-family: "VisbyCF", sans-serif; letter-spacing: 0; border-radius: 12px;}
 body .btn-style-select .selectBox-dropdown:hover{opacity: 0.9;}
 body .btn-style-select .selectBox-dropdown .selectBox-arrow{top: calc(50% + 1px);}
 body .btn-style-select .selectBox-dropdown.selectBox-menuShowing{border-radius: 12px 12px 0 0;}

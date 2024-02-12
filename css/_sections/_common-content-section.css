@@ -16,7 +16,6 @@
 
     body.page-template-about .common-content-text{line-height: 28px;}
     body.page-template-solution-landing .common-content-text{color: var(--foreground); line-height: 28px;}
-    body.page-template-solution-landing .common-content-text h2{max-width: 400px;}
 
     .no_image .common-content-text { padding: 80px 40px; margin: 0 auto; max-width: 1360px; }
 }

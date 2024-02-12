@@ -1,6 +1,7 @@
 
 
 .best-partners-text{padding: 0 48px 16px 32px; color: var(--foreground-light);}
+.best-partners-text .line-clamp{display: block; -webkit-line-clamp: inherit}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

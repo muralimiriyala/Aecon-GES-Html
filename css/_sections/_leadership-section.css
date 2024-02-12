@@ -1,6 +1,6 @@
 
 .leaderships-section{color: var(--foreground-light);}
-.leadership-rows{text-align: center;}
+.leadership-rows{text-align: center; justify-content: center;}
 .leaderships-mask { top: 0; mask-image: radial-gradient(circle, #71A341 60%, rgba(113, 163, 65, 0) 50%); z-index: 1; }
 .leaderships-mask.out { animation: maskOut 0.5s ease-in-out both; }
 @keyframes maskOut {

@@ -35,7 +35,7 @@ body.page-template-testimonials .avatar-main{gap: .8rem;}
 }
 @media only screen and (min-width: 1024px){
     .what-people-main{padding: 80px 0;}
-    body.page-template-testimonials .what-people-section.what-people-second .what-people-main{padding: 40px 0 40px;}
+    body.page-template-testimonials .what-people-section.what-people-second .what-people-main{padding: 34px 0 40px;}
     .what-people-heading{flex: 1; padding-bottom: 17px;}
     .what-people-grids{order: 2; justify-content: center;}
     .what-people-quote{padding-top: 48px; order: 3; flex-direction: row-reverse;}

@@ -2,8 +2,8 @@
 .partner-logos-slider{flex-wrap: nowrap;}
 .partner-logos-slider .slick-list{overflow: inherit;}
 .partner-logos-slider .partner-logos-slide{width: 264px; min-width: 264px; margin-right: 40px;}
-.partner-logo{padding: 16px 40px; min-height: 113px; display: flex; align-items: center; flex-wrap: wrap; background-color: var(--white);}
-.partner-logo img{max-width: 144px; max-height: 81px; margin: 0 auto;}
+.partner-logo{padding: 16px 40px; min-height: 142px; max-height: 142px; background-color: var(--white);}
+.partner-logo img{max-width: 144px; max-height: 110px; margin: 0 auto; object-fit: contain;}
 .partner-logo-text{padding-top: 19px; color: var(--foreground-light);}
 .partner-logo-text p{margin-bottom: 18px;}
 

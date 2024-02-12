@@ -1,4 +1,6 @@
 .no_head .become-partner-btn{margin-left: auto; margin-bottom: 2rem;}
+.become-partner-logo{padding: 16px 40px; min-height: 142px; max-height: 142px;}
+.become-partner-logo img{max-width: 144px; max-height: 110px; margin: auto; display: block; object-fit: contain;}
 
 
 /* media css starts here */
@@ -7,7 +9,6 @@
     .become-partner-head{flex: 1; padding: 4px 0 25px;}
     .become-partner-logos{gap: 24px; order: 3;}
     .become-partner-logo{flex: 0 0 calc(20% - 20px); padding: 16px;}
-    .become-partner-logo img{max-width: 157px; margin: auto; display: block;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .become-partner-main{padding: 80px 0 80px;}

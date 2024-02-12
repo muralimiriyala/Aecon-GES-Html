@@ -38,19 +38,33 @@ ul.res-categories{margin: -46px 0 20px; gap: 5px; z-index: 1; position: relative
 ul.res-categories.no_category{margin: 0;}
 ul.res-categories li{margin: 0;}
 ul.res-categories li::before{display: none;}
-ul.res-categories li{padding: 3px 8px 1px; display: inline-flex; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
-ul.res-categories li a{color: inherit;}
-ul.res-categories li span{font-size: 12px; line-height: 12px;}
-ul.res-categories li.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
-ul.res-categories li.solar span{color: var(--accent-yellow);}
-ul.res-categories li.ev-charging{background-color: #C4F4FF; color: #0D445D;}
-ul.res-categories li.ev-charging span{color: #02B5DC;}
-ul.res-categories li.heating{background-color: #FFD8A6; color: #5E3808;}
-ul.res-categories li.heating span{color: #F8971D;}
-ul.res-categories li.battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
-ul.res-categories li.battery-storage span{color: var(--accent);}
+ul.res-categories li:not(:has(a)){padding: 3px 8px 1px; display: inline-flex; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.res-categories li:not(:has(a)) span{font-size: 12px; line-height: 12px;}
+ul.res-categories li:not(:has(a)).solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
+ul.res-categories li:not(:has(a)).solar span{color: var(--accent-yellow);}
+ul.res-categories li:not(:has(a)).ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.res-categories li:not(:has(a)).ev-charging span{color: #02B5DC;}
+ul.res-categories li:not(:has(a)).heating{background-color: #FFD8A6; color: #5E3808;}
+ul.res-categories li:not(:has(a)).heating span{color: #F8971D;}
+ul.res-categories li:not(:has(a)).battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
+ul.res-categories li:not(:has(a)).battery-storage span{color: var(--accent);}
 
-/* ul.res-categories li a:hover{background-color: var(--accent); color: var(--white);} */
+
+ul.res-categories li a{padding: 3px 8px 2px; display: inline-flex; gap: 8px; align-items: center; border-radius: 4px; font-size: 14px; line-height: 20px; background-color: var(--accent-light); color: var(--accent-dark); font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.res-categories li a span{font-size: 12px; line-height: 12px;}
+ul.res-categories li a.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.res-categories li a.ev-charging span{color: #02B5DC;}
+ul.res-categories li a:hover{opacity: 0.9;}
+ul.res-categories li.solar a, ul.res-categories li a.solar{background-color: var(--accent-light-yellow); color: var(--foreground-dark);}
+ul.res-categories li.solar a span, ul.res-categories li a.solar span{color: var(--accent-yellow);}
+ul.res-categories li.ev-charging a, ul.res-categories li a.ev-charging{background-color: #C4F4FF; color: #0D445D;}
+ul.res-categories li.ev-charging a span, ul.res-categories li a.ev-charging span{color: #02B5DC;}
+ul.res-categories li.heating a,  ul.res-categories li a.heating{background-color: #FFD8A6; color: #5E3808;}
+ul.res-categories li.heating a span, ul.res-categories li a.heating span{color: #F8971D;}
+ul.res-categories li.battery-storage a, ul.res-categories li a.battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
+ul.res-categories li.battery-storage a span, ul.res-categories li a.battery-storage span{color: var(--accent);}
+
+
 
 .card-text{padding: 32px; position: relative;}
 .card-text .h4 a{color: var(--navy);}
