@@ -22,29 +22,39 @@ jQuery(document).ready(function($){
     });
 
     const checkField = $(".contact-form .frm_forms .frm_form_fields #frm_checkbox_8-0 input[type='checkbox']");
-    checkField.on("click", function(e){
+    const container = $(".contact-form .frm_forms .frm_form_fields #frm_field_4_container");
+    
+    checkField.on("click", function (e) {
         const _this = $(this);
-        const container = _this.closest(".frm_form_fields").find("#frm_field_4_container");
-        const errorMessage = container.find(".frm_error");
-        if (_this.prop("checked")) {
+        const errorMessage = container.find(".frm_error"); 
+        if (_this.prop("checked")) {    
             if (errorMessage.length === 0) {
-                container.addClass("show-phone");
+                container.addClass("show-phone").removeClass("hide-phone");
                 container.append('<div class="frm_error" role="alert" id="frm_error_field_4">Please enter the phone number</div>');
+        
+                if ($("#frm_error_field_4").length === 0) {
+                    container.append('<div class="frm_error" role="alert" id="frm_error_field_4">Please enter the phone number</div>');
+                }
             }
+        } else {
+            container.removeClass("hide-phone show-phone");
+            errorMessage.remove();
         }
     });
     $(".contact-form .frm_forms .frm_form_fields input[type='checkbox']").not(checkField).on("click", function (e) {
         const _this = $(this);
-        const container = _this.closest(".frm_form_fields").find("#frm_field_4_container").addClass("hide-phone");
-
+        container.addClass("hide-phone").removeClass("show-phone");
+        $("#frm_error_field_4").remove();
     });
-
     const phoneField = $(".contact-form .frm_forms .frm_form_fields #frm_field_4_container input");
-    phoneField.on("input", function(){
+    phoneField.on("input", function () {
         const _this = $(this);
-        const _thisValue = $(this).val();
+        const _thisValue = _this.val();
         _this.parent().toggleClass("hide-phone", _thisValue !== "");
     });
+    
+    
+    
 
     
 

@@ -131,8 +131,8 @@
             <span class="optional-text">Contact Us</span>
             <h1>Contact page headline here</h1>
             <div class="contact-form">
-                <div class="frm_forms  with_frm_style frm_inline_form frm_inline_top frm_style_formidable-style" id="frm_form_1_container" >
-                    <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_pro_form " id="form_contact-form"  >
+                <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_1_container" >
+                    <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_ajax_submit  frm_pro_form  frm-admin-viewing " id="form_contact-form"  >
                     <div class="frm_form_fields ">
                     <fieldset>
                     <legend class="frm_screen_reader">Contact Us</legend>
@@ -143,83 +143,105 @@
                     <input type="hidden" name="frm_hide_fields_1" id="frm_hide_fields_1" value="" />
                     <input type="hidden" name="form_key" value="contact-form" />
                     <input type="hidden" name="item_meta[0]" value="" />
-                    <input type="hidden" id="frm_submit_entry_1" name="frm_submit_entry_1" value="cc4ce51db9" /><input type="hidden" name="_wp_http_referer" value="/contact/" />
-    
-                    <div id="frm_field_1_container" class="frm_left frm_form_field form-field frm_required_field frm_top_container frm_first frm_third">
+                    <input type="hidden" id="frm_submit_entry_1" name="frm_submit_entry_1" value="2b541c7e7e" /><input type="hidden" name="_wp_http_referer" value="/contact/" /><div id="frm_field_1_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_third frm_first frm_left">
                         <label for="field_qh4icy" id="field_qh4icy_label" class="frm_primary_label">First Name
                             <span class="frm_required" aria-hidden="true">*</span>
                         </label>
-                        <input type="text" id="field_qh4icy" name="item_meta[1]" placeholder="John" value=""  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Name is invalid" aria-invalid="false"  />
+                        <input type="text" id="field_qh4icy" name="item_meta[1]" value=""  data-reqmsg="Please enter the first name" aria-required="true" data-invmsg="Name is invalid" aria-invalid="false"  />
+                        
+                        
                     </div>
-                    <div id="frm_field_2_container" class="frm_right frm_form_field form-field frm_required_field frm_top_container frm_middle frm_third">
+                    <div id="frm_field_2_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_middle frm_third frm_right">
                         <label for="field_ocfup1" id="field_ocfup1_label" class="frm_primary_label">Last Name
                             <span class="frm_required" aria-hidden="true">*</span>
                         </label>
-                        <input type="text" id="field_ocfup1" name="item_meta[2]" placeholder="Smith" value=""  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />  
+                        <input type="text" id="field_ocfup1" name="item_meta[2]" value=""  data-reqmsg="Please enter the last name" aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />
+                        
+                        
                     </div>
-                    <div id="frm_field_3_container" class="frm_left frm_form_field form-field frm_required_field frm_top_container frm_last frm_third">
-                        <label for="field_sbj8a" id="field_sbj8a_label" class="frm_primary_label">I’m interested in
-                            <span class="frm_required" aria-hidden="true"></span>
+                    <div id="frm_field_11_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_third frm_last frm_left">
+                        <label for="field_rfh74" id="field_rfh74_label" class="frm_primary_label">I’m interested in
+                            <span class="frm_required" aria-hidden="true">*</span>
                         </label>
-                        <select name="item_meta[45]" id="field_sbj8a"  data-placeholder="- Select -"  placeholder="- Select -" data-invmsg="Province is invalid" aria-invalid="false"  >
-                                <!-- <option value="">- Select -	</option> -->
-                                <option  value="Option 1">Solar</option>	
-                        </select>
+                                <select name="item_meta[11]" id="field_rfh74"  data-placeholder="I’m interested in"  placeholder="I’m interested in" data-reqmsg="Please select" aria-required="true" data-invmsg="I’m interested in is invalid" aria-invalid="false"  >
+                                        <option class="frm-select-placeholder" value="">
+                                    I’m interested in			</option>
+                                <option  value="Solar">Solar</option><option  value="EV Charging">EV Charging</option><option  value="Heating &amp; Cooling">Heating &amp; Cooling</option><option  value="Battery Storage">Battery Storage</option>	</select>
+                        
+                        
+                        
                     </div>
-                    <div id="frm_field_4_container" class="frm_right frm_form_field form-field frm_required_field frm_top_container frm_first frm_third">
+                    <div id="frm_field_3_container" class="frm_form_field form-field  frm_required_field frm_top_container frm4 frm6  frm_third frm_first frm_right">
                         <label for="field_29yf4d" id="field_29yf4d_label" class="frm_primary_label">Email Address
                             <span class="frm_required" aria-hidden="true">*</span>
                         </label>
-                        <input type="email" id="field_29yf4d" name="item_meta[4]" placeholder="jsmith@emailaddress.com" value=""  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_5_container" class="frm_left frm_form_field form-field frm_required_field frm_top_container frm_middle frm_third">
-                        <label for="field_ocfup1" id="field_ocfup1_label" class="frm_primary_label">Phone Number
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="tel" id="field_ocfup1" name="item_meta[5]" value=""  data-invmsg="Phone is invalid" aria-invalid="false" pattern="((\+\d{1,3}(-|.| )?\(?\d\)?(-| |.)?\d{1,5})|(\(?\d{2,6}\)?))(-|.| )?(\d{3,4})(-|.| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"  />
+                        <input type="email" id="field_29yf4d" name="item_meta[3]" value=""  data-reqmsg="Please enter the email" aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
+                        
                         
                     </div>
-                    <div id="frm_field_6_container" class="frm_right frm_form_field form-field frm_required_field frm_top_container frm_last frm_third">
-                        <label for="field_fn953" id="field_fn953_label" class="frm_primary_label">Postal Code
+                    <div id="frm_field_4_container" class="frm_form_field form-field  frm_required_field frm_top_container frm4 frm6 frm_third frm_left">
+                        <label for="field_e6lis6" id="field_e6lis6_label" class="frm_primary_label">Phone Number
+                            <span class="frm_required" aria-hidden="true">*</span>
+                        </label>
+                        <input type="text" id="field_e6lis6" name="item_meta[4]" value=""  data-reqmsg="Please enter the phone number" aria-required="true" data-invmsg="Subject is invalid" aria-invalid="false"  />
+                        
+                        
+                    </div>
+                    <div id="frm_field_7_container" class="frm_form_field form-field  frm_top_container frm_third frm_last frm_right">
+                        <label for="field_q7ntt" id="field_q7ntt_label" class="frm_primary_label">Postal Code
                             <span class="frm_required" aria-hidden="true"></span>
                         </label>
-                        <input type="text" id="field_fn953" name="item_meta[6]" value=""  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />   
+                        <input type="text" id="field_q7ntt" name="item_meta[7]" value=""  data-invmsg="Text is invalid" aria-invalid="false"  />
+                        
+                        
                     </div>
-                    <div id="frm_field_15_container" class="frm_form_field form-field  frm_top_container frm_full vertical_radio">
-                        <div  id="field_vndg0_label" class="frm_primary_label">I’d like to:
+                    <div id="frm_field_8_container" class="frm_form_field form-field  frm_top_container vertical_radio">
+                        <div  id="field_rcxd6_label" class="frm_primary_label">I’d like to:
                             <span class="frm_required" aria-hidden="true"></span>
                         </div>
-                        <div class="frm_opt_container" aria-labelledby="field_vndg0_label" role="group">		
-                            <div class="frm_checkbox" id="frm_checkbox_15-0"><label for="field_vndg0-0"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-0" value="Schedule a call with a Solar specialist"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/> Schedule a call with a Solar specialist</label></div>
-                            <div class="frm_checkbox" id="frm_checkbox_15-1"><label for="field_vndg0-1"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-1" value="Schedule a Solar service appointment"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/> Schedule a Solar service appointment</label></div>
-                            <div class="frm_checkbox" id="frm_checkbox_15-2"><label for="field_vndg0-2"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-2" value="Receive more information via email"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/>Receive more information via email</label></div>
-                            <div class="frm_checkbox" id="frm_checkbox_15-3"><label for="field_vndg0-3"><input type="checkbox" name="item_meta[15][]" id="field_vndg0-3" value="Start a free solar assessment"  data-invmsg="Which position are you applying for? &lt;span&gt;(Check all that apply) &lt;/span&gt; is invalid" aria-invalid="false"/>Start a free solar assessment</label></div>
-                        </div>
+                        <div class="frm_opt_container" aria-labelledby="field_rcxd6_label" role="group">		
+                            <div class="frm_checkbox" id="frm_checkbox_8-0"><label for="field_rcxd6-0"><input type="checkbox" name="item_meta[8][]" id="field_rcxd6-0" value="Start a FREE [variable] Assessment"  data-invmsg="I’d like to: is invalid" aria-invalid="false"   /> Start a FREE [variable] Assessment</label></div>
+                            <div class="frm_checkbox" id="frm_checkbox_8-1"><label for="field_rcxd6-1"><input type="checkbox" name="item_meta[8][]" id="field_rcxd6-1" value="Schedule a call with a [variable] specialist"  data-invmsg="I’d like to: is invalid" aria-invalid="false"   /> Schedule a call with a [variable] specialist</label></div>
+                            <div class="frm_checkbox" id="frm_checkbox_8-2"><label for="field_rcxd6-2"><input type="checkbox" name="item_meta[8][]" id="field_rcxd6-2" value="Receive more information via email"  data-invmsg="I’d like to: is invalid" aria-invalid="false"   /> Receive more information via email</label></div>
+                            <div class="frm_checkbox" id="frm_checkbox_8-3"><label for="field_rcxd6-3"><input type="checkbox" name="item_meta[8][]" id="field_rcxd6-3" value="Schedule a [variable] service appointment"  data-invmsg="I’d like to: is invalid" aria-invalid="false"   /> Schedule a [variable] service appointment</label></div>
                     </div>
-                    <div id="frm_field_7_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
-                        <label for="field_9jv0r1" id="field_9jv0r1_label" class="frm_primary_label">Questions or Comments
+                        
+                        
+                    </div>
+                    <div id="frm_field_9_container" class="frm_form_field form-field  frm_top_container">
+                        <label for="field_qtd1k" id="field_qtd1k_label" class="frm_primary_label">Questions or Comments
                             <span class="frm_required" aria-hidden="true"></span>
                         </label>
-                        <textarea name="item_meta[5]" id="field_9jv0r1" rows="5" data-reqmsg="This field is required." aria-required="true" data-invmsg="Job Title is invalid" aria-invalid="false"></textarea>
- 
+                        <textarea name="item_meta[9]" id="field_qtd1k" rows="5"  data-invmsg="Paragraph is invalid" aria-invalid="false"  ></textarea>
+                        
+                        
                     </div>
                     <div class="frm_form_field_wrapper">
-                        <div id="frm_field_10_container" class="frm_form_field form-field  frm_top_container frm_two_thirds vertical_radio">
-                            <div class="frm_opt_container" aria-labelledby="field_k07x_label" role="group">		
-                                <div class="frm_checkbox last-checkbox" id="frm_checkbox_10-0"><label for="field_k07x-0">
-                                    <input type="checkbox" name="item_meta[10][]" id="field_k07x-0" value="You accept SMS &amp; email communicaitons from APN at the email and number provided. View our &lt;a href=&quot;https://staging-plusbyapn.kinsta.cloud/terms-and-conditions/&quot;&gt;Terms of Services &lt;/a&gt; for details"  data-invmsg=" is invalid" aria-invalid="false"   /> <span>User-initiated opt-in message appears here </span></label>
+                    <div id="frm_field_89_container" class="frm_form_field form-field  frm_top_container vertical_radio">
+                        <div  id="field_bn7es_label" class="frm_primary_label">
+                            <span class="frm_required" aria-hidden="true"></span>
+                        </div>
+                        <div class="frm_opt_container" aria-labelledby="field_bn7es_label" role="group">		<div class="frm_checkbox" id="frm_checkbox_89-0"><label for="field_bn7es-0"><input type="checkbox" name="item_meta[89][]" id="field_bn7es-0" value="Yes, I’d like to receive News and Special Offers"  data-invmsg=" is invalid" aria-invalid="false"   /> Yes, I’d like to receive News and Special Offers</label></div>
+                    </div>
+                        
+                        
+                    </div>
+                        <input type="hidden" name="item_key" value="" />
+                                    <div class="frm__65842a5788498">
+                                    <label for="frm_email_1" >
+                                        If you are human, leave this field blank.				</label>
+                                    <input  id="frm_email_1" type="text" class="frm_verify" name="frm__65842a5788498" value="" autocomplete="false"  />
                                 </div>
-                            </div>
-                        </div>
-                        <div class="frm_submit">
-                            <button class="frm_button_submit frm_final_submit" type="submit"   formnovalidate="formnovalidate"><span>Submit</span></button>
-                        </div>
-                    </div>
-                    </div>
+                            <input name="frm_state" type="hidden" value="9DeyC91DOgB+KrgN0FztQqXyJUJ2IMjZNbFjPw7F78U=" /><div class="frm_submit frm_flex">
+                    <button class="frm_button_submit frm_final_submit" type="submit"   formnovalidate="formnovalidate">Submit</button>
+                    
+                    
+                    
+                    </div></div></div>
                     </fieldset>
                     </div>
                     </form>
-                </div>
+                    </div>
             </div>
         </div>
         <div class="contact-right relative">

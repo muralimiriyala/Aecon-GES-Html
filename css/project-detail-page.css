@@ -2,7 +2,7 @@
 .no_map .project-detail-text{max-width: 100%; flex: 1;}
 .project-detail-text{font-size: 20px; line-height: 28px; color: var(--foreground);}
 .project-detail-text h1{margin-bottom: 30px;}
-.detail-map{width: 38px; height: 56px; background-image: url("./images/map-marker.svg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
+.detail-map{background-image: url("./images/map-marker.svg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
 
 
 ul.detail-categorys{margin: 0 0 31px; gap: 8px;}
@@ -43,14 +43,16 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 740px){
-    .project-detail-image{position: absolute;}
     .solar-assessment-main{gap: 32px;}
     .solar-assessment-icon{flex: 0 0 82px;}
     .solar-assessment-text{flex: 1; padding-left: 32px;}
     .solar-assessment-text::before{ transform: rotate(90deg); left: -50%; } 
 }
 @media only screen and (min-width: 1024px){
+    .project-detail-article{padding: 80px 0 80px;}
     .project-detail-text{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+    .project-detail-image{position: absolute; z-index: 0;}
+
     .stats-main{padding: 0 0 82px;}
     .stats-image-row{gap: 32px; margin-bottom: 24px;}
     .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
@@ -64,59 +66,78 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
     .masonary-list:nth-child(3) img{max-height: 416px; min-height: 416px; overflow: hidden;}
     .masonary-list:nth-child(4) img{max-height: 608px;}
 }
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1400px){
     .project-detail-main{gap: 64px; padding-bottom: 86px; min-height: 472px; flex-wrap: nowrap; flex-direction: row-reverse;} 
-    .project-detail-text{max-width: 648px; padding: 81px 0 0;}
-    .project-detail-image { top: -100px; right: -160px; min-width: 728px; max-width: 728px; min-height: 472px; height: 100%; }
-    .project-detail-article{padding: 80px 0 80px;}
-    .detail-map[data-name="British Columbia"]{ bottom: 110px; left: 64px; }
-    .detail-map[data-name="Alberta"]{ bottom: 91px; left: 145px; }
-    .detail-map[data-name="Saskatchewan"]{ bottom: 90px; left: 218px; }
-    .detail-map[data-name="Manitoba"]{ bottom: 75px; left: 285px; }
-    .detail-map[data-name="Ontario"]{ bottom: 54px; left: 374px;}
-    .detail-map[data-name="Quebec"]{ bottom: 100px; left: 505px; }
-    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 140px; left: 665px; }
-    .detail-map[data-name="New Brunswick"]{ bottom: 60px; left: 588px; }
-    .detail-map[data-name="Prince Edward Island"]{ bottom: 100px; left: 620px; }
-    .detail-map[data-name="Nova Scotia"]{ bottom: 43px; left: 624px; }
+    .project-detail-text{max-width: 615px; padding: 81px 0 0;}
+    .project-detail-image { top: -180px; left: 630px; min-width: 728px; max-width: 728px; min-height: 618px; height: 100%; }
+    .project-detail-thumb img{object-fit: contain;}
+    .detail-map{width: 34px; height: 52px;}
+    .detail-map[data-name="British Columbia"]{ bottom: 182px; left: 64px; }
+    .detail-map[data-name="Alberta"]{ bottom: 165px; left: 145px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 146px; left: 218px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 145px; left: 285px; }
+    .detail-map[data-name="Ontario"]{ bottom: 122px; left: 384px;}
+    .detail-map[data-name="Quebec"]{ bottom: 160px; left: 500px; }
+    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 200px; left: 660px; }
+    .detail-map[data-name="New Brunswick"]{ bottom: 138px; left: 588px; }
+    .detail-map[data-name="Prince Edward Island"]{ bottom: 148px; left: 619px; }
+    .detail-map[data-name="Nova Scotia"]{ bottom: 93px; left: 619px; }
 }
-@media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .project-detail-main{padding-bottom: 32px;}
-    .project-detail-ipad{max-width: 460px; padding: 80px 0 64px;}
+@media only screen and (max-width: 1399px) and (min-width: 1200px){
+    .project-detail-main{gap: 64px; padding-bottom: 86px; min-height: 472px; flex-wrap: nowrap; flex-direction: row-reverse;} 
+    .project-detail-text{max-width: 500px; padding: 81px 0 0;}
+    .project-detail-image { top: -150px; left: 518px; min-width: 680px; max-width: 680px; min-height: 618px; height: 100%; }
+    .project-detail-thumb img{object-fit: contain;}
+    .detail-map{width: 28px; height: 46px;}
+    .detail-map[data-name="British Columbia"]{ bottom: 195px; left: 64px; }
+    .detail-map[data-name="Alberta"]{ bottom: 175px; left: 137px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 160px; left: 205px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 154px; left: 267px; }
+    .detail-map[data-name="Ontario"]{ bottom: 136px; left: 359px;}
+    .detail-map[data-name="Quebec"]{ bottom: 168px; left: 455px; }
+    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 206px; left: 620px; }
+    .detail-map[data-name="New Brunswick"]{ bottom: 138px; left: 551px; }
+    .detail-map[data-name="Prince Edward Island"]{ bottom: 160px; left: 575px; }
+    .detail-map[data-name="Nova Scotia"]{ bottom: 132px; left: 572px; }
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
     .project-detail-article{padding: 20px 0 80px;}
+    .project-detail-main{padding-bottom: 32px;}
+    .project-detail-ipad{max-width: 460px; padding: 80px 0 64px; min-height: 345px;}
     .stats-image-left{flex: 0 0 320px;}
     .stats-image-right{flex: 0 0 calc(100% - 352px);}
-    .project-detail-image {max-width: 500px; min-width: 500px; margin-left: auto; margin-top: -95px; right: -40px; }
-    .detail-map{width: 19px;}
-    .detail-map[data-name="British Columbia"]{ bottom: 115px; left: 45px; }
-    .detail-map[data-name="Alberta"]{ bottom: 92px; left: 100px; }
-    .detail-map[data-name="Saskatchewan"]{ bottom: 93px; left: 152px; }
-    .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 197px; }
-    .detail-map[data-name="Ontario"]{ bottom: 65px; left: 260px;}
-    .detail-map[data-name="Quebec"]{ bottom: 82px; left: 352px; }
-    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 120px; left: 459px; }
-    .detail-map[data-name="New Brunswick"]{ bottom: 65px; left: 414px; }
-    .detail-map[data-name="Prince Edward Island"]{ bottom: 80px; left: 426px; }
-    .detail-map[data-name="Nova Scotia"]{ bottom: 56px; left: 430px; }
+    .project-detail-image { top: -210px; left: 450px; min-width: 564px; max-width: 564px; min-height: 618px; height: 100%; }
+    .project-detail-thumb img{object-fit: contain;}
+    .detail-map{width: 24px; height: 46px;}
+    .detail-map[data-name="British Columbia"]{ bottom: 214px; left: 50px; }
+    .detail-map[data-name="Alberta"]{ bottom: 195px; left: 111px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 178px; left: 167px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 169px; left: 218px; }
+    .detail-map[data-name="Ontario"]{ bottom: 160px; left: 298px;}
+    .detail-map[data-name="Quebec"]{ bottom: 190px; left: 372px; }
+    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 224px; left: 509px; }
+    .detail-map[data-name="New Brunswick"]{ bottom: 172px; left: 455px; }
+    .detail-map[data-name="Prince Edward Island"]{ bottom: 179px; left: 473px; }
+    .detail-map[data-name="Nova Scotia"]{ bottom: 145px; left: 468px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .project-detail-main{padding: 0 0 20px;}
-    .project-detail-ipad{max-width: 332px; padding: 40px 0 40px;}
-    .project-detail-image {max-width: 390px; min-width: 390px; margin-left: auto; margin-top: -95px; right: -40px; }
-    .detail-map{width: 19px;}
-    .detail-map[data-name="British Columbia"]{ bottom: 85px; left: 34px; }
-    .detail-map[data-name="Alberta"]{ bottom: 75px; left: 75px; }
-    .detail-map[data-name="Saskatchewan"]{ bottom: 60px; left: 118px; }
-    .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 152px; }
-    .detail-map[data-name="Ontario"]{ bottom: 52px; left: 198px;}
-    .detail-map[data-name="Quebec"]{ bottom: 69px; left: 274px; }
-    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 94px; left: 360px; }
-    .detail-map[data-name="New Brunswick"]{ bottom: 48px; left: 320px; }
-    .detail-map[data-name="Prince Edward Island"]{ bottom: 52px; left: 328px; }
-    .detail-map[data-name="Nova Scotia"]{ bottom: 43px; left: 335px; }
-    .detail-map.pin1{bottom: 24px; right: 14px;}
-    .project-detail-text{padding: 21px 0 0;}
+    .project-detail-ipad{padding: 0 0 40px;}
     .project-detail-text h1{margin-bottom: 23px; font-size: 40px; line-height: 48px;}
+
+    .project-detail-image {margin: -160px 0 -40px auto; min-width: 660px; max-width: 660px; min-height: 618px; height: 100%; position: relative; }
+    .detail-map{width: 24px; height: 46px;}
+    .detail-map[data-name="British Columbia"]{ bottom: 234px; left: 60px; }
+    .detail-map[data-name="Alberta"] { bottom: 216px; left: 135px; }
+    .detail-map[data-name="Saskatchewan"] { bottom: 203px; left: 200px; }
+    .detail-map[data-name="Manitoba"] { bottom: 200px; left: 261px; }
+    .detail-map[data-name="Ontario"]{ bottom: 170px; left: 352px;}
+    .detail-map[data-name="Quebec"]{ bottom: 209px; left: 432px; }
+    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 246px; left: 600px; }
+    .detail-map[data-name="New Brunswick"]{ bottom: 182px; left: 535px; }
+    .detail-map[data-name="Prince Edward Island"]{ bottom: 194px; left: 555px; }
+    .detail-map[data-name="Nova Scotia"]{ bottom: 154px; left: 552px; }
+
 
     .project-detail-article{padding: 64px 0;}
     .stats-image-row{gap: 32px;}
@@ -128,7 +149,6 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
     .masonary-list { padding-bottom: 32px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; counter-increment: brick-counter; } 
     .masonary-list:nth-child(4) img{max-height: 323px;}
 
-    .detail-map.pin1{bottom: 25px; right: 33px;}
     ul.detail-categorys{margin: 0;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
@@ -137,19 +157,19 @@ ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
 
     .project-detail-main{display: block; padding: 0 0 50px;}
     .project-detail-image { position: relative; max-width: 390px; min-width: 390px; margin-left: auto; margin-top: -95px; left: -10px; }
-    .detail-map{width: 19px;}
-    .detail-map[data-name="British Columbia"]{ bottom: 85px; left: 34px; }
-    .detail-map[data-name="Alberta"]{ bottom: 75px; left: 75px; }
-    .detail-map[data-name="Saskatchewan"]{ bottom: 60px; left: 118px; }
-    .detail-map[data-name="Manitoba"]{ bottom: 70px; left: 152px; }
-    .detail-map[data-name="Ontario"]{ bottom: 52px; left: 198px;}
-    .detail-map[data-name="Quebec"]{ bottom: 69px; left: 274px; }
-    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 94px; left: 360px; }
-    .detail-map[data-name="New Brunswick"]{ bottom: 48px; left: 320px; }
-    .detail-map[data-name="Prince Edward Island"]{ bottom: 52px; left: 328px; }
-    .detail-map[data-name="Nova Scotia"]{ bottom: 43px; left: 335px; }
+    .detail-map{width: 19px; height: 26px;}
+    .detail-map[data-name="British Columbia"]{ bottom: 95px; left: 34px; }
+    .detail-map[data-name="Alberta"]{ bottom: 85px; left: 77px; }
+    .detail-map[data-name="Saskatchewan"]{ bottom: 70px; left: 118px; }
+    .detail-map[data-name="Manitoba"]{ bottom: 80px; left: 152px; }
+    .detail-map[data-name="Ontario"]{ bottom: 59px; left: 206px;}
+    .detail-map[data-name="Quebec"]{ bottom: 79px; left: 256px; }
+    .detail-map[data-name="Newfoundland and Labrador"]{ bottom: 104px; left: 353px; }
+    .detail-map[data-name="New Brunswick"]{ bottom: 58px; left: 320px; }
+    .detail-map[data-name="Prince Edward Island"]{ bottom: 62px; left: 328px; }
+    .detail-map[data-name="Nova Scotia"]{ bottom: 53px; left: 335px; }
     
-    .detail-map.pin1{bottom: 24px; right: 14px;}
+
     .project-detail-text{padding: 21px 0 0;}
     .project-detail-text h1{margin-bottom: 23px;}
 
