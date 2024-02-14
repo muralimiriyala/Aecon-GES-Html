@@ -1,7 +1,7 @@
 
 .footer-main{border-top: 2px solid var(--gray-md); background: var(--gray-lt);} 
 .footer-logo a{width: 100%; display: block;}
-.footer-logo a img{width: 100%; object-fit: cover;}
+.footer-logo a img{width: 100%; object-fit: contain;}
 .footer-desc{opacity: 0.85; color: var(--foreground); font-family: "VisbyCF", sans-serif; font-size: 18px; line-height: 28px; letter-spacing: 0; margin-bottom: 56px;}
 
 ul.social-icons{margin: 0;}

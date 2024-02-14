@@ -24,6 +24,7 @@ ul.detail-categorys li a.heating span{color: #F8971D;}
 
 ul.detail-categorys li.no_link:not(a){ padding: 6px 7px; gap: 4px; min-height: 28px; display: flex; align-items: center; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 12px; line-height: 12px; font-weight: 800; font-family: VisbyCF,sans-serif; letter-spacing: 0; }
 ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
+ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);}
 
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}

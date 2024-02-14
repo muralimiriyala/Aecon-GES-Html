@@ -76,7 +76,6 @@
     ul.partner-contact > li > a{gap: 8px; padding: 10px; width: 100%; border-radius: 12px; justify-content: center; align-items: center; color: var(--accent-dark); font-size: 16px; font-weight: 800; line-height: 20px; font-family: 'VisbyCF', sans-serif; border: 1px solid transparent;}
     ul.partner-contact > li > a:hover{color: var(--accent);}
     ul.partner-contact > li > a > span:nth-child(2){color: var(--accent);}
-    ul.partner-contact > li > a.call-us{background-color: var(--elevated);}
     ul.partner-contact > li > a.email{border: 1px solid var(--foreground-light);}
 }
 
