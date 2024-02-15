@@ -35,7 +35,7 @@
     .common-repeat-main{padding: 40px 0 0; display: block;}
     .common-repeat-image{ padding-bottom: 38px;}
     .common-repeat-text{padding-top: 24px;}
-    .common-repeat-text h2{font-size: 24px; line-height: 32px; margin-bottom: 18px;} 
+    .common-repeat-text h2{font-size: 1.5rem; line-height: 2rem; margin-bottom: 18px;} 
     .common-repeat-text hr{margin-bottom: 19px;}
     .common-repeat-bg{top: -40px; right: -40px;}
 }

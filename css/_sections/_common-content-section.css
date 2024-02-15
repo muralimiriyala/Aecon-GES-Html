@@ -14,8 +14,8 @@
     .common-content-reverse .common-content-main{flex-direction: row-reverse;}
     .common-content-reverse .common-content-text{margin-right: auto; margin-left: 0; padding-right: 40px; padding-left: 0;}
 
-    body.page-template-about .common-content-text{line-height: 28px;}
-    body.page-template-solution-landing .common-content-text{color: var(--foreground); line-height: 28px;}
+    body.page-template-about .common-content-text{line-height: 1.75rem;}
+    body.page-template-solution-landing .common-content-text{color: var(--foreground); line-height: 1.75rem;}
 
     .no_image .common-content-text { padding: 80px 40px; margin: 0 auto; max-width: 1360px; }
 }
@@ -36,7 +36,7 @@
     .common-content-section .container{padding: 0;}
     .common-content-main{flex-direction: column-reverse;}
     .common-content-text{padding: 40px 20px;}
-    body.page-template-solution-landing .common-content-text{color: var(--foreground); font-size: 18px; line-height: 28px;}
+    body.page-template-solution-landing .common-content-text{color: var(--foreground); font-size: 1.125rem; line-height: 1.75rem;}
     body.page-template-solution-landing .common-content-text hr{margin: 0 0 23px;}
     body.page-template-careers .common-content-text h2{margin-bottom: 23px;}
 }

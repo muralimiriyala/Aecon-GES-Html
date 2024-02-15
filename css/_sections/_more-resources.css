@@ -32,7 +32,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .more-resources-main{padding: 46px 0 40px;}
     .more-resources-head{padding-bottom: 9px;}
-    .more-resources-head h2{font-size: 40px; line-height: 48px;}
+    .more-resources-head h2{font-size: 2.5rem; line-height: 3rem;}
     .more-resources-row{gap: 32px;}
     .more-resources-list{flex: 0 0 calc(50% - 16px);}
     .more-resources-btn{text-align: right;}
@@ -46,7 +46,7 @@
     .more-resources-image{min-height: 232px; max-height: 232px;}
     .more-resources-image img{min-height: 232px;}
     .more-resources-text{padding: 32px 32px 17px;}
-    .more-resources-text h2{font-size: 24px; line-height: 32px; margin-bottom: 20px;}
+    .more-resources-text h2{font-size: 1.5rem; line-height: 2rem; margin-bottom: 20px;}
 }
 
 

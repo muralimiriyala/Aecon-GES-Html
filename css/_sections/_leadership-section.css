@@ -52,7 +52,7 @@ body.page-template-about .leaderships-title p{margin-bottom: 0;}
     .leaderships-text{padding: 18px;}
 }
 @media only screen and (min-width: 740px){
-    .leaderships-title h2{margin-bottom: 32px; font-size: 40px; line-height: 48px;}
+    .leaderships-title h2{margin-bottom: 32px; font-size: 2.5rem; line-height: 3rem;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .leadership-rows{gap: 21px;}

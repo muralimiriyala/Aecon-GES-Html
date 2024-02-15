@@ -1,6 +1,6 @@
 
-.process-slider-text{font-size: 14px; line-height: 20px; letter-spacing: -0.28px; color: var(--foreground-light);}
-span.process-step{margin-bottom: 6px; color: var(--foreground-light); display: block; font-size: 16px; line-height: 20px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}
+.process-slider-text{font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px; color: var(--foreground-light);}
+span.process-step{margin-bottom: 6px; color: var(--foreground-light); display: block; font-size: 1rem; line-height: 1.25rem; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif;}
 .process-slider-text h2{margin-bottom: 12px;}
 .process-slider-btn { top: 80px; right: 0; width: 100%; text-align: right; }
 
@@ -28,7 +28,7 @@ span.process-step{margin-bottom: 6px; color: var(--foreground-light); display: b
     .slick-current .process-slider-content{flex: 1; display: flex;}
    
     .process-slider-desc{flex: 1; padding: 32px;}
-    .p-slick-arrow{flex: 0 0 35px; height: 104px; font-size: 20px; line-height: 20px; cursor: pointer;}
+    .p-slick-arrow{flex: 0 0 35px; height: 104px; font-size: 1.25rem; line-height: 1.25rem; cursor: pointer;}
     .p-slick-next{background-color: var(--accent); color: var(--white);}
     .p-slick-prev{background-color: var(--elevated);}
     .p-slick-dot:first-child .p-slick-prev{display: none;}

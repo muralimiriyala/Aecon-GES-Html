@@ -31,7 +31,7 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .blockquote-main{padding: 69px 0 64px; display: block;}
     .blockquote-bg{ background-image: url('images/parallax-bg-mobile-1@2x.jpg'); }
-    .blockquote-text h2{font-size: 24px; line-height: 32px;}
+    .blockquote-text h2{font-size: 1.5rem; line-height: 2rem;}
     .blockquote-text-icon::before, .blockquote-text-icon::after{position: static; margin-left: auto; margin-right: auto;}
     .blockquote-text-icon::before{margin-bottom: 33px;}
     .blockquote-text-icon::after{margin-top: 32px;}

@@ -35,19 +35,19 @@
     .best-partners-list{border-top: 1px solid var(--foreground-light);}
     .best-partners-list:last-child{border-bottom: 1px solid var(--foreground-light);}
     .best-partners-image{flex: 0 0 332px;}
-    .best-partners-text{flex: 0 0 calc(100% - 332px); padding: 32px 24px 24px; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
-    .best-partners-text .h5{line-height: 24px;}
+    .best-partners-text{flex: 0 0 calc(100% - 332px); padding: 32px 24px 24px; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
+    .best-partners-text .h5{line-height: 1.5rem;}
     .line-clamp{margin-bottom: 15px;}
     .best-partners-btn{order: 2; padding-top: 100px;}
     .best-partners-row{order: 3;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .best-partners-main{padding: 40px 0; display: block;}
-    .best-partners-heading span.optional-text{font-size: 16px; line-height: 20px; margin-bottom: 17px;}
-    .best-partners-heading h2{font-size: 24px; line-height: 32px;}
+    .best-partners-heading span.optional-text{font-size: 1rem; line-height: 1.25rem; margin-bottom: 17px;}
+    .best-partners-heading h2{font-size: 1.5rem; line-height: 2rem;}
     .best-partners-list{margin-bottom: 32px;}
-    .best-partners-text{padding: 22px 0 0; font-size: 18px; line-height: 28px; letter-spacing: -0.36px;}
-    .best-partners-text .h5{line-height: 24px; margin-bottom: 15px;}
+    .best-partners-text{padding: 22px 0 0; font-size: 1.125rem; line-height: 1.75rem; letter-spacing: -0.36px;}
+    .best-partners-text .h5{line-height: 1.5rem; margin-bottom: 15px;}
     .line-clamp{margin-bottom: 17px;}
     body.category-resources .news-landing-text  .line-clamp{margin-bottom: 0;}
     .best-partners-btn .button{width: 100%;}

@@ -38,8 +38,8 @@
     .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-thumb{min-height: 800px;}
     .custom-solar-desc h2{margin-bottom: 28px;}
-    body.single-partners .custom-solar-desc h2{font-size: 40px; line-height: 48px;}
-    .bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; transform: translate(-50%, -50%); transition: all 4s ease; clip-path: polygon(100% 50%, 0 0, 0 100%);}
+    body.single-partners .custom-solar-desc h2{font-size: 2.5rem; line-height: 3rem;}
+    .bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; transform: translate(-50%, -50%); transition: all 2.5s ease; clip-path: polygon(100% 50%, 0 0, 0 100%);}
     [data-animation].bar-solar-anim{transform: translate(0%, -50%);}
     .bar{width: 25px; height: 250px;}
     .bar-5{opacity: 0.2;}
@@ -62,14 +62,14 @@
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .sun-solar{width: 120px; height: 120px; left: -60px;}
     .custom-solar-text{padding: 83px 80px 82px 40px;}
-    .custom-solar-desc h2{margin-bottom: 31px; font-size: 32px; line-height: 40px;}
+    .custom-solar-desc h2{margin-bottom: 31px; font-size: 2rem; line-height: 2.5rem;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .custom-solar-reverse .custom-solar-main{flex-direction: row-reverse;}
     .custom-solar-text{flex: 0 0 50%; padding: 83px 50px 82px 40px;}
     .custom-solar-image{flex: 0 0 50%;}
-    .custom-solar-desc{max-width: 512px; font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
-    .custom-solar-desc h2{margin-bottom: 31px; font-size: 24px; line-height: 32px;}
+    .custom-solar-desc{max-width: 512px; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
+    .custom-solar-desc h2{margin-bottom: 31px; font-size: 1.5rem; line-height: 2rem;}
     .sun-solar { width: 90px; height: 90px; left: -42px; top: 50%; transform: translateY(-50%);}
     .sun{height: 18px;}
 
@@ -90,7 +90,7 @@
     .custom-solar-main{flex-direction: column-reverse;}
     .custom-solar-text{display: block;}
     .custom-solar-desc{padding: 40px 24px 48px;}
-    .custom-solar-desc h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
+    .custom-solar-desc h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 23px;}
     .custom-solar-desc p{color: var(--foreground-light); margin-bottom: 17px;}
     .custom-solar-desc hr{margin: 0 0 30px;}
 

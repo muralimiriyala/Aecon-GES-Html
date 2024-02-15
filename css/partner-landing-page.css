@@ -7,7 +7,7 @@
 .partner-card-text h2 a{color: var(--navy);}
 .partner-card-text h2 a:hover{color: var(--accent);}
 .partner-aside-list{background-color: var(--elevated); padding: 32px;}
-.partner-article > p > span{font-size: 24px; line-height: 32px;}
+.partner-article > p > span{font-size: 1.5rem; line-height: 2rem;}
 .quote-partner{padding: 57px 0 0; margin-top: 55px;}
 .quote-partner::before { opacity: 0.5; content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right, var(--foreground-light) 25%,rgba(255, 255, 255, 0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; }
 .quote-partner svg{margin-bottom: 26px;}
@@ -35,7 +35,7 @@
 	.partner-aside-list{ margin-bottom: 40px;}
 	.single-partners .partner-article > p:first-child{margin-bottom: 32px;}
 	.single-partners .partner-aside-list p{margin-bottom: 17px;}
-	.single-partners .custom-solar-desc h2{font-size: 40px; line-height: 48px;}
+	.single-partners .custom-solar-desc h2{font-size: 2.5rem; line-height: 3rem;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
 	.partner-offer-wrap{padding: 64px 0;}
@@ -60,16 +60,16 @@
 	.partner-offer-wrap{padding: 40px 0;}
 	.partner-offer-main{display: block; padding: 0 0 32px;}
 	.partner-offer-text{padding-bottom: 7px;}
-	.partner-offer-text h2{font-size: 24px; line-height: 32px;}
+	.partner-offer-text h2{font-size: 1.5rem; line-height: 2rem;}
 
 	.partner-content-main{display: block; padding: 40px 0 40px;}
 	.partner-article{margin-bottom: 32px;}
 	.partner-aside-list{margin-bottom: 39px;}
 	.partner-aside-btn .button{width: 100%;}
 
-	body.single-partners .partner-card-text  h2{font-size: 24px; line-height: 32px; margin-bottom: 18px;}
+	body.single-partners .partner-card-text  h2{font-size: 1.5rem; line-height: 2rem; margin-bottom: 18px;}
 	body.single-partners .partner-card-text  .line-clamp{margin-bottom: 0;}
-	body.single-partners .partner-aside-list h2{font-size: 24px; line-height: 32px;}
+	body.single-partners .partner-aside-list h2{font-size: 1.5rem; line-height: 2rem;}
 }
 
 

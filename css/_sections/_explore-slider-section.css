@@ -13,7 +13,7 @@
 /* media css starts here */
 @media screen and (min-width: 740px){
     .explore-slider-desc{color: var(--white);}
-    .explore-slider-desc h2{color: var(--white); font-size: 48px; line-height: 56px; margin-bottom: 21px;}
+    .explore-slider-desc h2{color: var(--white); font-size: 3rem; line-height: 3.5rem; margin-bottom: 21px;}
     .explore-icons-list h2{ transition: all 0.5s ease;}
     .explore-icons-list.solar.active h2, .explore-icons-list.solar:hover h2{color: var(--foreground-dark);}
     .explore-icons-list.ev-charging.active h2, .explore-icons-list.ev-charging:hover h2{color: #02b5dc;}
@@ -81,8 +81,8 @@
     .explore-icons-list{flex: 0 0 calc(25% - 8px); padding: 8px; top: 8px; max-width: 80px; min-height: 88px; align-items: flex-start; transition: all 0.5s ease; background: rgba(9, 31, 67, 0.85); color: var(--white); cursor: pointer; backdrop-filter: blur(4px); border-radius: 16px 16px 0px 0px; position: relative;}
     .explore-icons-list.active{background-color: var(--white); top: 0;}
     .explore-icons-list h2{display: none;}
-    .explore-slider-desc{padding: 20px 0 40px; font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
-    .explore-slider-desc h2{font-size: 48px; line-height: 56px; margin-bottom: 24px;}
+    .explore-slider-desc{padding: 20px 0 40px; font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
+    .explore-slider-desc h2{font-size: 3rem; line-height: 3.5rem; margin-bottom: 24px;}
     .solar .explore-slider-desc h2{color: #64511C;}
     .solar .button{background-color: #FFECB7;}
     .solar .button::after{color: #FFBF0D;}

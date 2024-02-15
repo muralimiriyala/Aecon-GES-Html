@@ -1,6 +1,6 @@
 
 .no_map .project-detail-text{max-width: 100%; flex: 1;}
-.project-detail-text{font-size: 20px; line-height: 28px; color: var(--foreground);}
+.project-detail-text{font-size: 1.25rem; line-height: 1.75rem; color: var(--foreground);}
 .project-detail-text h1{margin-bottom: 30px;}
 .detail-map{background-image: url("./images/map-marker.svg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
 
@@ -8,12 +8,12 @@
 ul.detail-categorys{margin: 0 0 31px; gap: 8px;}
 ul.detail-categorys li::before{display: none;}
 ul.detail-categorys li{margin: 0; display: block;}
-ul.detail-categorys li a{padding: 6px 7px; gap: 6px; min-height: 28px; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 12px; line-height: 12px; font-weight: 800; font-family: "VisbyCF", sans-serif; letter-spacing: 0;}
+ul.detail-categorys li a{padding: 6px 7px; gap: 6px; min-height: 28px; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 0.75rem; line-height: 0.75rem; font-weight: 800; font-family: "VisbyCF", sans-serif; letter-spacing: 0;}
 ul.detail-categorys li a:hover{opacity: 0.8;}
 ul.detail-categorys li a span{top: 0px; position: relative; color: var(--foreground-light);}
-ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); font-size: 14px; line-height: 14px;}
+ul.detail-categorys li a.solar{background-color: var(--accent-light-yellow); font-size: 0.875rem; line-height: 0.875rem;}
 ul.detail-categorys li a.solar span{color: var(--accent-yellow); top: 0;}
-ul.detail-categorys li a.residential{background-color: var(--accent-light); font-size: 14px; line-height: 14px;}
+ul.detail-categorys li a.residential{background-color: var(--accent-light); font-size: 0.875rem; line-height: 0.875rem;}
 ul.detail-categorys li a:hover{background-color: var(--navy); color: var(--white);}
 ul.detail-categorys li a.battery-storage{background-color: var(--accent-light); color: var(--foreground-dark);}
 ul.detail-categorys li a.battery-storage span{color: var(--accent);}
@@ -22,13 +22,13 @@ ul.detail-categorys li a.ev-charging span{color: #02B5DC;}
 ul.detail-categorys li a.heating{background-color: #FFD8A6; color: #5E3808;}
 ul.detail-categorys li a.heating span{color: #F8971D;}
 
-ul.detail-categorys li.no_link:not(a){ padding: 6px 7px; gap: 4px; min-height: 28px; display: flex; align-items: center; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 12px; line-height: 12px; font-weight: 800; font-family: VisbyCF,sans-serif; letter-spacing: 0; }
+ul.detail-categorys li.no_link:not(a){ padding: 6px 7px; gap: 4px; min-height: 28px; display: flex; align-items: center; align-items: center; background-color: var(--white); color: var(--foreground); border-radius: 4px; font-size: 0.75rem; line-height: 0.75rem; font-weight: 800; font-family: VisbyCF,sans-serif; letter-spacing: 0; }
 ul.detail-categorys li.no_link:not(a) span{top: -1px; position: relative;}
 ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);}
 
 .stats-image-row{padding-top: 32px;}
 .stats-image-row::before{width: 1000vw; height: calc(100% - 80px); top: 0; left: -200%; background-color: var(--elevated); content: ""; position: absolute; z-index: -1;}
-.project-detail-article p span{padding-bottom: 8px; font-size: 24px; line-height: 32px; letter-spacing: -0.48px; display: block;}
+.project-detail-article p span{padding-bottom: 8px; font-size: 1.5rem; line-height: 2rem; letter-spacing: -0.48px; display: block;}
 .project-detail-article ul li::before{background-color: var(--accent); top: 9px; left: -20px; width: 8px; height: 8px;}
 .project-detail-article h3:not(.quote-partner h3, .solar-assessment-text h3){padding: 32px 0 12px;}
 .solar-assessment-wrap{padding-top: 56px; margin-top: 56px;}
@@ -51,7 +51,7 @@ ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);
 }
 @media only screen and (min-width: 1024px){
     .project-detail-article{padding: 80px 0 80px;}
-    .project-detail-text{font-size: 24px; line-height: 32px; letter-spacing: -0.48px;}
+    .project-detail-text{font-size: 1.5rem; line-height: 2rem; letter-spacing: -0.48px;}
     .project-detail-image{position: absolute; z-index: 0;}
 
     .stats-main{padding: 0 0 82px;}
@@ -124,7 +124,7 @@ ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .project-detail-main{padding: 0 0 20px;}
     .project-detail-ipad{padding: 0 0 40px;}
-    .project-detail-text h1{margin-bottom: 23px; font-size: 40px; line-height: 48px;}
+    .project-detail-text h1{margin-bottom: 23px; font-size: 2.5rem; line-height: 3rem;}
 
     .project-detail-image {margin: -160px 0 -40px auto; min-width: 660px; max-width: 660px; min-height: 618px; height: 100%; position: relative; }
     .detail-map{width: 24px; height: 46px;}
@@ -181,15 +181,15 @@ ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);
     .stats-image-left figure img{min-height: 165px;}
 
     .project-detail-article{padding: 82px 0 40px;}
-    .project-detail-article h2{font-size: 40px; line-height: 48px;}
+    .project-detail-article h2{font-size: 2.5rem; line-height: 3rem;}
     .quote-partner { padding: 41px 0 36px; margin-top: 40px; }
-    .quote-partner h3{font-size: 24px; line-height: 32px;}
+    .quote-partner h3{font-size: 1.5rem; line-height: 2rem;}
 
     .solar-assessment-wrap{padding: 38px 0 0; margin-top: 39px; }
     .solar-assessment-main{padding: 24px;}
     .solar-assessment-icon.object-fit-img{margin-bottom: 12px;}
     .solar-assessment-text::before{margin-bottom: 24px; position: static;}
-    .solar-assessment-text h3{font-size: 40px; line-height: 48px;}
+    .solar-assessment-text h3{font-size: 2.5rem; line-height: 3rem;}
 
     body.page-template-projects .short-intro-title span.optional-text{margin-bottom: 15px;}
     body.page-template-projects .short-intro-title .button{margin-top: -20px;}

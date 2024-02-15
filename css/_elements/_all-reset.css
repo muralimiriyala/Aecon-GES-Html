@@ -9,12 +9,12 @@ a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--navy);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--navy); font-weight: 800; font-family: 'VisbyCF', sans-serif; text-transform: none;}
-.h1, h1{font-size: 48px; line-height: 56px; margin-bottom: 1.563rem;}
-.h2, h2{font-size: 40px; line-height: 48px; margin-bottom: 30px;}
-.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
-.h4, h4{font-size: 24px; line-height: 32px; margin-bottom: 0.938rem;}
-.h5, h5{font-size: 20px; line-height: 28px; margin-bottom: 12px;}
-.h6, h6{font-size: 18px; line-height: 22px; margin-bottom: 14px;}
+.h1, h1{font-size: 3rem; line-height: 3.5rem; margin-bottom: 1.563rem;}
+.h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 30px;}
+.h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
+.h4, h4{font-size: 1.5rem; line-height: 2rem; margin-bottom: 0.938rem;}
+.h5, h5{font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 12px;}
+.h6, h6{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--accent);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--navy);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
@@ -38,7 +38,7 @@ blockquote::after{content: "”";}
 .general-default-article blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-small{font-size: 12px; line-height: 20px; letter-spacing: -0.24px; display: block;}
+small{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px; display: block;}
 big {font-size: 125%;}
 sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
@@ -78,17 +78,17 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 18px; font-weight: 800; line-height: 18px; padding: 15px 25px 13px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 1.125rem; font-weight: 800; line-height: 1.125rem; padding: 15px 25px 13px 16px; font-family: 'VisbyCF', sans-serif; display: inline-block; background: var(--navy); color: var(--white); border: 0; border-radius: 12px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--accent); color: var(--white); }
-.button.back::before, .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(8px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 14px; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
+.button.back::before, .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(8px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 0.875rem; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
 .button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
 .button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover::after{transform: translateX(16px); color: var(--white);}
 
-.button.btn-md{padding: 11px 32px 11px 16px; font-size: 16px;}
+.button.btn-md{padding: 11px 32px 11px 16px; font-size: 1rem;}
 .button.btn-md.btn-transparent{padding: 10px 32px 9px 16px;}
-.button.btn-md::after{font-size: 13px;}
+.button.btn-md::after{font-size: 0.813rem;}
 
-.button.btn-sm{font-size: 14px; line-height: 14px; padding: 10px 17px 9px 10px; border-radius: 10px;}
+.button.btn-sm{font-size: 0.875rem; line-height: 0.875rem; padding: 10px 17px 9px 10px; border-radius: 10px;}
 .button.btn-sm::after{transform: translateX(7px); top: 0px;}
 .button.btn-sm:hover::after{transform: translateX(10px);}
 .button.btn-green, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{color: var(--white); background-color: var(--accent);}
@@ -120,10 +120,10 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_
 .button.no-arrow, button.no-arrow{padding-right: 16px;}
 .button.btn-sm.no-arrow{padding-right: 10px;}
 
-.btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
+.btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 0.875rem; line-height: 0.875rem; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
 .btn-tel span:not(.hide-mobile){color: var(--accent);}
 .btn-tel:hover{border-color: var(--foreground-light); background-color: transparent; color: var(--drab);}
-.btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 14px; line-height: 14px; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
+.btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 0.875rem; line-height: 0.875rem; letter-spacing: 0; font-weight: 800; font-family: "VisbyCF", sans-serif; text-transform: capitalize;}
 .btn-email span:not(.hide-mobile){color: var(--accent);}
 .btn-email:hover{background-color: var(--accent-light); border-color: var(--accent-light); color: var(--accent-dark);}
 
@@ -183,14 +183,14 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 18px; line-height: 26px; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 24px; font-size: 18px; line-height: 22px; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "VisbyCF", sans-serif;}
+span.optional-text{margin-bottom: 24px; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "VisbyCF", sans-serif;}
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{color: var(--foreground);}
 span.optional-text.no_margin{margin-bottom: 0;}
-span.optional-text.sm{font-size: 16px; line-height: 20px;}
+span.optional-text.sm{font-size: 1rem; line-height: 1.25rem;}
 span.optional-text.accent-dark{color: var(--accent-dark);}
 span.optional-text.f-dark{color: var(--foreground-dark);}
 .our-approach-text span.optional-text{margin-bottom: 20px;}
@@ -200,9 +200,9 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .font-semibold{font-weight: 600;}
 .font-bold{font-weight: 700;}
 .f-800{font-weight: 800;}
-.fs-14{font-size: 14px; line-height: 20px; letter-spacing: -0.28px;}
-.fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
-.fs-18{font-size: 18px; line-height: 32px; letter-spacing: -0.36px;}
+.fs-14{font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
+.fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
+.fs-18{font-size: 1.125rem; line-height: 2rem; letter-spacing: -0.36px;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .radius-8, .radius-img-8 img{border-radius: 8px;}
@@ -235,7 +235,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg:hover img{transform: scale(1.125);}
 .play-btn-bg:hover::before{opacity: 1;}
 .play-btn-bg > span.btn-circle{ background-color: var(--accent); z-index: 1; }
-.play-btn-bg > span.btn-circle::after{top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 28px; line-height: 28px; color: var(--white); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; display: block; position: absolute;}
+.play-btn-bg > span.btn-circle::after{top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 1.75rem; line-height: 1.75rem; color: var(--white); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; display: block; position: absolute;}
 .patients-swipe .play-btn-bg > span.btn-circle::after{font-size: 1.4rem;}
 .play-btn-bg > span.btn-circle:hover{background-color: var(--navy); transform: scale(1.15);}
 .play-btn-bg > span.btn-circle:hover::after{color: var(--white);}
@@ -286,7 +286,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .bg-navy{background-color: var(--navy); color: var(--white);}
 
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 20px; line-height: 20px; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--navy);}
 div.slick-arrow.slick-disabled{opacity: 0.5;color: var(--white); background-color: var(--accent);}
@@ -303,7 +303,7 @@ ul.slick-dots li button{display: none;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
-    .d-fs-16{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
+    .d-fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
     .parallax-bg{background-attachment: fixed;}
 }
 @media only screen and (min-width: 1024px){
@@ -328,8 +328,8 @@ ul.slick-dots li button{display: none;}
     .container{padding: 0 40px;}
     .container.ipad-0{padding-left: 0; padding-right: 0;}
 
-    .h2, h2{font-size: 32px; line-height: 40px;}
-    .h4, h4{font-size: 20px; line-height: 24px;}
+    .h2, h2{font-size: 2rem; line-height: 2.5rem;}
+    .h4, h4{font-size: 1.25rem; line-height: 1.5rem;}
 
     div.slick-arrow{top: -104px;}
     div.slick-arrow.slick-next{right: 0;}
@@ -339,10 +339,10 @@ ul.slick-dots li button{display: none;}
     .container{padding: 0 20px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
-    .h1, h1{font-size: 32px; ;line-height: 40px;}
-    .h2, h2{font-size: 32px; line-height: 40px;}
-    .h4, h4{font-size: 20px; line-height: 24px;}
-    .fs-18{line-height: 28px;}
+    .h1, h1{font-size: 2rem; ;line-height: 2.5rem;}
+    .h2, h2{font-size: 2rem; line-height: 2.5rem;}
+    .h4, h4{font-size: 1.25rem; line-height: 1.5rem;}
+    .fs-18{line-height: 1.75rem;}
 
     .btn-tel, .btn-email{width: 40px; height: 40px;}
 
