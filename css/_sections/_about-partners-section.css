@@ -34,7 +34,7 @@ ul.about-partners-tabs li::before{display: none;}
 }
 @media only screen and (min-width: 740px){
     .partners-mobile-btn{display: none;}
-    ul.about-partners-tabs{ border-bottom: 1px solid #000; display: inline-flex; width: auto;}
+    ul.about-partners-tabs{ border-bottom: 1px solid var(--foreground-light); display: inline-flex; width: auto;}
     ul.about-partners-tabs li a{padding: 0 16px 5px; color: var(--foreground-light); display: block; font-size: 1.25rem; line-height: 1.5rem; font-weight: 800; font-family: "VisbyCF", sans-serif; position: relative;}
     ul.about-partners-tabs li a::after{width: 0%; height: 4px; bottom: -1px; left: 0; background-color: var(--accent); content: ""; display: block; position: absolute; transition: width 0.4s ease;} 
     ul.about-partners-tabs li a.active::after{width: 100%;}

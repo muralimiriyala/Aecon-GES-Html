@@ -20,7 +20,7 @@ body.home .site-main-cover{padding-top: 0;}
 
 .flyout-blue-overlay{ opacity: 0; visibility: hidden; backdrop-filter: blur(6px); background-color: var(--navy); width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 700; transition: all 0.5s ease;}
 .flyout-blue-overlay.open{opacity: 0.75; visibility: visible;}
-.flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;}
+.flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;}
 .flyout-overlay.open{transform: translateX(0);}
 .flyout-close{width: 40px; height: 40px; margin-bottom: 32px; color: var(--navy); cursor: pointer; transition: all 0.5s ease;}
 .flyout-close:hover{background-color: var(--accent); color: var(--white);}

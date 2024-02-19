@@ -1,5 +1,6 @@
 
 .incentives-head{padding-bottom: 9px;}
+.new_incentives_head.incentives-head{padding-bottom: 40px;}
 .incentives-row > *{background-color: var(--white); color: var(--foreground-light); transition: all 0.5s ease;}
 .incentives-row > *:hover{transform: scale(1.05);}
 .incentives-text{padding: 32px;}

@@ -48,13 +48,13 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: #5e6783; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 9px 13px 12px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1.5rem; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 10px 13px 11px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1.5rem; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--accent); content: ""; display: block; position: absolute; transition: all .45s ease-in-out;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a:hover::after{background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 11px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--white); background-image: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--white); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: solid 1px rgba(94, 103, 131, 0.25); border-radius: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
@@ -76,11 +76,12 @@ body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; 
 body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; font-weight: 700;} 
 body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: 0;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
+body .flyout-form-overlay .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 32px; position: relative; background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: -2px; left: 0;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 4px; left: 0;}
 body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
 body .frm_forms .frm_verify{display: none;}
@@ -141,7 +142,6 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_r
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before { box-shadow: inset 8px 8px var(--white); }
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox label{padding: 9px 0 0 33px;}
-body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 8px;}
 
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field::before{width: 4px; height: calc(100% + 9px); left: -16px; top: -4px; position: absolute; border-radius: 2px; background: var(--aecon-red); content: ""; display: block; transition: all 0.4s ease;}
 body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_primary_label p{color: var(--aecon-red);}
@@ -222,7 +222,7 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 5px;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 2px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 110px; padding-top: 6px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.5rem;}
 
@@ -255,4 +255,5 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
     body.single-partners .frm_form_field_wrapper{display: block;}
     body.single-partners .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 10px;}
+    body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
 }

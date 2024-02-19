@@ -52,4 +52,6 @@ picture.banner-thumb img{object-position: top center;}
     .banner-text hr{margin-bottom: 24px;}
     body.page-template-esg-sustainability .banner-text p{margin-bottom: 0;} 
     .banner-text p:not(:last-child){margin-bottom: 26px;}
+    .no_banner_image .banner-main{margin-top: 0; padding-top: 2rem;}
+
 }
