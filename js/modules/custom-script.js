@@ -41,11 +41,15 @@ jQuery(document).ready(function($){
             $("body").removeClass("open-flyout-bg");
             $(".flyout-blue-overlay").removeClass("open");
             $(".flyout-form-overlay").removeClass("open");
+            $(".html").removeClass("scroll-hidden");
+            $(".flyout-overlay").removeClass("scroll-hidden");
         });
     });
     $(".header-right .get_quote_flyout").on("click", function(e){
         e.preventDefault();
         $("body").removeClass("open-flyout-bg");
+        $("html").addClass("scroll-hidden");
+        $(".flyout-overlay").addClass("scroll-hidden");
     });
 
 

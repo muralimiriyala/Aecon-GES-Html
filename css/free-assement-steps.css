@@ -75,6 +75,7 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field div.hide-error
 @media only screen and (min-width: 740px){
     .assessment-logo{flex: 0 0 261px;}
     .assessment-h-right{flex: 1; justify-content: flex-end;}
+    .stel-slide-main{min-height: 64px;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
     .free-steps-main{gap: 56px;}
@@ -101,8 +102,9 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_form_field div.hide-error
     .free-steps-main{display: block; padding: 20px 0 40px;}
     .free-steps-left{margin-bottom: 41px;}
     .free-steps-text{margin-bottom: 40px;}
-    .stel-slide-main{padding: 0 62px; display: block;}
-    .step-slide-heading{margin-bottom: 7px;}
+    .stel-slide-main{padding: 0 62px; min-height: 115px; gap: 0;}
+    .step-slide-heading{margin-bottom: 7px; flex: 0 0 100%;}
+    .step-slide-btn{flex: 0 0 100%;}
     .tooltip-main{display: block !important; opacity: 1 !important; max-width: 233px !important;}
     #step-one .tooltip-main{top: 36px !important; left: 22px !important;}
     #step-two .tooltip-main{top: 121px !important; left: 68px !important;}

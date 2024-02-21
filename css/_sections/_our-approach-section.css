@@ -20,47 +20,54 @@ ul.our-approach-links li:last-child{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
-    .our-approach-main {gap: 0 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{width: 560px; padding: 84px 0;}
-    .our-approach-left{width: calc(100% - 640px); min-width: 720px; margin-right: -80px;}
+    .our-approach-main{display: block;}
+    .our-approach-text{width: 560px; padding: 84px 0 80px 0; float: left;}
+    .our-approach-left{width: calc(100% - 640px); min-width: 720px; margin-right: -80px; float: right;}
     .our-approach-desc{padding: 64px 86px;}
 
-    .toggle .our-approach-left{margin-left: -80px; margin-right: 0;}
+    .toggle .our-approach-left{margin-left: -80px; margin-right: 0; float: left;}
+    .toggle .our-approach-text{float: right; padding: 84px 0 0 0;}
     .our-approach-image{min-height: 640px;}
+    .approach-slider-for.slick-slider .our-approach-thumb{max-height: 400px;}
+    .our-approach-thumb picture{height: auto;}
     .our-approach-thumb picture img{max-height: 400px; overflow: hidden;}
 }
 @media only screen and (min-width: 1024px){
-    .our-approach-link{padding: 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 1.125rem; line-height: 1.375rem; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
+    .our-approach-main::after{clear: both; content: ""; display: block; width: 100%;}
+    .our-approach-link{padding: 17px 70px 17px 20px; width: calc(100% - 17px); color: var(--navy); clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%); font-weight: 800; font-size: 1.125rem; line-height: 1.375rem; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
     .open-approach .our-approach-link, .our-approach-link:hover, .our-approach-link.active{width: 100%;}
-    .our-approach-link svg{right: 23px; top: 9px; position: absolute; opacity: 0; transition: all 0.5s ease;}
+    .our-approach-link svg{right: 23px; top: 50%;transform: translateY(-50%); position: absolute; opacity: 0; transition: all 0.5s ease;}
     .open-approach .our-approach-link svg, .our-approach-link:hover svg, .our-approach-link.active svg{opacity: 1;}
     .our-approach-mobile{display: none !important;}
 
-    .toggle .our-approach-main{flex-direction: row;}
     .toggle .our-approach-link{clip-path: polygon(5% 0, 100% 0%, 100% 100%, 5% 98%, 0% 50%); padding-left: 80px; margin-left: auto; text-align: right;}
-    .toggle .our-approach-link svg{left: 23px; right: auto; transform: rotate(180deg);}
+    .toggle .our-approach-link svg{left: 23px; right: auto; transform: translateY(-50%) rotate(180deg);}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
-    .our-approach-section .container{padding: 0;}
-    .our-approach-main{gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{width: calc(100% - 820px); padding: 63px 0 63px 64px;}
-    .our-approach-left{width: 640px;}
+    .our-approach-section .container{max-width: 100%; margin: 0; padding: 0;}
+    .our-approach-main{display: block;}
+    .our-approach-text{width: calc(100% - 640px); padding: 63px 63px 63px 40px; float: left;}
+    .our-approach-left{width: 640px; float: right;}
+    .toggle .our-approach-left{float: left;}
+    .toggle .our-approach-text{float: right; padding: 63px 40px 63px 63px}
     .our-approach-desc{padding: 64px;}
     .our-approach-thumb img{min-height: 272px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .our-approach-section .container{padding: 0;}
-    .our-approach-main {gap: 40px; flex-wrap: nowrap; flex-direction: row-reverse;}
-    .our-approach-text{flex: calc(100% - 552px); padding: 63px 0 63px 40px;}
-    .toggle .our-approach-text{padding-left: 0; padding-right: 40px;}
-    .our-approach-left{width: 512px;}
+    .our-approach-main{display: block;}
+    .our-approach-text{width: 50%; padding: 63px 40px 63px; float: left;}
+    .our-approach-left{width: 50%; float: right;}
+    .toggle .our-approach-left{float: left;}
+    .toggle .our-approach-text{float: right;}
+
     .our-approach-desc{padding: 40px 50px;}
     .our-approach-thumb img{min-height: 272px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .our-approach-main{display: block;}
     .our-approach-text{padding: 40px;}
-    .our-approach-link{padding: 14px 40px 14px 20px; color: var(--navy); font-weight: 800; font-size: 1.125rem; line-height: 1.375rem; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
+    .our-approach-link{padding: 14px 50px 14px 20px; color: var(--navy); font-weight: 800; font-size: 1.125rem; line-height: 1.375rem; font-family: "VisbyCF", sans-serif; background-color: var(--white); display: block; position: relative;}
     .our-approach-link::after{right: 20px; top: 15px; position: absolute; color: var(--accent); font-size: 1.5rem; line-height: 1.5rem; content: "\f078"; font-family: "Font Awesome 6 Pro"; font-weight: 400; display: block;}
     .our-approach-link.active::after{content: "\f077";}
     .our-approach-link svg{display: none;}

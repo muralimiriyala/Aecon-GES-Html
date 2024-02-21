@@ -11,17 +11,14 @@ body.page-template-default.page-id-237 .what-people-grid .avatar-main{gap: .7rem
 body.page-template-default.page-id-237 .faqs-desc {font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px;}
 body.page-template-default.page-id-237 .general-default-heading span.optional-text{margin-bottom: 32px; font-size: 1rem; line-height: 1.25rem;}
 
-body #ez-toc-container{background: none; padding: 0; border: none; box-shadow: none; width: 100%;} 
-body div#ez-toc-container .ez-toc-title{display: block; font-size: 1.5rem; font-weight: 800; color: var(--navy); line-height: 1.33; font-family: VisbyCF,sans-serif; padding: 0 0 12px; border-bottom: solid 1px var(--accent); margin-bottom: 16px;}
-body #ez-toc-container span.ez-toc-title-toggle{display: none;}
+span.toc-sidebar-title{ display: block; font-size: 24px; font-weight: 800; color: var(--navy); line-height: 1.33; font-family: VisbyCF,sans-serif; padding: 0 0 12px; border-bottom: solid 1px var(--accent); margin-bottom: 16px; }
+ul.toc-sidebar-list{margin: 0;}
+ul.toc-sidebar-list > li{ margin:0 0 8px }
+ul.toc-sidebar-list > li::before { display:none }
+ul.toc-sidebar-list > li > a{padding:8px 12px; border-radius:12px; font-size:16px; font-weight:800; line-height:1.25; font-family:VisbyCF,sans-serif; color:var(--navy); background-color:transparent; display: inline-block;}
+ul.toc-sidebar-list > li > a:hover { background-color:var(--gray-lt) } 
+ul.toc-sidebar-list > li > a.active { background-color:var(--accent-light) }
 
-body #ez-toc-container ul{margin: 0;}
-body #ez-toc-container ul li{margin: 0 0 8px;}
-body #ez-toc-container ul li::before{display: none;}
-body #ez-toc-container ul li a{padding: 8px 12px; display: inline-block; border-radius: 12px; font-size: 1rem; font-weight: 800; line-height: 1.25; font-family: 'VisbyCF', sans-serif; color: var(--navy); background-color: transparent; text-decoration: none; border: none; letter-spacing: 0;}
-body #ez-toc-container ul li a:hover{background-color: var(--gray-lt); text-decoration: none;} 
-body #ez-toc-container ul li a.active, body #ez-toc-container ul li a.mPS2id-clicked, body #ez-toc-container ul li a:visited{background-color: var(--accent-light); color: var(--navy);}
-body #ez-toc-container ul ul{margin: 0;}
 .supporting-resource-main.no_image{display: block;}
 .general-default-main.no_aside{display: block;}
 
