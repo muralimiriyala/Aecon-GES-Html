@@ -7,6 +7,9 @@
 .subscribe-form form .frm_form_fields .frm_form_field label.frm_primary_label{display: none;}
 .subscribe-form form .frm_form_fields .frm_form_field, .subscribe-form form .frm_form_fields .frm_form_field#frm_field_95_container{margin: 0; padding: 0; border: none;}
 .subscribe-form form .frm_form_fields .frm_form_field input{padding: 24px 200px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 1rem; line-height: 1.25rem; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
+.subscribe-form form .frm_form_fields .frm_form_field.frm_blank_field input{background-color: var(--white); opacity: 1;}
+.subscribe-form form .frm_form_fields .frm_form_field div.frm_error{padding: 8px 0 0 20px; color: var(--white); position: static;}
+.subscribe-form .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 .subscribe-form form .frm_form_fields .frm_form_field input::-webkit-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-form form .frm_form_fields .frm_form_field input:-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif; }
 .subscribe-form form .frm_form_fields .frm_form_field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
