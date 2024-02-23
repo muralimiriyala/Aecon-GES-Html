@@ -27,5 +27,11 @@ $uidot.each(function(){
   tl.fromTo($path[0], { drawSVG: '0%', opacity: '0', }, { drawSVG: '100%', opacity: '1', duration: 0.75, ease: 'power1.out'})
   tl.fromTo($path[1], { drawSVG: '0%', opacity: '0', }, { drawSVG: '100%', opacity: '1', duration: 0.5, ease: 'power1.out'})
   $self[0].tl = tl
-})
+});
+
+
+
+
+
+
 

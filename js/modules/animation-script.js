@@ -18,22 +18,85 @@ function check_if_in_view() {
     const animateType = $self.data('animate');
     const delay = Number($self.data('animation-delay') || 0);
     const timeline = $self[0].tl
-    const counter = $self[0].counter
+    const evchargingAnim = jQuery(".ev-charging-anim");
+    const hcAnim = jQuery(".hc-anim");
+
+
     if ((element_top_position + threshold <= window_bottom_position) && (element_bottom_position >= window_top_position + threshold)) {
       setTimeout(() => {
         if (animateType) _.animateRun($self, animateType);
         else $self.addClass('visible ' + animation);
+
+        if(evchargingAnim.hasClass("visible")){
+          var _cc = jQuery("rect.ev-charging-rect");
+          var initialY = 260;
+          _cc.each(function(index){
+            var $rect = jQuery(this);
+            var currentHeight = parseFloat($rect.attr("height"));
+            var newHeight = currentHeight + 20;
+            var newY = initialY + (index * 30);
+            $rect.css({
+              y: newY,
+              height: newHeight,
+            });
+          });
+        }
+        if (hcAnim.hasClass("visible")) {
+          var _dd = jQuery("rect.hc-rect");
+          var initialYValues = [102, 130, 158, 186];        
+          _dd.each(function (index) {
+            var $hcrect = jQuery(this);
+            var hccurrentHeight = parseFloat($hcrect.attr("height"));
+            var hcnewHeight = hccurrentHeight + 20;
+            var hcnewY = initialYValues[index];
+        
+            $hcrect.css({
+              y: hcnewY,
+              height: hcnewHeight,
+            });
+          });
+        }
+        
+
         if (timeline) {
           timeline.play();
         }
-      }, delay);
-    } else {
+
+      }, delay);      
+    } else {      
       // $self.removeClass('visible ' + animation);
+      // if(!evchargingAnim.hasClass("visible")){
+      //   var _cc = jQuery("rect.ev-charging-rect");
+      //   var initialY = 260;
+      //   _cc.each(function(index){
+      //     var $rect = jQuery(this);
+      //     var currentHeight = parseFloat($rect.attr("height"));
+      //     var newHeight = currentHeight;
+      //     var newY = initialY + (index * 12);
+      //     $rect.css({
+      //       y: newY,
+      //       height: newHeight,
+      //     });
+      //   });
+      // }
+      // if(!hcAnim.hasClass("visible")){
+      //   var _dd = jQuery("rect.hc-rect");
+      //   var hcinitialY = 180;
+      //   _dd.each(function(index){
+      //     var $hcrect = jQuery(this);
+      //     var hccurrentHeight = parseFloat($hcrect.attr("height"));
+      //     var hcnewHeight = hccurrentHeight;
+      //     var hcnewY = hcinitialY + (index * 8);
+      //     $hcrect.css({
+      //       y: hcnewY,
+      //       height: hcnewHeight,
+      //     });
+      //   });
+      // }
+
       if (timeline && timeline.progress() > 0) {
         timeline.progress(0);
-      }
-      if (counter) {
-        counter.reset();
+        timeline.pause();
       }
     }
   });
