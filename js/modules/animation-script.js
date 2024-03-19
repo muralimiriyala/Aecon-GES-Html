@@ -18,8 +18,6 @@ function check_if_in_view() {
     const animateType = $self.data('animate');
     const delay = Number($self.data('animation-delay') || 0);
     const timeline = $self[0].tl
-    const evchargingAnim = jQuery(".ev-charging-anim");
-    const hcAnim = jQuery(".hc-anim");
 
 
     if ((element_top_position + threshold <= window_bottom_position) && (element_bottom_position >= window_top_position + threshold)) {
@@ -27,20 +25,31 @@ function check_if_in_view() {
         if (animateType) _.animateRun($self, animateType);
         else $self.addClass('visible ' + animation);
 
-        if(evchargingAnim.hasClass("visible")){
-          var _cc = jQuery("rect.ev-charging-rect");
-          var initialY = 260;
-          _cc.each(function(index){
-            var $rect = jQuery(this);
-            var currentHeight = parseFloat($rect.attr("height"));
-            var newHeight = currentHeight + 20;
-            var newY = initialY + (index * 30);
-            $rect.css({
-              y: newY,
-              height: newHeight,
-            });
-          });
-        }
+        jQuery(".ev-charging-anim").each(function() {
+          var evchargingAnim = jQuery(this);
+      
+          if (evchargingAnim.hasClass("visible")) {
+              var _cc = evchargingAnim.find("rect.ev-charging-rect");
+              var initialY = 260;
+      
+              _cc.each(function(index) {
+                  var $rect = jQuery(this);
+                  var currentHeight = parseFloat($rect.attr("height"));
+                  var newHeight = currentHeight + 20;
+                  var newY = initialY + (index * 30);
+      
+                  $rect.css({
+                      y: newY,
+                      height: newHeight,
+                  });
+              });
+          }
+      });
+
+      
+      jQuery(".hc-anim").each(function() {
+        var hcAnim = jQuery(this);
+
         if (hcAnim.hasClass("visible")) {
           var _dd = jQuery("rect.hc-rect");
           var initialYValues = [102, 130, 158, 186];        
@@ -56,7 +65,7 @@ function check_if_in_view() {
             });
           });
         }
-        
+      });
 
         if (timeline) {
           timeline.play();

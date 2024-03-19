@@ -68,9 +68,11 @@ jQuery(document).ready(function($) {
         var evecharginglink = 'https://aecon.parachutedevelopment.ca/free-assessment-ev-charging/';
         var heatingcoolinglink = 'https://aecon.parachutedevelopment.ca/free-assessment-heating-cooling/';
         var batterystoragelink = 'https://aecon.parachutedevelopment.ca/free-assessment-battery-storage/';
+        var customLink = "https://outlook.office365.com/owa/calendar/Hayter1@aecon.com/bookings/";
+
         var contactform = $('.contact-form form');
         contactform.on('submit', function (event) {
-        event.preventDefault();
+            event.preventDefault();
             const inputs = $(".frm_required_field input#field_qh4icy, .frm_required_field input#field_ocfup1, .frm_required_field input#field_29yf4d, .frm_required_field input#field_e6lis6");
             if(inputs.filter(function () { return !this.value.trim(); }).length > 0) {
                 return;
@@ -78,7 +80,9 @@ jQuery(document).ready(function($) {
             const selectList = $('select#field_rfh74');
             const selectedValue = selectList.val();
             const checkValue = $("input[type='checkbox']#field_rcxd6-0").prop('checked');
-            setTimeout(greeting, 7000);
+            const newLinkChecked = $("input#field_rcxd6-1").prop('checked');
+
+            setTimeout(greeting, 4000);
             function greeting(){
                 if(selectedValue === 'Solar' && checkValue === true) {
                 window.location.href = solarlink;
@@ -88,7 +92,11 @@ jQuery(document).ready(function($) {
                 window.location.href = heatingcoolinglink;
                 } else if(selectedValue === 'Battery Storage' && checkValue === true) {
                 window.location.href = batterystoragelink;
-                } else {
+                } 
+                else if (newLinkChecked === true) {
+                    window.location.href = customLink;
+                } 
+                else {
                 }
             }
         });    

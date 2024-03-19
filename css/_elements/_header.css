@@ -20,7 +20,7 @@ body.home .site-main-cover{padding-top: 0;}
 
 .flyout-blue-overlay{ opacity: 0; visibility: hidden; backdrop-filter: blur(6px); background-color: var(--navy); width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 700; transition: all 0.5s ease;}
 .flyout-blue-overlay.open{opacity: 0.75; visibility: visible;}
-.flyout-overlay{padding: 40px; max-width: 390px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;}
+.flyout-overlay{padding: 40px; max-width: 430px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(100%); position: fixed; z-index: 800; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;}
 .flyout-overlay.open{transform: translateX(0);}
 .flyout-close{width: 40px; height: 40px; margin-bottom: 32px; color: var(--navy); cursor: pointer; transition: all 0.5s ease;}
 .flyout-close:hover{background-color: var(--accent); color: var(--white);}
@@ -39,7 +39,7 @@ ul.flyout-address{margin: 0; padding-top: 44px; margin-top: 165px;}
 ul.flyout-address::before{content: ""; width: 100%; height: 2px; top: 0; left: 0; position: absolute; display: block; background-image: linear-gradient(to right, rgba(113, 163, 65, 0.5) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x;}
 ul.flyout-address > li{margin: 0 0 24px;}
 ul.flyout-address > li::before{display: none;}
-ul.flyout-address > li > a{font-size: 1.25rem; line-height: 1.5rem; color: var(--navy); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
+ul.flyout-address > li > a{font-size: 1.05rem; line-height: 1.5rem; color: var(--navy); display: block; font-weight: 800; font-family: 'VisbyCF', sans-serif;}
 ul.flyout-address > li > a:hover{color: var(--accent);}
 ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 

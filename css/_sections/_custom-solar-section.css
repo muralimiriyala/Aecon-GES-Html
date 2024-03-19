@@ -9,14 +9,36 @@
 .bar{background-color: var(--accent);}
 
 .sun-solar{ border-radius: 50%; overflow: hidden; transition: all 4s ease; transform: translateY(50%); animation-delay: 2s;}
-.sun{width: 100%; height: 32px; background-color: var(--orange); transition: all 0.5s ease;}
-.sun-1{opacity: 0.2; animation-delay: 2s;}
-.sun-2{opacity: 0.4; animation-delay: 3s;}
-.sun-3{opacity: 0.6; animation-delay: 4s;}
-.sun-4{opacity: 0.8; animation-delay: 5s;}
+.sun{width: 100%; height: 32px; background-color: var(--orange); transition: all 0.5s ease; animation-duration: 2000ms; animation-fill-mode: forwards; }
+[data-animation].visible .sun-2{  animation-name: sunFadeIn2; animation-delay: 0.5s;}
+[data-animation].visible .sun-3{  animation-name: sunFadeIn3; animation-delay: 0.5s;}
+[data-animation].visible .sun-4{  animation-name: sunFadeIn4; animation-delay: 0.5s;}
+[data-animation].visible .sun-1{  animation-name: sunFadeIn1; animation-delay: 0.5s;}
+@keyframes sunFadeIn1{
+    to {
+        opacity: 0.2;
+    }
+}
+@keyframes sunFadeIn2 {
+    to {
+        opacity: 0.4;
+    }
+}
+@keyframes sunFadeIn3 {
+    to {
+        opacity: 0.6;
+    }
+}
+@keyframes sunFadeIn4 {
+    to {
+        opacity: 0.8;
+    }
+}
+
 
 .battery-solar{overflow: hidden; transform: translateY(50%); transition: all 4s ease; animation-delay: 2s;}
-.battery{width: 100%; height: 58px; background-color: var(--accent);}
+.battery{width: 100%; height: 29px; background-color: var(--accent); transition: height 4s ease;}
+[data-animation].visible .battery{height: 58px;}
 .battery-1{opacity: 0.2; border-radius: 6px 6px 0 0;}
 .battery-2{opacity: 0.4;}
 .battery-3{opacity: 0.6;}
@@ -60,7 +82,7 @@ rect.hc-rect{transition: height 5s ease, y 5s ease; }
     [data-animation].solar-up{transform: translateY(-50%);}
 
     .battery-solar{width: 128px; height: 290px; left: -64px; top: calc(50% - 36px);}
-    [data-animation].battery-solar-anim{transform: translateY(-50%);}
+    [data-animation].battery-solar-anim{transform: translateY(-50%); top: 50%;}
     .custom-solar-reverse .battery-solar{left: auto; right: -64px;}
 
     .custom-solar-reverse .sun-solar{left: auto; right: -80px;}
@@ -140,7 +162,7 @@ rect.hc-rect{transition: height 5s ease, y 5s ease; }
     .battery{height: 43px;}
 
     .ev-charging-anim{width: 120px; height: 309px; right: 14px; bottom: 30px;}
-    .ev-charging-anim.visible{bottom: 86px;}
+    .ev-charging-anim.visible{bottom: 86px; height: 100%;}
 
     .hc-anim{ width: 136px; height: 325px; right: 0; bottom: 30px; }
     .hc-anim.visible{bottom: 91px;}
