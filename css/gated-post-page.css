@@ -1,6 +1,4 @@
 
-
-
 .gated-post-bg{padding: 32px;}
 .gated-post-bg h3{color: var(--accent-light);}
 .gated-post-form{padding-top: 14px;}
@@ -8,6 +6,9 @@
 .gated-post-btn{margin-top: 32px;}
 .gated-post-btn .button{width: 100%;}
 .gated-post-desc{color: var(--foreground-light);}
+.gated-post-article.no_line{padding-bottom: 43px;}
+.gated-post-article.no_line::after{display: none;}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

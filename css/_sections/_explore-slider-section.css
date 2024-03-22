@@ -13,7 +13,7 @@
 /* media css starts here */
 @media screen and (min-width: 740px){
     .explore-slider-desc{color: var(--white);}
-    .explore-slider-desc h2{color: var(--white); font-size: 3rem; line-height: 3.5rem; margin-bottom: 21px;}
+    .explore-slider-desc h2{color: var(--white); font-size: 3rem; line-height: 3.5rem; margin-bottom: 21px; text-transform: capitalize;}
     .explore-icons-list h2{ transition: all 0.5s ease;}
     .explore-icons-list.solar.active h2, .explore-icons-list.solar:hover h2{color: var(--foreground-dark);}
     .explore-icons-list.ev-charging.active h2, .explore-icons-list.ev-charging:hover h2{color: #02b5dc;}

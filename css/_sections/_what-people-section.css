@@ -15,14 +15,13 @@ body.page-template-testimonials .what-people-grid{padding: 32px 32px 27px;}
 .avatar-main{gap: 1rem;}
 body.page-template-testimonials .avatar-main{gap: .8rem;}
 .avatar-img{flex: 0 0 64px;}
-.avatar-img img{border: 4px solid var(--accent-light);}
+.avatar-img img{width: 64px; height: 64px; border: 4px solid var(--accent-light);}
 .avatar-text{flex: 1; color: var(--foreground-light);}
 
 .no_head .what-people-btn{margin-left: auto; margin-bottom: 2rem;}
 #testimonail_loadmore .what-people-grid svg{visibility: visible;}
 #testimonail_loadmore .avatar-img img{visibility: visible;}
 .post_count_testimonials{margin-bottom: 1.625rem;}
-
 
 
 /* media css starts here */

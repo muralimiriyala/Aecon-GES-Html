@@ -349,4 +349,7 @@ ul.slick-dots li button{display: none;}
 
     div.slick-arrow{bottom: -16px; left: 0;}
     .slick-arrow.slick-next{left: auto; right: 0;}
+    .play-btn-main .play-btn{width: 60px; height: 60px;}
+    .play-btn-bg > span{border-radius: 12px;}
+    .play-btn-bg > span.btn-circle::after { font-size: 1.5rem; line-height: 1.5rem; }
 }
