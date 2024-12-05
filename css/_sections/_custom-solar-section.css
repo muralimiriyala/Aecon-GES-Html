@@ -9,7 +9,7 @@
 .bar{background-color: var(--accent);}
 
 .sun-solar{ border-radius: 50%; overflow: hidden; transition: all 4s ease; transform: translateY(50%); animation-delay: 2s;}
-.sun{width: 100%; height: 32px; background-color: var(--orange); transition: all 0.5s ease; animation-duration: 2000ms; animation-fill-mode: forwards; }
+.sun{width: 100%; height: 32px; background-color: var(--solar-color); transition: all 0.5s ease; animation-duration: 2000ms; animation-fill-mode: forwards; }
 [data-animation].visible .sun-2{  animation-name: sunFadeIn2; animation-delay: 0.5s;}
 [data-animation].visible .sun-3{  animation-name: sunFadeIn3; animation-delay: 0.5s;}
 [data-animation].visible .sun-4{  animation-name: sunFadeIn4; animation-delay: 0.5s;}
@@ -60,7 +60,7 @@ rect.hc-rect{transition: height 5s ease, y 5s ease; }
 
 /* media css starts here */
 @media only screen and (min-width: 1440px){
-    .custom-solar-desc{max-width: 640px; padding-right: 128px; margin-left: auto; padding-left: 24px; width: 100%;}
+    .custom-solar-desc{max-width: 640px; padding: 40px 128px 40px 24px; margin-left: auto; width: 100%;}
     .custom-solar-reverse .custom-solar-desc{padding-left: 128px; padding-right: 24px; margin-right: auto; margin-left: 0;}
 }
 @media screen and (min-width: 1024px) {
@@ -69,7 +69,7 @@ rect.hc-rect{transition: height 5s ease, y 5s ease; }
     .custom-solar-text{flex: 0 0 50%;}
     .custom-solar-image{flex: 0 0 50%;}
     .custom-solar-thumb{min-height: 800px;}
-    .custom-solar-desc h2{margin-bottom: 28px;}
+    .custom-solar-desc h2{margin-bottom: 28px; font-size: 2.5rem; line-height: 3rem;}
     body.single-partners .custom-solar-desc h2{font-size: 2.5rem; line-height: 3rem;}
     .bar-solar{width: 125px; height: 250px; left: 1px; top: 50%; transform: translate(-50%, -50%); transition: all 2.5s ease; clip-path: polygon(100% 50%, 0 0, 0 100%);}
     [data-animation].bar-solar-anim{transform: translate(0%, -50%);}

@@ -43,17 +43,17 @@ ul.flyout-address > li > a{font-size: 1.05rem; line-height: 1.5rem; color: var(-
 ul.flyout-address > li > a:hover{color: var(--accent);}
 ul.flyout-address > li > a span{ color: var(--accent); margin-right: 8px;}
 
-
 .call-us-btns{gap: 16px; margin-bottom: 16px;}
 .call-us-btns .button, .contact_btn_menu .button{font-size: 1rem; line-height: 1rem; flex: 1; padding: 15px 16px 13px; gap: 8px; justify-content: center;}
-.call-us-btns .button span, .contact_btn_menu .button span{font-size: 0.875rem; color: var(--accent);}
+.call-us-btns .button span, .contact_btn_menu .button span{font-size: 1rem; line-height: 1rem; color: var(--drab); transition: all 0.5s ease;}
 .call-us-btns .button.btn-transparent:hover span, .contact_btn_menu .button.btn-light-green:hover span{color: var(--white);}
 .call-us-btns .button::after, .contact_btn_menu .button::after{display: none;}
 body.home.open-flyout-bg .banner-section{z-index: 800;}
+.call-us-btns .button span.fa-envelope{top: 1px; position: relative;}
 
 /* media css starts here */
 @media screen and (min-width: 740px) {
-    .contact_btn_menu{display: none; top: 100%; right: 0; min-width: 296px; border-radius: 0px 0px 24px 24px; background-color: var(--white); }
+    .contact_btn_menu{display: none; top: 100%; right: 0; min-width: 350px; max-width: 350px; border-radius: 0px 0px 24px 24px; background-color: var(--white); }
     .contact_btn_wrap{ padding: 41px 16px 16px; border-radius: 0px 0px 24px 24px; box-shadow: 0px 4px 8px 0px var(--black-10); }
 }
 @media screen and (min-width: 1024px) {
@@ -79,7 +79,7 @@ body.home.open-flyout-bg .banner-section{z-index: 800;}
     ul.flyout-menu > li{margin: 0 0 32px;}
     ul.flyout-menu > li > ul{margin: 0; padding: 14px 0 0;}
     
-    .contact_btn_menu .btn-light-green{width: 100%;}
+    .contact_btn_menu .btn-light-green{width: 100%; gap: 10px;}
     li.no-link > a{pointer-events: none;}
     .contact_btn_mobile{display: none;}
 }

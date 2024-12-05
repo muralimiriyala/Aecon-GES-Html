@@ -41,6 +41,12 @@ ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);
 .solar-assessment-text h3{margin-bottom: 23px;}
 .solar-assessment-btns{gap: 12px;}
 .project-detail-article h2::after{margin: 31px 0 0; height: 4px; width: 96px; background-color: var(--accent); border-radius: 2px; display: block; border: none; content: "";}
+.stats-image-fit figure { display: block; width: 100%; height: 100%; }
+.stats-image-fit iframe{width: 100%; height: 100%; display: block;}
+.stats-image-left.no_right{flex: 0 0 100%; display: flex; flex-wrap: wrap; flex-direction: row;}
+.stats-image-left.no_right .stats-image-fit{flex: 0 0 calc(50% - 16px); height: auto;}
+.stats-image-left.no_right .stats-image-fit iframe{min-height: 300px;}
+.no_right .stats-image-fit{height: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 740px){
@@ -58,9 +64,10 @@ ul.detail-categorys li.residential:not(a){background-color: var(--accent-light);
     body.single-project .stats-main{padding-bottom: 51px;}
     .stats-main{padding: 0 0 82px;}
     .stats-image-row{gap: 32px; margin-bottom: 24px;}
-    .stats-image-left{flex: 0 0 448px; gap: 32px; flex-direction: column;}
+    .stats-image-left{flex: 1; gap: 32px; flex-direction: column;}
     .stats-image-fit{height: calc(50% - 16px);}
-    .stats-image-right{flex: 0 0 calc(100% - 480px);}
+    .stats-image-right{flex: 0 0 800px;}
+
     .stats-image-right .stats-image-fit{height: 100%;}
     .stats-image-right figure{height: 100%;}
 

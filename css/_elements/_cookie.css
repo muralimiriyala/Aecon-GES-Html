@@ -1,0 +1,15 @@
+
+body .cky-consent-container{left: auto !important; right: 40px !important;}
+body .cky-notice-btn-wrapper, body .cky-prefrence-btn-wrapper{gap: 12px;}
+body .cky-notice-btn-wrapper button.cky-btn, body .cky-prefrence-btn-wrapper button.cky-btn{padding: 14px 20px 12px 12px; font-size: 1rem; font-weight: 600; line-height: 1.125rem; font-family: "VisbyCF", sans-serif; display: inline-block; border: 0; border-radius: 12px; transition: all .5s ease; z-index: 1; margin: 0; }
+body .cky-notice-btn-wrapper button.cky-btn-customize, body .cky-notice-btn-wrapper button.cky-btn-reject, body .cky-prefrence-btn-wrapper button.cky-btn-preferences, body .cky-prefrence-btn-wrapper button.cky-btn-reject{ color: var(--navy) !important; border: 1px solid var(--accent) !important; background: transparent;}
+body .cky-notice-btn-wrapper button.cky-btn-customize:hover, body .cky-notice-btn-wrapper button.cky-btn-reject:hover, body .cky-prefrence-btn-wrapper button.cky-btn-preferences:hover, body .cky-prefrence-btn-wrapper button.cky-btn-reject:hover{background: var(--accent); color: var(--white);}
+body .cky-notice-btn-wrapper button.cky-btn-accept, body .cky-prefrence-btn-wrapper button.cky-btn-accept{padding: 15px 20px 13px 12px;background: var(--navy) !important; border-color: var(--navy) !important; color: var(--white) !important;}
+body .cky-notice-btn-wrapper button.cky-btn:hover, body .cky-prefrence-btn-wrapper button.cky-btn:hover{background: var(--accent) !important; color: var(--white) !important; border-color: var(--accent) !important;}
+body .cky-preference-header button.cky-btn-close::after{display: none;}
+
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    body .cky-consent-container{right: 0 !important;}
+    body .cky-notice-btn-wrapper, body .cky-prefrence-btn-wrapper{padding-top: 20px;}
+}
+
