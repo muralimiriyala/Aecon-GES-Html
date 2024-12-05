@@ -7,18 +7,22 @@
 .subscribe-form{position: relative;}
 .subscribe-form form .frm_form_fields .frm_form_field label.frm_primary_label{display: none;}
 .subscribe-form form .frm_form_fields .frm_form_field, .subscribe-form form .frm_form_fields .frm_form_field#frm_field_95_container{margin: 0; padding: 0; border: none;}
-.subscribe-form form .frm_form_fields .frm_form_field input{padding: 24px 200px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 1rem; line-height: 1.25rem; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
+.subscribe-form form .frm_form_fields .frm_form_field#frm_field_95_container,
+.subscribe-form form .frm_form_fields .frm_form_field#frm_field_96_container{margin-bottom: 20px;}
+.subscribe-form form .frm_form_fields .frm_form_field input{padding: 24px 19px 24px 19px; border-radius: 24px; background-color: var(--white); font-size: 1rem; line-height: 1.25rem; font-weight: 800; letter-spacing: 0; color: var(--foreground); border: none;} 
 .subscribe-form form .frm_form_fields .frm_form_field.frm_blank_field input{background-color: var(--white); opacity: 1;}
-.subscribe-form form .frm_form_fields .frm_form_field div.frm_error{padding: 8px 0 0 20px; color: var(--white); position: static;}
+.subscribe-form form .frm_form_fields .frm_form_field div.frm_error{padding: 0; margin: 0; color: var(--white); position: static; text-align: right;}
 .subscribe-form .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 .subscribe-form form .frm_form_fields .frm_form_field input::-webkit-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-form form .frm_form_fields .frm_form_field input:-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif; }
 .subscribe-form form .frm_form_fields .frm_form_field input::-moz-placeholder {opacity: 1; color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
 .subscribe-form form .frm_form_fields .frm_form_field input:-ms-input-placeholder {color: var(--foreground); font-family: 'VisbyCF',sans-serif;}
-.subscribe-form form .frm_form_fields .frm_submit{ top: 14px; right: 14px; max-width: 110px; position: absolute; display: block;}
+.subscribe-form form .frm_form_fields .frm_field_wrapper .frm_form_field{flex: 1;}
+.subscribe-form form .frm_form_fields .frm_submit{max-width: 110px; margin-left: auto; display: block;}
 .subscribe-form form .frm_form_fields .frm_submit button[type="submit"]{font-size: 1rem; padding: 11px 26px 11px 16px; background-color: var(--accent);}
 .subscribe-form form .frm_form_fields .frm_submit button[type="submit"]::after{color: var(--navy);}
-.subscribe-form form .frm_form_fields .frm_submit button[type="submit"]:hover{background-color: var(--navy);}
+.subscribe-form form .frm_form_fields .frm_submit button[type="submit"]:hover{background-color: var(--white); color: var(--navy);}
+.subscribe-form form .frm_form_fields .frm_submit button[type="submit"]:hover::after{color: var(--navy);}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
 body.page-template-projects .subscribe_submit small{font-size: 0.875rem;}
 .subscribe-form p{margin-top: 10px; text-align: center; opacity: 0.75;}
@@ -76,7 +80,6 @@ ul.res-categories li.battery-storage a, ul.res-categories li a.battery-storage{b
 ul.res-categories li.battery-storage a span, ul.res-categories li a.battery-storage span{color: var(--accent);}
 
 
-
 .card-text{padding: 32px; position: relative;}
 .card-text .h4 a{color: var(--navy);}
 .card-text .h4 a:hover{color: var(--accent);}
@@ -108,6 +111,8 @@ ul.post-cat-btns li.heating span{color: #F8971D;}
 ul.post-cat-btns li.battery-storage span{color: var(--accent);}
 ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
 .no-post-found{font-family: "VisbyCF", sans-serif; font-weight: 800; font-size: 1.5rem; line-height: 1.75rem;}
+.subscribe-form form .frm_form_fields .frm_field_wrapper .frm_form_field div.frm_error{text-align: left;}
+
 
 /* media css starts here */
 @media screen and (min-width: 740px){
@@ -213,8 +218,7 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
     .subscribe-main{padding: 24px 0; display: block;}
     .subscribe-left{gap: 24px; margin-bottom: 23px;}
     .subscribe-text h2{font-size: 1.25rem; line-height: 1.5rem;}
-    .subscribe-form form .frm_form_fields .frm_form_field input{padding: 19px 100px 16px 14px; border-radius: 20px;}
-    .subscribe-form form .frm_form_fields .frm_submit{top: 8px; right: 8px; }
+    .subscribe-form form .frm_form_fields .frm_form_field input{padding: 19px 14px 16px 14px; border-radius: 20px;}
     .subscribe-form form .frm_form_fields .frm_submit button[type="submit"]{padding: 11px 11px 10px;}
     .subscribe-form form .frm_form_fields .frm_submit button[type="submit"]::after{display: none;}
     .subscribe-main p small{font-size: 0.875rem; line-height: 1.25rem; display: block;} 
@@ -263,12 +267,10 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
     body.page-template-projects .custom-solar-text ul.post-cat-btns{margin-bottom: 16px;}
     body.page-template-projects .custom-solar-text h2{margin-bottom: 14px;}
 }
-
-
-
-
-
-
+@media screen and (max-width: 479px) and (min-width: 200px){
+    .subscribe-form form .frm_field_wrapper{display: block;}
+    .subscribe-form form .frm_form_fields .frm_submit{max-width: 100%; margin-top: 20px;}
+}
 
 
 

@@ -312,7 +312,7 @@
   .cky-preference-content-wrapper .cky-show-desc-btn:focus-visible,
   .cky-accordion-header .cky-accordion-btn:focus-visible,
   .cky-preference-header .cky-btn-close:focus-visible,
-  .cky-switch input[type="checkbox"]:focus-visible,
+  .cky-switch input[type="checkbox"]:not([disabled]):focus-visible,
   .cky-footer-wrapper a:focus-visible,
   .cky-btn:focus-visible {
     outline: 2px solid #1863dc;
@@ -809,7 +809,7 @@
   .cky-switch {
     display: flex;
   }
-  .cky-switch input[type="checkbox"] {
+  .cky-switch input[type="checkbox"]:not([disabled]) {
     position: relative;
     width: 44px;
     height: 24px;
@@ -822,10 +822,10 @@
     border: none;
     top: 0;
   }
-  .cky-switch input[type="checkbox"]:checked {
+  .cky-switch input[type="checkbox"]:not([disabled]):checked {
     background: #1863dc;
   }
-  .cky-switch input[type="checkbox"]:before {
+  .cky-switch input[type="checkbox"]:not([disabled]):before {
     position: absolute;
     content: "";
     height: 20px;
@@ -838,24 +838,24 @@
     transition: 0.4s;
     margin: 0;
   }
-  .cky-switch input[type="checkbox"]:after {
+  .cky-switch input[type="checkbox"]:not([disabled]):after {
     display: none;
   }
-  .cky-switch input[type="checkbox"]:checked:before {
+  .cky-switch input[type="checkbox"]:not([disabled]):checked:before {
     -webkit-transform: translateX(20px);
     -ms-transform: translateX(20px);
     transform: translateX(20px);
   }
   @media (max-width: 425px) {
-    .cky-switch input[type="checkbox"] {
+    .cky-switch input[type="checkbox"]:not([disabled]) {
       width: 38px;
       height: 21px;
     }
-    .cky-switch input[type="checkbox"]:before {
+    .cky-switch input[type="checkbox"]:not([disabled]):before {
       height: 17px;
       width: 17px;
     }
-    .cky-switch input[type="checkbox"]:checked:before {
+    .cky-switch input[type="checkbox"]:not([disabled]):checked:before {
       -webkit-transform: translateX(17px);
       -ms-transform: translateX(17px);
       transform: translateX(17px);
@@ -908,7 +908,7 @@
   .cky-consent-bar .cky-banner-btn-close:focus-visible,
   .cky-notice-btn-wrapper .cky-btn-do-not-sell:focus-visible,
   .cky-opt-out-btn-wrapper .cky-btn:focus-visible,
-  .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox:focus-visible {
+  .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox:focus-visible {
     outline: 2px solid #1863dc;
     outline-offset: 2px;
   }
@@ -937,7 +937,7 @@
     margin: 0 0 0 12px;
     cursor: pointer;
   }
-  .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox {
+  .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox {
     background-color: #ffffff;
     border: 1px solid black;
     width: 20px;
@@ -951,11 +951,11 @@
     border-radius: 2px;
     cursor: pointer;
   }
-  .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox:checked {
+  .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox:checked {
     background-color: #1863dc;
     border: none;
   }
-  .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox:checked::after {
+  .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox:checked::after {
     left: 6px;
     bottom: 4px;
     width: 7px;
@@ -971,7 +971,7 @@
     box-sizing: border-box;
   }
   .cky-opt-out-checkbox-wrapper.cky-disabled .cky-opt-out-checkbox-label,
-  .cky-opt-out-checkbox-wrapper.cky-disabled input[type="checkbox"].cky-opt-out-checkbox {
+  .cky-opt-out-checkbox-wrapper.cky-disabled input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox {
     cursor: no-drop;
   }
   .cky-gpc-wrapper {
@@ -1008,11 +1008,11 @@
     .cky-gpc-wrapper .cky-gpc-desc * {
       font-size: 12px;
     }
-    .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox {
+    .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox {
       width: 16px;
       height: 16px;
     }
-    .cky-opt-out-checkbox-wrapper input[type="checkbox"].cky-opt-out-checkbox:checked::after {
+    .cky-opt-out-checkbox-wrapper input[type="checkbox"]:not([disabled]).cky-opt-out-checkbox:checked::after {
       left: 5px;
       bottom: 4px;
       width: 3px;
