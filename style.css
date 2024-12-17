@@ -5,7 +5,7 @@ Theme URI: https://parachutedesign.ca/
 Author: 
 Author URI: https://parachutedesign.ca/
 Description: 
-Version: 2024.02.23-01-22
+Version: 2024.09.23-2024-12-17
 Text Domain: 
 */
 
@@ -64,5 +64,9 @@ Text Domain:
     font-weight: 800;
     font-style: normal;
     font-display: swap;
+}
+
+@media screen and (max-width:768px){
+    .hide-desktop{display: none;}
 }
 

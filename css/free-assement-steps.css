@@ -40,6 +40,7 @@ span.free-steps-next{margin-left: auto; text-align: right;}
 
 .free-steps-text hr{margin-bottom: 25px;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field:empty{display: none;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .g-recaptcha{display: block; clear: both;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{float: left; width: 100%;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label p{float: left; width: 100%; clear: both; margin-bottom: 5px; font-size: 0.875rem; line-height: 1rem; letter-spacing: -0.28px; font-weight: 400; font-family: "Univers", sans-serif; color: var(--foreground-light);}
 body .free-steps-text .frm_forms .frm_form_fields #frm_field_61_container.frm_form_field .frm_primary_label span.frm_required{display: none;}
@@ -56,6 +57,7 @@ body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submi
 body .free-steps-text .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page:hover::before{ color: var(--white); transform: translateX(-13px);}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 24px;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field div.hide-error-message{opacity: 0; visibility: hidden;}
+body .free-steps-text .frm_forms .frm_form_fields .frm_form_field.show-captcha{display: block !important;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
