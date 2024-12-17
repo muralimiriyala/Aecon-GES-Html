@@ -113,7 +113,6 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
 .no-post-found{font-family: "VisbyCF", sans-serif; font-weight: 800; font-size: 1.5rem; line-height: 1.75rem;}
 .subscribe-form form .frm_form_fields .frm_field_wrapper .frm_form_field div.frm_error{text-align: left;}
 
-
 /* media css starts here */
 @media screen and (min-width: 740px){
     .browse-mobile-btn{display: none;}
@@ -155,7 +154,7 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
     .card-row-of-3{gap: 40px;}
     .card1-of-3{flex: 0 0 calc(33.33333% - 27px);}
     .card-row-of-4{gap: 40px;}
-    .card1-of-4{flex: 0 0 calc(25% - 30px);}
+    .card1-of-4{width: calc(25% - 30px);}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .news-landing-main{gap: 40px; padding: 40px 0;}
@@ -164,7 +163,7 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
     .card-row-of-3{gap: 32px;}
     .card1-of-3{flex: 0 0 calc(33.33333% - 22px);}
     .card-row-of-4{gap: 24px;}
-    .card1-of-4{flex: 0 0 calc(25% - 20px);}
+    .card1-of-4{width: calc(25% - 20px);}
     .card-text{padding: 24px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
@@ -200,7 +199,7 @@ ul.post-cat-btns li:hover > a{ color: inherit; opacity: 0.8;}
     .card-row-of-3{gap: 32px;}
     .card1-of-3{flex: 0 0 calc(50% - 16px);}
     .card-row-of-4{gap: 32px;}
-    .card1-of-4{flex: 0 0 calc(50% - 16px);}
+    .card1-of-4{width: calc(50% - 16px);}
     .card-main{height: 100%;}
     .card-thumb img{min-height: 194px; max-height: 194px; overflow: hidden;}
 }
